@@ -1,0 +1,66 @@
+{
+  "id": "unit-04-environment-lesson-1",
+  "title": "Environment Vocabulary",
+  "learningObjectives": [
+    "Learn Environment"
+  ],
+  "modules": [
+    {
+      "id": "unit-04-environment-lesson-1-vocab",
+      "type": "vocabulary",
+      "config": {
+        "words": [
+          {
+            "id": "b1_environment_nature",
+            "conceptId": "b1_environment_nature",
+            "nativeWord": "Nature",
+            "englishMeaning": "Nature",
+            "ipa": "/natyʁ/",
+            "pronunciation": "Nah-toor",
+            "exampleSentence": "La nature.",
+            "exampleTranslation": "Nature.",
+            "memoryTip": "Memorize this!",
+            "tags": [
+              "environment"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "Natur",
+              "correct": "Nature"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for nature"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "Nature"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "unit-04-environment-lesson-1-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "payload": {
+              "type": "mcq",
+              "question": "Translate: Nature",
+              "answer": "Nature",
+              "options": [
+                "Nature"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

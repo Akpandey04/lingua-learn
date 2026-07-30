@@ -1,0 +1,20 @@
+{
+  "id": "a1_alphabet_a",
+  "type": "vocabulary",
+  "language": "French",
+  "native": "A",
+  "translation": "A",
+  "pronunciation": "Ah",
+  "ipa": "/a/",
+  "difficulty": 1,
+  "cefr": "A1",
+  "tags": [
+    "alphabet"
+  ],
+  "relatedConcepts": [],
+  "masteryThreshold": 0.9,
+  "exampleSentence": "A.",
+  "exampleTranslation": "A.",
+  "memoryTip": "Memorize this!",
+  "emoji": "📝"
+}

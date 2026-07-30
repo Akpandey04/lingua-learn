@@ -1,0 +1,18 @@
+{
+  "id": "a1_food_pain",
+  "type": "vocabulary",
+  "language": "French",
+  "pronunciation": "Pahn",
+  "ipa": "/pɛ̃/",
+  "difficulty": 1,
+  "cefr": "A1",
+  "tags": [
+    "food"
+  ],
+  "relatedConcepts": [],
+  "masteryThreshold": 0.9,
+  "exampleSentence": "Le pain.",
+  "exampleTranslation": "The bread.",
+  "memoryTip": "Memorize this!",
+  "emoji": "📝"
+}

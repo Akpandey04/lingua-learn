@@ -1,0 +1,254 @@
+{
+  "language": "French",
+  "level": "A2",
+  "units": [
+    {
+      "id": "unit-01-work",
+      "title": "Work",
+      "cefrLevel": "A1",
+      "estimatedHours": 2,
+      "unitObjectives": [
+        "Master Work"
+      ],
+      "concepts": [
+        "a2_work_travail",
+        "grammar_a2_work"
+      ],
+      "lessons": [
+        {
+          "id": "unit-01-work-lesson-1",
+          "title": "Work Vocabulary",
+          "type": "learning",
+          "conceptIds": [
+            "a2_work_travail"
+          ]
+        },
+        {
+          "id": "unit-01-work-lesson-2",
+          "title": "Work Practice",
+          "type": "learning",
+          "conceptIds": [
+            "grammar_a2_work"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-02-school",
+      "title": "School",
+      "cefrLevel": "A1",
+      "estimatedHours": 2,
+      "unitObjectives": [
+        "Master School"
+      ],
+      "concepts": [
+        "a2_school_ecole",
+        "grammar_a2_school"
+      ],
+      "lessons": [
+        {
+          "id": "unit-02-school-lesson-1",
+          "title": "School Vocabulary",
+          "type": "learning",
+          "conceptIds": [
+            "a2_school_ecole"
+          ]
+        },
+        {
+          "id": "unit-02-school-lesson-2",
+          "title": "School Practice",
+          "type": "learning",
+          "conceptIds": [
+            "grammar_a2_school"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-03-health",
+      "title": "Health",
+      "cefrLevel": "A1",
+      "estimatedHours": 2,
+      "unitObjectives": [
+        "Master Health"
+      ],
+      "concepts": [
+        "a2_health_sante",
+        "grammar_a2_health"
+      ],
+      "lessons": [
+        {
+          "id": "unit-03-health-lesson-1",
+          "title": "Health Vocabulary",
+          "type": "learning",
+          "conceptIds": [
+            "a2_health_sante"
+          ]
+        },
+        {
+          "id": "unit-03-health-lesson-2",
+          "title": "Health Practice",
+          "type": "learning",
+          "conceptIds": [
+            "grammar_a2_health"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-04-technology",
+      "title": "Technology",
+      "cefrLevel": "A1",
+      "estimatedHours": 2,
+      "unitObjectives": [
+        "Master Technology"
+      ],
+      "concepts": [
+        "a2_technology_ordinateur",
+        "grammar_a2_technology"
+      ],
+      "lessons": [
+        {
+          "id": "unit-04-technology-lesson-1",
+          "title": "Technology Vocabulary",
+          "type": "learning",
+          "conceptIds": [
+            "a2_technology_ordinateur"
+          ]
+        },
+        {
+          "id": "unit-04-technology-lesson-2",
+          "title": "Technology Practice",
+          "type": "learning",
+          "conceptIds": [
+            "grammar_a2_technology"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-05-telephone",
+      "title": "Telephone",
+      "cefrLevel": "A1",
+      "estimatedHours": 2,
+      "unitObjectives": [
+        "Master Telephone"
+      ],
+      "concepts": [
+        "a2_telephone_appeler",
+        "grammar_a2_telephone"
+      ],
+      "lessons": [
+        {
+          "id": "unit-05-telephone-lesson-1",
+          "title": "Telephone Vocabulary",
+          "type": "learning",
+          "conceptIds": [
+            "a2_telephone_appeler"
+          ]
+        },
+        {
+          "id": "unit-05-telephone-lesson-2",
+          "title": "Telephone Practice",
+          "type": "learning",
+          "conceptIds": [
+            "grammar_a2_telephone"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-06-bank",
+      "title": "Bank",
+      "cefrLevel": "A1",
+      "estimatedHours": 2,
+      "unitObjectives": [
+        "Master Bank"
+      ],
+      "concepts": [
+        "a2_bank_banque",
+        "grammar_a2_bank"
+      ],
+      "lessons": [
+        {
+          "id": "unit-06-bank-lesson-1",
+          "title": "Bank Vocabulary",
+          "type": "learning",
+          "conceptIds": [
+            "a2_bank_banque"
+          ]
+        },
+        {
+          "id": "unit-06-bank-lesson-2",
+          "title": "Bank Practice",
+          "type": "learning",
+          "conceptIds": [
+            "grammar_a2_bank"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-07-postoffice",
+      "title": "Post Office",
+      "cefrLevel": "A1",
+      "estimatedHours": 2,
+      "unitObjectives": [
+        "Master Post Office"
+      ],
+      "concepts": [
+        "a2_postoffice_poste",
+        "grammar_a2_postoffice"
+      ],
+      "lessons": [
+        {
+          "id": "unit-07-postoffice-lesson-1",
+          "title": "Post Office Vocabulary",
+          "type": "learning",
+          "conceptIds": [
+            "a2_postoffice_poste"
+          ]
+        },
+        {
+          "id": "unit-07-postoffice-lesson-2",
+          "title": "Post Office Practice",
+          "type": "learning",
+          "conceptIds": [
+            "grammar_a2_postoffice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-08-culture",
+      "title": "Culture",
+      "cefrLevel": "A1",
+      "estimatedHours": 2,
+      "unitObjectives": [
+        "Master Culture"
+      ],
+      "concepts": [
+        "a2_culture_musee",
+        "grammar_a2_culture"
+      ],
+      "lessons": [
+        {
+          "id": "unit-08-culture-lesson-1",
+          "title": "Culture Vocabulary",
+          "type": "learning",
+          "conceptIds": [
+            "a2_culture_musee"
+          ]
+        },
+        {
+          "id": "unit-08-culture-lesson-2",
+          "title": "Culture Practice",
+          "type": "learning",
+          "conceptIds": [
+            "grammar_a2_culture"
+          ]
+        }
+      ]
+    }
+  ]
+}

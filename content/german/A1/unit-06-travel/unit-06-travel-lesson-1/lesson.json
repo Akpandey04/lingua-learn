@@ -1,0 +1,717 @@
+{
+  "id": "travel-lesson-1",
+  "unitId": "travel",
+  "title": "Travel",
+  "version": 3,
+  "learningObjectives": [
+    "a1_de_bahnhof",
+    "a1_de_bus",
+    "a1_de_ticket",
+    "a1_de_hotel",
+    "a1_de_flughafen"
+  ],
+  "modules": [
+    {
+      "id": "mod-intro",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Welcome to Travel",
+        "conceptId": "intro",
+        "content": "Today we will learn about Travel in German. Let's start with important words.",
+        "example": "Pay close attention to how they are pronounced."
+      }
+    },
+    {
+      "id": "mod-vocab",
+      "type": "vocabulary",
+      "config": {
+        "flow": "teach_all",
+        "words": [
+          {
+            "id": "a1_de_bahnhof",
+            "conceptId": "a1_de_bahnhof",
+            "nativeWord": "der Bahnhof",
+            "englishMeaning": "the train station",
+            "ipa": "/deːɐ̯ ˈbaːn.hoːf/",
+            "pronunciation": "der bahn-hof",
+            "exampleSentence": "Wo ist der Bahnhof?",
+            "exampleTranslation": "Where is the station?",
+            "memoryTip": "Bahn = train, Hof = yard.",
+            "tags": [
+              "travel"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "der Bahnho",
+              "correct": "der Bahnhof"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for the train station"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "der Bahnhof"
+            }
+          },
+          {
+            "id": "a1_de_bus",
+            "conceptId": "a1_de_bus",
+            "nativeWord": "der Bus",
+            "englishMeaning": "the bus",
+            "ipa": "/deːɐ̯ bʊs/",
+            "pronunciation": "der boos",
+            "exampleSentence": "Der Bus kommt bald.",
+            "exampleTranslation": "The bus comes soon.",
+            "memoryTip": "Bus.",
+            "tags": [
+              "travel"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "der Bu",
+              "correct": "der Bus"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for the bus"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "der Bus"
+            }
+          },
+          {
+            "id": "a1_de_ticket",
+            "conceptId": "a1_de_ticket",
+            "nativeWord": "das Ticket",
+            "englishMeaning": "the ticket",
+            "ipa": "/das ˈtɪ.kɪt/",
+            "pronunciation": "dahs tih-kit",
+            "exampleSentence": "Ich habe das Ticket.",
+            "exampleTranslation": "I have the ticket.",
+            "memoryTip": "Same as English.",
+            "tags": [
+              "travel"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "das Ticke",
+              "correct": "das Ticket"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for the ticket"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "das Ticket"
+            }
+          },
+          {
+            "id": "a1_de_hotel",
+            "conceptId": "a1_de_hotel",
+            "nativeWord": "das Hotel",
+            "englishMeaning": "the hotel",
+            "ipa": "/das hoˈtɛl/",
+            "pronunciation": "dahs ho-tel",
+            "exampleSentence": "Das Hotel ist schön.",
+            "exampleTranslation": "The hotel is nice.",
+            "memoryTip": "Same as English.",
+            "tags": [
+              "travel"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "das Hote",
+              "correct": "das Hotel"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for the hotel"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "das Hotel"
+            }
+          },
+          {
+            "id": "a1_de_flughafen",
+            "conceptId": "a1_de_flughafen",
+            "nativeWord": "der Flughafen",
+            "englishMeaning": "the airport",
+            "ipa": "/deːɐ̯ ˈfluːk.haː.fn̩/",
+            "pronunciation": "der floog-hah-fen",
+            "exampleSentence": "Wir sind am Flughafen.",
+            "exampleTranslation": "We are at the airport.",
+            "memoryTip": "Flug = flight, Hafen = port.",
+            "tags": [
+              "travel"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "der Flughafe",
+              "correct": "der Flughafen"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for the airport"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "der Flughafen"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-listen",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "der Bahnhof",
+            "answer": "der Bahnhof",
+            "options": [
+              "der Bus",
+              "der Flughafen",
+              "das Ticket",
+              "der Bahnhof",
+              "das Hotel"
+            ],
+            "conceptId": "a1_de_bahnhof"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "der Bus",
+            "answer": "der Bus",
+            "options": [
+              "der Bus",
+              "das Hotel",
+              "der Flughafen",
+              "der Bahnhof",
+              "das Ticket"
+            ],
+            "conceptId": "a1_de_bus"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "das Ticket",
+            "answer": "das Ticket",
+            "options": [
+              "das Ticket",
+              "das Hotel",
+              "der Bahnhof",
+              "der Bus",
+              "der Flughafen"
+            ],
+            "conceptId": "a1_de_ticket"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "das Hotel",
+            "answer": "das Hotel",
+            "options": [
+              "das Ticket",
+              "der Bahnhof",
+              "der Flughafen",
+              "der Bus",
+              "das Hotel"
+            ],
+            "conceptId": "a1_de_hotel"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "der Flughafen",
+            "answer": "der Flughafen",
+            "options": [
+              "der Flughafen",
+              "das Hotel",
+              "das Ticket",
+              "der Bahnhof",
+              "der Bus"
+            ],
+            "conceptId": "a1_de_flughafen"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-speak",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: der Bahnhof",
+            "expectedPhrase": "der Bahnhof",
+            "conceptId": "a1_de_bahnhof"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: der Bus",
+            "expectedPhrase": "der Bus",
+            "conceptId": "a1_de_bus"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: das Ticket",
+            "expectedPhrase": "das Ticket",
+            "conceptId": "a1_de_ticket"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: das Hotel",
+            "expectedPhrase": "das Hotel",
+            "conceptId": "a1_de_hotel"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: der Flughafen",
+            "expectedPhrase": "der Flughafen",
+            "conceptId": "a1_de_flughafen"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-type",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: the train station",
+            "answer": "der Bahnhof",
+            "conceptId": "a1_de_bahnhof"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: the bus",
+            "answer": "der Bus",
+            "conceptId": "a1_de_bus"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: the ticket",
+            "answer": "das Ticket",
+            "conceptId": "a1_de_ticket"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: the hotel",
+            "answer": "das Hotel",
+            "conceptId": "a1_de_hotel"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: the airport",
+            "answer": "der Flughafen",
+            "conceptId": "a1_de_flughafen"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-practice",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: the train station",
+            "options": [
+              "der Bahnhof",
+              "der Bus",
+              "das Hotel",
+              "das Ticket",
+              "der Flughafen"
+            ],
+            "answer": "der Bahnhof",
+            "conceptId": "a1_de_bahnhof"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in German: the train station",
+            "answer": "der Bahnhof",
+            "conceptId": "a1_de_bahnhof"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: the bus",
+            "options": [
+              "der Flughafen",
+              "der Bahnhof",
+              "das Hotel",
+              "der Bus",
+              "das Ticket"
+            ],
+            "answer": "der Bus",
+            "conceptId": "a1_de_bus"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in German: the bus",
+            "answer": "der Bus",
+            "conceptId": "a1_de_bus"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: the ticket",
+            "options": [
+              "der Flughafen",
+              "das Ticket",
+              "der Bahnhof",
+              "der Bus",
+              "das Hotel"
+            ],
+            "answer": "das Ticket",
+            "conceptId": "a1_de_ticket"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in German: the ticket",
+            "answer": "das Ticket",
+            "conceptId": "a1_de_ticket"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: the hotel",
+            "options": [
+              "der Flughafen",
+              "das Hotel",
+              "das Ticket",
+              "der Bus",
+              "der Bahnhof"
+            ],
+            "answer": "das Hotel",
+            "conceptId": "a1_de_hotel"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in German: the hotel",
+            "answer": "das Hotel",
+            "conceptId": "a1_de_hotel"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: the airport",
+            "options": [
+              "das Ticket",
+              "das Hotel",
+              "der Bahnhof",
+              "der Bus",
+              "der Flughafen"
+            ],
+            "answer": "der Flughafen",
+            "conceptId": "a1_de_flughafen"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in German: the airport",
+            "answer": "der Flughafen",
+            "conceptId": "a1_de_flughafen"
+          },
+          {
+            "type": "match",
+            "phaseTitle": "Pair Matching",
+            "pairs": [
+              {
+                "source": "der Bahnhof",
+                "target": "the train station"
+              },
+              {
+                "source": "der Bus",
+                "target": "the bus"
+              },
+              {
+                "source": "das Ticket",
+                "target": "the ticket"
+              },
+              {
+                "source": "das Hotel",
+                "target": "the hotel"
+              },
+              {
+                "source": "der Flughafen",
+                "target": "the airport"
+              }
+            ],
+            "conceptId": "a1_de_bahnhof"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-summary",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Revision Summary",
+        "conceptId": "intro",
+        "content": "You've learned the vocabulary, listened to the pronunciation, and practiced typing. Now, let's put it all together.",
+        "example": "Take a deep breath. Let's start the final quiz!"
+      }
+    },
+    {
+      "id": "mod-final-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: the train station",
+            "answer": "der Bahnhof",
+            "options": [
+              "der Bus",
+              "das Hotel",
+              "das Ticket",
+              "der Flughafen",
+              "der Bahnhof"
+            ],
+            "conceptId": "a1_de_bahnhof"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "der Bahnhof",
+            "answer": "der Bahnhof",
+            "options": [
+              "der Flughafen",
+              "das Hotel",
+              "der Bahnhof",
+              "der Bus",
+              "das Ticket"
+            ],
+            "conceptId": "a1_de_bahnhof"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: the train station",
+            "answer": "der Bahnhof",
+            "conceptId": "a1_de_bahnhof"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: the bus",
+            "answer": "der Bus",
+            "options": [
+              "das Ticket",
+              "das Hotel",
+              "der Bahnhof",
+              "der Bus",
+              "der Flughafen"
+            ],
+            "conceptId": "a1_de_bus"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "der Bus",
+            "answer": "der Bus",
+            "options": [
+              "der Bahnhof",
+              "das Hotel",
+              "das Ticket",
+              "der Bus",
+              "der Flughafen"
+            ],
+            "conceptId": "a1_de_bus"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: the bus",
+            "answer": "der Bus",
+            "conceptId": "a1_de_bus"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: the ticket",
+            "answer": "das Ticket",
+            "options": [
+              "das Ticket",
+              "der Bus",
+              "der Flughafen",
+              "das Hotel",
+              "der Bahnhof"
+            ],
+            "conceptId": "a1_de_ticket"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "das Ticket",
+            "answer": "das Ticket",
+            "options": [
+              "der Bahnhof",
+              "der Flughafen",
+              "das Ticket",
+              "der Bus",
+              "das Hotel"
+            ],
+            "conceptId": "a1_de_ticket"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: the ticket",
+            "answer": "das Ticket",
+            "conceptId": "a1_de_ticket"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: the hotel",
+            "answer": "das Hotel",
+            "options": [
+              "der Bus",
+              "das Hotel",
+              "der Bahnhof",
+              "der Flughafen",
+              "das Ticket"
+            ],
+            "conceptId": "a1_de_hotel"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "das Hotel",
+            "answer": "das Hotel",
+            "options": [
+              "der Bus",
+              "das Ticket",
+              "das Hotel",
+              "der Flughafen",
+              "der Bahnhof"
+            ],
+            "conceptId": "a1_de_hotel"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: the hotel",
+            "answer": "das Hotel",
+            "conceptId": "a1_de_hotel"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: the airport",
+            "answer": "der Flughafen",
+            "options": [
+              "das Ticket",
+              "der Bus",
+              "das Hotel",
+              "der Bahnhof",
+              "der Flughafen"
+            ],
+            "conceptId": "a1_de_flughafen"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "der Flughafen",
+            "answer": "der Flughafen",
+            "options": [
+              "der Bus",
+              "das Hotel",
+              "der Bahnhof",
+              "der Flughafen",
+              "das Ticket"
+            ],
+            "conceptId": "a1_de_flughafen"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: the airport",
+            "answer": "der Flughafen",
+            "conceptId": "a1_de_flughafen"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: 'Wo ist der Bahnhof?'",
+            "tokens": [
+              "Wo",
+              "ist",
+              "der",
+              "Bahnhof?"
+            ],
+            "answer": "Wo ist der Bahnhof?",
+            "conceptId": "a1_de_bahnhof"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: 'Ich habe das Ticket'",
+            "tokens": [
+              "Ich",
+              "habe",
+              "das",
+              "Ticket"
+            ],
+            "answer": "Ich habe das Ticket",
+            "conceptId": "a1_de_bahnhof"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-celebration",
+      "type": "celebration",
+      "config": {}
+    }
+  ]
+}

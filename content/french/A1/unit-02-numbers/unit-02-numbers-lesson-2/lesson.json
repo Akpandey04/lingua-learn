@@ -1,0 +1,23 @@
+{
+  "id": "unit-02-numbers-lesson-2",
+  "title": "Numbers Practice",
+  "learningObjectives": [
+    "Practice Numbers"
+  ],
+  "modules": [
+    {
+      "id": "unit-02-numbers-lesson-2-knowledge",
+      "type": "knowledge_card",
+      "config": {
+        "cards": [
+          {
+            "id": "unit-02-numbers-lesson-2-card1",
+            "title": "Grammar: Numbers",
+            "conceptId": "grammar_a1_numbers",
+            "content": "Learn the rules for Numbers."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "a2_culture_musee",
+  "type": "vocabulary",
+  "language": "French",
+  "native": "Musée",
+  "translation": "Museum",
+  "pronunciation": "Moo-zay",
+  "ipa": "/myze/",
+  "difficulty": 1,
+  "cefr": "A1",
+  "tags": [
+    "culture"
+  ],
+  "relatedConcepts": [],
+  "masteryThreshold": 0.9,
+  "exampleSentence": "Le musée.",
+  "exampleTranslation": "The museum.",
+  "memoryTip": "Memorize this!",
+  "emoji": "📝"
+}

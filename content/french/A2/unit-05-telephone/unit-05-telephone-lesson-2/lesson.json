@@ -1,0 +1,23 @@
+{
+  "id": "unit-05-telephone-lesson-2",
+  "title": "Telephone Practice",
+  "learningObjectives": [
+    "Practice Telephone"
+  ],
+  "modules": [
+    {
+      "id": "unit-05-telephone-lesson-2-knowledge",
+      "type": "knowledge_card",
+      "config": {
+        "cards": [
+          {
+            "id": "unit-05-telephone-lesson-2-card1",
+            "title": "Grammar: Telephone",
+            "conceptId": "grammar_a2_telephone",
+            "content": "Learn the rules for Telephone."
+          }
+        ]
+      }
+    }
+  ]
+}

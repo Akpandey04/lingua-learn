@@ -1,0 +1,20 @@
+{
+  "id": "a2_work_travail",
+  "type": "vocabulary",
+  "language": "French",
+  "native": "Travail",
+  "translation": "Work",
+  "pronunciation": "Trah-vye",
+  "ipa": "/tʁavaj/",
+  "difficulty": 1,
+  "cefr": "A1",
+  "tags": [
+    "work"
+  ],
+  "relatedConcepts": [],
+  "masteryThreshold": 0.9,
+  "exampleSentence": "Le travail.",
+  "exampleTranslation": "The work.",
+  "memoryTip": "Memorize this!",
+  "emoji": "📝"
+}

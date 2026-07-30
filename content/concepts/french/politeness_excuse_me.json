@@ -1,0 +1,20 @@
+{
+  "id": "politeness_excuse_me",
+  "language": "French",
+  "native": "Excusez-moi",
+  "translation": "Excuse me",
+  "pronunciation": "Ex-koo-zay mwah",
+  "ipa": "/ɛkskyze mwa/",
+  "difficulty": 1,
+  "cefr": "A1",
+  "tags": [
+    "basics"
+  ],
+  "relatedConcepts": [],
+  "masteryThreshold": 0.9,
+  "exampleSentence": "Excusez-moi, où est la gare ?",
+  "exampleTranslation": "Excuse me, where is the station?",
+  "usageNote": "To get someone's attention or apologize politely.",
+  "formality": "formal",
+  "memoryTip": "Looks very similar to English \"Excuse me\"."
+}

@@ -1,0 +1,20 @@
+{
+  "id": "a1_shopping_acheter",
+  "type": "vocabulary",
+  "language": "French",
+  "native": "Acheter",
+  "translation": "To buy",
+  "pronunciation": "Ah-shuh-tay",
+  "ipa": "/aʃte/",
+  "difficulty": 1,
+  "cefr": "A1",
+  "tags": [
+    "shopping"
+  ],
+  "relatedConcepts": [],
+  "masteryThreshold": 0.9,
+  "exampleSentence": "Acheter.",
+  "exampleTranslation": "To buy.",
+  "memoryTip": "Memorize this!",
+  "emoji": "📝"
+}

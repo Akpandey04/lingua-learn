@@ -1,0 +1,20 @@
+{
+  "id": "greeting_hello",
+  "language": "French",
+  "native": "Bonjour",
+  "translation": "Hello / Good morning",
+  "pronunciation": "Bon-zhoor",
+  "ipa": "/bɔ̃ʒuʁ/",
+  "difficulty": 1,
+  "cefr": "A1",
+  "tags": [
+    "basics"
+  ],
+  "relatedConcepts": [],
+  "masteryThreshold": 0.9,
+  "exampleSentence": "Bonjour Marie !",
+  "exampleTranslation": "Hello Marie!",
+  "usageNote": "Standard greeting used until evening.",
+  "formality": "neutral",
+  "memoryTip": "Think: \"Bon = Good\", \"Jour = Day\""
+}

@@ -1,0 +1,20 @@
+{
+  "id": "wellbeing_good",
+  "language": "French",
+  "native": "Ça va bien",
+  "translation": "It's going well",
+  "pronunciation": "Sah vah byan",
+  "ipa": "/sa va bjɛ̃/",
+  "difficulty": 1,
+  "cefr": "A1",
+  "tags": [
+    "basics"
+  ],
+  "relatedConcepts": [],
+  "masteryThreshold": 0.9,
+  "exampleSentence": "Ça va bien, merci.",
+  "exampleTranslation": "It's going well, thanks.",
+  "usageNote": "Standard response to \"Comment ça va?\".",
+  "formality": "neutral",
+  "memoryTip": "Think: \"Bien\" means good."
+}

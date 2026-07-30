@@ -1,0 +1,23 @@
+{
+  "id": "unit-03-alphabet-lesson-2",
+  "title": "Alphabet Practice",
+  "learningObjectives": [
+    "Practice Alphabet"
+  ],
+  "modules": [
+    {
+      "id": "unit-03-alphabet-lesson-2-knowledge",
+      "type": "knowledge_card",
+      "config": {
+        "cards": [
+          {
+            "id": "unit-03-alphabet-lesson-2-card1",
+            "title": "Grammar: Alphabet",
+            "conceptId": "grammar_a1_alphabet",
+            "content": "Learn the rules for Alphabet."
+          }
+        ]
+      }
+    }
+  ]
+}

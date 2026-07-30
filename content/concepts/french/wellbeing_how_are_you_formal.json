@@ -1,0 +1,20 @@
+{
+  "id": "wellbeing_how_are_you_formal",
+  "language": "French",
+  "native": "Comment allez-vous ?",
+  "translation": "How are you? (formal)",
+  "pronunciation": "Ko-mawn tah-lay voo",
+  "ipa": "/kɔmɑ̃ tale vu/",
+  "difficulty": 1,
+  "cefr": "A1",
+  "tags": [
+    "basics"
+  ],
+  "relatedConcepts": [],
+  "masteryThreshold": 0.9,
+  "exampleSentence": "Bonjour monsieur, comment allez-vous ?",
+  "exampleTranslation": "Hello sir, how are you?",
+  "usageNote": "Use to be polite with strangers or groups.",
+  "formality": "formal",
+  "memoryTip": "It sounds like an elegant, flowing sentence."
+}

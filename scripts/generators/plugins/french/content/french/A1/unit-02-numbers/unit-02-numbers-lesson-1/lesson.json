@@ -1,0 +1,67 @@
+{
+  "id": "unit-02-numbers-lesson-1",
+  "title": "Numbers Vocabulary",
+  "learningObjectives": [
+    "Learn Numbers"
+  ],
+  "modules": [
+    {
+      "id": "unit-02-numbers-lesson-1-vocab",
+      "type": "vocabulary",
+      "config": {
+        "words": [
+          {
+            "id": "a1_numbers_un",
+            "native": "Un",
+            "translation": "One",
+            "ipa": "/œ̃/",
+            "pronunciation": "Uhn",
+            "exampleSentence": "Un.",
+            "exampleTranslation": "One.",
+            "memoryTip": "Memorize this!",
+            "tags": [
+              "numbers"
+            ],
+            "emoji": "📝",
+            "cefr": "A1"
+          },
+          {
+            "id": "a1_numbers_deux",
+            "native": "Deux",
+            "translation": "Two",
+            "ipa": "/dø/",
+            "pronunciation": "Duh",
+            "exampleSentence": "Deux.",
+            "exampleTranslation": "Two.",
+            "memoryTip": "Memorize this!",
+            "tags": [
+              "numbers"
+            ],
+            "emoji": "📝",
+            "cefr": "A1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "unit-02-numbers-lesson-1-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "payload": {
+              "type": "mcq",
+              "question": "Translate: One",
+              "answer": "Un",
+              "options": [
+                "Un",
+                "Deux"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

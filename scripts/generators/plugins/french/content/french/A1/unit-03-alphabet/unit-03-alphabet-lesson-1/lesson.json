@@ -1,0 +1,67 @@
+{
+  "id": "unit-03-alphabet-lesson-1",
+  "title": "Alphabet Vocabulary",
+  "learningObjectives": [
+    "Learn Alphabet"
+  ],
+  "modules": [
+    {
+      "id": "unit-03-alphabet-lesson-1-vocab",
+      "type": "vocabulary",
+      "config": {
+        "words": [
+          {
+            "id": "a1_alphabet_a",
+            "native": "A",
+            "translation": "A",
+            "ipa": "/a/",
+            "pronunciation": "Ah",
+            "exampleSentence": "A.",
+            "exampleTranslation": "A.",
+            "memoryTip": "Memorize this!",
+            "tags": [
+              "alphabet"
+            ],
+            "emoji": "📝",
+            "cefr": "A1"
+          },
+          {
+            "id": "a1_alphabet_b",
+            "native": "B",
+            "translation": "B",
+            "ipa": "/be/",
+            "pronunciation": "Bay",
+            "exampleSentence": "B.",
+            "exampleTranslation": "B.",
+            "memoryTip": "Memorize this!",
+            "tags": [
+              "alphabet"
+            ],
+            "emoji": "📝",
+            "cefr": "A1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "unit-03-alphabet-lesson-1-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "payload": {
+              "type": "mcq",
+              "question": "Translate: A",
+              "answer": "A",
+              "options": [
+                "A",
+                "B"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

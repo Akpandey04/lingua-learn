@@ -1,0 +1,51 @@
+{
+  "id": "unit-08-culture-lesson-1",
+  "title": "Culture Vocabulary",
+  "learningObjectives": [
+    "Learn Culture"
+  ],
+  "modules": [
+    {
+      "id": "unit-08-culture-lesson-1-vocab",
+      "type": "vocabulary",
+      "config": {
+        "words": [
+          {
+            "id": "a2_culture_musee",
+            "native": "Musée",
+            "translation": "Museum",
+            "ipa": "/myze/",
+            "pronunciation": "Moo-zay",
+            "exampleSentence": "Le musée.",
+            "exampleTranslation": "The museum.",
+            "memoryTip": "Memorize this!",
+            "tags": [
+              "culture"
+            ],
+            "emoji": "📝",
+            "cefr": "A1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "unit-08-culture-lesson-1-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "payload": {
+              "type": "mcq",
+              "question": "Translate: Museum",
+              "answer": "Musée",
+              "options": [
+                "Musée"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

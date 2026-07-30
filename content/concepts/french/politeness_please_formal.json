@@ -1,0 +1,20 @@
+{
+  "id": "politeness_please_formal",
+  "language": "French",
+  "native": "S'il vous plaît",
+  "translation": "Please (formal)",
+  "pronunciation": "Seel voo play",
+  "ipa": "/sil vu plɛ/",
+  "difficulty": 1,
+  "cefr": "A1",
+  "tags": [
+    "basics"
+  ],
+  "relatedConcepts": [],
+  "masteryThreshold": 0.9,
+  "exampleSentence": "Un café, s'il vous plaît.",
+  "exampleTranslation": "A coffee, please.",
+  "usageNote": "Literally \"If it pleases you\".",
+  "formality": "formal",
+  "memoryTip": "The long, polite version of please."
+}

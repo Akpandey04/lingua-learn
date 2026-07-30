@@ -1,0 +1,18 @@
+{
+  "id": "a2_telephone_appeler",
+  "type": "vocabulary",
+  "language": "French",
+  "pronunciation": "Ah-play",
+  "ipa": "/aple/",
+  "difficulty": 1,
+  "cefr": "A1",
+  "tags": [
+    "telephone"
+  ],
+  "relatedConcepts": [],
+  "masteryThreshold": 0.9,
+  "exampleSentence": "Appeler.",
+  "exampleTranslation": "To call.",
+  "memoryTip": "Memorize this!",
+  "emoji": "📝"
+}

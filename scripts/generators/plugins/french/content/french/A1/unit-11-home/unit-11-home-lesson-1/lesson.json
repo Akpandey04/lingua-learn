@@ -1,0 +1,51 @@
+{
+  "id": "unit-11-home-lesson-1",
+  "title": "Home Vocabulary",
+  "learningObjectives": [
+    "Learn Home"
+  ],
+  "modules": [
+    {
+      "id": "unit-11-home-lesson-1-vocab",
+      "type": "vocabulary",
+      "config": {
+        "words": [
+          {
+            "id": "a1_home_maison",
+            "native": "Maison",
+            "translation": "House",
+            "ipa": "/mɛzɔ̃/",
+            "pronunciation": "May-zohn",
+            "exampleSentence": "Ma maison.",
+            "exampleTranslation": "My house.",
+            "memoryTip": "Memorize this!",
+            "tags": [
+              "home"
+            ],
+            "emoji": "📝",
+            "cefr": "A1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "unit-11-home-lesson-1-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "payload": {
+              "type": "mcq",
+              "question": "Translate: House",
+              "answer": "Maison",
+              "options": [
+                "Maison"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

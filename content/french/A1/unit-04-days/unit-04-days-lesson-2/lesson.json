@@ -1,0 +1,23 @@
+{
+  "id": "unit-04-days-lesson-2",
+  "title": "Days Practice",
+  "learningObjectives": [
+    "Practice Days"
+  ],
+  "modules": [
+    {
+      "id": "unit-04-days-lesson-2-knowledge",
+      "type": "knowledge_card",
+      "config": {
+        "cards": [
+          {
+            "id": "unit-04-days-lesson-2-card1",
+            "title": "Grammar: Days",
+            "conceptId": "grammar_a1_days",
+            "content": "Learn the rules for Days."
+          }
+        ]
+      }
+    }
+  ]
+}

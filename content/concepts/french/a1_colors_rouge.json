@@ -1,0 +1,18 @@
+{
+  "id": "a1_colors_rouge",
+  "type": "vocabulary",
+  "language": "French",
+  "pronunciation": "Roozh",
+  "ipa": "/ʁuʒ/",
+  "difficulty": 1,
+  "cefr": "A1",
+  "tags": [
+    "colors"
+  ],
+  "relatedConcepts": [],
+  "masteryThreshold": 0.9,
+  "exampleSentence": "Rouge.",
+  "exampleTranslation": "Red.",
+  "memoryTip": "Memorize this!",
+  "emoji": "📝"
+}

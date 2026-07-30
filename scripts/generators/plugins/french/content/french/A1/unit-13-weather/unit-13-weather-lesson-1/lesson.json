@@ -1,0 +1,51 @@
+{
+  "id": "unit-13-weather-lesson-1",
+  "title": "Weather Vocabulary",
+  "learningObjectives": [
+    "Learn Weather"
+  ],
+  "modules": [
+    {
+      "id": "unit-13-weather-lesson-1-vocab",
+      "type": "vocabulary",
+      "config": {
+        "words": [
+          {
+            "id": "a1_weather_soleil",
+            "native": "Soleil",
+            "translation": "Sun",
+            "ipa": "/sɔlɛj/",
+            "pronunciation": "So-lay",
+            "exampleSentence": "Le soleil.",
+            "exampleTranslation": "The sun.",
+            "memoryTip": "Memorize this!",
+            "tags": [
+              "weather"
+            ],
+            "emoji": "📝",
+            "cefr": "A1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "unit-13-weather-lesson-1-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "payload": {
+              "type": "mcq",
+              "question": "Translate: Sun",
+              "answer": "Soleil",
+              "options": [
+                "Soleil"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

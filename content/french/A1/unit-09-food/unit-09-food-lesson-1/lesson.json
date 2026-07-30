@@ -1,0 +1,417 @@
+{
+  "id": "unit-09-food-lesson-1",
+  "unitId": "unit-09-food",
+  "title": "Food",
+  "version": 3,
+  "learningObjectives": [
+    "a1_food_pain",
+    "a1_food_eau",
+    "a1_food_fromage",
+    "a1_food_pomme",
+    "a1_food_manger"
+  ],
+  "modules": [
+    {
+      "id": "mod-intro",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Welcome to Food",
+        "conceptId": "intro",
+        "content": "Today we will learn about Food in French. Let's start with 5 important words.",
+        "example": "Pay close attention to how they are pronounced."
+      }
+    },
+    {
+      "id": "mod-vocab",
+      "type": "vocabulary",
+      "config": {
+        "flow": "teach_all",
+        "words": [
+          {
+            "conceptId": "a1_food_pain",
+            "emoji": "📚",
+            "nativeWord": "Pain",
+            "englishMeaning": "Bread",
+            "ipa": "/pɛ̃/",
+            "pronunciation": "Pahn",
+            "exampleSentence": "Je voudrais du pain.",
+            "exampleTranslation": "I would like some bread.",
+            "memoryTip": "Baguette is a type.",
+            "difficultyRating": 1
+          },
+          {
+            "conceptId": "a1_food_eau",
+            "emoji": "📚",
+            "nativeWord": "Eau",
+            "englishMeaning": "Water",
+            "ipa": "/o/",
+            "pronunciation": "Oh",
+            "exampleSentence": "Un verre d'eau, s'il vous plaît.",
+            "exampleTranslation": "A glass of water, please.",
+            "memoryTip": "Drink it.",
+            "difficultyRating": 1
+          },
+          {
+            "conceptId": "a1_food_fromage",
+            "emoji": "📚",
+            "nativeWord": "Fromage",
+            "englishMeaning": "Cheese",
+            "ipa": "/fʁɔmaʒ/",
+            "pronunciation": "Fro-maazh",
+            "exampleSentence": "J'adore le fromage.",
+            "exampleTranslation": "I love cheese.",
+            "memoryTip": "France has 400 types.",
+            "difficultyRating": 1
+          },
+          {
+            "conceptId": "a1_food_pomme",
+            "emoji": "📚",
+            "nativeWord": "Pomme",
+            "englishMeaning": "Apple",
+            "ipa": "/pɔm/",
+            "pronunciation": "Pohm",
+            "exampleSentence": "Je mange une pomme.",
+            "exampleTranslation": "I am eating an apple.",
+            "memoryTip": "Red or green fruit.",
+            "difficultyRating": 1
+          },
+          {
+            "conceptId": "a1_food_manger",
+            "emoji": "📚",
+            "nativeWord": "Manger",
+            "englishMeaning": "To eat",
+            "ipa": "/mɑ̃ʒe/",
+            "pronunciation": "Mahn-zhay",
+            "exampleSentence": "J'aime manger.",
+            "exampleTranslation": "I like to eat.",
+            "memoryTip": "Action for food.",
+            "difficultyRating": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-listen",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Pain",
+            "answer": "Pain",
+            "options": [
+              "Pain",
+              "Eau",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_food_pain"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Eau",
+            "answer": "Eau",
+            "options": [
+              "Eau",
+              "Pain",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_food_eau"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Fromage",
+            "answer": "Fromage",
+            "options": [
+              "Fromage",
+              "Pain",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_food_fromage"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Pomme",
+            "answer": "Pomme",
+            "options": [
+              "Pomme",
+              "Pain",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_food_pomme"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Manger",
+            "answer": "Manger",
+            "options": [
+              "Manger",
+              "Pain",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_food_manger"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-speak",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Pain",
+            "prompt": "Say: Bread",
+            "conceptId": "a1_food_pain",
+            "pronunciation": "Pahn (/pɛ̃/)"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Eau",
+            "prompt": "Say: Water",
+            "conceptId": "a1_food_eau",
+            "pronunciation": "Oh (/o/)"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Fromage",
+            "prompt": "Say: Cheese",
+            "conceptId": "a1_food_fromage",
+            "pronunciation": "Fro-maazh (/fʁɔmaʒ/)"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Pomme",
+            "prompt": "Say: Apple",
+            "conceptId": "a1_food_pomme",
+            "pronunciation": "Pohm (/pɔm/)"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Manger",
+            "prompt": "Say: To eat",
+            "conceptId": "a1_food_manger",
+            "pronunciation": "Mahn-zhay (/mɑ̃ʒe/)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-type",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'Bread'?",
+            "answer": "Pain",
+            "conceptId": "a1_food_pain"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'Water'?",
+            "answer": "Eau",
+            "conceptId": "a1_food_eau"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'Cheese'?",
+            "answer": "Fromage",
+            "conceptId": "a1_food_fromage"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'Apple'?",
+            "answer": "Pomme",
+            "conceptId": "a1_food_pomme"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'To eat'?",
+            "answer": "Manger",
+            "conceptId": "a1_food_manger"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-practice",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning Match",
+            "prompt": "What does 'Pain' mean?",
+            "answer": "Bread",
+            "options": [
+              "Bread",
+              "Water",
+              "Fake1",
+              "Fake2"
+            ],
+            "conceptId": "a1_food_pain"
+          },
+          {
+            "type": "fill",
+            "phaseTitle": "Fill in the Blank",
+            "phrase": "_ !",
+            "prompt": "Type 'Water'",
+            "answer": "Eau",
+            "conceptId": "a1_food_eau"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Word Match",
+            "prompt": "Which word means 'Cheese'?",
+            "answer": "Fromage",
+            "options": [
+              "Fromage",
+              "Pain",
+              "Mot1",
+              "Mot2"
+            ],
+            "conceptId": "a1_food_fromage"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning Match",
+            "prompt": "What does 'Pomme' mean?",
+            "answer": "Apple",
+            "options": [
+              "Apple",
+              "Bread",
+              "Fake1",
+              "Fake2"
+            ],
+            "conceptId": "a1_food_pomme"
+          },
+          {
+            "type": "fill",
+            "phaseTitle": "Fill in the Blank",
+            "phrase": "_ !",
+            "prompt": "Type 'To eat'",
+            "answer": "Manger",
+            "conceptId": "a1_food_manger"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-summary",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Revision Summary",
+        "conceptId": "intro",
+        "content": "Before the final quiz, let's review what you learned today:\n\n**Pain** (/pɛ̃/) - Bread\n💡 *Tip: Baguette is a type.*\n\n**Eau** (/o/) - Water\n💡 *Tip: Drink it.*\n\n**Fromage** (/fʁɔmaʒ/) - Cheese\n💡 *Tip: France has 400 types.*\n\n**Pomme** (/pɔm/) - Apple\n💡 *Tip: Red or green fruit.*\n\n**Manger** (/mɑ̃ʒe/) - To eat\n💡 *Tip: Action for food.*",
+        "example": "Take a deep breath. Let's start the final quiz!"
+      }
+    },
+    {
+      "id": "mod-final-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Translate: Bread",
+            "answer": "Pain",
+            "options": [
+              "Pain",
+              "Eau"
+            ],
+            "conceptId": "a1_food_pain"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Water",
+            "answer": "Eau",
+            "conceptId": "a1_food_eau"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Translate: Cheese",
+            "answer": "Fromage",
+            "options": [
+              "Fromage",
+              "Pain"
+            ],
+            "conceptId": "a1_food_fromage"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Apple",
+            "answer": "Pomme",
+            "conceptId": "a1_food_pomme"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Translate: To eat",
+            "answer": "Manger",
+            "options": [
+              "Manger",
+              "Pain"
+            ],
+            "conceptId": "a1_food_manger"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: 'Pain et fromage'",
+            "tokens": [
+              "Pain",
+              "et",
+              "fromage",
+              "eau"
+            ],
+            "answer": "Pain et fromage",
+            "conceptId": "a1_food_pain"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: 'Manger une pomme'",
+            "tokens": [
+              "Manger",
+              "une",
+              "pomme",
+              "pain"
+            ],
+            "answer": "Manger une pomme",
+            "conceptId": "a1_food_pain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-celebration",
+      "type": "celebration",
+      "config": {}
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "unit-03-health-lesson-2",
+  "title": "Health Practice",
+  "learningObjectives": [
+    "Practice Health"
+  ],
+  "modules": [
+    {
+      "id": "unit-03-health-lesson-2-knowledge",
+      "type": "knowledge_card",
+      "config": {
+        "cards": [
+          {
+            "id": "unit-03-health-lesson-2-card1",
+            "title": "Grammar: Health",
+            "conceptId": "grammar_a2_health",
+            "content": "Learn the rules for Health."
+          }
+        ]
+      }
+    }
+  ]
+}

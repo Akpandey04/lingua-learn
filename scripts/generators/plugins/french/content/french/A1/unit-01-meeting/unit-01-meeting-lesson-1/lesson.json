@@ -1,0 +1,51 @@
+{
+  "id": "unit-01-meeting-lesson-1",
+  "title": "Meeting People Vocabulary",
+  "learningObjectives": [
+    "Learn Meeting People"
+  ],
+  "modules": [
+    {
+      "id": "unit-01-meeting-lesson-1-vocab",
+      "type": "vocabulary",
+      "config": {
+        "words": [
+          {
+            "id": "a1_meeting_bonjour",
+            "native": "Bonjour",
+            "translation": "Hello",
+            "ipa": "/bɔ̃ʒuʁ/",
+            "pronunciation": "Bon-zhoor",
+            "exampleSentence": "Bonjour!",
+            "exampleTranslation": "Hello!",
+            "memoryTip": "Memorize this!",
+            "tags": [
+              "meeting"
+            ],
+            "emoji": "📝",
+            "cefr": "A1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "unit-01-meeting-lesson-1-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "payload": {
+              "type": "mcq",
+              "question": "Translate: Hello",
+              "answer": "Bonjour",
+              "options": [
+                "Bonjour"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

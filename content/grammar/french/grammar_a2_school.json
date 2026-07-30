@@ -1,0 +1,19 @@
+{
+  "id": "grammar_a2_school",
+  "type": "grammar",
+  "language": "French",
+  "title": "School Grammar",
+  "description": "Rules for School",
+  "rules": [
+    "Rule 1 for School"
+  ],
+  "examples": [
+    "Example for School"
+  ],
+  "difficulty": 2,
+  "cefr": "A1",
+  "tags": [
+    "grammar"
+  ],
+  "relatedConcepts": []
+}

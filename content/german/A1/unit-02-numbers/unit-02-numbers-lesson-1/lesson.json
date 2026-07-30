@@ -1,0 +1,717 @@
+{
+  "id": "numbers-lesson-1",
+  "unitId": "numbers",
+  "title": "Numbers 1-5",
+  "version": 3,
+  "learningObjectives": [
+    "a1_de_eins",
+    "a1_de_zwei",
+    "a1_de_drei",
+    "a1_de_vier",
+    "a1_de_fuenf"
+  ],
+  "modules": [
+    {
+      "id": "mod-intro",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Welcome to Numbers 1-5",
+        "conceptId": "intro",
+        "content": "Today we will learn about Numbers 1-5 in German. Let's start with important words.",
+        "example": "Pay close attention to how they are pronounced."
+      }
+    },
+    {
+      "id": "mod-vocab",
+      "type": "vocabulary",
+      "config": {
+        "flow": "teach_all",
+        "words": [
+          {
+            "id": "a1_de_eins",
+            "conceptId": "a1_de_eins",
+            "nativeWord": "eins",
+            "englishMeaning": "one",
+            "ipa": "/aɪ̯ns/",
+            "pronunciation": "eyens",
+            "exampleSentence": "Ich habe eins.",
+            "exampleTranslation": "I have one.",
+            "memoryTip": "Eins starts with E, like English One starts with O? No, think Einstein (one stone).",
+            "tags": [
+              "numbers"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "ein",
+              "correct": "eins"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for one"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "eins"
+            }
+          },
+          {
+            "id": "a1_de_zwei",
+            "conceptId": "a1_de_zwei",
+            "nativeWord": "zwei",
+            "englishMeaning": "two",
+            "ipa": "/tsvaɪ̯/",
+            "pronunciation": "tsvy",
+            "exampleSentence": "Das sind zwei.",
+            "exampleTranslation": "Those are two.",
+            "memoryTip": "Z sounds like ts in German.",
+            "tags": [
+              "numbers"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "zwe",
+              "correct": "zwei"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for two"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "zwei"
+            }
+          },
+          {
+            "id": "a1_de_drei",
+            "conceptId": "a1_de_drei",
+            "nativeWord": "drei",
+            "englishMeaning": "three",
+            "ipa": "/dʁaɪ̯/",
+            "pronunciation": "dry",
+            "exampleSentence": "Wir sind drei.",
+            "exampleTranslation": "We are three.",
+            "memoryTip": "Sounds like dry.",
+            "tags": [
+              "numbers"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "dre",
+              "correct": "drei"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for three"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "drei"
+            }
+          },
+          {
+            "id": "a1_de_vier",
+            "conceptId": "a1_de_vier",
+            "nativeWord": "vier",
+            "englishMeaning": "four",
+            "ipa": "/fiːɐ̯/",
+            "pronunciation": "feer",
+            "exampleSentence": "Ich sehe vier.",
+            "exampleTranslation": "I see four.",
+            "memoryTip": "V sounds like F in German.",
+            "tags": [
+              "numbers"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "vie",
+              "correct": "vier"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for four"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "vier"
+            }
+          },
+          {
+            "id": "a1_de_fuenf",
+            "conceptId": "a1_de_fuenf",
+            "nativeWord": "fünf",
+            "englishMeaning": "five",
+            "ipa": "/fʏnf/",
+            "pronunciation": "foonf",
+            "exampleSentence": "Ich brauche fünf.",
+            "exampleTranslation": "I need five.",
+            "memoryTip": "The ü makes a rounded u sound.",
+            "tags": [
+              "numbers"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "fün",
+              "correct": "fünf"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for five"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "fünf"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-listen",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "eins",
+            "answer": "eins",
+            "options": [
+              "drei",
+              "eins",
+              "zwei",
+              "vier",
+              "fünf"
+            ],
+            "conceptId": "a1_de_eins"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "zwei",
+            "answer": "zwei",
+            "options": [
+              "fünf",
+              "drei",
+              "zwei",
+              "vier",
+              "eins"
+            ],
+            "conceptId": "a1_de_zwei"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "drei",
+            "answer": "drei",
+            "options": [
+              "vier",
+              "drei",
+              "zwei",
+              "fünf",
+              "eins"
+            ],
+            "conceptId": "a1_de_drei"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "vier",
+            "answer": "vier",
+            "options": [
+              "eins",
+              "vier",
+              "drei",
+              "zwei",
+              "fünf"
+            ],
+            "conceptId": "a1_de_vier"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "fünf",
+            "answer": "fünf",
+            "options": [
+              "zwei",
+              "vier",
+              "fünf",
+              "drei",
+              "eins"
+            ],
+            "conceptId": "a1_de_fuenf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-speak",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: eins",
+            "expectedPhrase": "eins",
+            "conceptId": "a1_de_eins"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: zwei",
+            "expectedPhrase": "zwei",
+            "conceptId": "a1_de_zwei"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: drei",
+            "expectedPhrase": "drei",
+            "conceptId": "a1_de_drei"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: vier",
+            "expectedPhrase": "vier",
+            "conceptId": "a1_de_vier"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: fünf",
+            "expectedPhrase": "fünf",
+            "conceptId": "a1_de_fuenf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-type",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: one",
+            "answer": "eins",
+            "conceptId": "a1_de_eins"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: two",
+            "answer": "zwei",
+            "conceptId": "a1_de_zwei"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: three",
+            "answer": "drei",
+            "conceptId": "a1_de_drei"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: four",
+            "answer": "vier",
+            "conceptId": "a1_de_vier"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: five",
+            "answer": "fünf",
+            "conceptId": "a1_de_fuenf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-practice",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: one",
+            "options": [
+              "zwei",
+              "drei",
+              "eins",
+              "fünf",
+              "vier"
+            ],
+            "answer": "eins",
+            "conceptId": "a1_de_eins"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in German: one",
+            "answer": "eins",
+            "conceptId": "a1_de_eins"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: two",
+            "options": [
+              "eins",
+              "zwei",
+              "vier",
+              "fünf",
+              "drei"
+            ],
+            "answer": "zwei",
+            "conceptId": "a1_de_zwei"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in German: two",
+            "answer": "zwei",
+            "conceptId": "a1_de_zwei"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: three",
+            "options": [
+              "drei",
+              "fünf",
+              "vier",
+              "eins",
+              "zwei"
+            ],
+            "answer": "drei",
+            "conceptId": "a1_de_drei"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in German: three",
+            "answer": "drei",
+            "conceptId": "a1_de_drei"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: four",
+            "options": [
+              "eins",
+              "vier",
+              "zwei",
+              "drei",
+              "fünf"
+            ],
+            "answer": "vier",
+            "conceptId": "a1_de_vier"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in German: four",
+            "answer": "vier",
+            "conceptId": "a1_de_vier"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: five",
+            "options": [
+              "drei",
+              "vier",
+              "zwei",
+              "fünf",
+              "eins"
+            ],
+            "answer": "fünf",
+            "conceptId": "a1_de_fuenf"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in German: five",
+            "answer": "fünf",
+            "conceptId": "a1_de_fuenf"
+          },
+          {
+            "type": "match",
+            "phaseTitle": "Pair Matching",
+            "pairs": [
+              {
+                "source": "eins",
+                "target": "one"
+              },
+              {
+                "source": "zwei",
+                "target": "two"
+              },
+              {
+                "source": "drei",
+                "target": "three"
+              },
+              {
+                "source": "vier",
+                "target": "four"
+              },
+              {
+                "source": "fünf",
+                "target": "five"
+              }
+            ],
+            "conceptId": "a1_de_eins"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-summary",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Revision Summary",
+        "conceptId": "intro",
+        "content": "You've learned the vocabulary, listened to the pronunciation, and practiced typing. Now, let's put it all together.",
+        "example": "Take a deep breath. Let's start the final quiz!"
+      }
+    },
+    {
+      "id": "mod-final-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: one",
+            "answer": "eins",
+            "options": [
+              "vier",
+              "drei",
+              "fünf",
+              "zwei",
+              "eins"
+            ],
+            "conceptId": "a1_de_eins"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "eins",
+            "answer": "eins",
+            "options": [
+              "eins",
+              "zwei",
+              "drei",
+              "vier",
+              "fünf"
+            ],
+            "conceptId": "a1_de_eins"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: one",
+            "answer": "eins",
+            "conceptId": "a1_de_eins"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: two",
+            "answer": "zwei",
+            "options": [
+              "fünf",
+              "zwei",
+              "vier",
+              "drei",
+              "eins"
+            ],
+            "conceptId": "a1_de_zwei"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "zwei",
+            "answer": "zwei",
+            "options": [
+              "zwei",
+              "fünf",
+              "drei",
+              "eins",
+              "vier"
+            ],
+            "conceptId": "a1_de_zwei"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: two",
+            "answer": "zwei",
+            "conceptId": "a1_de_zwei"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: three",
+            "answer": "drei",
+            "options": [
+              "fünf",
+              "drei",
+              "zwei",
+              "eins",
+              "vier"
+            ],
+            "conceptId": "a1_de_drei"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "drei",
+            "answer": "drei",
+            "options": [
+              "eins",
+              "vier",
+              "zwei",
+              "drei",
+              "fünf"
+            ],
+            "conceptId": "a1_de_drei"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: three",
+            "answer": "drei",
+            "conceptId": "a1_de_drei"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: four",
+            "answer": "vier",
+            "options": [
+              "fünf",
+              "eins",
+              "zwei",
+              "vier",
+              "drei"
+            ],
+            "conceptId": "a1_de_vier"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "vier",
+            "answer": "vier",
+            "options": [
+              "drei",
+              "zwei",
+              "fünf",
+              "eins",
+              "vier"
+            ],
+            "conceptId": "a1_de_vier"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: four",
+            "answer": "vier",
+            "conceptId": "a1_de_vier"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: five",
+            "answer": "fünf",
+            "options": [
+              "vier",
+              "zwei",
+              "drei",
+              "eins",
+              "fünf"
+            ],
+            "conceptId": "a1_de_fuenf"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "fünf",
+            "answer": "fünf",
+            "options": [
+              "drei",
+              "fünf",
+              "zwei",
+              "vier",
+              "eins"
+            ],
+            "conceptId": "a1_de_fuenf"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: five",
+            "answer": "fünf",
+            "conceptId": "a1_de_fuenf"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: 'Eins, zwei, drei'",
+            "tokens": [
+              "Eins,",
+              "zwei,",
+              "drei",
+              "vier"
+            ],
+            "answer": "Eins, zwei, drei",
+            "conceptId": "a1_de_eins"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: 'Vier und fünf'",
+            "tokens": [
+              "Vier",
+              "und",
+              "fünf",
+              "eins"
+            ],
+            "answer": "Vier und fünf",
+            "conceptId": "a1_de_eins"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-celebration",
+      "type": "celebration",
+      "config": {}
+    }
+  ]
+}

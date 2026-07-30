@@ -1,0 +1,23 @@
+{
+  "id": "unit-14-routine-lesson-2",
+  "title": "Daily Routine Practice",
+  "learningObjectives": [
+    "Practice Daily Routine"
+  ],
+  "modules": [
+    {
+      "id": "unit-14-routine-lesson-2-knowledge",
+      "type": "knowledge_card",
+      "config": {
+        "cards": [
+          {
+            "id": "unit-14-routine-lesson-2-card1",
+            "title": "Grammar: Daily Routine",
+            "conceptId": "grammar_a1_routine",
+            "content": "Learn the rules for Daily Routine."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,417 @@
+{
+  "id": "unit-03-alphabet-lesson-1",
+  "unitId": "unit-03-alphabet",
+  "title": "Alphabet",
+  "version": 3,
+  "learningObjectives": [
+    "a1_alphabet_a",
+    "a1_alphabet_b",
+    "a1_alphabet_c",
+    "a1_alphabet_d",
+    "a1_alphabet_e"
+  ],
+  "modules": [
+    {
+      "id": "mod-intro",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Welcome to Alphabet",
+        "conceptId": "intro",
+        "content": "Today we will learn about Alphabet in French. Let's start with 5 important words.",
+        "example": "Pay close attention to how they are pronounced."
+      }
+    },
+    {
+      "id": "mod-vocab",
+      "type": "vocabulary",
+      "config": {
+        "flow": "teach_all",
+        "words": [
+          {
+            "conceptId": "a1_alphabet_a",
+            "emoji": "📚",
+            "nativeWord": "A",
+            "englishMeaning": "A",
+            "ipa": "/a/",
+            "pronunciation": "Ah",
+            "exampleSentence": "A comme avion.",
+            "exampleTranslation": "A as in airplane.",
+            "memoryTip": "Like in \"Ah\".",
+            "difficultyRating": 1
+          },
+          {
+            "conceptId": "a1_alphabet_b",
+            "emoji": "📚",
+            "nativeWord": "B",
+            "englishMeaning": "B",
+            "ipa": "/be/",
+            "pronunciation": "Bay",
+            "exampleSentence": "B comme bonjour.",
+            "exampleTranslation": "B as in hello.",
+            "memoryTip": "Like in \"Bay\".",
+            "difficultyRating": 1
+          },
+          {
+            "conceptId": "a1_alphabet_c",
+            "emoji": "📚",
+            "nativeWord": "C",
+            "englishMeaning": "C",
+            "ipa": "/se/",
+            "pronunciation": "Say",
+            "exampleSentence": "C comme chat.",
+            "exampleTranslation": "C as in cat.",
+            "memoryTip": "Like in \"Say\".",
+            "difficultyRating": 1
+          },
+          {
+            "conceptId": "a1_alphabet_d",
+            "emoji": "📚",
+            "nativeWord": "D",
+            "englishMeaning": "D",
+            "ipa": "/de/",
+            "pronunciation": "Day",
+            "exampleSentence": "D comme dimanche.",
+            "exampleTranslation": "D as in Sunday.",
+            "memoryTip": "Like in \"Day\".",
+            "difficultyRating": 1
+          },
+          {
+            "conceptId": "a1_alphabet_e",
+            "emoji": "📚",
+            "nativeWord": "E",
+            "englishMeaning": "E",
+            "ipa": "/ə/",
+            "pronunciation": "Uh",
+            "exampleSentence": "E comme eau.",
+            "exampleTranslation": "E as in water.",
+            "memoryTip": "Like the \"u\" in \"nut\".",
+            "difficultyRating": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-listen",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "A",
+            "answer": "A",
+            "options": [
+              "A",
+              "B",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_alphabet_a"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "B",
+            "answer": "B",
+            "options": [
+              "B",
+              "A",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_alphabet_b"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "C",
+            "answer": "C",
+            "options": [
+              "C",
+              "A",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_alphabet_c"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "D",
+            "answer": "D",
+            "options": [
+              "D",
+              "A",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_alphabet_d"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "E",
+            "answer": "E",
+            "options": [
+              "E",
+              "A",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_alphabet_e"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-speak",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "A",
+            "prompt": "Say: A",
+            "conceptId": "a1_alphabet_a",
+            "pronunciation": "Ah (/a/)"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "B",
+            "prompt": "Say: B",
+            "conceptId": "a1_alphabet_b",
+            "pronunciation": "Bay (/be/)"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "C",
+            "prompt": "Say: C",
+            "conceptId": "a1_alphabet_c",
+            "pronunciation": "Say (/se/)"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "D",
+            "prompt": "Say: D",
+            "conceptId": "a1_alphabet_d",
+            "pronunciation": "Day (/de/)"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "E",
+            "prompt": "Say: E",
+            "conceptId": "a1_alphabet_e",
+            "pronunciation": "Uh (/ə/)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-type",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'A'?",
+            "answer": "A",
+            "conceptId": "a1_alphabet_a"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'B'?",
+            "answer": "B",
+            "conceptId": "a1_alphabet_b"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'C'?",
+            "answer": "C",
+            "conceptId": "a1_alphabet_c"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'D'?",
+            "answer": "D",
+            "conceptId": "a1_alphabet_d"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'E'?",
+            "answer": "E",
+            "conceptId": "a1_alphabet_e"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-practice",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning Match",
+            "prompt": "What does 'A' mean?",
+            "answer": "A",
+            "options": [
+              "A",
+              "B",
+              "Fake1",
+              "Fake2"
+            ],
+            "conceptId": "a1_alphabet_a"
+          },
+          {
+            "type": "fill",
+            "phaseTitle": "Fill in the Blank",
+            "phrase": "_ !",
+            "prompt": "Type 'B'",
+            "answer": "B",
+            "conceptId": "a1_alphabet_b"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Word Match",
+            "prompt": "Which word means 'C'?",
+            "answer": "C",
+            "options": [
+              "C",
+              "A",
+              "Mot1",
+              "Mot2"
+            ],
+            "conceptId": "a1_alphabet_c"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning Match",
+            "prompt": "What does 'D' mean?",
+            "answer": "D",
+            "options": [
+              "D",
+              "A",
+              "Fake1",
+              "Fake2"
+            ],
+            "conceptId": "a1_alphabet_d"
+          },
+          {
+            "type": "fill",
+            "phaseTitle": "Fill in the Blank",
+            "phrase": "_ !",
+            "prompt": "Type 'E'",
+            "answer": "E",
+            "conceptId": "a1_alphabet_e"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-summary",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Revision Summary",
+        "conceptId": "intro",
+        "content": "Before the final quiz, let's review what you learned today:\n\n**A** (/a/) - A\n💡 *Tip: Like in \"Ah\".*\n\n**B** (/be/) - B\n💡 *Tip: Like in \"Bay\".*\n\n**C** (/se/) - C\n💡 *Tip: Like in \"Say\".*\n\n**D** (/de/) - D\n💡 *Tip: Like in \"Day\".*\n\n**E** (/ə/) - E\n💡 *Tip: Like the \"u\" in \"nut\".*",
+        "example": "Take a deep breath. Let's start the final quiz!"
+      }
+    },
+    {
+      "id": "mod-final-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Translate: A",
+            "answer": "A",
+            "options": [
+              "A",
+              "B"
+            ],
+            "conceptId": "a1_alphabet_a"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: B",
+            "answer": "B",
+            "conceptId": "a1_alphabet_b"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Translate: C",
+            "answer": "C",
+            "options": [
+              "C",
+              "A"
+            ],
+            "conceptId": "a1_alphabet_c"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: D",
+            "answer": "D",
+            "conceptId": "a1_alphabet_d"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Translate: E",
+            "answer": "E",
+            "options": [
+              "E",
+              "A"
+            ],
+            "conceptId": "a1_alphabet_e"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: 'A, B, C'",
+            "tokens": [
+              "A,",
+              "B,",
+              "C",
+              "D"
+            ],
+            "answer": "A, B, C",
+            "conceptId": "a1_alphabet_a"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: 'D et E'",
+            "tokens": [
+              "D",
+              "et",
+              "E",
+              "A"
+            ],
+            "answer": "D et E",
+            "conceptId": "a1_alphabet_a"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-celebration",
+      "type": "celebration",
+      "config": {}
+    }
+  ]
+}

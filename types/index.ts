@@ -7,62 +7,100 @@ export interface Language {
   name: string;
   nativeName: string;
   flag: string;
-  locale: string; // BCP-47 for Web Speech API
+  locale: string;
   color: string;
 }
 
-// ─── Lesson Content Types ──────────────────────────────────────────────────
+// ─── Vocabulary Card (Phase 1: Learn) ─────────────────────────────────────
 
-export type ExerciseType = 'mcq' | 'translate' | 'match' | 'fill' | 'listening' | 'speaking';
+export interface VocabCard {
+  id: string;
+  emoji: string;
+  nativeWord: string;
+  englishMeaning: string;
+  pronunciation: string;
+  exampleSentence: string;
+  exampleTranslation: string;
+  usageNote?: string;
+  grammarTip?: string;
+}
+
+// ─── Exercise Types ────────────────────────────────────────────────────────
+
+export type ExerciseType =
+  | 'mcq'
+  | 'translate'
+  | 'match'
+  | 'fill'
+  | 'listening'
+  | 'speaking'
+  | 'tap-word';
 
 export interface MCQExercise {
   type: 'mcq';
   id: string;
   question: string;
-  questionAudio?: boolean; // if true, speak the question
+  questionAudio?: boolean;
   options: string[];
   answer: string;
+  explanation?: string;
   hint?: string;
 }
 
 export interface TranslateExercise {
   type: 'translate';
   id: string;
+  direction: 'to-native' | 'to-english';
   question: string;
   answer: string;
-  hint?: string;
   alternateAnswers?: string[];
+  explanation?: string;
+  hint?: string;
 }
 
 export interface MatchExercise {
   type: 'match';
   id: string;
+  instruction?: string;
   pairs: { source: string; target: string }[];
+  hint?: string;
 }
 
 export interface FillExercise {
   type: 'fill';
   id: string;
-  sentence: string; // use ___ for blank
+  sentence: string;
   answer: string;
-  options?: string[]; // if provided, show as multiple choice
+  options?: string[];
+  explanation?: string;
   hint?: string;
 }
 
 export interface ListeningExercise {
   type: 'listening';
   id: string;
-  phrase: string; // text to speak aloud
-  answer: string; // expected typed answer
+  phrase: string;
+  answer: string;
+  options?: string[];
+  explanation?: string;
   hint?: string;
 }
 
 export interface SpeakingExercise {
   type: 'speaking';
   id: string;
-  prompt: string;       // instruction (e.g. "Say: Bonjour")
-  expectedPhrase: string; // target phrase to speak
+  prompt: string;
+  expectedPhrase: string;
   hint?: string;
+}
+
+export interface TapWordExercise {
+  type: 'tap-word';
+  id: string;
+  question: string;
+  options: string[];
+  answer: string;
+  explanation?: string;
 }
 
 export type Exercise =
@@ -71,14 +109,34 @@ export type Exercise =
   | MatchExercise
   | FillExercise
   | ListeningExercise
-  | SpeakingExercise;
+  | SpeakingExercise
+  | TapWordExercise;
+
+// ─── Lesson Phase ──────────────────────────────────────────────────────────
+
+export type LessonPhase =
+  | 'intro'
+  | 'learn'
+  | 'guided'
+  | 'recall'
+  | 'mixed'
+  | 'summary'
+  | 'quiz'
+  | 'results';
+
+// ─── Lesson Structure ──────────────────────────────────────────────────────
 
 export interface Lesson {
   id: string;
   title: string;
-  intro?: string;
-  xpReward: number;
-  exercises: Exercise[];
+  intro: string;
+  estimatedMinutes: number;
+  conceptIds?: string[];
+  vocabulary: VocabCard[];
+  guidedExercises: Exercise[];
+  recallExercises: Exercise[];
+  mixedExercises: Exercise[];
+  quizExercises: Exercise[];
 }
 
 export interface Unit {
@@ -86,6 +144,8 @@ export interface Unit {
   title: string;
   description?: string;
   icon?: string;
+  /** @deprecated Do not use estimatedHours */
+  estimatedHours?: number;
   lessons: Lesson[];
 }
 
@@ -94,27 +154,31 @@ export interface Course {
   units: Unit[];
 }
 
-// ─── Progress Types ───────────────────────────────────────────────────────
+// ─── Progress Types ────────────────────────────────────────────────────────
+
+export interface WordMastery {
+  cardId: string;
+  correct: number;
+  incorrect: number;
+  lastSeen: string;
+  nextReview: string;
+}
 
 export interface LessonProgress {
   lessonId: string;
   completed: boolean;
-  score: number;       // XP earned
-  hearts: number;      // hearts remaining when completed
   dateCompleted?: string;
   attempts: number;
+  wordMastery: WordMastery[];
 }
 
 export interface UserProgress {
-  totalXP: number;
-  streak: number;       // consecutive days
+  streak: number;
   lastStudyDate?: string;
-  hearts: number;       // current hearts (0-5)
-  lastHeartRefill?: string;
-  lessons: Record<string, LessonProgress>; // lessonId → LessonProgress
+  lessons: Record<string, LessonProgress>;
 }
 
-// ─── UI / Store Types ────────────────────────────────────────────────────
+// ─── UI Types ──────────────────────────────────────────────────────────────
 
 export interface GrammarHint {
   title: string;

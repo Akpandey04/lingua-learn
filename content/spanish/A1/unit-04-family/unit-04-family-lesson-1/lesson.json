@@ -1,0 +1,717 @@
+{
+  "id": "family-lesson-1",
+  "unitId": "family",
+  "title": "La Familia",
+  "version": 3,
+  "learningObjectives": [
+    "a1_es_madre",
+    "a1_es_padre",
+    "a1_es_hermano",
+    "a1_es_hermana",
+    "a1_es_abuelo"
+  ],
+  "modules": [
+    {
+      "id": "mod-intro",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Welcome to La Familia",
+        "conceptId": "intro",
+        "content": "Today we will learn about La Familia in Spanish. Let's start with important words.",
+        "example": "Pay close attention to how they are pronounced."
+      }
+    },
+    {
+      "id": "mod-vocab",
+      "type": "vocabulary",
+      "config": {
+        "flow": "teach_all",
+        "words": [
+          {
+            "id": "a1_es_madre",
+            "conceptId": "a1_es_madre",
+            "nativeWord": "Madre",
+            "englishMeaning": "Mother",
+            "ipa": "/ˈma.ðɾe/",
+            "pronunciation": "Mah-dray",
+            "exampleSentence": "Mi madre es alta.",
+            "exampleTranslation": "My mother is tall.",
+            "memoryTip": "Mom",
+            "tags": [
+              "family"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "Madr",
+              "correct": "Madre"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for mother"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "Madre"
+            }
+          },
+          {
+            "id": "a1_es_padre",
+            "conceptId": "a1_es_padre",
+            "nativeWord": "Padre",
+            "englishMeaning": "Father",
+            "ipa": "/ˈpa.ðɾe/",
+            "pronunciation": "Pah-dray",
+            "exampleSentence": "Tu padre trabaja.",
+            "exampleTranslation": "Your father works.",
+            "memoryTip": "Dad",
+            "tags": [
+              "family"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "Padr",
+              "correct": "Padre"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for father"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "Padre"
+            }
+          },
+          {
+            "id": "a1_es_hermano",
+            "conceptId": "a1_es_hermano",
+            "nativeWord": "Hermano",
+            "englishMeaning": "Brother",
+            "ipa": "/eɾˈma.no/",
+            "pronunciation": "Er-mah-no",
+            "exampleSentence": "Tengo un hermano.",
+            "exampleTranslation": "I have a brother.",
+            "memoryTip": "Bro",
+            "tags": [
+              "family"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "Herman",
+              "correct": "Hermano"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for brother"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "Hermano"
+            }
+          },
+          {
+            "id": "a1_es_hermana",
+            "conceptId": "a1_es_hermana",
+            "nativeWord": "Hermana",
+            "englishMeaning": "Sister",
+            "ipa": "/eɾˈma.na/",
+            "pronunciation": "Er-mah-nah",
+            "exampleSentence": "Mi hermana estudia.",
+            "exampleTranslation": "My sister studies.",
+            "memoryTip": "Sis",
+            "tags": [
+              "family"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "Herman",
+              "correct": "Hermana"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for sister"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "Hermana"
+            }
+          },
+          {
+            "id": "a1_es_abuelo",
+            "conceptId": "a1_es_abuelo",
+            "nativeWord": "Abuelo",
+            "englishMeaning": "Grandfather",
+            "ipa": "/aˈβwe.lo/",
+            "pronunciation": "Ah-bway-lo",
+            "exampleSentence": "El abuelo lee.",
+            "exampleTranslation": "The grandfather reads.",
+            "memoryTip": "Grandpa",
+            "tags": [
+              "family"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "Abuel",
+              "correct": "Abuelo"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for grandfather"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "Abuelo"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-listen",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "Madre",
+            "answer": "Madre",
+            "options": [
+              "Madre",
+              "Hermano",
+              "Hermana",
+              "Padre",
+              "Abuelo"
+            ],
+            "conceptId": "a1_es_madre"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "Padre",
+            "answer": "Padre",
+            "options": [
+              "Padre",
+              "Hermana",
+              "Madre",
+              "Hermano",
+              "Abuelo"
+            ],
+            "conceptId": "a1_es_padre"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "Hermano",
+            "answer": "Hermano",
+            "options": [
+              "Hermana",
+              "Hermano",
+              "Madre",
+              "Abuelo",
+              "Padre"
+            ],
+            "conceptId": "a1_es_hermano"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "Hermana",
+            "answer": "Hermana",
+            "options": [
+              "Madre",
+              "Padre",
+              "Abuelo",
+              "Hermano",
+              "Hermana"
+            ],
+            "conceptId": "a1_es_hermana"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "Abuelo",
+            "answer": "Abuelo",
+            "options": [
+              "Padre",
+              "Hermana",
+              "Madre",
+              "Hermano",
+              "Abuelo"
+            ],
+            "conceptId": "a1_es_abuelo"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-speak",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: Madre",
+            "expectedPhrase": "Madre",
+            "conceptId": "a1_es_madre"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: Padre",
+            "expectedPhrase": "Padre",
+            "conceptId": "a1_es_padre"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: Hermano",
+            "expectedPhrase": "Hermano",
+            "conceptId": "a1_es_hermano"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: Hermana",
+            "expectedPhrase": "Hermana",
+            "conceptId": "a1_es_hermana"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: Abuelo",
+            "expectedPhrase": "Abuelo",
+            "conceptId": "a1_es_abuelo"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-type",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: Mother",
+            "answer": "Madre",
+            "conceptId": "a1_es_madre"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: Father",
+            "answer": "Padre",
+            "conceptId": "a1_es_padre"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: Brother",
+            "answer": "Hermano",
+            "conceptId": "a1_es_hermano"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: Sister",
+            "answer": "Hermana",
+            "conceptId": "a1_es_hermana"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: Grandfather",
+            "answer": "Abuelo",
+            "conceptId": "a1_es_abuelo"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-practice",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: Mother",
+            "options": [
+              "Hermano",
+              "Abuelo",
+              "Hermana",
+              "Madre",
+              "Padre"
+            ],
+            "answer": "Madre",
+            "conceptId": "a1_es_madre"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in Spanish: Mother",
+            "answer": "Madre",
+            "conceptId": "a1_es_madre"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: Father",
+            "options": [
+              "Padre",
+              "Abuelo",
+              "Hermano",
+              "Hermana",
+              "Madre"
+            ],
+            "answer": "Padre",
+            "conceptId": "a1_es_padre"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in Spanish: Father",
+            "answer": "Padre",
+            "conceptId": "a1_es_padre"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: Brother",
+            "options": [
+              "Hermano",
+              "Madre",
+              "Abuelo",
+              "Hermana",
+              "Padre"
+            ],
+            "answer": "Hermano",
+            "conceptId": "a1_es_hermano"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in Spanish: Brother",
+            "answer": "Hermano",
+            "conceptId": "a1_es_hermano"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: Sister",
+            "options": [
+              "Madre",
+              "Abuelo",
+              "Hermana",
+              "Hermano",
+              "Padre"
+            ],
+            "answer": "Hermana",
+            "conceptId": "a1_es_hermana"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in Spanish: Sister",
+            "answer": "Hermana",
+            "conceptId": "a1_es_hermana"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: Grandfather",
+            "options": [
+              "Hermana",
+              "Madre",
+              "Hermano",
+              "Padre",
+              "Abuelo"
+            ],
+            "answer": "Abuelo",
+            "conceptId": "a1_es_abuelo"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in Spanish: Grandfather",
+            "answer": "Abuelo",
+            "conceptId": "a1_es_abuelo"
+          },
+          {
+            "type": "match",
+            "phaseTitle": "Pair Matching",
+            "pairs": [
+              {
+                "source": "Madre",
+                "target": "Mother"
+              },
+              {
+                "source": "Padre",
+                "target": "Father"
+              },
+              {
+                "source": "Hermano",
+                "target": "Brother"
+              },
+              {
+                "source": "Hermana",
+                "target": "Sister"
+              },
+              {
+                "source": "Abuelo",
+                "target": "Grandfather"
+              }
+            ],
+            "conceptId": "a1_es_madre"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-summary",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Revision Summary",
+        "conceptId": "intro",
+        "content": "You've learned the vocabulary, listened to the pronunciation, and practiced typing. Now, let's put it all together.",
+        "example": "Take a deep breath. Let's start the final quiz!"
+      }
+    },
+    {
+      "id": "mod-final-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: Mother",
+            "answer": "Madre",
+            "options": [
+              "Madre",
+              "Abuelo",
+              "Hermana",
+              "Padre",
+              "Hermano"
+            ],
+            "conceptId": "a1_es_madre"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "Madre",
+            "answer": "Madre",
+            "options": [
+              "Hermano",
+              "Hermana",
+              "Padre",
+              "Abuelo",
+              "Madre"
+            ],
+            "conceptId": "a1_es_madre"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Mother",
+            "answer": "Madre",
+            "conceptId": "a1_es_madre"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: Father",
+            "answer": "Padre",
+            "options": [
+              "Padre",
+              "Hermana",
+              "Hermano",
+              "Abuelo",
+              "Madre"
+            ],
+            "conceptId": "a1_es_padre"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "Padre",
+            "answer": "Padre",
+            "options": [
+              "Hermano",
+              "Abuelo",
+              "Padre",
+              "Madre",
+              "Hermana"
+            ],
+            "conceptId": "a1_es_padre"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Father",
+            "answer": "Padre",
+            "conceptId": "a1_es_padre"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: Brother",
+            "answer": "Hermano",
+            "options": [
+              "Madre",
+              "Abuelo",
+              "Hermana",
+              "Padre",
+              "Hermano"
+            ],
+            "conceptId": "a1_es_hermano"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "Hermano",
+            "answer": "Hermano",
+            "options": [
+              "Abuelo",
+              "Hermano",
+              "Padre",
+              "Madre",
+              "Hermana"
+            ],
+            "conceptId": "a1_es_hermano"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Brother",
+            "answer": "Hermano",
+            "conceptId": "a1_es_hermano"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: Sister",
+            "answer": "Hermana",
+            "options": [
+              "Madre",
+              "Abuelo",
+              "Hermano",
+              "Padre",
+              "Hermana"
+            ],
+            "conceptId": "a1_es_hermana"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "Hermana",
+            "answer": "Hermana",
+            "options": [
+              "Abuelo",
+              "Hermano",
+              "Madre",
+              "Padre",
+              "Hermana"
+            ],
+            "conceptId": "a1_es_hermana"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Sister",
+            "answer": "Hermana",
+            "conceptId": "a1_es_hermana"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: Grandfather",
+            "answer": "Abuelo",
+            "options": [
+              "Madre",
+              "Hermano",
+              "Hermana",
+              "Padre",
+              "Abuelo"
+            ],
+            "conceptId": "a1_es_abuelo"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "Abuelo",
+            "answer": "Abuelo",
+            "options": [
+              "Madre",
+              "Abuelo",
+              "Hermano",
+              "Hermana",
+              "Padre"
+            ],
+            "conceptId": "a1_es_abuelo"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Grandfather",
+            "answer": "Abuelo",
+            "conceptId": "a1_es_abuelo"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: 'Mi madre y padre'",
+            "tokens": [
+              "Mi",
+              "madre",
+              "y",
+              "padre"
+            ],
+            "answer": "Mi madre y padre",
+            "conceptId": "a1_es_madre"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: 'Tengo un hermano'",
+            "tokens": [
+              "Tengo",
+              "un",
+              "hermano",
+              "abuelo"
+            ],
+            "answer": "Tengo un hermano",
+            "conceptId": "a1_es_madre"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-celebration",
+      "type": "celebration",
+      "config": {}
+    }
+  ]
+}

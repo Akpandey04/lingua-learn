@@ -1,0 +1,23 @@
+{
+  "id": "unit-03-media-lesson-2",
+  "title": "Media Practice",
+  "learningObjectives": [
+    "Practice Media"
+  ],
+  "modules": [
+    {
+      "id": "unit-03-media-lesson-2-knowledge",
+      "type": "knowledge_card",
+      "config": {
+        "cards": [
+          {
+            "id": "unit-03-media-lesson-2-card1",
+            "title": "Grammar: Media",
+            "conceptId": "grammar_b1_media",
+            "content": "Learn the rules for Media."
+          }
+        ]
+      }
+    }
+  ]
+}

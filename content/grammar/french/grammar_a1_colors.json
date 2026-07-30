@@ -1,0 +1,19 @@
+{
+  "id": "grammar_a1_colors",
+  "type": "grammar",
+  "language": "French",
+  "title": "Colors Grammar",
+  "description": "Rules for Colors",
+  "rules": [
+    "Rule 1 for Colors"
+  ],
+  "examples": [
+    "Example for Colors"
+  ],
+  "difficulty": 2,
+  "cefr": "A1",
+  "tags": [
+    "grammar"
+  ],
+  "relatedConcepts": []
+}

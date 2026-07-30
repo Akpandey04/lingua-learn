@@ -1,0 +1,417 @@
+{
+  "id": "unit-12-travel-lesson-1",
+  "unitId": "unit-12-travel",
+  "title": "Travel",
+  "version": 3,
+  "learningObjectives": [
+    "a1_travel_hotel",
+    "a1_travel_billet",
+    "a1_travel_avion",
+    "a1_travel_train",
+    "a1_travel_voyage"
+  ],
+  "modules": [
+    {
+      "id": "mod-intro",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Welcome to Travel",
+        "conceptId": "intro",
+        "content": "Today we will learn about Travel in French. Let's start with 5 important words.",
+        "example": "Pay close attention to how they are pronounced."
+      }
+    },
+    {
+      "id": "mod-vocab",
+      "type": "vocabulary",
+      "config": {
+        "flow": "teach_all",
+        "words": [
+          {
+            "conceptId": "a1_travel_hotel",
+            "emoji": "📚",
+            "nativeWord": "Hôtel",
+            "englishMeaning": "Hotel",
+            "ipa": "/otɛl/",
+            "pronunciation": "Oh-tell",
+            "exampleSentence": "Où est l'hôtel ?",
+            "exampleTranslation": "Where is the hotel?",
+            "memoryTip": "Stay here.",
+            "difficultyRating": 1
+          },
+          {
+            "conceptId": "a1_travel_billet",
+            "emoji": "📚",
+            "nativeWord": "Billet",
+            "englishMeaning": "Ticket",
+            "ipa": "/bijɛ/",
+            "pronunciation": "Bee-yay",
+            "exampleSentence": "J'ai mon billet.",
+            "exampleTranslation": "I have my ticket.",
+            "memoryTip": "Needed for train.",
+            "difficultyRating": 1
+          },
+          {
+            "conceptId": "a1_travel_avion",
+            "emoji": "📚",
+            "nativeWord": "Avion",
+            "englishMeaning": "Airplane",
+            "ipa": "/avjɔ̃/",
+            "pronunciation": "Ah-vyohn",
+            "exampleSentence": "L'avion part à huit heures.",
+            "exampleTranslation": "The airplane leaves at eight.",
+            "memoryTip": "Flies.",
+            "difficultyRating": 1
+          },
+          {
+            "conceptId": "a1_travel_train",
+            "emoji": "📚",
+            "nativeWord": "Train",
+            "englishMeaning": "Train",
+            "ipa": "/tʁɛ̃/",
+            "pronunciation": "Trahn",
+            "exampleSentence": "Je prends le train.",
+            "exampleTranslation": "I am taking the train.",
+            "memoryTip": "On tracks.",
+            "difficultyRating": 1
+          },
+          {
+            "conceptId": "a1_travel_voyage",
+            "emoji": "📚",
+            "nativeWord": "Voyage",
+            "englishMeaning": "Trip",
+            "ipa": "/vwajaʒ/",
+            "pronunciation": "Vwah-yaazh",
+            "exampleSentence": "Bon voyage !",
+            "exampleTranslation": "Have a good trip!",
+            "memoryTip": "Journey.",
+            "difficultyRating": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-listen",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Hôtel",
+            "answer": "Hôtel",
+            "options": [
+              "Hôtel",
+              "Billet",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_travel_hotel"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Billet",
+            "answer": "Billet",
+            "options": [
+              "Billet",
+              "Hôtel",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_travel_billet"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Avion",
+            "answer": "Avion",
+            "options": [
+              "Avion",
+              "Hôtel",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_travel_avion"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Train",
+            "answer": "Train",
+            "options": [
+              "Train",
+              "Hôtel",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_travel_train"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Voyage",
+            "answer": "Voyage",
+            "options": [
+              "Voyage",
+              "Hôtel",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_travel_voyage"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-speak",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Hôtel",
+            "prompt": "Say: Hotel",
+            "conceptId": "a1_travel_hotel",
+            "pronunciation": "Oh-tell (/otɛl/)"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Billet",
+            "prompt": "Say: Ticket",
+            "conceptId": "a1_travel_billet",
+            "pronunciation": "Bee-yay (/bijɛ/)"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Avion",
+            "prompt": "Say: Airplane",
+            "conceptId": "a1_travel_avion",
+            "pronunciation": "Ah-vyohn (/avjɔ̃/)"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Train",
+            "prompt": "Say: Train",
+            "conceptId": "a1_travel_train",
+            "pronunciation": "Trahn (/tʁɛ̃/)"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Voyage",
+            "prompt": "Say: Trip",
+            "conceptId": "a1_travel_voyage",
+            "pronunciation": "Vwah-yaazh (/vwajaʒ/)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-type",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'Hotel'?",
+            "answer": "Hôtel",
+            "conceptId": "a1_travel_hotel"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'Ticket'?",
+            "answer": "Billet",
+            "conceptId": "a1_travel_billet"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'Airplane'?",
+            "answer": "Avion",
+            "conceptId": "a1_travel_avion"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'Train'?",
+            "answer": "Train",
+            "conceptId": "a1_travel_train"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'Trip'?",
+            "answer": "Voyage",
+            "conceptId": "a1_travel_voyage"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-practice",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning Match",
+            "prompt": "What does 'Hôtel' mean?",
+            "answer": "Hotel",
+            "options": [
+              "Hotel",
+              "Ticket",
+              "Fake1",
+              "Fake2"
+            ],
+            "conceptId": "a1_travel_hotel"
+          },
+          {
+            "type": "fill",
+            "phaseTitle": "Fill in the Blank",
+            "phrase": "_ !",
+            "prompt": "Type 'Ticket'",
+            "answer": "Billet",
+            "conceptId": "a1_travel_billet"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Word Match",
+            "prompt": "Which word means 'Airplane'?",
+            "answer": "Avion",
+            "options": [
+              "Avion",
+              "Hôtel",
+              "Mot1",
+              "Mot2"
+            ],
+            "conceptId": "a1_travel_avion"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning Match",
+            "prompt": "What does 'Train' mean?",
+            "answer": "Train",
+            "options": [
+              "Train",
+              "Hotel",
+              "Fake1",
+              "Fake2"
+            ],
+            "conceptId": "a1_travel_train"
+          },
+          {
+            "type": "fill",
+            "phaseTitle": "Fill in the Blank",
+            "phrase": "_ !",
+            "prompt": "Type 'Trip'",
+            "answer": "Voyage",
+            "conceptId": "a1_travel_voyage"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-summary",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Revision Summary",
+        "conceptId": "intro",
+        "content": "Before the final quiz, let's review what you learned today:\n\n**Hôtel** (/otɛl/) - Hotel\n💡 *Tip: Stay here.*\n\n**Billet** (/bijɛ/) - Ticket\n💡 *Tip: Needed for train.*\n\n**Avion** (/avjɔ̃/) - Airplane\n💡 *Tip: Flies.*\n\n**Train** (/tʁɛ̃/) - Train\n💡 *Tip: On tracks.*\n\n**Voyage** (/vwajaʒ/) - Trip\n💡 *Tip: Journey.*",
+        "example": "Take a deep breath. Let's start the final quiz!"
+      }
+    },
+    {
+      "id": "mod-final-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Translate: Hotel",
+            "answer": "Hôtel",
+            "options": [
+              "Hôtel",
+              "Billet"
+            ],
+            "conceptId": "a1_travel_hotel"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Ticket",
+            "answer": "Billet",
+            "conceptId": "a1_travel_billet"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Translate: Airplane",
+            "answer": "Avion",
+            "options": [
+              "Avion",
+              "Hôtel"
+            ],
+            "conceptId": "a1_travel_avion"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Train",
+            "answer": "Train",
+            "conceptId": "a1_travel_train"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Translate: Trip",
+            "answer": "Voyage",
+            "options": [
+              "Voyage",
+              "Hôtel"
+            ],
+            "conceptId": "a1_travel_voyage"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: 'Billet de train'",
+            "tokens": [
+              "Billet",
+              "de",
+              "train",
+              "avion"
+            ],
+            "answer": "Billet de train",
+            "conceptId": "a1_travel_hotel"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: 'Voyage à l'hôtel'",
+            "tokens": [
+              "Voyage",
+              "à",
+              "l'hôtel",
+              "billet"
+            ],
+            "answer": "Voyage à l'hôtel",
+            "conceptId": "a1_travel_hotel"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-celebration",
+      "type": "celebration",
+      "config": {}
+    }
+  ]
+}

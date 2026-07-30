@@ -1,0 +1,20 @@
+{
+  "id": "basic_yes",
+  "language": "French",
+  "native": "Oui",
+  "translation": "Yes",
+  "pronunciation": "Wee",
+  "ipa": "/wi/",
+  "difficulty": 1,
+  "cefr": "A1",
+  "tags": [
+    "basics"
+  ],
+  "relatedConcepts": [],
+  "masteryThreshold": 0.9,
+  "exampleSentence": "Oui, s'il vous plaît.",
+  "exampleTranslation": "Yes, please.",
+  "usageNote": "The standard word for yes.",
+  "formality": "neutral",
+  "memoryTip": "Sounds exactly like the English \"We\"."
+}

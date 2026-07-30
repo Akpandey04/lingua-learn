@@ -1,0 +1,414 @@
+{
+  "language": "French",
+  "level": "A1",
+  "units": [
+    {
+      "id": "unit-01-meeting",
+      "title": "Meeting People",
+      "cefrLevel": "A1",
+      "estimatedHours": 2,
+      "unitObjectives": [
+        "Master Meeting People"
+      ],
+      "concepts": [
+        "a1_meeting_bonjour",
+        "grammar_a1_meeting"
+      ],
+      "lessons": [
+        {
+          "id": "unit-01-meeting-lesson-1",
+          "title": "Meeting People",
+          "type": "learning",
+          "conceptIds": [
+            "a1_meeting_bonjour",
+            "grammar_a1_meeting"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-02-numbers",
+      "title": "Numbers",
+      "cefrLevel": "A1",
+      "estimatedHours": 2,
+      "unitObjectives": [
+        "Master Numbers"
+      ],
+      "concepts": [
+        "a1_numbers_un",
+        "a1_numbers_deux",
+        "grammar_a1_numbers"
+      ],
+      "lessons": [
+        {
+          "id": "unit-02-numbers-lesson-1",
+          "title": "Numbers",
+          "type": "learning",
+          "conceptIds": [
+            "a1_numbers_un",
+            "a1_numbers_deux",
+            "grammar_a1_numbers"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-03-alphabet",
+      "title": "Alphabet",
+      "cefrLevel": "A1",
+      "estimatedHours": 2,
+      "unitObjectives": [
+        "Master Alphabet"
+      ],
+      "concepts": [
+        "a1_alphabet_a",
+        "a1_alphabet_b",
+        "grammar_a1_alphabet"
+      ],
+      "lessons": [
+        {
+          "id": "unit-03-alphabet-lesson-1",
+          "title": "Alphabet",
+          "type": "learning",
+          "conceptIds": [
+            "a1_alphabet_a",
+            "a1_alphabet_b",
+            "grammar_a1_alphabet"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-04-days",
+      "title": "Days",
+      "cefrLevel": "A1",
+      "estimatedHours": 2,
+      "unitObjectives": [
+        "Master Days"
+      ],
+      "concepts": [
+        "a1_days_lundi",
+        "grammar_a1_days"
+      ],
+      "lessons": [
+        {
+          "id": "unit-04-days-lesson-1",
+          "title": "Days",
+          "type": "learning",
+          "conceptIds": [
+            "a1_days_lundi",
+            "grammar_a1_days"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-05-months",
+      "title": "Months",
+      "cefrLevel": "A1",
+      "estimatedHours": 2,
+      "unitObjectives": [
+        "Master Months"
+      ],
+      "concepts": [
+        "a1_months_janvier",
+        "grammar_a1_months"
+      ],
+      "lessons": [
+        {
+          "id": "unit-05-months-lesson-1",
+          "title": "Months",
+          "type": "learning",
+          "conceptIds": [
+            "a1_months_janvier",
+            "grammar_a1_months"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-06-time",
+      "title": "Time",
+      "cefrLevel": "A1",
+      "estimatedHours": 2,
+      "unitObjectives": [
+        "Master Time"
+      ],
+      "concepts": [
+        "a1_time_heure",
+        "grammar_a1_time"
+      ],
+      "lessons": [
+        {
+          "id": "unit-06-time-lesson-1",
+          "title": "Time",
+          "type": "learning",
+          "conceptIds": [
+            "a1_time_heure",
+            "grammar_a1_time"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-07-colors",
+      "title": "Colors",
+      "cefrLevel": "A1",
+      "estimatedHours": 2,
+      "unitObjectives": [
+        "Master Colors"
+      ],
+      "concepts": [
+        "a1_colors_rouge",
+        "grammar_a1_colors"
+      ],
+      "lessons": [
+        {
+          "id": "unit-07-colors-lesson-1",
+          "title": "Colors",
+          "type": "learning",
+          "conceptIds": [
+            "a1_colors_rouge",
+            "grammar_a1_colors"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-08-family",
+      "title": "Family",
+      "cefrLevel": "A1",
+      "estimatedHours": 2,
+      "unitObjectives": [
+        "Master Family"
+      ],
+      "concepts": [
+        "a1_family_mere",
+        "grammar_a1_family"
+      ],
+      "lessons": [
+        {
+          "id": "unit-08-family-lesson-1",
+          "title": "Family",
+          "type": "learning",
+          "conceptIds": [
+            "a1_family_mere",
+            "grammar_a1_family"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-09-food",
+      "title": "Food",
+      "cefrLevel": "A1",
+      "estimatedHours": 2,
+      "unitObjectives": [
+        "Master Food"
+      ],
+      "concepts": [
+        "a1_food_pain",
+        "grammar_a1_food"
+      ],
+      "lessons": [
+        {
+          "id": "unit-09-food-lesson-1",
+          "title": "Food",
+          "type": "learning",
+          "conceptIds": [
+            "a1_food_pain",
+            "grammar_a1_food"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-10-shopping",
+      "title": "Shopping",
+      "cefrLevel": "A1",
+      "estimatedHours": 2,
+      "unitObjectives": [
+        "Master Shopping"
+      ],
+      "concepts": [
+        "a1_shopping_acheter",
+        "grammar_a1_shopping"
+      ],
+      "lessons": [
+        {
+          "id": "unit-10-shopping-lesson-1",
+          "title": "Shopping",
+          "type": "learning",
+          "conceptIds": [
+            "a1_shopping_acheter",
+            "grammar_a1_shopping"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-11-home",
+      "title": "Home",
+      "cefrLevel": "A1",
+      "estimatedHours": 2,
+      "unitObjectives": [
+        "Master Home"
+      ],
+      "concepts": [
+        "a1_home_maison",
+        "grammar_a1_home"
+      ],
+      "lessons": [
+        {
+          "id": "unit-11-home-lesson-1",
+          "title": "Home",
+          "type": "learning",
+          "conceptIds": [
+            "a1_home_maison",
+            "grammar_a1_home"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-12-travel",
+      "title": "Travel",
+      "cefrLevel": "A1",
+      "estimatedHours": 2,
+      "unitObjectives": [
+        "Master Travel"
+      ],
+      "concepts": [
+        "a1_travel_hotel",
+        "grammar_a1_travel"
+      ],
+      "lessons": [
+        {
+          "id": "unit-12-travel-lesson-1",
+          "title": "Travel",
+          "type": "learning",
+          "conceptIds": [
+            "a1_travel_hotel",
+            "grammar_a1_travel"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-13-weather",
+      "title": "Weather",
+      "cefrLevel": "A1",
+      "estimatedHours": 2,
+      "unitObjectives": [
+        "Master Weather"
+      ],
+      "concepts": [
+        "a1_weather_soleil",
+        "grammar_a1_weather"
+      ],
+      "lessons": [
+        {
+          "id": "unit-13-weather-lesson-1",
+          "title": "Weather",
+          "type": "learning",
+          "conceptIds": [
+            "a1_weather_soleil",
+            "grammar_a1_weather"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-14-routine",
+      "title": "Daily Routine",
+      "cefrLevel": "A1",
+      "estimatedHours": 2,
+      "unitObjectives": [
+        "Master Daily Routine"
+      ],
+      "concepts": [
+        "a1_routine_matin",
+        "grammar_a1_routine"
+      ],
+      "lessons": [
+        {
+          "id": "unit-14-routine-lesson-1",
+          "title": "Daily Routine",
+          "type": "learning",
+          "conceptIds": [
+            "a1_routine_matin",
+            "grammar_a1_routine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-15-directions",
+      "title": "Directions",
+      "cefrLevel": "A1",
+      "estimatedHours": 2,
+      "unitObjectives": [
+        "Master Directions"
+      ],
+      "concepts": [
+        "a1_directions_gauche",
+        "grammar_a1_directions"
+      ],
+      "lessons": [
+        {
+          "id": "unit-15-directions-lesson-1",
+          "title": "Directions",
+          "type": "learning",
+          "conceptIds": [
+            "a1_directions_gauche",
+            "grammar_a1_directions"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-16-review",
+      "title": "Review",
+      "cefrLevel": "A1",
+      "estimatedHours": 2,
+      "unitObjectives": [
+        "Master Review"
+      ],
+      "concepts": [
+        "grammar_a1_review"
+      ],
+      "lessons": [
+        {
+          "id": "unit-16-review-lesson-1",
+          "title": "Review",
+          "type": "learning",
+          "conceptIds": [
+            "grammar_a1_review"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-17-checkpoint",
+      "title": "Checkpoint",
+      "cefrLevel": "A1",
+      "estimatedHours": 2,
+      "unitObjectives": [
+        "Master Checkpoint"
+      ],
+      "concepts": [
+        "grammar_a1_checkpoint"
+      ],
+      "lessons": [
+        {
+          "id": "unit-17-checkpoint-lesson-1",
+          "title": "Checkpoint",
+          "type": "learning",
+          "conceptIds": [
+            "grammar_a1_checkpoint"
+          ]
+        }
+      ]
+    }
+  ]
+}

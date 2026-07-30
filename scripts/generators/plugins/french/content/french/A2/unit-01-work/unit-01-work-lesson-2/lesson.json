@@ -1,0 +1,23 @@
+{
+  "id": "unit-01-work-lesson-2",
+  "title": "Work Practice",
+  "learningObjectives": [
+    "Practice Work"
+  ],
+  "modules": [
+    {
+      "id": "unit-01-work-lesson-2-knowledge",
+      "type": "knowledge_card",
+      "config": {
+        "cards": [
+          {
+            "id": "unit-01-work-lesson-2-card1",
+            "title": "Grammar: Work",
+            "conceptId": "grammar_a2_work",
+            "content": "Learn the rules for Work."
+          }
+        ]
+      }
+    }
+  ]
+}

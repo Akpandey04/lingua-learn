@@ -1,0 +1,66 @@
+{
+  "id": "unit-03-health-lesson-1",
+  "title": "Health Vocabulary",
+  "learningObjectives": [
+    "Learn Health"
+  ],
+  "modules": [
+    {
+      "id": "unit-03-health-lesson-1-vocab",
+      "type": "vocabulary",
+      "config": {
+        "words": [
+          {
+            "id": "a2_health_sante",
+            "conceptId": "a2_health_sante",
+            "nativeWord": "Santé",
+            "englishMeaning": "Health",
+            "ipa": "/sɑ̃te/",
+            "pronunciation": "Sahn-tay",
+            "exampleSentence": "La santé.",
+            "exampleTranslation": "The health.",
+            "memoryTip": "Memorize this!",
+            "tags": [
+              "health"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "Sant",
+              "correct": "Santé"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for health"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "Santé"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "unit-03-health-lesson-1-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "payload": {
+              "type": "mcq",
+              "question": "Translate: Health",
+              "answer": "Santé",
+              "options": [
+                "Santé"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

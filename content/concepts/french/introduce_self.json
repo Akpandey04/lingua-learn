@@ -1,0 +1,20 @@
+{
+  "id": "introduce_self",
+  "language": "French",
+  "native": "Je m'appelle",
+  "translation": "My name is",
+  "pronunciation": "Zhuh mah-pell",
+  "ipa": "/ʒə mapɛl/",
+  "difficulty": 1,
+  "cefr": "A1",
+  "tags": [
+    "basics"
+  ],
+  "relatedConcepts": [],
+  "masteryThreshold": 0.9,
+  "exampleSentence": "Je m'appelle Thomas.",
+  "exampleTranslation": "My name is Thomas.",
+  "usageNote": "Literally \"I call myself\".",
+  "formality": "neutral",
+  "memoryTip": "Think: \"I appeal\" (to be called)."
+}

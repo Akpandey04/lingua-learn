@@ -1,0 +1,51 @@
+{
+  "id": "unit-09-food-lesson-1",
+  "title": "Food Vocabulary",
+  "learningObjectives": [
+    "Learn Food"
+  ],
+  "modules": [
+    {
+      "id": "unit-09-food-lesson-1-vocab",
+      "type": "vocabulary",
+      "config": {
+        "words": [
+          {
+            "id": "a1_food_pain",
+            "native": "Pain",
+            "translation": "Bread",
+            "ipa": "/pɛ̃/",
+            "pronunciation": "Pahn",
+            "exampleSentence": "Le pain.",
+            "exampleTranslation": "The bread.",
+            "memoryTip": "Memorize this!",
+            "tags": [
+              "food"
+            ],
+            "emoji": "📝",
+            "cefr": "A1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "unit-09-food-lesson-1-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "payload": {
+              "type": "mcq",
+              "question": "Translate: Bread",
+              "answer": "Pain",
+              "options": [
+                "Pain"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

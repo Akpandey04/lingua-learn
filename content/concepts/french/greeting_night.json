@@ -1,0 +1,20 @@
+{
+  "id": "greeting_night",
+  "language": "French",
+  "native": "Bonne nuit",
+  "translation": "Good night",
+  "pronunciation": "Bun nwee",
+  "ipa": "/bɔn nɥi/",
+  "difficulty": 1,
+  "cefr": "A1",
+  "tags": [
+    "basics"
+  ],
+  "relatedConcepts": [],
+  "masteryThreshold": 0.9,
+  "exampleSentence": "Bonne nuit les enfants.",
+  "exampleTranslation": "Good night children.",
+  "usageNote": "Only used right before someone goes to sleep.",
+  "formality": "neutral",
+  "memoryTip": "Think: \"Nuit\" looks like \"Night\"."
+}

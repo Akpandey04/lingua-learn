@@ -1,0 +1,153 @@
+{
+  "language": "German",
+  "level": "A1",
+  "units": [
+    {
+      "id": "unit-01-greetings",
+      "title": "Greetings",
+      "cefrLevel": "A1",
+      "unitObjectives": [
+        "Master Greetings"
+      ],
+      "concepts": [
+        "a1_de_hallo",
+        "a1_de_guten_morgen",
+        "a1_de_guten_tag",
+        "a1_de_guten_abend",
+        "a1_de_tschuess"
+      ],
+      "lessons": [
+        {
+          "id": "unit-01-greetings-lesson-1",
+          "title": "Greetings"
+        }
+      ]
+    },
+    {
+      "id": "unit-02-numbers",
+      "title": "Numbers 1-5",
+      "cefrLevel": "A1",
+      "unitObjectives": [
+        "Master Numbers 1-5"
+      ],
+      "concepts": [
+        "a1_de_eins",
+        "a1_de_zwei",
+        "a1_de_drei",
+        "a1_de_vier",
+        "a1_de_fuenf"
+      ],
+      "lessons": [
+        {
+          "id": "unit-02-numbers-lesson-1",
+          "title": "Numbers 1-5"
+        }
+      ]
+    },
+    {
+      "id": "unit-03-basic_verbs",
+      "title": "Basic Verbs",
+      "cefrLevel": "A1",
+      "unitObjectives": [
+        "Master Basic Verbs"
+      ],
+      "concepts": [
+        "a1_de_sein",
+        "a1_de_haben",
+        "a1_de_gehen",
+        "a1_de_kommen",
+        "a1_de_machen"
+      ],
+      "lessons": [
+        {
+          "id": "unit-03-basic_verbs-lesson-1",
+          "title": "Basic Verbs"
+        }
+      ]
+    },
+    {
+      "id": "unit-04-family",
+      "title": "Family",
+      "cefrLevel": "A1",
+      "unitObjectives": [
+        "Master Family"
+      ],
+      "concepts": [
+        "a1_de_familie",
+        "a1_de_mutter",
+        "a1_de_vater",
+        "a1_de_bruder",
+        "a1_de_schwester"
+      ],
+      "lessons": [
+        {
+          "id": "unit-04-family-lesson-1",
+          "title": "Family"
+        }
+      ]
+    },
+    {
+      "id": "unit-05-food",
+      "title": "Food & Drinks",
+      "cefrLevel": "A1",
+      "unitObjectives": [
+        "Master Food & Drinks"
+      ],
+      "concepts": [
+        "a1_de_wasser",
+        "a1_de_brot",
+        "a1_de_apfel",
+        "a1_de_kaffee",
+        "a1_de_milch"
+      ],
+      "lessons": [
+        {
+          "id": "unit-05-food-lesson-1",
+          "title": "Food & Drinks"
+        }
+      ]
+    },
+    {
+      "id": "unit-06-travel",
+      "title": "Travel",
+      "cefrLevel": "A1",
+      "unitObjectives": [
+        "Master Travel"
+      ],
+      "concepts": [
+        "a1_de_bahnhof",
+        "a1_de_bus",
+        "a1_de_ticket",
+        "a1_de_hotel",
+        "a1_de_flughafen"
+      ],
+      "lessons": [
+        {
+          "id": "unit-06-travel-lesson-1",
+          "title": "Travel"
+        }
+      ]
+    },
+    {
+      "id": "unit-07-time",
+      "title": "Time & Daily Life",
+      "cefrLevel": "A1",
+      "unitObjectives": [
+        "Master Time & Daily Life"
+      ],
+      "concepts": [
+        "a1_de_heute",
+        "a1_de_morgen",
+        "a1_de_uhr",
+        "a1_de_montag",
+        "a1_de_wochenende"
+      ],
+      "lessons": [
+        {
+          "id": "unit-07-time-lesson-1",
+          "title": "Time & Daily Life"
+        }
+      ]
+    }
+  ]
+}

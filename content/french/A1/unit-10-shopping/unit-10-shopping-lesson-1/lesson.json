@@ -1,0 +1,417 @@
+{
+  "id": "unit-10-shopping-lesson-1",
+  "unitId": "unit-10-shopping",
+  "title": "Shopping",
+  "version": 3,
+  "learningObjectives": [
+    "a1_shopping_acheter",
+    "a1_shopping_prix",
+    "a1_shopping_cher",
+    "a1_shopping_argent",
+    "a1_shopping_magasin"
+  ],
+  "modules": [
+    {
+      "id": "mod-intro",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Welcome to Shopping",
+        "conceptId": "intro",
+        "content": "Today we will learn about Shopping in French. Let's start with 5 important words.",
+        "example": "Pay close attention to how they are pronounced."
+      }
+    },
+    {
+      "id": "mod-vocab",
+      "type": "vocabulary",
+      "config": {
+        "flow": "teach_all",
+        "words": [
+          {
+            "conceptId": "a1_shopping_acheter",
+            "emoji": "📚",
+            "nativeWord": "Acheter",
+            "englishMeaning": "To buy",
+            "ipa": "/aʃte/",
+            "pronunciation": "Ah-shuh-tay",
+            "exampleSentence": "Je veux acheter ce livre.",
+            "exampleTranslation": "I want to buy this book.",
+            "memoryTip": "Exchange money.",
+            "difficultyRating": 1
+          },
+          {
+            "conceptId": "a1_shopping_prix",
+            "emoji": "📚",
+            "nativeWord": "Prix",
+            "englishMeaning": "Price",
+            "ipa": "/pʁi/",
+            "pronunciation": "Pree",
+            "exampleSentence": "Quel est le prix ?",
+            "exampleTranslation": "What is the price?",
+            "memoryTip": "Cost.",
+            "difficultyRating": 1
+          },
+          {
+            "conceptId": "a1_shopping_cher",
+            "emoji": "📚",
+            "nativeWord": "Cher",
+            "englishMeaning": "Expensive",
+            "ipa": "/ʃɛʁ/",
+            "pronunciation": "Shair",
+            "exampleSentence": "C'est trop cher.",
+            "exampleTranslation": "It is too expensive.",
+            "memoryTip": "High price.",
+            "difficultyRating": 1
+          },
+          {
+            "conceptId": "a1_shopping_argent",
+            "emoji": "📚",
+            "nativeWord": "Argent",
+            "englishMeaning": "Money",
+            "ipa": "/aʁʒɑ̃/",
+            "pronunciation": "Ar-zhahn",
+            "exampleSentence": "Je n'ai pas d'argent.",
+            "exampleTranslation": "I have no money.",
+            "memoryTip": "Also means silver.",
+            "difficultyRating": 1
+          },
+          {
+            "conceptId": "a1_shopping_magasin",
+            "emoji": "📚",
+            "nativeWord": "Magasin",
+            "englishMeaning": "Store",
+            "ipa": "/maɡazɛ̃/",
+            "pronunciation": "Mah-gah-zahn",
+            "exampleSentence": "Le magasin est ouvert.",
+            "exampleTranslation": "The store is open.",
+            "memoryTip": "Shop.",
+            "difficultyRating": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-listen",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Acheter",
+            "answer": "Acheter",
+            "options": [
+              "Acheter",
+              "Prix",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_shopping_acheter"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Prix",
+            "answer": "Prix",
+            "options": [
+              "Prix",
+              "Acheter",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_shopping_prix"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Cher",
+            "answer": "Cher",
+            "options": [
+              "Cher",
+              "Acheter",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_shopping_cher"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Argent",
+            "answer": "Argent",
+            "options": [
+              "Argent",
+              "Acheter",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_shopping_argent"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Magasin",
+            "answer": "Magasin",
+            "options": [
+              "Magasin",
+              "Acheter",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_shopping_magasin"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-speak",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Acheter",
+            "prompt": "Say: To buy",
+            "conceptId": "a1_shopping_acheter",
+            "pronunciation": "Ah-shuh-tay (/aʃte/)"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Prix",
+            "prompt": "Say: Price",
+            "conceptId": "a1_shopping_prix",
+            "pronunciation": "Pree (/pʁi/)"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Cher",
+            "prompt": "Say: Expensive",
+            "conceptId": "a1_shopping_cher",
+            "pronunciation": "Shair (/ʃɛʁ/)"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Argent",
+            "prompt": "Say: Money",
+            "conceptId": "a1_shopping_argent",
+            "pronunciation": "Ar-zhahn (/aʁʒɑ̃/)"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Magasin",
+            "prompt": "Say: Store",
+            "conceptId": "a1_shopping_magasin",
+            "pronunciation": "Mah-gah-zahn (/maɡazɛ̃/)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-type",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'To buy'?",
+            "answer": "Acheter",
+            "conceptId": "a1_shopping_acheter"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'Price'?",
+            "answer": "Prix",
+            "conceptId": "a1_shopping_prix"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'Expensive'?",
+            "answer": "Cher",
+            "conceptId": "a1_shopping_cher"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'Money'?",
+            "answer": "Argent",
+            "conceptId": "a1_shopping_argent"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'Store'?",
+            "answer": "Magasin",
+            "conceptId": "a1_shopping_magasin"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-practice",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning Match",
+            "prompt": "What does 'Acheter' mean?",
+            "answer": "To buy",
+            "options": [
+              "To buy",
+              "Price",
+              "Fake1",
+              "Fake2"
+            ],
+            "conceptId": "a1_shopping_acheter"
+          },
+          {
+            "type": "fill",
+            "phaseTitle": "Fill in the Blank",
+            "phrase": "_ !",
+            "prompt": "Type 'Price'",
+            "answer": "Prix",
+            "conceptId": "a1_shopping_prix"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Word Match",
+            "prompt": "Which word means 'Expensive'?",
+            "answer": "Cher",
+            "options": [
+              "Cher",
+              "Acheter",
+              "Mot1",
+              "Mot2"
+            ],
+            "conceptId": "a1_shopping_cher"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning Match",
+            "prompt": "What does 'Argent' mean?",
+            "answer": "Money",
+            "options": [
+              "Money",
+              "To buy",
+              "Fake1",
+              "Fake2"
+            ],
+            "conceptId": "a1_shopping_argent"
+          },
+          {
+            "type": "fill",
+            "phaseTitle": "Fill in the Blank",
+            "phrase": "_ !",
+            "prompt": "Type 'Store'",
+            "answer": "Magasin",
+            "conceptId": "a1_shopping_magasin"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-summary",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Revision Summary",
+        "conceptId": "intro",
+        "content": "Before the final quiz, let's review what you learned today:\n\n**Acheter** (/aʃte/) - To buy\n💡 *Tip: Exchange money.*\n\n**Prix** (/pʁi/) - Price\n💡 *Tip: Cost.*\n\n**Cher** (/ʃɛʁ/) - Expensive\n💡 *Tip: High price.*\n\n**Argent** (/aʁʒɑ̃/) - Money\n💡 *Tip: Also means silver.*\n\n**Magasin** (/maɡazɛ̃/) - Store\n💡 *Tip: Shop.*",
+        "example": "Take a deep breath. Let's start the final quiz!"
+      }
+    },
+    {
+      "id": "mod-final-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Translate: To buy",
+            "answer": "Acheter",
+            "options": [
+              "Acheter",
+              "Prix"
+            ],
+            "conceptId": "a1_shopping_acheter"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Price",
+            "answer": "Prix",
+            "conceptId": "a1_shopping_prix"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Translate: Expensive",
+            "answer": "Cher",
+            "options": [
+              "Cher",
+              "Acheter"
+            ],
+            "conceptId": "a1_shopping_cher"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Money",
+            "answer": "Argent",
+            "conceptId": "a1_shopping_argent"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Translate: Store",
+            "answer": "Magasin",
+            "options": [
+              "Magasin",
+              "Acheter"
+            ],
+            "conceptId": "a1_shopping_magasin"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: 'Acheter au magasin'",
+            "tokens": [
+              "Acheter",
+              "au",
+              "magasin",
+              "cher"
+            ],
+            "answer": "Acheter au magasin",
+            "conceptId": "a1_shopping_acheter"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: 'Prix très cher'",
+            "tokens": [
+              "Prix",
+              "très",
+              "cher",
+              "argent"
+            ],
+            "answer": "Prix très cher",
+            "conceptId": "a1_shopping_acheter"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-celebration",
+      "type": "celebration",
+      "config": {}
+    }
+  ]
+}

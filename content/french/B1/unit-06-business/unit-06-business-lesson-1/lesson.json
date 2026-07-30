@@ -1,0 +1,66 @@
+{
+  "id": "unit-06-business-lesson-1",
+  "title": "Business Vocabulary",
+  "learningObjectives": [
+    "Learn Business"
+  ],
+  "modules": [
+    {
+      "id": "unit-06-business-lesson-1-vocab",
+      "type": "vocabulary",
+      "config": {
+        "words": [
+          {
+            "id": "b1_business_entreprise",
+            "conceptId": "b1_business_entreprise",
+            "nativeWord": "Entreprise",
+            "englishMeaning": "Company",
+            "ipa": "/ɑ̃tʁəpʁiz/",
+            "pronunciation": "Ahn-truh-preez",
+            "exampleSentence": "L'entreprise.",
+            "exampleTranslation": "The company.",
+            "memoryTip": "Memorize this!",
+            "tags": [
+              "business"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "Entrepris",
+              "correct": "Entreprise"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for company"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "Entreprise"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "unit-06-business-lesson-1-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "payload": {
+              "type": "mcq",
+              "question": "Translate: Company",
+              "answer": "Entreprise",
+              "options": [
+                "Entreprise"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

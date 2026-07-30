@@ -1,0 +1,19 @@
+{
+  "id": "grammar_b1_news",
+  "type": "grammar",
+  "language": "French",
+  "title": "News Grammar",
+  "description": "Rules for News",
+  "rules": [
+    "Rule 1 for News"
+  ],
+  "examples": [
+    "Example for News"
+  ],
+  "difficulty": 2,
+  "cefr": "A1",
+  "tags": [
+    "grammar"
+  ],
+  "relatedConcepts": []
+}

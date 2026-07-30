@@ -1,0 +1,261 @@
+{
+  "id": "lesson1",
+  "unitId": "unit1",
+  "title": "Greetings",
+  "version": 2,
+  "learningObjectives": [
+    "greeting_bonjour",
+    "greeting_salut",
+    "greeting_bonsoir",
+    "greeting_bonne_nuit",
+    "greeting_au_revoir",
+    "politeness_merci"
+  ],
+  "modules": [
+    {
+      "id": "intro",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Welcome to Greetings",
+        "conceptId": "intro",
+        "content": "Today we will learn 6 essential French greetings. We will learn them in small chunks so you don't get overwhelmed.",
+        "example": "Take your time and listen to the pronunciation."
+      }
+    },
+    {
+      "id": "learn-chunk-1",
+      "type": "vocabulary",
+      "config": {
+        "flow": "teach_all",
+        "words": [
+          {
+            "conceptId": "greeting_bonjour",
+            "emoji": "☀️",
+            "nativeWord": "Bonjour",
+            "englishMeaning": "Hello / Good Morning",
+            "ipa": "/bɔ̃ʒuʁ/",
+            "pronunciation": "Bon-zhoor",
+            "exampleSentence": "Bonjour Marie !",
+            "exampleTranslation": "Hello Marie!",
+            "memoryTip": "Bon = Good. Jour = Day. Good day.",
+            "difficultyRating": 1,
+            "contextualUsage": {
+              "whenToUse": ["Morning", "Afternoon"],
+              "doNotUse": ["Night"],
+              "insteadSay": "Bonsoir"
+            },
+            "commonMistake": {
+              "wrong": "Saying Bonsoir in the morning",
+              "correct": "Bonjour"
+            }
+          },
+          {
+            "conceptId": "greeting_salut",
+            "emoji": "👋",
+            "nativeWord": "Salut",
+            "englishMeaning": "Hi / Bye (Casual)",
+            "ipa": "/saly/",
+            "pronunciation": "Sah-loo",
+            "exampleSentence": "Salut Pierre !",
+            "exampleTranslation": "Hi Pierre!",
+            "memoryTip": "Salut is casual. Use it with friends.",
+            "difficultyRating": 1,
+            "contextualUsage": {
+              "whenToUse": ["With friends", "Casual settings"],
+              "doNotUse": ["Formal situations", "To a boss"],
+              "insteadSay": "Bonjour"
+            }
+          },
+          {
+            "conceptId": "greeting_bonsoir",
+            "emoji": "🌆",
+            "nativeWord": "Bonsoir",
+            "englishMeaning": "Good Evening",
+            "ipa": "/bɔ̃swaʁ/",
+            "pronunciation": "Bon-swahr",
+            "exampleSentence": "Bonsoir Monsieur.",
+            "exampleTranslation": "Good evening Sir.",
+            "memoryTip": "Soir = Evening. Used after 6 PM.",
+            "difficultyRating": 2,
+            "contextualUsage": {
+              "whenToUse": ["Evening", "After 6 PM"],
+              "doNotUse": ["Morning"],
+              "insteadSay": "Bonjour"
+            },
+            "commonMistake": {
+              "wrong": "Saying Bonjour at 8 PM",
+              "correct": "Bonsoir"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "listen-chunk-1",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          { "type": "listening", "payload": { "id": "l-1", "type": "listening", "phaseTitle": "Quick Listening", "audioText": "Bonjour", "answer": "Bonjour", "options": ["Bonjour", "Salut", "Bonsoir", "Merci"], "conceptId": "greeting_bonjour" } },
+          { "type": "listening", "payload": { "id": "l-2", "type": "listening", "phaseTitle": "Quick Listening", "audioText": "Salut", "answer": "Salut", "options": ["Bonjour", "Salut", "Bonsoir", "Au revoir"], "conceptId": "greeting_salut" } },
+          { "type": "listening", "payload": { "id": "l-3", "type": "listening", "phaseTitle": "Quick Listening", "audioText": "Bonsoir", "answer": "Bonsoir", "options": ["Bonne nuit", "Bonjour", "Bonsoir", "Salut"], "conceptId": "greeting_bonsoir" } }
+        ]
+      }
+    },
+    {
+      "id": "learn-chunk-2",
+      "type": "vocabulary",
+      "config": {
+        "flow": "teach_all",
+        "words": [
+          {
+            "conceptId": "greeting_bonne_nuit",
+            "emoji": "🌙",
+            "nativeWord": "Bonne nuit",
+            "englishMeaning": "Good Night",
+            "ipa": "/bɔn nɥi/",
+            "pronunciation": "Bon nwee",
+            "exampleSentence": "Bonne nuit Marie.",
+            "exampleTranslation": "Good night Marie.",
+            "memoryTip": "Nuit = Night. Only used when going to sleep.",
+            "difficultyRating": 2,
+            "contextualUsage": {
+              "whenToUse": ["Right before sleeping"],
+              "doNotUse": ["To greet someone at night"],
+              "insteadSay": "Bonsoir"
+            },
+            "commonMistake": {
+              "wrong": "Saying Bonne nuit when arriving at a party at 9 PM",
+              "correct": "Bonsoir"
+            }
+          },
+          {
+            "conceptId": "greeting_au_revoir",
+            "emoji": "🚪",
+            "nativeWord": "Au revoir",
+            "englishMeaning": "Goodbye",
+            "ipa": "/o ʁəvwaʁ/",
+            "pronunciation": "Oh ruh-vwahr",
+            "exampleSentence": "Au revoir Pierre !",
+            "exampleTranslation": "Goodbye Pierre!",
+            "memoryTip": "Au = Until, Revoir = See again.",
+            "difficultyRating": 2,
+            "contextualUsage": {
+              "whenToUse": ["Leaving", "Ending conversation"],
+              "doNotUse": ["Starting conversation"],
+              "insteadSay": "Bonjour"
+            }
+          },
+          {
+            "conceptId": "politeness_merci",
+            "emoji": "🙏",
+            "nativeWord": "Merci",
+            "englishMeaning": "Thank you",
+            "ipa": "/mɛʁsi/",
+            "pronunciation": "Mehr-see",
+            "exampleSentence": "Merci beaucoup !",
+            "exampleTranslation": "Thank you very much!",
+            "memoryTip": "Sounds soft and polite.",
+            "difficultyRating": 1,
+            "contextualUsage": {
+              "whenToUse": ["After help", "Receiving something"],
+              "doNotUse": [],
+              "insteadSay": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "listen-chunk-2",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          { "type": "listening", "payload": { "id": "l-4", "type": "listening", "phaseTitle": "Quick Listening", "audioText": "Bonne nuit", "answer": "Bonne nuit", "options": ["Bonne nuit", "Bonsoir", "Au revoir", "Merci"], "conceptId": "greeting_bonne_nuit" } },
+          { "type": "listening", "payload": { "id": "l-5", "type": "listening", "phaseTitle": "Quick Listening", "audioText": "Au revoir", "answer": "Au revoir", "options": ["Au revoir", "Salut", "Bonjour", "Bonsoir"], "conceptId": "greeting_au_revoir" } },
+          { "type": "listening", "payload": { "id": "l-6", "type": "listening", "phaseTitle": "Quick Listening", "audioText": "Merci", "answer": "Merci", "options": ["Au revoir", "Merci", "Salut", "Bonjour"], "conceptId": "politeness_merci" } }
+        ]
+      }
+    },
+    {
+      "id": "speaking-practice",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          { "type": "speaking", "payload": { "id": "s-1", "type": "speaking", "phaseTitle": "Speaking Practice", "question": "Say Hello", "answer": "Bonjour", "conceptId": "greeting_bonjour" } },
+          { "type": "speaking", "payload": { "id": "s-2", "type": "speaking", "phaseTitle": "Speaking Practice", "question": "Say Good Evening", "answer": "Bonsoir", "conceptId": "greeting_bonsoir" } },
+          { "type": "speaking", "payload": { "id": "s-3", "type": "speaking", "phaseTitle": "Speaking Practice", "question": "Say Goodbye", "answer": "Au revoir", "conceptId": "greeting_au_revoir" } }
+        ]
+      }
+    },
+    {
+      "id": "typing-practice",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          { "type": "typing", "payload": { "id": "t-1", "type": "typing", "phaseTitle": "Typing Practice", "question": "Type the French word for: Thank you", "answer": "Merci", "conceptId": "politeness_merci" } },
+          { "type": "typing", "payload": { "id": "t-2", "type": "typing", "phaseTitle": "Typing Practice", "question": "Type the French word for: Hi / Bye", "answer": "Salut", "conceptId": "greeting_salut" } },
+          { "type": "typing", "payload": { "id": "t-3", "type": "typing", "phaseTitle": "Typing Practice", "question": "Type the French word for: Good Night", "answer": "Bonne nuit", "conceptId": "greeting_bonne_nuit" } }
+        ]
+      }
+    },
+    {
+      "id": "guided-practice",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          { "type": "meaning_match", "payload": { "id": "g-1", "type": "meaning_match", "phaseTitle": "Guided Practice", "question": "How do you say 'Good Evening'?", "answer": "Bonsoir", "options": ["Bonsoir", "Bonjour", "Bonne nuit", "Au revoir"], "conceptId": "greeting_bonsoir" } },
+          { "type": "word_match", "payload": { "id": "g-2", "type": "word_match", "phaseTitle": "Guided Practice", "question": "Salut means...", "answer": "Hi / Bye (Casual)", "options": ["Hi / Bye (Casual)", "Good Evening", "Goodbye", "Thank you"], "conceptId": "greeting_salut" } }
+        ]
+      }
+    },
+    {
+      "id": "sentence-building",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          { "type": "sentence_build", "payload": { "id": "sb-1", "type": "sentence_build", "phaseTitle": "Sentence Building", "question": "Arrange the words to say: Hello Marie", "tokens": ["Marie", "Bonjour"], "answer": "Bonjour Marie" } },
+          { "type": "sentence_build", "payload": { "id": "sb-2", "type": "sentence_build", "phaseTitle": "Sentence Building", "question": "Arrange the words to say: Goodbye Pierre", "tokens": ["Pierre", "Au revoir"], "answer": "Au revoir Pierre" } }
+        ]
+      }
+    },
+    {
+      "id": "mini-conversation",
+      "type": "dialogue",
+      "config": {
+        "title": "Chat with Marie",
+        "lines": [
+          { "id": "c-1", "speaker": "Marie", "emojiAvatar": "👩", "text": "Bonjour !", "translation": "Hello!", "audioText": "Bonjour !" },
+          { "id": "c-2", "speaker": "You", "text": "Bonjour Marie !", "translation": "Hello Marie!", "options": ["Bonjour Marie !", "Salut Marie !"] },
+          { "id": "c-3", "speaker": "Marie", "emojiAvatar": "👩", "text": "Comment ça va ?", "translation": "How are you?", "audioText": "Comment ça va ?" },
+          { "id": "c-4", "speaker": "You", "text": "Très bien.", "translation": "Very well.", "options": ["Très bien.", "Ça va bien."] },
+          { "id": "c-5", "speaker": "Marie", "emojiAvatar": "👩", "text": "Super ! Au revoir !", "translation": "Great! Goodbye!", "audioText": "Super ! Au revoir !" },
+          { "id": "c-6", "speaker": "You", "text": "Au revoir Marie !", "translation": "Goodbye Marie!", "options": ["Au revoir Marie !", "Salut !"] }
+        ]
+      }
+    },
+    {
+      "id": "summary",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Today You Learned",
+        "conceptId": "summary",
+        "content": "Bonjour = Hello / Good Morning\nSalut = Hi / Bye (Casual)\nBonsoir = Good Evening\nBonne nuit = Good Night\nAu revoir = Goodbye\nMerci = Thank you",
+        "example": "You are ready for the final test!"
+      }
+    },
+    {
+      "id": "final-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          { "type": "meaning_match", "payload": { "id": "fq-1", "type": "meaning_match", "phaseTitle": "Final Quiz", "question": "How do you say 'Goodbye'?", "answer": "Au revoir", "options": ["Au revoir", "Bonjour", "Merci", "Salut"] } },
+          { "type": "listening", "payload": { "id": "fq-2", "type": "listening", "phaseTitle": "Final Quiz", "question": "Listen and choose", "audioText": "Bonsoir", "answer": "Bonsoir", "options": ["Bonsoir", "Bonne nuit", "Bonjour", "Salut"] } },
+          { "type": "typing", "payload": { "id": "fq-3", "type": "typing", "phaseTitle": "Final Quiz", "question": "Type the French for: Thank you", "answer": "Merci" } },
+          { "type": "speaking", "payload": { "id": "fq-4", "type": "speaking", "phaseTitle": "Final Quiz", "question": "Say this greeting", "answer": "Bonjour" } },
+          { "type": "sentence_build", "payload": { "id": "fq-5", "type": "sentence_build", "phaseTitle": "Final Quiz", "question": "Arrange to say: Good night Marie", "tokens": ["Marie", "Bonne nuit"], "answer": "Bonne nuit Marie" } },
+          { "type": "mcq", "payload": { "id": "fq-6", "type": "mcq", "phaseTitle": "Final Quiz", "question": "Marie says: 'Bonjour !' You reply:", "answer": "Bonjour !", "options": ["Bonjour !", "Au revoir !", "Merci", "Bonne nuit"] } }
+        ]
+      }
+    }
+  ]
+}

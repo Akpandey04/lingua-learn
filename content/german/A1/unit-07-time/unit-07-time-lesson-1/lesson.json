@@ -1,0 +1,717 @@
+{
+  "id": "time-lesson-1",
+  "unitId": "time",
+  "title": "Time & Daily Life",
+  "version": 3,
+  "learningObjectives": [
+    "a1_de_heute",
+    "a1_de_morgen",
+    "a1_de_uhr",
+    "a1_de_montag",
+    "a1_de_wochenende"
+  ],
+  "modules": [
+    {
+      "id": "mod-intro",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Welcome to Time & Daily Life",
+        "conceptId": "intro",
+        "content": "Today we will learn about Time & Daily Life in German. Let's start with important words.",
+        "example": "Pay close attention to how they are pronounced."
+      }
+    },
+    {
+      "id": "mod-vocab",
+      "type": "vocabulary",
+      "config": {
+        "flow": "teach_all",
+        "words": [
+          {
+            "id": "a1_de_heute",
+            "conceptId": "a1_de_heute",
+            "nativeWord": "heute",
+            "englishMeaning": "today",
+            "ipa": "/ˈhɔɪ̯.tə/",
+            "pronunciation": "hoy-teh",
+            "exampleSentence": "Wir lernen heute.",
+            "exampleTranslation": "We learn today.",
+            "memoryTip": "Hoy is today in Spanish too.",
+            "tags": [
+              "time"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "heut",
+              "correct": "heute"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for today"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "heute"
+            }
+          },
+          {
+            "id": "a1_de_morgen",
+            "conceptId": "a1_de_morgen",
+            "nativeWord": "morgen",
+            "englishMeaning": "tomorrow",
+            "ipa": "/ˈmɔʁ.ɡn̩/",
+            "pronunciation": "mor-gen",
+            "exampleSentence": "Wir gehen morgen.",
+            "exampleTranslation": "We go tomorrow.",
+            "memoryTip": "Also means morning.",
+            "tags": [
+              "time"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "morge",
+              "correct": "morgen"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for tomorrow"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "morgen"
+            }
+          },
+          {
+            "id": "a1_de_uhr",
+            "conceptId": "a1_de_uhr",
+            "nativeWord": "die Uhr",
+            "englishMeaning": "the clock/o'clock",
+            "ipa": "/diː uːɐ̯/",
+            "pronunciation": "dee oor",
+            "exampleSentence": "Es ist ein Uhr.",
+            "exampleTranslation": "It is one o'clock.",
+            "memoryTip": "Sounds like hour.",
+            "tags": [
+              "time"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "die Uh",
+              "correct": "die Uhr"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for the clock/o'clock"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "die Uhr"
+            }
+          },
+          {
+            "id": "a1_de_montag",
+            "conceptId": "a1_de_montag",
+            "nativeWord": "der Montag",
+            "englishMeaning": "Monday",
+            "ipa": "/deːɐ̯ ˈmoːn.taːk/",
+            "pronunciation": "der mon-tahk",
+            "exampleSentence": "Montag ist gut.",
+            "exampleTranslation": "Monday is good.",
+            "memoryTip": "Moon day.",
+            "tags": [
+              "time"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "der Monta",
+              "correct": "der Montag"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for monday"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "der Montag"
+            }
+          },
+          {
+            "id": "a1_de_wochenende",
+            "conceptId": "a1_de_wochenende",
+            "nativeWord": "das Wochenende",
+            "englishMeaning": "the weekend",
+            "ipa": "/das ˈvɔ.xən.ɛn.də/",
+            "pronunciation": "dahs voh-khen-en-deh",
+            "exampleSentence": "Ein tolles Wochenende!",
+            "exampleTranslation": "A great weekend!",
+            "memoryTip": "Woche = week, Ende = end.",
+            "tags": [
+              "time"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "das Wochenend",
+              "correct": "das Wochenende"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for the weekend"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "das Wochenende"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-listen",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "heute",
+            "answer": "heute",
+            "options": [
+              "die Uhr",
+              "heute",
+              "das Wochenende",
+              "morgen",
+              "der Montag"
+            ],
+            "conceptId": "a1_de_heute"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "morgen",
+            "answer": "morgen",
+            "options": [
+              "heute",
+              "morgen",
+              "die Uhr",
+              "das Wochenende",
+              "der Montag"
+            ],
+            "conceptId": "a1_de_morgen"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "die Uhr",
+            "answer": "die Uhr",
+            "options": [
+              "morgen",
+              "die Uhr",
+              "das Wochenende",
+              "der Montag",
+              "heute"
+            ],
+            "conceptId": "a1_de_uhr"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "der Montag",
+            "answer": "der Montag",
+            "options": [
+              "das Wochenende",
+              "heute",
+              "morgen",
+              "die Uhr",
+              "der Montag"
+            ],
+            "conceptId": "a1_de_montag"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "das Wochenende",
+            "answer": "das Wochenende",
+            "options": [
+              "die Uhr",
+              "morgen",
+              "der Montag",
+              "heute",
+              "das Wochenende"
+            ],
+            "conceptId": "a1_de_wochenende"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-speak",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: heute",
+            "expectedPhrase": "heute",
+            "conceptId": "a1_de_heute"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: morgen",
+            "expectedPhrase": "morgen",
+            "conceptId": "a1_de_morgen"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: die Uhr",
+            "expectedPhrase": "die Uhr",
+            "conceptId": "a1_de_uhr"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: der Montag",
+            "expectedPhrase": "der Montag",
+            "conceptId": "a1_de_montag"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: das Wochenende",
+            "expectedPhrase": "das Wochenende",
+            "conceptId": "a1_de_wochenende"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-type",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: today",
+            "answer": "heute",
+            "conceptId": "a1_de_heute"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: tomorrow",
+            "answer": "morgen",
+            "conceptId": "a1_de_morgen"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: the clock/o'clock",
+            "answer": "die Uhr",
+            "conceptId": "a1_de_uhr"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: Monday",
+            "answer": "der Montag",
+            "conceptId": "a1_de_montag"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: the weekend",
+            "answer": "das Wochenende",
+            "conceptId": "a1_de_wochenende"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-practice",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: today",
+            "options": [
+              "die Uhr",
+              "heute",
+              "morgen",
+              "der Montag",
+              "das Wochenende"
+            ],
+            "answer": "heute",
+            "conceptId": "a1_de_heute"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in German: today",
+            "answer": "heute",
+            "conceptId": "a1_de_heute"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: tomorrow",
+            "options": [
+              "die Uhr",
+              "das Wochenende",
+              "heute",
+              "morgen",
+              "der Montag"
+            ],
+            "answer": "morgen",
+            "conceptId": "a1_de_morgen"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in German: tomorrow",
+            "answer": "morgen",
+            "conceptId": "a1_de_morgen"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: the clock/o'clock",
+            "options": [
+              "das Wochenende",
+              "morgen",
+              "heute",
+              "der Montag",
+              "die Uhr"
+            ],
+            "answer": "die Uhr",
+            "conceptId": "a1_de_uhr"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in German: the clock/o'clock",
+            "answer": "die Uhr",
+            "conceptId": "a1_de_uhr"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: Monday",
+            "options": [
+              "die Uhr",
+              "morgen",
+              "heute",
+              "das Wochenende",
+              "der Montag"
+            ],
+            "answer": "der Montag",
+            "conceptId": "a1_de_montag"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in German: Monday",
+            "answer": "der Montag",
+            "conceptId": "a1_de_montag"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: the weekend",
+            "options": [
+              "der Montag",
+              "heute",
+              "morgen",
+              "die Uhr",
+              "das Wochenende"
+            ],
+            "answer": "das Wochenende",
+            "conceptId": "a1_de_wochenende"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in German: the weekend",
+            "answer": "das Wochenende",
+            "conceptId": "a1_de_wochenende"
+          },
+          {
+            "type": "match",
+            "phaseTitle": "Pair Matching",
+            "pairs": [
+              {
+                "source": "heute",
+                "target": "today"
+              },
+              {
+                "source": "morgen",
+                "target": "tomorrow"
+              },
+              {
+                "source": "die Uhr",
+                "target": "the clock/o'clock"
+              },
+              {
+                "source": "der Montag",
+                "target": "Monday"
+              },
+              {
+                "source": "das Wochenende",
+                "target": "the weekend"
+              }
+            ],
+            "conceptId": "a1_de_heute"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-summary",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Revision Summary",
+        "conceptId": "intro",
+        "content": "You've learned the vocabulary, listened to the pronunciation, and practiced typing. Now, let's put it all together.",
+        "example": "Take a deep breath. Let's start the final quiz!"
+      }
+    },
+    {
+      "id": "mod-final-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: today",
+            "answer": "heute",
+            "options": [
+              "das Wochenende",
+              "morgen",
+              "die Uhr",
+              "heute",
+              "der Montag"
+            ],
+            "conceptId": "a1_de_heute"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "heute",
+            "answer": "heute",
+            "options": [
+              "heute",
+              "morgen",
+              "die Uhr",
+              "das Wochenende",
+              "der Montag"
+            ],
+            "conceptId": "a1_de_heute"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: today",
+            "answer": "heute",
+            "conceptId": "a1_de_heute"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: tomorrow",
+            "answer": "morgen",
+            "options": [
+              "heute",
+              "der Montag",
+              "die Uhr",
+              "das Wochenende",
+              "morgen"
+            ],
+            "conceptId": "a1_de_morgen"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "morgen",
+            "answer": "morgen",
+            "options": [
+              "die Uhr",
+              "morgen",
+              "das Wochenende",
+              "heute",
+              "der Montag"
+            ],
+            "conceptId": "a1_de_morgen"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: tomorrow",
+            "answer": "morgen",
+            "conceptId": "a1_de_morgen"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: the clock/o'clock",
+            "answer": "die Uhr",
+            "options": [
+              "morgen",
+              "die Uhr",
+              "heute",
+              "der Montag",
+              "das Wochenende"
+            ],
+            "conceptId": "a1_de_uhr"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "die Uhr",
+            "answer": "die Uhr",
+            "options": [
+              "der Montag",
+              "morgen",
+              "die Uhr",
+              "heute",
+              "das Wochenende"
+            ],
+            "conceptId": "a1_de_uhr"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: the clock/o'clock",
+            "answer": "die Uhr",
+            "conceptId": "a1_de_uhr"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: Monday",
+            "answer": "der Montag",
+            "options": [
+              "das Wochenende",
+              "der Montag",
+              "morgen",
+              "heute",
+              "die Uhr"
+            ],
+            "conceptId": "a1_de_montag"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "der Montag",
+            "answer": "der Montag",
+            "options": [
+              "heute",
+              "der Montag",
+              "morgen",
+              "die Uhr",
+              "das Wochenende"
+            ],
+            "conceptId": "a1_de_montag"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Monday",
+            "answer": "der Montag",
+            "conceptId": "a1_de_montag"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: the weekend",
+            "answer": "das Wochenende",
+            "options": [
+              "das Wochenende",
+              "die Uhr",
+              "morgen",
+              "heute",
+              "der Montag"
+            ],
+            "conceptId": "a1_de_wochenende"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "das Wochenende",
+            "answer": "das Wochenende",
+            "options": [
+              "morgen",
+              "der Montag",
+              "heute",
+              "das Wochenende",
+              "die Uhr"
+            ],
+            "conceptId": "a1_de_wochenende"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: the weekend",
+            "answer": "das Wochenende",
+            "conceptId": "a1_de_wochenende"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: 'Wir lernen heute'",
+            "tokens": [
+              "Wir",
+              "lernen",
+              "heute",
+              "morgen"
+            ],
+            "answer": "Wir lernen heute",
+            "conceptId": "a1_de_heute"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: 'Es ist ein Uhr'",
+            "tokens": [
+              "Es",
+              "ist",
+              "ein",
+              "Uhr"
+            ],
+            "answer": "Es ist ein Uhr",
+            "conceptId": "a1_de_heute"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-celebration",
+      "type": "celebration",
+      "config": {}
+    }
+  ]
+}

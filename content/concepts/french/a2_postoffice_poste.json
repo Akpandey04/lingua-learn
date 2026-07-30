@@ -1,0 +1,18 @@
+{
+  "id": "a2_postoffice_poste",
+  "type": "vocabulary",
+  "language": "French",
+  "pronunciation": "Pohst",
+  "ipa": "/pɔst/",
+  "difficulty": 1,
+  "cefr": "A1",
+  "tags": [
+    "postoffice"
+  ],
+  "relatedConcepts": [],
+  "masteryThreshold": 0.9,
+  "exampleSentence": "La poste.",
+  "exampleTranslation": "The post office.",
+  "memoryTip": "Memorize this!",
+  "emoji": "📝"
+}

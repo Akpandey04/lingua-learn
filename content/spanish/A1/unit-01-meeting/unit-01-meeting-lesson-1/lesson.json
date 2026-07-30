@@ -1,0 +1,717 @@
+{
+  "id": "meeting-lesson-1",
+  "unitId": "meeting",
+  "title": "Meeting People",
+  "version": 3,
+  "learningObjectives": [
+    "a1_es_hola",
+    "a1_es_buenos",
+    "a1_es_gracias",
+    "a1_es_porfavor",
+    "a1_es_adios"
+  ],
+  "modules": [
+    {
+      "id": "mod-intro",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Welcome to Meeting People",
+        "conceptId": "intro",
+        "content": "Today we will learn about Meeting People in Spanish. Let's start with important words.",
+        "example": "Pay close attention to how they are pronounced."
+      }
+    },
+    {
+      "id": "mod-vocab",
+      "type": "vocabulary",
+      "config": {
+        "flow": "teach_all",
+        "words": [
+          {
+            "id": "a1_es_hola",
+            "conceptId": "a1_es_hola",
+            "nativeWord": "Hola",
+            "englishMeaning": "Hello",
+            "ipa": "/ˈo.la/",
+            "pronunciation": "Oh-lah",
+            "exampleSentence": "¡Hola amigo!",
+            "exampleTranslation": "Hello friend!",
+            "memoryTip": "H is silent.",
+            "tags": [
+              "meeting"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "Hol",
+              "correct": "Hola"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for hello"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "Hola"
+            }
+          },
+          {
+            "id": "a1_es_buenos",
+            "conceptId": "a1_es_buenos",
+            "nativeWord": "Buenos días",
+            "englishMeaning": "Good morning",
+            "ipa": "/ˈbwe.nos ˈdi.as/",
+            "pronunciation": "Bway-nos dee-ahs",
+            "exampleSentence": "Buenos días a todos.",
+            "exampleTranslation": "Good morning everyone.",
+            "memoryTip": "Good days.",
+            "tags": [
+              "meeting"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "Buenos día",
+              "correct": "Buenos días"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for good morning"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "Buenos días"
+            }
+          },
+          {
+            "id": "a1_es_gracias",
+            "conceptId": "a1_es_gracias",
+            "nativeWord": "Gracias",
+            "englishMeaning": "Thank you",
+            "ipa": "/ˈɡɾa.sjas/",
+            "pronunciation": "Grah-see-ahs",
+            "exampleSentence": "Muchas gracias.",
+            "exampleTranslation": "Thank you very much.",
+            "memoryTip": "Gracious.",
+            "tags": [
+              "meeting"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "Gracia",
+              "correct": "Gracias"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for thank you"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "Gracias"
+            }
+          },
+          {
+            "id": "a1_es_porfavor",
+            "conceptId": "a1_es_porfavor",
+            "nativeWord": "Por favor",
+            "englishMeaning": "Please",
+            "ipa": "/poɾ faˈβoɾ/",
+            "pronunciation": "Por fah-vor",
+            "exampleSentence": "Un café, por favor.",
+            "exampleTranslation": "A coffee, please.",
+            "memoryTip": "For favor.",
+            "tags": [
+              "meeting"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "Por favo",
+              "correct": "Por favor"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for please"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "Por favor"
+            }
+          },
+          {
+            "id": "a1_es_adios",
+            "conceptId": "a1_es_adios",
+            "nativeWord": "Adiós",
+            "englishMeaning": "Goodbye",
+            "ipa": "/aˈðjos/",
+            "pronunciation": "Ah-dee-os",
+            "exampleSentence": "Adiós, hasta mañana.",
+            "exampleTranslation": "Goodbye, see you tomorrow.",
+            "memoryTip": "To God (a Dios).",
+            "tags": [
+              "meeting"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "Adió",
+              "correct": "Adiós"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for goodbye"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "Adiós"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-listen",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "Hola",
+            "answer": "Hola",
+            "options": [
+              "Por favor",
+              "Buenos días",
+              "Gracias",
+              "Hola",
+              "Adiós"
+            ],
+            "conceptId": "a1_es_hola"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "Buenos días",
+            "answer": "Buenos días",
+            "options": [
+              "Buenos días",
+              "Hola",
+              "Por favor",
+              "Adiós",
+              "Gracias"
+            ],
+            "conceptId": "a1_es_buenos"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "Gracias",
+            "answer": "Gracias",
+            "options": [
+              "Adiós",
+              "Gracias",
+              "Buenos días",
+              "Por favor",
+              "Hola"
+            ],
+            "conceptId": "a1_es_gracias"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "Por favor",
+            "answer": "Por favor",
+            "options": [
+              "Hola",
+              "Buenos días",
+              "Por favor",
+              "Adiós",
+              "Gracias"
+            ],
+            "conceptId": "a1_es_porfavor"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "Adiós",
+            "answer": "Adiós",
+            "options": [
+              "Gracias",
+              "Hola",
+              "Buenos días",
+              "Adiós",
+              "Por favor"
+            ],
+            "conceptId": "a1_es_adios"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-speak",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: Hola",
+            "expectedPhrase": "Hola",
+            "conceptId": "a1_es_hola"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: Buenos días",
+            "expectedPhrase": "Buenos días",
+            "conceptId": "a1_es_buenos"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: Gracias",
+            "expectedPhrase": "Gracias",
+            "conceptId": "a1_es_gracias"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: Por favor",
+            "expectedPhrase": "Por favor",
+            "conceptId": "a1_es_porfavor"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: Adiós",
+            "expectedPhrase": "Adiós",
+            "conceptId": "a1_es_adios"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-type",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: Hello",
+            "answer": "Hola",
+            "conceptId": "a1_es_hola"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: Good morning",
+            "answer": "Buenos días",
+            "conceptId": "a1_es_buenos"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: Thank you",
+            "answer": "Gracias",
+            "conceptId": "a1_es_gracias"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: Please",
+            "answer": "Por favor",
+            "conceptId": "a1_es_porfavor"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: Goodbye",
+            "answer": "Adiós",
+            "conceptId": "a1_es_adios"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-practice",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: Hello",
+            "options": [
+              "Adiós",
+              "Buenos días",
+              "Gracias",
+              "Hola",
+              "Por favor"
+            ],
+            "answer": "Hola",
+            "conceptId": "a1_es_hola"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in Spanish: Hello",
+            "answer": "Hola",
+            "conceptId": "a1_es_hola"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: Good morning",
+            "options": [
+              "Gracias",
+              "Adiós",
+              "Por favor",
+              "Buenos días",
+              "Hola"
+            ],
+            "answer": "Buenos días",
+            "conceptId": "a1_es_buenos"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in Spanish: Good morning",
+            "answer": "Buenos días",
+            "conceptId": "a1_es_buenos"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: Thank you",
+            "options": [
+              "Hola",
+              "Buenos días",
+              "Gracias",
+              "Adiós",
+              "Por favor"
+            ],
+            "answer": "Gracias",
+            "conceptId": "a1_es_gracias"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in Spanish: Thank you",
+            "answer": "Gracias",
+            "conceptId": "a1_es_gracias"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: Please",
+            "options": [
+              "Adiós",
+              "Hola",
+              "Por favor",
+              "Buenos días",
+              "Gracias"
+            ],
+            "answer": "Por favor",
+            "conceptId": "a1_es_porfavor"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in Spanish: Please",
+            "answer": "Por favor",
+            "conceptId": "a1_es_porfavor"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: Goodbye",
+            "options": [
+              "Gracias",
+              "Hola",
+              "Buenos días",
+              "Por favor",
+              "Adiós"
+            ],
+            "answer": "Adiós",
+            "conceptId": "a1_es_adios"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in Spanish: Goodbye",
+            "answer": "Adiós",
+            "conceptId": "a1_es_adios"
+          },
+          {
+            "type": "match",
+            "phaseTitle": "Pair Matching",
+            "pairs": [
+              {
+                "source": "Hola",
+                "target": "Hello"
+              },
+              {
+                "source": "Buenos días",
+                "target": "Good morning"
+              },
+              {
+                "source": "Gracias",
+                "target": "Thank you"
+              },
+              {
+                "source": "Por favor",
+                "target": "Please"
+              },
+              {
+                "source": "Adiós",
+                "target": "Goodbye"
+              }
+            ],
+            "conceptId": "a1_es_hola"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-summary",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Revision Summary",
+        "conceptId": "intro",
+        "content": "You've learned the vocabulary, listened to the pronunciation, and practiced typing. Now, let's put it all together.",
+        "example": "Take a deep breath. Let's start the final quiz!"
+      }
+    },
+    {
+      "id": "mod-final-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: Hello",
+            "answer": "Hola",
+            "options": [
+              "Gracias",
+              "Por favor",
+              "Hola",
+              "Buenos días",
+              "Adiós"
+            ],
+            "conceptId": "a1_es_hola"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "Hola",
+            "answer": "Hola",
+            "options": [
+              "Buenos días",
+              "Adiós",
+              "Gracias",
+              "Por favor",
+              "Hola"
+            ],
+            "conceptId": "a1_es_hola"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Hello",
+            "answer": "Hola",
+            "conceptId": "a1_es_hola"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: Good morning",
+            "answer": "Buenos días",
+            "options": [
+              "Hola",
+              "Adiós",
+              "Por favor",
+              "Gracias",
+              "Buenos días"
+            ],
+            "conceptId": "a1_es_buenos"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "Buenos días",
+            "answer": "Buenos días",
+            "options": [
+              "Hola",
+              "Por favor",
+              "Buenos días",
+              "Gracias",
+              "Adiós"
+            ],
+            "conceptId": "a1_es_buenos"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Good morning",
+            "answer": "Buenos días",
+            "conceptId": "a1_es_buenos"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: Thank you",
+            "answer": "Gracias",
+            "options": [
+              "Hola",
+              "Adiós",
+              "Por favor",
+              "Gracias",
+              "Buenos días"
+            ],
+            "conceptId": "a1_es_gracias"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "Gracias",
+            "answer": "Gracias",
+            "options": [
+              "Gracias",
+              "Hola",
+              "Adiós",
+              "Buenos días",
+              "Por favor"
+            ],
+            "conceptId": "a1_es_gracias"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Thank you",
+            "answer": "Gracias",
+            "conceptId": "a1_es_gracias"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: Please",
+            "answer": "Por favor",
+            "options": [
+              "Por favor",
+              "Buenos días",
+              "Adiós",
+              "Gracias",
+              "Hola"
+            ],
+            "conceptId": "a1_es_porfavor"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "Por favor",
+            "answer": "Por favor",
+            "options": [
+              "Por favor",
+              "Gracias",
+              "Adiós",
+              "Hola",
+              "Buenos días"
+            ],
+            "conceptId": "a1_es_porfavor"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Please",
+            "answer": "Por favor",
+            "conceptId": "a1_es_porfavor"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: Goodbye",
+            "answer": "Adiós",
+            "options": [
+              "Por favor",
+              "Hola",
+              "Buenos días",
+              "Adiós",
+              "Gracias"
+            ],
+            "conceptId": "a1_es_adios"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "Adiós",
+            "answer": "Adiós",
+            "options": [
+              "Gracias",
+              "Por favor",
+              "Adiós",
+              "Buenos días",
+              "Hola"
+            ],
+            "conceptId": "a1_es_adios"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Goodbye",
+            "answer": "Adiós",
+            "conceptId": "a1_es_adios"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: 'Hola, buenos días'",
+            "tokens": [
+              "Hola,",
+              "buenos",
+              "días",
+              "noches"
+            ],
+            "answer": "Hola, buenos días",
+            "conceptId": "a1_es_hola"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: 'Gracias y adiós'",
+            "tokens": [
+              "Gracias",
+              "y",
+              "adiós",
+              "hola"
+            ],
+            "answer": "Gracias y adiós",
+            "conceptId": "a1_es_hola"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-celebration",
+      "type": "celebration",
+      "config": {}
+    }
+  ]
+}

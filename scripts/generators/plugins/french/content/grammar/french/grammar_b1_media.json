@@ -1,0 +1,19 @@
+{
+  "id": "grammar_b1_media",
+  "type": "grammar",
+  "language": "French",
+  "title": "Media Grammar",
+  "description": "Rules for Media",
+  "rules": [
+    "Rule 1 for Media"
+  ],
+  "examples": [
+    "Example for Media"
+  ],
+  "difficulty": 2,
+  "cefr": "A1",
+  "tags": [
+    "grammar"
+  ],
+  "relatedConcepts": []
+}

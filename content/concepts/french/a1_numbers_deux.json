@@ -1,0 +1,18 @@
+{
+  "id": "a1_numbers_deux",
+  "type": "vocabulary",
+  "language": "French",
+  "pronunciation": "Duh",
+  "ipa": "/dø/",
+  "difficulty": 1,
+  "cefr": "A1",
+  "tags": [
+    "numbers"
+  ],
+  "relatedConcepts": [],
+  "masteryThreshold": 0.9,
+  "exampleSentence": "Deux.",
+  "exampleTranslation": "Two.",
+  "memoryTip": "Memorize this!",
+  "emoji": "📝"
+}

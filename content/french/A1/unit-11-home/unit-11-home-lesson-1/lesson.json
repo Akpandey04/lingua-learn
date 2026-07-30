@@ -1,0 +1,417 @@
+{
+  "id": "unit-11-home-lesson-1",
+  "unitId": "unit-11-home",
+  "title": "Home",
+  "version": 3,
+  "learningObjectives": [
+    "a1_home_maison",
+    "a1_home_chambre",
+    "a1_home_lit",
+    "a1_home_porte",
+    "a1_home_fenetre"
+  ],
+  "modules": [
+    {
+      "id": "mod-intro",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Welcome to Home",
+        "conceptId": "intro",
+        "content": "Today we will learn about Home in French. Let's start with 5 important words.",
+        "example": "Pay close attention to how they are pronounced."
+      }
+    },
+    {
+      "id": "mod-vocab",
+      "type": "vocabulary",
+      "config": {
+        "flow": "teach_all",
+        "words": [
+          {
+            "conceptId": "a1_home_maison",
+            "emoji": "📚",
+            "nativeWord": "Maison",
+            "englishMeaning": "House",
+            "ipa": "/mɛzɔ̃/",
+            "pronunciation": "May-zohn",
+            "exampleSentence": "C'est ma nouvelle maison.",
+            "exampleTranslation": "This is my new house.",
+            "memoryTip": "Where you live.",
+            "difficultyRating": 1
+          },
+          {
+            "conceptId": "a1_home_chambre",
+            "emoji": "📚",
+            "nativeWord": "Chambre",
+            "englishMeaning": "Bedroom",
+            "ipa": "/ʃɑ̃bʁ/",
+            "pronunciation": "Shahn-br",
+            "exampleSentence": "Ma chambre est petite.",
+            "exampleTranslation": "My bedroom is small.",
+            "memoryTip": "Where you sleep.",
+            "difficultyRating": 1
+          },
+          {
+            "conceptId": "a1_home_lit",
+            "emoji": "📚",
+            "nativeWord": "Lit",
+            "englishMeaning": "Bed",
+            "ipa": "/li/",
+            "pronunciation": "Lee",
+            "exampleSentence": "Le lit est confortable.",
+            "exampleTranslation": "The bed is comfortable.",
+            "memoryTip": "Sleep on it.",
+            "difficultyRating": 1
+          },
+          {
+            "conceptId": "a1_home_porte",
+            "emoji": "📚",
+            "nativeWord": "Porte",
+            "englishMeaning": "Door",
+            "ipa": "/pɔʁt/",
+            "pronunciation": "Port",
+            "exampleSentence": "Fermez la porte.",
+            "exampleTranslation": "Close the door.",
+            "memoryTip": "Open it.",
+            "difficultyRating": 1
+          },
+          {
+            "conceptId": "a1_home_fenetre",
+            "emoji": "📚",
+            "nativeWord": "Fenêtre",
+            "englishMeaning": "Window",
+            "ipa": "/fənɛtʁ/",
+            "pronunciation": "Fuh-net-r",
+            "exampleSentence": "Ouvrez la fenêtre.",
+            "exampleTranslation": "Open the window.",
+            "memoryTip": "Look through it.",
+            "difficultyRating": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-listen",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Maison",
+            "answer": "Maison",
+            "options": [
+              "Maison",
+              "Chambre",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_home_maison"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Chambre",
+            "answer": "Chambre",
+            "options": [
+              "Chambre",
+              "Maison",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_home_chambre"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Lit",
+            "answer": "Lit",
+            "options": [
+              "Lit",
+              "Maison",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_home_lit"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Porte",
+            "answer": "Porte",
+            "options": [
+              "Porte",
+              "Maison",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_home_porte"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Fenêtre",
+            "answer": "Fenêtre",
+            "options": [
+              "Fenêtre",
+              "Maison",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_home_fenetre"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-speak",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Maison",
+            "prompt": "Say: House",
+            "conceptId": "a1_home_maison",
+            "pronunciation": "May-zohn (/mɛzɔ̃/)"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Chambre",
+            "prompt": "Say: Bedroom",
+            "conceptId": "a1_home_chambre",
+            "pronunciation": "Shahn-br (/ʃɑ̃bʁ/)"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Lit",
+            "prompt": "Say: Bed",
+            "conceptId": "a1_home_lit",
+            "pronunciation": "Lee (/li/)"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Porte",
+            "prompt": "Say: Door",
+            "conceptId": "a1_home_porte",
+            "pronunciation": "Port (/pɔʁt/)"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Fenêtre",
+            "prompt": "Say: Window",
+            "conceptId": "a1_home_fenetre",
+            "pronunciation": "Fuh-net-r (/fənɛtʁ/)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-type",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'House'?",
+            "answer": "Maison",
+            "conceptId": "a1_home_maison"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'Bedroom'?",
+            "answer": "Chambre",
+            "conceptId": "a1_home_chambre"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'Bed'?",
+            "answer": "Lit",
+            "conceptId": "a1_home_lit"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'Door'?",
+            "answer": "Porte",
+            "conceptId": "a1_home_porte"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'Window'?",
+            "answer": "Fenêtre",
+            "conceptId": "a1_home_fenetre"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-practice",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning Match",
+            "prompt": "What does 'Maison' mean?",
+            "answer": "House",
+            "options": [
+              "House",
+              "Bedroom",
+              "Fake1",
+              "Fake2"
+            ],
+            "conceptId": "a1_home_maison"
+          },
+          {
+            "type": "fill",
+            "phaseTitle": "Fill in the Blank",
+            "phrase": "_ !",
+            "prompt": "Type 'Bedroom'",
+            "answer": "Chambre",
+            "conceptId": "a1_home_chambre"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Word Match",
+            "prompt": "Which word means 'Bed'?",
+            "answer": "Lit",
+            "options": [
+              "Lit",
+              "Maison",
+              "Mot1",
+              "Mot2"
+            ],
+            "conceptId": "a1_home_lit"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning Match",
+            "prompt": "What does 'Porte' mean?",
+            "answer": "Door",
+            "options": [
+              "Door",
+              "House",
+              "Fake1",
+              "Fake2"
+            ],
+            "conceptId": "a1_home_porte"
+          },
+          {
+            "type": "fill",
+            "phaseTitle": "Fill in the Blank",
+            "phrase": "_ !",
+            "prompt": "Type 'Window'",
+            "answer": "Fenêtre",
+            "conceptId": "a1_home_fenetre"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-summary",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Revision Summary",
+        "conceptId": "intro",
+        "content": "Before the final quiz, let's review what you learned today:\n\n**Maison** (/mɛzɔ̃/) - House\n💡 *Tip: Where you live.*\n\n**Chambre** (/ʃɑ̃bʁ/) - Bedroom\n💡 *Tip: Where you sleep.*\n\n**Lit** (/li/) - Bed\n💡 *Tip: Sleep on it.*\n\n**Porte** (/pɔʁt/) - Door\n💡 *Tip: Open it.*\n\n**Fenêtre** (/fənɛtʁ/) - Window\n💡 *Tip: Look through it.*",
+        "example": "Take a deep breath. Let's start the final quiz!"
+      }
+    },
+    {
+      "id": "mod-final-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Translate: House",
+            "answer": "Maison",
+            "options": [
+              "Maison",
+              "Chambre"
+            ],
+            "conceptId": "a1_home_maison"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Bedroom",
+            "answer": "Chambre",
+            "conceptId": "a1_home_chambre"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Translate: Bed",
+            "answer": "Lit",
+            "options": [
+              "Lit",
+              "Maison"
+            ],
+            "conceptId": "a1_home_lit"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Door",
+            "answer": "Porte",
+            "conceptId": "a1_home_porte"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Translate: Window",
+            "answer": "Fenêtre",
+            "options": [
+              "Fenêtre",
+              "Maison"
+            ],
+            "conceptId": "a1_home_fenetre"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: 'La maison'",
+            "tokens": [
+              "La",
+              "maison",
+              "lit",
+              "porte"
+            ],
+            "answer": "La maison",
+            "conceptId": "a1_home_maison"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: 'Porte et fenêtre'",
+            "tokens": [
+              "Porte",
+              "et",
+              "fenêtre",
+              "chambre"
+            ],
+            "answer": "Porte et fenêtre",
+            "conceptId": "a1_home_maison"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-celebration",
+      "type": "celebration",
+      "config": {}
+    }
+  ]
+}

@@ -1,0 +1,417 @@
+{
+  "id": "unit-17-checkpoint-lesson-1",
+  "unitId": "unit-17-checkpoint",
+  "title": "Checkpoint",
+  "version": 3,
+  "learningObjectives": [
+    "a1_checkpoint_silvousplait",
+    "a1_checkpoint_merci",
+    "a1_checkpoint_aurevoir",
+    "a1_checkpoint_pardon",
+    "a1_checkpoint_ami"
+  ],
+  "modules": [
+    {
+      "id": "mod-intro",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Welcome to Checkpoint",
+        "conceptId": "intro",
+        "content": "Today we will learn about Checkpoint in French. Let's start with 5 important words.",
+        "example": "Pay close attention to how they are pronounced."
+      }
+    },
+    {
+      "id": "mod-vocab",
+      "type": "vocabulary",
+      "config": {
+        "flow": "teach_all",
+        "words": [
+          {
+            "conceptId": "a1_checkpoint_silvousplait",
+            "emoji": "📚",
+            "nativeWord": "S'il vous plaît",
+            "englishMeaning": "Please",
+            "ipa": "/sil vu plɛ/",
+            "pronunciation": "Seel voo play",
+            "exampleSentence": "Un café, s'il vous plaît.",
+            "exampleTranslation": "A coffee, please.",
+            "memoryTip": "Polite request.",
+            "difficultyRating": 1
+          },
+          {
+            "conceptId": "a1_checkpoint_merci",
+            "emoji": "📚",
+            "nativeWord": "Merci",
+            "englishMeaning": "Thank you",
+            "ipa": "/mɛʁ.si/",
+            "pronunciation": "Mare-see",
+            "exampleSentence": "Merci pour votre aide.",
+            "exampleTranslation": "Thank you for your help.",
+            "memoryTip": "Polite thanks.",
+            "difficultyRating": 1
+          },
+          {
+            "conceptId": "a1_checkpoint_aurevoir",
+            "emoji": "📚",
+            "nativeWord": "Au revoir",
+            "englishMeaning": "Goodbye",
+            "ipa": "/o ʁəvwaʁ/",
+            "pronunciation": "Oh ruh-vwahr",
+            "exampleSentence": "Au revoir, monsieur.",
+            "exampleTranslation": "Goodbye, sir.",
+            "memoryTip": "Until we see again.",
+            "difficultyRating": 1
+          },
+          {
+            "conceptId": "a1_checkpoint_pardon",
+            "emoji": "📚",
+            "nativeWord": "Pardon",
+            "englishMeaning": "Excuse me",
+            "ipa": "/paʁdɔ̃/",
+            "pronunciation": "Par-dohn",
+            "exampleSentence": "Pardon, je suis en retard.",
+            "exampleTranslation": "Excuse me, I am late.",
+            "memoryTip": "Apology.",
+            "difficultyRating": 1
+          },
+          {
+            "conceptId": "a1_checkpoint_ami",
+            "emoji": "📚",
+            "nativeWord": "Ami",
+            "englishMeaning": "Friend",
+            "ipa": "/ami/",
+            "pronunciation": "Ah-mee",
+            "exampleSentence": "C'est mon ami.",
+            "exampleTranslation": "This is my friend.",
+            "memoryTip": "Pal.",
+            "difficultyRating": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-listen",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "S'il vous plaît",
+            "answer": "S'il vous plaît",
+            "options": [
+              "S'il vous plaît",
+              "Merci",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_checkpoint_silvousplait"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Merci",
+            "answer": "Merci",
+            "options": [
+              "Merci",
+              "S'il vous plaît",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_checkpoint_merci"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Au revoir",
+            "answer": "Au revoir",
+            "options": [
+              "Au revoir",
+              "S'il vous plaît",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_checkpoint_aurevoir"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Pardon",
+            "answer": "Pardon",
+            "options": [
+              "Pardon",
+              "S'il vous plaît",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_checkpoint_pardon"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Ami",
+            "answer": "Ami",
+            "options": [
+              "Ami",
+              "S'il vous plaît",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_checkpoint_ami"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-speak",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "S'il vous plaît",
+            "prompt": "Say: Please",
+            "conceptId": "a1_checkpoint_silvousplait",
+            "pronunciation": "Seel voo play (/sil vu plɛ/)"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Merci",
+            "prompt": "Say: Thank you",
+            "conceptId": "a1_checkpoint_merci",
+            "pronunciation": "Mare-see (/mɛʁ.si/)"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Au revoir",
+            "prompt": "Say: Goodbye",
+            "conceptId": "a1_checkpoint_aurevoir",
+            "pronunciation": "Oh ruh-vwahr (/o ʁəvwaʁ/)"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Pardon",
+            "prompt": "Say: Excuse me",
+            "conceptId": "a1_checkpoint_pardon",
+            "pronunciation": "Par-dohn (/paʁdɔ̃/)"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Ami",
+            "prompt": "Say: Friend",
+            "conceptId": "a1_checkpoint_ami",
+            "pronunciation": "Ah-mee (/ami/)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-type",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'Please'?",
+            "answer": "S'il vous plaît",
+            "conceptId": "a1_checkpoint_silvousplait"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'Thank you'?",
+            "answer": "Merci",
+            "conceptId": "a1_checkpoint_merci"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'Goodbye'?",
+            "answer": "Au revoir",
+            "conceptId": "a1_checkpoint_aurevoir"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'Excuse me'?",
+            "answer": "Pardon",
+            "conceptId": "a1_checkpoint_pardon"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'Friend'?",
+            "answer": "Ami",
+            "conceptId": "a1_checkpoint_ami"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-practice",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning Match",
+            "prompt": "What does 'S'il vous plaît' mean?",
+            "answer": "Please",
+            "options": [
+              "Please",
+              "Thank you",
+              "Fake1",
+              "Fake2"
+            ],
+            "conceptId": "a1_checkpoint_silvousplait"
+          },
+          {
+            "type": "fill",
+            "phaseTitle": "Fill in the Blank",
+            "phrase": "_ !",
+            "prompt": "Type 'Thank you'",
+            "answer": "Merci",
+            "conceptId": "a1_checkpoint_merci"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Word Match",
+            "prompt": "Which word means 'Goodbye'?",
+            "answer": "Au revoir",
+            "options": [
+              "Au revoir",
+              "S'il vous plaît",
+              "Mot1",
+              "Mot2"
+            ],
+            "conceptId": "a1_checkpoint_aurevoir"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning Match",
+            "prompt": "What does 'Pardon' mean?",
+            "answer": "Excuse me",
+            "options": [
+              "Excuse me",
+              "Please",
+              "Fake1",
+              "Fake2"
+            ],
+            "conceptId": "a1_checkpoint_pardon"
+          },
+          {
+            "type": "fill",
+            "phaseTitle": "Fill in the Blank",
+            "phrase": "_ !",
+            "prompt": "Type 'Friend'",
+            "answer": "Ami",
+            "conceptId": "a1_checkpoint_ami"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-summary",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Revision Summary",
+        "conceptId": "intro",
+        "content": "Before the final quiz, let's review what you learned today:\n\n**S'il vous plaît** (/sil vu plɛ/) - Please\n💡 *Tip: Polite request.*\n\n**Merci** (/mɛʁ.si/) - Thank you\n💡 *Tip: Polite thanks.*\n\n**Au revoir** (/o ʁəvwaʁ/) - Goodbye\n💡 *Tip: Until we see again.*\n\n**Pardon** (/paʁdɔ̃/) - Excuse me\n💡 *Tip: Apology.*\n\n**Ami** (/ami/) - Friend\n💡 *Tip: Pal.*",
+        "example": "Take a deep breath. Let's start the final quiz!"
+      }
+    },
+    {
+      "id": "mod-final-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Translate: Please",
+            "answer": "S'il vous plaît",
+            "options": [
+              "S'il vous plaît",
+              "Merci"
+            ],
+            "conceptId": "a1_checkpoint_silvousplait"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Thank you",
+            "answer": "Merci",
+            "conceptId": "a1_checkpoint_merci"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Translate: Goodbye",
+            "answer": "Au revoir",
+            "options": [
+              "Au revoir",
+              "S'il vous plaît"
+            ],
+            "conceptId": "a1_checkpoint_aurevoir"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Excuse me",
+            "answer": "Pardon",
+            "conceptId": "a1_checkpoint_pardon"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Translate: Friend",
+            "answer": "Ami",
+            "options": [
+              "Ami",
+              "S'il vous plaît"
+            ],
+            "conceptId": "a1_checkpoint_ami"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: 'Merci, au revoir'",
+            "tokens": [
+              "Merci,",
+              "au",
+              "revoir",
+              "pardon"
+            ],
+            "answer": "Merci, au revoir",
+            "conceptId": "a1_checkpoint_silvousplait"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: 'Pardon, mon ami'",
+            "tokens": [
+              "Pardon,",
+              "mon",
+              "ami",
+              "merci"
+            ],
+            "answer": "Pardon, mon ami",
+            "conceptId": "a1_checkpoint_silvousplait"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-celebration",
+      "type": "celebration",
+      "config": {}
+    }
+  ]
+}

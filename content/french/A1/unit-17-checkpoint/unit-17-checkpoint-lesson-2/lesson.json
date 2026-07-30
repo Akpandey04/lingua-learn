@@ -1,0 +1,23 @@
+{
+  "id": "unit-17-checkpoint-lesson-2",
+  "title": "Checkpoint Practice",
+  "learningObjectives": [
+    "Practice Checkpoint"
+  ],
+  "modules": [
+    {
+      "id": "unit-17-checkpoint-lesson-2-knowledge",
+      "type": "knowledge_card",
+      "config": {
+        "cards": [
+          {
+            "id": "unit-17-checkpoint-lesson-2-card1",
+            "title": "Grammar: Checkpoint",
+            "conceptId": "grammar_a1_checkpoint",
+            "content": "Learn the rules for Checkpoint."
+          }
+        ]
+      }
+    }
+  ]
+}

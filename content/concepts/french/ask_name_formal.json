@@ -1,0 +1,20 @@
+{
+  "id": "ask_name_formal",
+  "language": "French",
+  "native": "Comment vous appelez-vous ?",
+  "translation": "What is your name? (formal)",
+  "pronunciation": "Ko-mawn vooz ah-play-voo",
+  "ipa": "/kɔmɑ̃ vuz aplɛ vu/",
+  "difficulty": 1,
+  "cefr": "A1",
+  "tags": [
+    "basics"
+  ],
+  "relatedConcepts": [],
+  "masteryThreshold": 0.9,
+  "exampleSentence": "Bonjour, comment vous appelez-vous ?",
+  "exampleTranslation": "Hello, what is your name?",
+  "usageNote": "Use with strangers, elders, or in professional settings.",
+  "formality": "formal",
+  "memoryTip": "It has more words, making it more formal."
+}

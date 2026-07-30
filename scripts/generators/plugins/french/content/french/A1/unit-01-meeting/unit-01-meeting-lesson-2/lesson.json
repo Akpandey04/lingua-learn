@@ -1,0 +1,23 @@
+{
+  "id": "unit-01-meeting-lesson-2",
+  "title": "Meeting People Practice",
+  "learningObjectives": [
+    "Practice Meeting People"
+  ],
+  "modules": [
+    {
+      "id": "unit-01-meeting-lesson-2-knowledge",
+      "type": "knowledge_card",
+      "config": {
+        "cards": [
+          {
+            "id": "unit-01-meeting-lesson-2-card1",
+            "title": "Grammar: Meeting People",
+            "conceptId": "grammar_a1_meeting",
+            "content": "Learn the rules for Meeting People."
+          }
+        ]
+      }
+    }
+  ]
+}

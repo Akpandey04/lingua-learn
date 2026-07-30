@@ -1,0 +1,20 @@
+{
+  "id": "b1_opinions_penser",
+  "type": "vocabulary",
+  "language": "French",
+  "native": "Penser",
+  "translation": "To think",
+  "pronunciation": "Pahn-say",
+  "ipa": "/pɑ̃se/",
+  "difficulty": 1,
+  "cefr": "A1",
+  "tags": [
+    "opinions"
+  ],
+  "relatedConcepts": [],
+  "masteryThreshold": 0.9,
+  "exampleSentence": "Je pense.",
+  "exampleTranslation": "I think.",
+  "memoryTip": "Memorize this!",
+  "emoji": "📝"
+}

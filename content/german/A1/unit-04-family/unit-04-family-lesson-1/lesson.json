@@ -1,0 +1,717 @@
+{
+  "id": "family-lesson-1",
+  "unitId": "family",
+  "title": "Family",
+  "version": 3,
+  "learningObjectives": [
+    "a1_de_familie",
+    "a1_de_mutter",
+    "a1_de_vater",
+    "a1_de_bruder",
+    "a1_de_schwester"
+  ],
+  "modules": [
+    {
+      "id": "mod-intro",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Welcome to Family",
+        "conceptId": "intro",
+        "content": "Today we will learn about Family in German. Let's start with important words.",
+        "example": "Pay close attention to how they are pronounced."
+      }
+    },
+    {
+      "id": "mod-vocab",
+      "type": "vocabulary",
+      "config": {
+        "flow": "teach_all",
+        "words": [
+          {
+            "id": "a1_de_familie",
+            "conceptId": "a1_de_familie",
+            "nativeWord": "die Familie",
+            "englishMeaning": "the family",
+            "ipa": "/diː faˈmiː.li̯ə/",
+            "pronunciation": "dee fah-mee-lee-eh",
+            "exampleSentence": "Die Familie ist groß.",
+            "exampleTranslation": "The family is big.",
+            "memoryTip": "Family with an e at the end.",
+            "tags": [
+              "family"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "die Famili",
+              "correct": "die Familie"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for the family"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "die Familie"
+            }
+          },
+          {
+            "id": "a1_de_mutter",
+            "conceptId": "a1_de_mutter",
+            "nativeWord": "die Mutter",
+            "englishMeaning": "the mother",
+            "ipa": "/diː ˈmʊ.tɐ/",
+            "pronunciation": "dee moo-ter",
+            "exampleSentence": "Die Mutter ist hier.",
+            "exampleTranslation": "The mother is here.",
+            "memoryTip": "Mother.",
+            "tags": [
+              "family"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "die Mutte",
+              "correct": "die Mutter"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for the mother"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "die Mutter"
+            }
+          },
+          {
+            "id": "a1_de_vater",
+            "conceptId": "a1_de_vater",
+            "nativeWord": "der Vater",
+            "englishMeaning": "the father",
+            "ipa": "/deːɐ̯ ˈfaː.tɐ/",
+            "pronunciation": "der fah-ter",
+            "exampleSentence": "Der Vater arbeitet.",
+            "exampleTranslation": "The father works.",
+            "memoryTip": "V sounds like F. Vater = Father.",
+            "tags": [
+              "family"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "der Vate",
+              "correct": "der Vater"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for the father"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "der Vater"
+            }
+          },
+          {
+            "id": "a1_de_bruder",
+            "conceptId": "a1_de_bruder",
+            "nativeWord": "der Bruder",
+            "englishMeaning": "the brother",
+            "ipa": "/deːɐ̯ ˈbʁuː.dɐ/",
+            "pronunciation": "der broo-der",
+            "exampleSentence": "Der Bruder spielt.",
+            "exampleTranslation": "The brother plays.",
+            "memoryTip": "Brother.",
+            "tags": [
+              "family"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "der Brude",
+              "correct": "der Bruder"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for the brother"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "der Bruder"
+            }
+          },
+          {
+            "id": "a1_de_schwester",
+            "conceptId": "a1_de_schwester",
+            "nativeWord": "die Schwester",
+            "englishMeaning": "the sister",
+            "ipa": "/diː ˈʃvɛs.tɐ/",
+            "pronunciation": "dee shves-ter",
+            "exampleSentence": "Die Schwester liest.",
+            "exampleTranslation": "The sister reads.",
+            "memoryTip": "Sister.",
+            "tags": [
+              "family"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "die Schweste",
+              "correct": "die Schwester"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for the sister"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "die Schwester"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-listen",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "die Familie",
+            "answer": "die Familie",
+            "options": [
+              "die Mutter",
+              "der Vater",
+              "die Schwester",
+              "der Bruder",
+              "die Familie"
+            ],
+            "conceptId": "a1_de_familie"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "die Mutter",
+            "answer": "die Mutter",
+            "options": [
+              "die Mutter",
+              "die Familie",
+              "die Schwester",
+              "der Vater",
+              "der Bruder"
+            ],
+            "conceptId": "a1_de_mutter"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "der Vater",
+            "answer": "der Vater",
+            "options": [
+              "der Vater",
+              "der Bruder",
+              "die Mutter",
+              "die Familie",
+              "die Schwester"
+            ],
+            "conceptId": "a1_de_vater"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "der Bruder",
+            "answer": "der Bruder",
+            "options": [
+              "die Familie",
+              "der Vater",
+              "der Bruder",
+              "die Schwester",
+              "die Mutter"
+            ],
+            "conceptId": "a1_de_bruder"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "die Schwester",
+            "answer": "die Schwester",
+            "options": [
+              "die Mutter",
+              "der Bruder",
+              "der Vater",
+              "die Familie",
+              "die Schwester"
+            ],
+            "conceptId": "a1_de_schwester"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-speak",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: die Familie",
+            "expectedPhrase": "die Familie",
+            "conceptId": "a1_de_familie"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: die Mutter",
+            "expectedPhrase": "die Mutter",
+            "conceptId": "a1_de_mutter"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: der Vater",
+            "expectedPhrase": "der Vater",
+            "conceptId": "a1_de_vater"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: der Bruder",
+            "expectedPhrase": "der Bruder",
+            "conceptId": "a1_de_bruder"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: die Schwester",
+            "expectedPhrase": "die Schwester",
+            "conceptId": "a1_de_schwester"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-type",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: the family",
+            "answer": "die Familie",
+            "conceptId": "a1_de_familie"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: the mother",
+            "answer": "die Mutter",
+            "conceptId": "a1_de_mutter"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: the father",
+            "answer": "der Vater",
+            "conceptId": "a1_de_vater"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: the brother",
+            "answer": "der Bruder",
+            "conceptId": "a1_de_bruder"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: the sister",
+            "answer": "die Schwester",
+            "conceptId": "a1_de_schwester"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-practice",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: the family",
+            "options": [
+              "die Schwester",
+              "die Mutter",
+              "die Familie",
+              "der Bruder",
+              "der Vater"
+            ],
+            "answer": "die Familie",
+            "conceptId": "a1_de_familie"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in German: the family",
+            "answer": "die Familie",
+            "conceptId": "a1_de_familie"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: the mother",
+            "options": [
+              "der Vater",
+              "der Bruder",
+              "die Familie",
+              "die Schwester",
+              "die Mutter"
+            ],
+            "answer": "die Mutter",
+            "conceptId": "a1_de_mutter"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in German: the mother",
+            "answer": "die Mutter",
+            "conceptId": "a1_de_mutter"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: the father",
+            "options": [
+              "der Bruder",
+              "der Vater",
+              "die Familie",
+              "die Mutter",
+              "die Schwester"
+            ],
+            "answer": "der Vater",
+            "conceptId": "a1_de_vater"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in German: the father",
+            "answer": "der Vater",
+            "conceptId": "a1_de_vater"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: the brother",
+            "options": [
+              "die Schwester",
+              "der Bruder",
+              "die Mutter",
+              "der Vater",
+              "die Familie"
+            ],
+            "answer": "der Bruder",
+            "conceptId": "a1_de_bruder"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in German: the brother",
+            "answer": "der Bruder",
+            "conceptId": "a1_de_bruder"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: the sister",
+            "options": [
+              "der Vater",
+              "der Bruder",
+              "die Familie",
+              "die Mutter",
+              "die Schwester"
+            ],
+            "answer": "die Schwester",
+            "conceptId": "a1_de_schwester"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in German: the sister",
+            "answer": "die Schwester",
+            "conceptId": "a1_de_schwester"
+          },
+          {
+            "type": "match",
+            "phaseTitle": "Pair Matching",
+            "pairs": [
+              {
+                "source": "die Familie",
+                "target": "the family"
+              },
+              {
+                "source": "die Mutter",
+                "target": "the mother"
+              },
+              {
+                "source": "der Vater",
+                "target": "the father"
+              },
+              {
+                "source": "der Bruder",
+                "target": "the brother"
+              },
+              {
+                "source": "die Schwester",
+                "target": "the sister"
+              }
+            ],
+            "conceptId": "a1_de_familie"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-summary",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Revision Summary",
+        "conceptId": "intro",
+        "content": "You've learned the vocabulary, listened to the pronunciation, and practiced typing. Now, let's put it all together.",
+        "example": "Take a deep breath. Let's start the final quiz!"
+      }
+    },
+    {
+      "id": "mod-final-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: the family",
+            "answer": "die Familie",
+            "options": [
+              "die Familie",
+              "die Mutter",
+              "der Vater",
+              "die Schwester",
+              "der Bruder"
+            ],
+            "conceptId": "a1_de_familie"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "die Familie",
+            "answer": "die Familie",
+            "options": [
+              "der Vater",
+              "die Mutter",
+              "die Familie",
+              "die Schwester",
+              "der Bruder"
+            ],
+            "conceptId": "a1_de_familie"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: the family",
+            "answer": "die Familie",
+            "conceptId": "a1_de_familie"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: the mother",
+            "answer": "die Mutter",
+            "options": [
+              "die Schwester",
+              "die Mutter",
+              "die Familie",
+              "der Vater",
+              "der Bruder"
+            ],
+            "conceptId": "a1_de_mutter"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "die Mutter",
+            "answer": "die Mutter",
+            "options": [
+              "die Mutter",
+              "der Bruder",
+              "die Schwester",
+              "der Vater",
+              "die Familie"
+            ],
+            "conceptId": "a1_de_mutter"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: the mother",
+            "answer": "die Mutter",
+            "conceptId": "a1_de_mutter"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: the father",
+            "answer": "der Vater",
+            "options": [
+              "die Schwester",
+              "die Mutter",
+              "der Bruder",
+              "die Familie",
+              "der Vater"
+            ],
+            "conceptId": "a1_de_vater"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "der Vater",
+            "answer": "der Vater",
+            "options": [
+              "die Mutter",
+              "die Schwester",
+              "der Bruder",
+              "die Familie",
+              "der Vater"
+            ],
+            "conceptId": "a1_de_vater"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: the father",
+            "answer": "der Vater",
+            "conceptId": "a1_de_vater"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: the brother",
+            "answer": "der Bruder",
+            "options": [
+              "die Familie",
+              "der Vater",
+              "der Bruder",
+              "die Schwester",
+              "die Mutter"
+            ],
+            "conceptId": "a1_de_bruder"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "der Bruder",
+            "answer": "der Bruder",
+            "options": [
+              "die Familie",
+              "die Schwester",
+              "der Bruder",
+              "die Mutter",
+              "der Vater"
+            ],
+            "conceptId": "a1_de_bruder"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: the brother",
+            "answer": "der Bruder",
+            "conceptId": "a1_de_bruder"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: the sister",
+            "answer": "die Schwester",
+            "options": [
+              "die Familie",
+              "der Vater",
+              "die Mutter",
+              "der Bruder",
+              "die Schwester"
+            ],
+            "conceptId": "a1_de_schwester"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "die Schwester",
+            "answer": "die Schwester",
+            "options": [
+              "der Bruder",
+              "der Vater",
+              "die Familie",
+              "die Schwester",
+              "die Mutter"
+            ],
+            "conceptId": "a1_de_schwester"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: the sister",
+            "answer": "die Schwester",
+            "conceptId": "a1_de_schwester"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: 'Die Mutter ist hier'",
+            "tokens": [
+              "Die",
+              "Mutter",
+              "ist",
+              "hier"
+            ],
+            "answer": "Die Mutter ist hier",
+            "conceptId": "a1_de_familie"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: 'Der Bruder spielt'",
+            "tokens": [
+              "Der",
+              "Bruder",
+              "spielt",
+              "Vater"
+            ],
+            "answer": "Der Bruder spielt",
+            "conceptId": "a1_de_familie"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-celebration",
+      "type": "celebration",
+      "config": {}
+    }
+  ]
+}

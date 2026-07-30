@@ -1,0 +1,18 @@
+{
+  "id": "a1_routine_matin",
+  "type": "vocabulary",
+  "language": "French",
+  "pronunciation": "Mah-tahn",
+  "ipa": "/matɛ̃/",
+  "difficulty": 1,
+  "cefr": "A1",
+  "tags": [
+    "routine"
+  ],
+  "relatedConcepts": [],
+  "masteryThreshold": 0.9,
+  "exampleSentence": "Le matin.",
+  "exampleTranslation": "The morning.",
+  "memoryTip": "Memorize this!",
+  "emoji": "📝"
+}

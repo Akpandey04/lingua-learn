@@ -1,0 +1,66 @@
+{
+  "id": "unit-05-telephone-lesson-1",
+  "title": "Telephone Vocabulary",
+  "learningObjectives": [
+    "Learn Telephone"
+  ],
+  "modules": [
+    {
+      "id": "unit-05-telephone-lesson-1-vocab",
+      "type": "vocabulary",
+      "config": {
+        "words": [
+          {
+            "id": "a2_telephone_appeler",
+            "conceptId": "a2_telephone_appeler",
+            "nativeWord": "Appeler",
+            "englishMeaning": "To call",
+            "ipa": "/aple/",
+            "pronunciation": "Ah-play",
+            "exampleSentence": "Appeler.",
+            "exampleTranslation": "To call.",
+            "memoryTip": "Memorize this!",
+            "tags": [
+              "telephone"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "Appele",
+              "correct": "Appeler"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for to call"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "Appeler"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "unit-05-telephone-lesson-1-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "payload": {
+              "type": "mcq",
+              "question": "Translate: To call",
+              "answer": "Appeler",
+              "options": [
+                "Appeler"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

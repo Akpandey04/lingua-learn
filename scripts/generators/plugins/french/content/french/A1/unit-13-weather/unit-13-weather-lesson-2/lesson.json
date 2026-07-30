@@ -1,0 +1,23 @@
+{
+  "id": "unit-13-weather-lesson-2",
+  "title": "Weather Practice",
+  "learningObjectives": [
+    "Practice Weather"
+  ],
+  "modules": [
+    {
+      "id": "unit-13-weather-lesson-2-knowledge",
+      "type": "knowledge_card",
+      "config": {
+        "cards": [
+          {
+            "id": "unit-13-weather-lesson-2-card1",
+            "title": "Grammar: Weather",
+            "conceptId": "grammar_a1_weather",
+            "content": "Learn the rules for Weather."
+          }
+        ]
+      }
+    }
+  ]
+}

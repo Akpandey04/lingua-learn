@@ -1,0 +1,18 @@
+{
+  "id": "a1_alphabet_b",
+  "type": "vocabulary",
+  "language": "French",
+  "pronunciation": "Bay",
+  "ipa": "/be/",
+  "difficulty": 1,
+  "cefr": "A1",
+  "tags": [
+    "alphabet"
+  ],
+  "relatedConcepts": [],
+  "masteryThreshold": 0.9,
+  "exampleSentence": "B.",
+  "exampleTranslation": "B.",
+  "memoryTip": "Memorize this!",
+  "emoji": "📝"
+}

@@ -1,0 +1,717 @@
+{
+  "id": "numbers-lesson-1",
+  "unitId": "numbers",
+  "title": "Numbers",
+  "version": 3,
+  "learningObjectives": [
+    "a1_es_uno",
+    "a1_es_dos",
+    "a1_es_tres",
+    "a1_es_cuatro",
+    "a1_es_cinco"
+  ],
+  "modules": [
+    {
+      "id": "mod-intro",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Welcome to Numbers",
+        "conceptId": "intro",
+        "content": "Today we will learn about Numbers in Spanish. Let's start with important words.",
+        "example": "Pay close attention to how they are pronounced."
+      }
+    },
+    {
+      "id": "mod-vocab",
+      "type": "vocabulary",
+      "config": {
+        "flow": "teach_all",
+        "words": [
+          {
+            "id": "a1_es_uno",
+            "conceptId": "a1_es_uno",
+            "nativeWord": "Uno",
+            "englishMeaning": "One",
+            "ipa": "/ˈu.no/",
+            "pronunciation": "Oo-no",
+            "exampleSentence": "Un boleto.",
+            "exampleTranslation": "One ticket.",
+            "memoryTip": "Number 1",
+            "tags": [
+              "numbers"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "Un",
+              "correct": "Uno"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for one"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "Uno"
+            }
+          },
+          {
+            "id": "a1_es_dos",
+            "conceptId": "a1_es_dos",
+            "nativeWord": "Dos",
+            "englishMeaning": "Two",
+            "ipa": "/dos/",
+            "pronunciation": "Dos",
+            "exampleSentence": "Dos personas.",
+            "exampleTranslation": "Two people.",
+            "memoryTip": "Number 2",
+            "tags": [
+              "numbers"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "Do",
+              "correct": "Dos"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for two"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "Dos"
+            }
+          },
+          {
+            "id": "a1_es_tres",
+            "conceptId": "a1_es_tres",
+            "nativeWord": "Tres",
+            "englishMeaning": "Three",
+            "ipa": "/tɾes/",
+            "pronunciation": "Tres",
+            "exampleSentence": "Tres días.",
+            "exampleTranslation": "Three days.",
+            "memoryTip": "Number 3",
+            "tags": [
+              "numbers"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "Tre",
+              "correct": "Tres"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for three"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "Tres"
+            }
+          },
+          {
+            "id": "a1_es_cuatro",
+            "conceptId": "a1_es_cuatro",
+            "nativeWord": "Cuatro",
+            "englishMeaning": "Four",
+            "ipa": "/ˈkwa.tɾo/",
+            "pronunciation": "Kwah-tro",
+            "exampleSentence": "Cuatro horas.",
+            "exampleTranslation": "Four hours.",
+            "memoryTip": "Number 4",
+            "tags": [
+              "numbers"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "Cuatr",
+              "correct": "Cuatro"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for four"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "Cuatro"
+            }
+          },
+          {
+            "id": "a1_es_cinco",
+            "conceptId": "a1_es_cinco",
+            "nativeWord": "Cinco",
+            "englishMeaning": "Five",
+            "ipa": "/ˈsin.ko/",
+            "pronunciation": "Seen-ko",
+            "exampleSentence": "Cinco euros.",
+            "exampleTranslation": "Five euros.",
+            "memoryTip": "Number 5",
+            "tags": [
+              "numbers"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "Cinc",
+              "correct": "Cinco"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for five"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "Cinco"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-listen",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "Uno",
+            "answer": "Uno",
+            "options": [
+              "Tres",
+              "Cinco",
+              "Cuatro",
+              "Uno",
+              "Dos"
+            ],
+            "conceptId": "a1_es_uno"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "Dos",
+            "answer": "Dos",
+            "options": [
+              "Cinco",
+              "Tres",
+              "Dos",
+              "Uno",
+              "Cuatro"
+            ],
+            "conceptId": "a1_es_dos"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "Tres",
+            "answer": "Tres",
+            "options": [
+              "Dos",
+              "Cuatro",
+              "Tres",
+              "Cinco",
+              "Uno"
+            ],
+            "conceptId": "a1_es_tres"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "Cuatro",
+            "answer": "Cuatro",
+            "options": [
+              "Dos",
+              "Tres",
+              "Cinco",
+              "Uno",
+              "Cuatro"
+            ],
+            "conceptId": "a1_es_cuatro"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "Cinco",
+            "answer": "Cinco",
+            "options": [
+              "Cuatro",
+              "Dos",
+              "Uno",
+              "Cinco",
+              "Tres"
+            ],
+            "conceptId": "a1_es_cinco"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-speak",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: Uno",
+            "expectedPhrase": "Uno",
+            "conceptId": "a1_es_uno"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: Dos",
+            "expectedPhrase": "Dos",
+            "conceptId": "a1_es_dos"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: Tres",
+            "expectedPhrase": "Tres",
+            "conceptId": "a1_es_tres"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: Cuatro",
+            "expectedPhrase": "Cuatro",
+            "conceptId": "a1_es_cuatro"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: Cinco",
+            "expectedPhrase": "Cinco",
+            "conceptId": "a1_es_cinco"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-type",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: One",
+            "answer": "Uno",
+            "conceptId": "a1_es_uno"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: Two",
+            "answer": "Dos",
+            "conceptId": "a1_es_dos"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: Three",
+            "answer": "Tres",
+            "conceptId": "a1_es_tres"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: Four",
+            "answer": "Cuatro",
+            "conceptId": "a1_es_cuatro"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: Five",
+            "answer": "Cinco",
+            "conceptId": "a1_es_cinco"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-practice",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: One",
+            "options": [
+              "Dos",
+              "Cinco",
+              "Cuatro",
+              "Tres",
+              "Uno"
+            ],
+            "answer": "Uno",
+            "conceptId": "a1_es_uno"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in Spanish: One",
+            "answer": "Uno",
+            "conceptId": "a1_es_uno"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: Two",
+            "options": [
+              "Cinco",
+              "Tres",
+              "Dos",
+              "Cuatro",
+              "Uno"
+            ],
+            "answer": "Dos",
+            "conceptId": "a1_es_dos"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in Spanish: Two",
+            "answer": "Dos",
+            "conceptId": "a1_es_dos"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: Three",
+            "options": [
+              "Cuatro",
+              "Uno",
+              "Cinco",
+              "Tres",
+              "Dos"
+            ],
+            "answer": "Tres",
+            "conceptId": "a1_es_tres"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in Spanish: Three",
+            "answer": "Tres",
+            "conceptId": "a1_es_tres"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: Four",
+            "options": [
+              "Tres",
+              "Cinco",
+              "Uno",
+              "Dos",
+              "Cuatro"
+            ],
+            "answer": "Cuatro",
+            "conceptId": "a1_es_cuatro"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in Spanish: Four",
+            "answer": "Cuatro",
+            "conceptId": "a1_es_cuatro"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: Five",
+            "options": [
+              "Cinco",
+              "Cuatro",
+              "Tres",
+              "Uno",
+              "Dos"
+            ],
+            "answer": "Cinco",
+            "conceptId": "a1_es_cinco"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in Spanish: Five",
+            "answer": "Cinco",
+            "conceptId": "a1_es_cinco"
+          },
+          {
+            "type": "match",
+            "phaseTitle": "Pair Matching",
+            "pairs": [
+              {
+                "source": "Uno",
+                "target": "One"
+              },
+              {
+                "source": "Dos",
+                "target": "Two"
+              },
+              {
+                "source": "Tres",
+                "target": "Three"
+              },
+              {
+                "source": "Cuatro",
+                "target": "Four"
+              },
+              {
+                "source": "Cinco",
+                "target": "Five"
+              }
+            ],
+            "conceptId": "a1_es_uno"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-summary",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Revision Summary",
+        "conceptId": "intro",
+        "content": "You've learned the vocabulary, listened to the pronunciation, and practiced typing. Now, let's put it all together.",
+        "example": "Take a deep breath. Let's start the final quiz!"
+      }
+    },
+    {
+      "id": "mod-final-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: One",
+            "answer": "Uno",
+            "options": [
+              "Uno",
+              "Cuatro",
+              "Tres",
+              "Dos",
+              "Cinco"
+            ],
+            "conceptId": "a1_es_uno"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "Uno",
+            "answer": "Uno",
+            "options": [
+              "Uno",
+              "Tres",
+              "Dos",
+              "Cinco",
+              "Cuatro"
+            ],
+            "conceptId": "a1_es_uno"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: One",
+            "answer": "Uno",
+            "conceptId": "a1_es_uno"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: Two",
+            "answer": "Dos",
+            "options": [
+              "Dos",
+              "Cinco",
+              "Uno",
+              "Tres",
+              "Cuatro"
+            ],
+            "conceptId": "a1_es_dos"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "Dos",
+            "answer": "Dos",
+            "options": [
+              "Uno",
+              "Tres",
+              "Dos",
+              "Cinco",
+              "Cuatro"
+            ],
+            "conceptId": "a1_es_dos"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Two",
+            "answer": "Dos",
+            "conceptId": "a1_es_dos"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: Three",
+            "answer": "Tres",
+            "options": [
+              "Dos",
+              "Uno",
+              "Cinco",
+              "Tres",
+              "Cuatro"
+            ],
+            "conceptId": "a1_es_tres"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "Tres",
+            "answer": "Tres",
+            "options": [
+              "Cuatro",
+              "Cinco",
+              "Uno",
+              "Tres",
+              "Dos"
+            ],
+            "conceptId": "a1_es_tres"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Three",
+            "answer": "Tres",
+            "conceptId": "a1_es_tres"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: Four",
+            "answer": "Cuatro",
+            "options": [
+              "Cinco",
+              "Cuatro",
+              "Uno",
+              "Tres",
+              "Dos"
+            ],
+            "conceptId": "a1_es_cuatro"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "Cuatro",
+            "answer": "Cuatro",
+            "options": [
+              "Dos",
+              "Uno",
+              "Cuatro",
+              "Tres",
+              "Cinco"
+            ],
+            "conceptId": "a1_es_cuatro"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Four",
+            "answer": "Cuatro",
+            "conceptId": "a1_es_cuatro"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: Five",
+            "answer": "Cinco",
+            "options": [
+              "Uno",
+              "Tres",
+              "Cinco",
+              "Dos",
+              "Cuatro"
+            ],
+            "conceptId": "a1_es_cinco"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "Cinco",
+            "answer": "Cinco",
+            "options": [
+              "Uno",
+              "Cinco",
+              "Dos",
+              "Cuatro",
+              "Tres"
+            ],
+            "conceptId": "a1_es_cinco"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Five",
+            "answer": "Cinco",
+            "conceptId": "a1_es_cinco"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: 'Uno, dos, tres'",
+            "tokens": [
+              "Uno,",
+              "dos,",
+              "tres",
+              "cuatro"
+            ],
+            "answer": "Uno, dos, tres",
+            "conceptId": "a1_es_uno"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: 'Cuatro y cinco'",
+            "tokens": [
+              "Cuatro",
+              "y",
+              "cinco",
+              "dos"
+            ],
+            "answer": "Cuatro y cinco",
+            "conceptId": "a1_es_uno"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-celebration",
+      "type": "celebration",
+      "config": {}
+    }
+  ]
+}

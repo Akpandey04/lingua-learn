@@ -1,0 +1,20 @@
+{
+  "id": "greeting_see_you_soon",
+  "language": "French",
+  "native": "À bientôt",
+  "translation": "See you soon",
+  "pronunciation": "Ah byan-toe",
+  "ipa": "/a bjɛ̃to/",
+  "difficulty": 1,
+  "cefr": "A1",
+  "tags": [
+    "basics"
+  ],
+  "relatedConcepts": [],
+  "masteryThreshold": 0.9,
+  "exampleSentence": "Au revoir, à bientôt !",
+  "exampleTranslation": "Goodbye, see you soon!",
+  "usageNote": "Used when you expect to see the person again in the near future.",
+  "formality": "neutral",
+  "memoryTip": "Think: \"Soon I will get a little toe (bientôt)\"."
+}

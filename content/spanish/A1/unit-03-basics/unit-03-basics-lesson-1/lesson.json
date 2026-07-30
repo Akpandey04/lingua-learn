@@ -1,0 +1,717 @@
+{
+  "id": "basics-lesson-1",
+  "unitId": "basics",
+  "title": "Basic Verbs",
+  "version": 3,
+  "learningObjectives": [
+    "a1_es_ser",
+    "a1_es_estar",
+    "a1_es_tener",
+    "a1_es_hacer",
+    "a1_es_ir"
+  ],
+  "modules": [
+    {
+      "id": "mod-intro",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Welcome to Basic Verbs",
+        "conceptId": "intro",
+        "content": "Today we will learn about Basic Verbs in Spanish. Let's start with important words.",
+        "example": "Pay close attention to how they are pronounced."
+      }
+    },
+    {
+      "id": "mod-vocab",
+      "type": "vocabulary",
+      "config": {
+        "flow": "teach_all",
+        "words": [
+          {
+            "id": "a1_es_ser",
+            "conceptId": "a1_es_ser",
+            "nativeWord": "Ser",
+            "englishMeaning": "To be (permanent)",
+            "ipa": "/seɾ/",
+            "pronunciation": "Sair",
+            "exampleSentence": "Yo soy estudiante.",
+            "exampleTranslation": "I am a student.",
+            "memoryTip": "Permanent identity",
+            "tags": [
+              "basics"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "Se",
+              "correct": "Ser"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for to be (permanent)"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "Ser"
+            }
+          },
+          {
+            "id": "a1_es_estar",
+            "conceptId": "a1_es_estar",
+            "nativeWord": "Estar",
+            "englishMeaning": "To be (temporary)",
+            "ipa": "/esˈtaɾ/",
+            "pronunciation": "Es-tar",
+            "exampleSentence": "Él está feliz.",
+            "exampleTranslation": "He is happy.",
+            "memoryTip": "Temporary state or location",
+            "tags": [
+              "basics"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "Esta",
+              "correct": "Estar"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for to be (temporary)"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "Estar"
+            }
+          },
+          {
+            "id": "a1_es_tener",
+            "conceptId": "a1_es_tener",
+            "nativeWord": "Tener",
+            "englishMeaning": "To have",
+            "ipa": "/teˈneɾ/",
+            "pronunciation": "Teh-nair",
+            "exampleSentence": "Tengo un perro.",
+            "exampleTranslation": "I have a dog.",
+            "memoryTip": "Ten = have",
+            "tags": [
+              "basics"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "Tene",
+              "correct": "Tener"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for to have"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "Tener"
+            }
+          },
+          {
+            "id": "a1_es_hacer",
+            "conceptId": "a1_es_hacer",
+            "nativeWord": "Hacer",
+            "englishMeaning": "To do/make",
+            "ipa": "/aˈseɾ/",
+            "pronunciation": "Ah-sair",
+            "exampleSentence": "Hago mi tarea.",
+            "exampleTranslation": "I do my homework.",
+            "memoryTip": "Hacer things",
+            "tags": [
+              "basics"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "Hace",
+              "correct": "Hacer"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for to do/make"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "Hacer"
+            }
+          },
+          {
+            "id": "a1_es_ir",
+            "conceptId": "a1_es_ir",
+            "nativeWord": "Ir",
+            "englishMeaning": "To go",
+            "ipa": "/iɾ/",
+            "pronunciation": "Ear",
+            "exampleSentence": "Voy al parque.",
+            "exampleTranslation": "I go to the park.",
+            "memoryTip": "Ear goes",
+            "tags": [
+              "basics"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "I",
+              "correct": "Ir"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for to go"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "Ir"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-listen",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "Ser",
+            "answer": "Ser",
+            "options": [
+              "Ir",
+              "Estar",
+              "Tener",
+              "Hacer",
+              "Ser"
+            ],
+            "conceptId": "a1_es_ser"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "Estar",
+            "answer": "Estar",
+            "options": [
+              "Hacer",
+              "Ir",
+              "Estar",
+              "Ser",
+              "Tener"
+            ],
+            "conceptId": "a1_es_estar"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "Tener",
+            "answer": "Tener",
+            "options": [
+              "Tener",
+              "Estar",
+              "Ir",
+              "Ser",
+              "Hacer"
+            ],
+            "conceptId": "a1_es_tener"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "Hacer",
+            "answer": "Hacer",
+            "options": [
+              "Estar",
+              "Ser",
+              "Tener",
+              "Hacer",
+              "Ir"
+            ],
+            "conceptId": "a1_es_hacer"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "Ir",
+            "answer": "Ir",
+            "options": [
+              "Hacer",
+              "Ir",
+              "Ser",
+              "Estar",
+              "Tener"
+            ],
+            "conceptId": "a1_es_ir"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-speak",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: Ser",
+            "expectedPhrase": "Ser",
+            "conceptId": "a1_es_ser"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: Estar",
+            "expectedPhrase": "Estar",
+            "conceptId": "a1_es_estar"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: Tener",
+            "expectedPhrase": "Tener",
+            "conceptId": "a1_es_tener"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: Hacer",
+            "expectedPhrase": "Hacer",
+            "conceptId": "a1_es_hacer"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: Ir",
+            "expectedPhrase": "Ir",
+            "conceptId": "a1_es_ir"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-type",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: To be (permanent)",
+            "answer": "Ser",
+            "conceptId": "a1_es_ser"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: To be (temporary)",
+            "answer": "Estar",
+            "conceptId": "a1_es_estar"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: To have",
+            "answer": "Tener",
+            "conceptId": "a1_es_tener"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: To do/make",
+            "answer": "Hacer",
+            "conceptId": "a1_es_hacer"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: To go",
+            "answer": "Ir",
+            "conceptId": "a1_es_ir"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-practice",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: To be (permanent)",
+            "options": [
+              "Tener",
+              "Ir",
+              "Hacer",
+              "Ser",
+              "Estar"
+            ],
+            "answer": "Ser",
+            "conceptId": "a1_es_ser"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in Spanish: To be (permanent)",
+            "answer": "Ser",
+            "conceptId": "a1_es_ser"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: To be (temporary)",
+            "options": [
+              "Hacer",
+              "Ir",
+              "Tener",
+              "Estar",
+              "Ser"
+            ],
+            "answer": "Estar",
+            "conceptId": "a1_es_estar"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in Spanish: To be (temporary)",
+            "answer": "Estar",
+            "conceptId": "a1_es_estar"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: To have",
+            "options": [
+              "Ser",
+              "Tener",
+              "Estar",
+              "Ir",
+              "Hacer"
+            ],
+            "answer": "Tener",
+            "conceptId": "a1_es_tener"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in Spanish: To have",
+            "answer": "Tener",
+            "conceptId": "a1_es_tener"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: To do/make",
+            "options": [
+              "Ir",
+              "Hacer",
+              "Tener",
+              "Estar",
+              "Ser"
+            ],
+            "answer": "Hacer",
+            "conceptId": "a1_es_hacer"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in Spanish: To do/make",
+            "answer": "Hacer",
+            "conceptId": "a1_es_hacer"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: To go",
+            "options": [
+              "Estar",
+              "Hacer",
+              "Tener",
+              "Ir",
+              "Ser"
+            ],
+            "answer": "Ir",
+            "conceptId": "a1_es_ir"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in Spanish: To go",
+            "answer": "Ir",
+            "conceptId": "a1_es_ir"
+          },
+          {
+            "type": "match",
+            "phaseTitle": "Pair Matching",
+            "pairs": [
+              {
+                "source": "Ser",
+                "target": "To be (permanent)"
+              },
+              {
+                "source": "Estar",
+                "target": "To be (temporary)"
+              },
+              {
+                "source": "Tener",
+                "target": "To have"
+              },
+              {
+                "source": "Hacer",
+                "target": "To do/make"
+              },
+              {
+                "source": "Ir",
+                "target": "To go"
+              }
+            ],
+            "conceptId": "a1_es_ser"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-summary",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Revision Summary",
+        "conceptId": "intro",
+        "content": "You've learned the vocabulary, listened to the pronunciation, and practiced typing. Now, let's put it all together.",
+        "example": "Take a deep breath. Let's start the final quiz!"
+      }
+    },
+    {
+      "id": "mod-final-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: To be (permanent)",
+            "answer": "Ser",
+            "options": [
+              "Ser",
+              "Ir",
+              "Hacer",
+              "Tener",
+              "Estar"
+            ],
+            "conceptId": "a1_es_ser"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "Ser",
+            "answer": "Ser",
+            "options": [
+              "Estar",
+              "Ser",
+              "Hacer",
+              "Tener",
+              "Ir"
+            ],
+            "conceptId": "a1_es_ser"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: To be (permanent)",
+            "answer": "Ser",
+            "conceptId": "a1_es_ser"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: To be (temporary)",
+            "answer": "Estar",
+            "options": [
+              "Ser",
+              "Ir",
+              "Tener",
+              "Hacer",
+              "Estar"
+            ],
+            "conceptId": "a1_es_estar"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "Estar",
+            "answer": "Estar",
+            "options": [
+              "Estar",
+              "Tener",
+              "Ser",
+              "Hacer",
+              "Ir"
+            ],
+            "conceptId": "a1_es_estar"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: To be (temporary)",
+            "answer": "Estar",
+            "conceptId": "a1_es_estar"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: To have",
+            "answer": "Tener",
+            "options": [
+              "Estar",
+              "Tener",
+              "Ir",
+              "Ser",
+              "Hacer"
+            ],
+            "conceptId": "a1_es_tener"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "Tener",
+            "answer": "Tener",
+            "options": [
+              "Ser",
+              "Hacer",
+              "Estar",
+              "Tener",
+              "Ir"
+            ],
+            "conceptId": "a1_es_tener"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: To have",
+            "answer": "Tener",
+            "conceptId": "a1_es_tener"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: To do/make",
+            "answer": "Hacer",
+            "options": [
+              "Estar",
+              "Ser",
+              "Tener",
+              "Ir",
+              "Hacer"
+            ],
+            "conceptId": "a1_es_hacer"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "Hacer",
+            "answer": "Hacer",
+            "options": [
+              "Estar",
+              "Ir",
+              "Tener",
+              "Hacer",
+              "Ser"
+            ],
+            "conceptId": "a1_es_hacer"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: To do/make",
+            "answer": "Hacer",
+            "conceptId": "a1_es_hacer"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: To go",
+            "answer": "Ir",
+            "options": [
+              "Hacer",
+              "Estar",
+              "Tener",
+              "Ir",
+              "Ser"
+            ],
+            "conceptId": "a1_es_ir"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "Ir",
+            "answer": "Ir",
+            "options": [
+              "Ser",
+              "Tener",
+              "Ir",
+              "Estar",
+              "Hacer"
+            ],
+            "conceptId": "a1_es_ir"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: To go",
+            "answer": "Ir",
+            "conceptId": "a1_es_ir"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: 'Yo soy feliz'",
+            "tokens": [
+              "Yo",
+              "soy",
+              "feliz",
+              "estoy"
+            ],
+            "answer": "Yo soy feliz",
+            "conceptId": "a1_es_ser"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: 'Tengo que ir'",
+            "tokens": [
+              "Tengo",
+              "que",
+              "ir",
+              "ser"
+            ],
+            "answer": "Tengo que ir",
+            "conceptId": "a1_es_ser"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-celebration",
+      "type": "celebration",
+      "config": {}
+    }
+  ]
+}

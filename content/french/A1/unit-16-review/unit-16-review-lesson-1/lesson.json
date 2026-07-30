@@ -1,0 +1,417 @@
+{
+  "id": "unit-16-review-lesson-1",
+  "unitId": "unit-16-review",
+  "title": "Review",
+  "version": 3,
+  "learningObjectives": [
+    "a1_review_oui",
+    "a1_review_non",
+    "a1_review_aller",
+    "a1_review_bien",
+    "a1_review_mal"
+  ],
+  "modules": [
+    {
+      "id": "mod-intro",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Welcome to Review",
+        "conceptId": "intro",
+        "content": "Today we will learn about Review in French. Let's start with 5 important words.",
+        "example": "Pay close attention to how they are pronounced."
+      }
+    },
+    {
+      "id": "mod-vocab",
+      "type": "vocabulary",
+      "config": {
+        "flow": "teach_all",
+        "words": [
+          {
+            "conceptId": "a1_review_oui",
+            "emoji": "📚",
+            "nativeWord": "Oui",
+            "englishMeaning": "Yes",
+            "ipa": "/wi/",
+            "pronunciation": "Wee",
+            "exampleSentence": "Oui, je comprends.",
+            "exampleTranslation": "Yes, I understand.",
+            "memoryTip": "Affirmative.",
+            "difficultyRating": 1
+          },
+          {
+            "conceptId": "a1_review_non",
+            "emoji": "📚",
+            "nativeWord": "Non",
+            "englishMeaning": "No",
+            "ipa": "/nɔ̃/",
+            "pronunciation": "Nohn",
+            "exampleSentence": "Non, merci.",
+            "exampleTranslation": "No, thank you.",
+            "memoryTip": "Negative.",
+            "difficultyRating": 1
+          },
+          {
+            "conceptId": "a1_review_aller",
+            "emoji": "📚",
+            "nativeWord": "Aller",
+            "englishMeaning": "To go",
+            "ipa": "/ale/",
+            "pronunciation": "Ah-lay",
+            "exampleSentence": "Je dois y aller.",
+            "exampleTranslation": "I must go.",
+            "memoryTip": "Movement.",
+            "difficultyRating": 1
+          },
+          {
+            "conceptId": "a1_review_bien",
+            "emoji": "📚",
+            "nativeWord": "Bien",
+            "englishMeaning": "Good",
+            "ipa": "/bjɛ̃/",
+            "pronunciation": "Byahn",
+            "exampleSentence": "Très bien.",
+            "exampleTranslation": "Very good.",
+            "memoryTip": "Well.",
+            "difficultyRating": 1
+          },
+          {
+            "conceptId": "a1_review_mal",
+            "emoji": "📚",
+            "nativeWord": "Mal",
+            "englishMeaning": "Bad",
+            "ipa": "/mal/",
+            "pronunciation": "Mahl",
+            "exampleSentence": "J'ai mal à la tête.",
+            "exampleTranslation": "I have a headache.",
+            "memoryTip": "Not good.",
+            "difficultyRating": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-listen",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Oui",
+            "answer": "Oui",
+            "options": [
+              "Oui",
+              "Non",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_review_oui"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Non",
+            "answer": "Non",
+            "options": [
+              "Non",
+              "Oui",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_review_non"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Aller",
+            "answer": "Aller",
+            "options": [
+              "Aller",
+              "Oui",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_review_aller"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Bien",
+            "answer": "Bien",
+            "options": [
+              "Bien",
+              "Oui",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_review_bien"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Mal",
+            "answer": "Mal",
+            "options": [
+              "Mal",
+              "Oui",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_review_mal"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-speak",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Oui",
+            "prompt": "Say: Yes",
+            "conceptId": "a1_review_oui",
+            "pronunciation": "Wee (/wi/)"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Non",
+            "prompt": "Say: No",
+            "conceptId": "a1_review_non",
+            "pronunciation": "Nohn (/nɔ̃/)"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Aller",
+            "prompt": "Say: To go",
+            "conceptId": "a1_review_aller",
+            "pronunciation": "Ah-lay (/ale/)"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Bien",
+            "prompt": "Say: Good",
+            "conceptId": "a1_review_bien",
+            "pronunciation": "Byahn (/bjɛ̃/)"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Mal",
+            "prompt": "Say: Bad",
+            "conceptId": "a1_review_mal",
+            "pronunciation": "Mahl (/mal/)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-type",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'Yes'?",
+            "answer": "Oui",
+            "conceptId": "a1_review_oui"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'No'?",
+            "answer": "Non",
+            "conceptId": "a1_review_non"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'To go'?",
+            "answer": "Aller",
+            "conceptId": "a1_review_aller"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'Good'?",
+            "answer": "Bien",
+            "conceptId": "a1_review_bien"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'Bad'?",
+            "answer": "Mal",
+            "conceptId": "a1_review_mal"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-practice",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning Match",
+            "prompt": "What does 'Oui' mean?",
+            "answer": "Yes",
+            "options": [
+              "Yes",
+              "No",
+              "Fake1",
+              "Fake2"
+            ],
+            "conceptId": "a1_review_oui"
+          },
+          {
+            "type": "fill",
+            "phaseTitle": "Fill in the Blank",
+            "phrase": "_ !",
+            "prompt": "Type 'No'",
+            "answer": "Non",
+            "conceptId": "a1_review_non"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Word Match",
+            "prompt": "Which word means 'To go'?",
+            "answer": "Aller",
+            "options": [
+              "Aller",
+              "Oui",
+              "Mot1",
+              "Mot2"
+            ],
+            "conceptId": "a1_review_aller"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning Match",
+            "prompt": "What does 'Bien' mean?",
+            "answer": "Good",
+            "options": [
+              "Good",
+              "Yes",
+              "Fake1",
+              "Fake2"
+            ],
+            "conceptId": "a1_review_bien"
+          },
+          {
+            "type": "fill",
+            "phaseTitle": "Fill in the Blank",
+            "phrase": "_ !",
+            "prompt": "Type 'Bad'",
+            "answer": "Mal",
+            "conceptId": "a1_review_mal"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-summary",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Revision Summary",
+        "conceptId": "intro",
+        "content": "Before the final quiz, let's review what you learned today:\n\n**Oui** (/wi/) - Yes\n💡 *Tip: Affirmative.*\n\n**Non** (/nɔ̃/) - No\n💡 *Tip: Negative.*\n\n**Aller** (/ale/) - To go\n💡 *Tip: Movement.*\n\n**Bien** (/bjɛ̃/) - Good\n💡 *Tip: Well.*\n\n**Mal** (/mal/) - Bad\n💡 *Tip: Not good.*",
+        "example": "Take a deep breath. Let's start the final quiz!"
+      }
+    },
+    {
+      "id": "mod-final-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Translate: Yes",
+            "answer": "Oui",
+            "options": [
+              "Oui",
+              "Non"
+            ],
+            "conceptId": "a1_review_oui"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: No",
+            "answer": "Non",
+            "conceptId": "a1_review_non"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Translate: To go",
+            "answer": "Aller",
+            "options": [
+              "Aller",
+              "Oui"
+            ],
+            "conceptId": "a1_review_aller"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Good",
+            "answer": "Bien",
+            "conceptId": "a1_review_bien"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Translate: Bad",
+            "answer": "Mal",
+            "options": [
+              "Mal",
+              "Oui"
+            ],
+            "conceptId": "a1_review_mal"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: 'Oui et non'",
+            "tokens": [
+              "Oui",
+              "et",
+              "non",
+              "bien"
+            ],
+            "answer": "Oui et non",
+            "conceptId": "a1_review_oui"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: 'Très bien'",
+            "tokens": [
+              "Très",
+              "bien",
+              "mal",
+              "oui"
+            ],
+            "answer": "Très bien",
+            "conceptId": "a1_review_oui"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-celebration",
+      "type": "celebration",
+      "config": {}
+    }
+  ]
+}

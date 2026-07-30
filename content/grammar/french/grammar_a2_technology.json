@@ -1,0 +1,19 @@
+{
+  "id": "grammar_a2_technology",
+  "type": "grammar",
+  "language": "French",
+  "title": "Technology Grammar",
+  "description": "Rules for Technology",
+  "rules": [
+    "Rule 1 for Technology"
+  ],
+  "examples": [
+    "Example for Technology"
+  ],
+  "difficulty": 2,
+  "cefr": "A1",
+  "tags": [
+    "grammar"
+  ],
+  "relatedConcepts": []
+}

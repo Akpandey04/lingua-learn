@@ -1,0 +1,66 @@
+{
+  "id": "unit-02-news-lesson-1",
+  "title": "News Vocabulary",
+  "learningObjectives": [
+    "Learn News"
+  ],
+  "modules": [
+    {
+      "id": "unit-02-news-lesson-1-vocab",
+      "type": "vocabulary",
+      "config": {
+        "words": [
+          {
+            "id": "b1_news_journal",
+            "conceptId": "b1_news_journal",
+            "nativeWord": "Journal",
+            "englishMeaning": "Newspaper",
+            "ipa": "/ʒuʁnal/",
+            "pronunciation": "Zhoor-nahl",
+            "exampleSentence": "Le journal.",
+            "exampleTranslation": "The newspaper.",
+            "memoryTip": "Memorize this!",
+            "tags": [
+              "news"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "Journa",
+              "correct": "Journal"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for newspaper"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "Journal"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "unit-02-news-lesson-1-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "payload": {
+              "type": "mcq",
+              "question": "Translate: Newspaper",
+              "answer": "Journal",
+              "options": [
+                "Journal"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "unit-07-postoffice-lesson-1",
+  "title": "Post Office Vocabulary",
+  "learningObjectives": [
+    "Learn Post Office"
+  ],
+  "modules": [
+    {
+      "id": "unit-07-postoffice-lesson-1-vocab",
+      "type": "vocabulary",
+      "config": {
+        "words": [
+          {
+            "id": "a2_postoffice_poste",
+            "native": "Poste",
+            "translation": "Post Office",
+            "ipa": "/pɔst/",
+            "pronunciation": "Pohst",
+            "exampleSentence": "La poste.",
+            "exampleTranslation": "The post office.",
+            "memoryTip": "Memorize this!",
+            "tags": [
+              "postoffice"
+            ],
+            "emoji": "📝",
+            "cefr": "A1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "unit-07-postoffice-lesson-1-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "payload": {
+              "type": "mcq",
+              "question": "Translate: Post Office",
+              "answer": "Poste",
+              "options": [
+                "Poste"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

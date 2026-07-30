@@ -1,0 +1,20 @@
+{
+  "id": "greeting_see_you_tomorrow",
+  "language": "French",
+  "native": "À demain",
+  "translation": "See you tomorrow",
+  "pronunciation": "Ah duh-man",
+  "ipa": "/a dəmɛ̃/",
+  "difficulty": 1,
+  "cefr": "A1",
+  "tags": [
+    "basics"
+  ],
+  "relatedConcepts": [],
+  "masteryThreshold": 0.9,
+  "exampleSentence": "À demain matin.",
+  "exampleTranslation": "See you tomorrow morning.",
+  "usageNote": "Used when you will see the person the very next day.",
+  "formality": "neutral",
+  "memoryTip": "Think: \"Demain\" means tomorrow. \"The man will come tomorrow\"."
+}

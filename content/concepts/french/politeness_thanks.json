@@ -1,0 +1,20 @@
+{
+  "id": "politeness_thanks",
+  "language": "French",
+  "native": "Merci",
+  "translation": "Thank you",
+  "pronunciation": "Mare-see",
+  "ipa": "/mɛʁsi/",
+  "difficulty": 1,
+  "cefr": "A1",
+  "tags": [
+    "basics"
+  ],
+  "relatedConcepts": [],
+  "masteryThreshold": 0.9,
+  "exampleSentence": "Merci beaucoup !",
+  "exampleTranslation": "Thank you very much!",
+  "usageNote": "Used universally to express gratitude.",
+  "formality": "neutral",
+  "memoryTip": "Think: Showing \"mercy\" and thanking them."
+}

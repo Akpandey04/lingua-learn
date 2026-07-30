@@ -1,0 +1,19 @@
+{
+  "id": "grammar_a1_time",
+  "type": "grammar",
+  "language": "French",
+  "title": "Time Grammar",
+  "description": "Rules for Time",
+  "rules": [
+    "Rule 1 for Time"
+  ],
+  "examples": [
+    "Example for Time"
+  ],
+  "difficulty": 2,
+  "cefr": "A1",
+  "tags": [
+    "grammar"
+  ],
+  "relatedConcepts": []
+}

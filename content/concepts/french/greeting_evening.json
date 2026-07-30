@@ -1,0 +1,20 @@
+{
+  "id": "greeting_evening",
+  "language": "French",
+  "native": "Bonsoir",
+  "translation": "Good evening",
+  "pronunciation": "Bon-swahr",
+  "ipa": "/bɔ̃swaʁ/",
+  "difficulty": 1,
+  "cefr": "A1",
+  "tags": [
+    "basics"
+  ],
+  "relatedConcepts": [],
+  "masteryThreshold": 0.9,
+  "exampleSentence": "Bonsoir monsieur.",
+  "exampleTranslation": "Good evening sir.",
+  "usageNote": "Used as a greeting after ~6:00 PM.",
+  "formality": "neutral",
+  "memoryTip": "Think: \"Soir\" sounds like \"swirl\" (the sky swirling into night)."
+}

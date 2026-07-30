@@ -1,0 +1,66 @@
+{
+  "id": "unit-05-education-lesson-1",
+  "title": "Education Vocabulary",
+  "learningObjectives": [
+    "Learn Education"
+  ],
+  "modules": [
+    {
+      "id": "unit-05-education-lesson-1-vocab",
+      "type": "vocabulary",
+      "config": {
+        "words": [
+          {
+            "id": "b1_education_universite",
+            "conceptId": "b1_education_universite",
+            "nativeWord": "Université",
+            "englishMeaning": "University",
+            "ipa": "/ynivɛʁsite/",
+            "pronunciation": "Oo-nee-vair-see-tay",
+            "exampleSentence": "L'université.",
+            "exampleTranslation": "The university.",
+            "memoryTip": "Memorize this!",
+            "tags": [
+              "education"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "Universit",
+              "correct": "Université"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for university"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "Université"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "unit-05-education-lesson-1-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "payload": {
+              "type": "mcq",
+              "question": "Translate: University",
+              "answer": "Université",
+              "options": [
+                "Université"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

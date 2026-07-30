@@ -1,0 +1,20 @@
+{
+  "id": "politeness_please_informal",
+  "language": "French",
+  "native": "S'il te plaît",
+  "translation": "Please (informal)",
+  "pronunciation": "Seel tuh play",
+  "ipa": "/sil tə plɛ/",
+  "difficulty": 1,
+  "cefr": "A1",
+  "tags": [
+    "basics"
+  ],
+  "relatedConcepts": [],
+  "masteryThreshold": 0.9,
+  "exampleSentence": "Aide-moi, s'il te plaît.",
+  "exampleTranslation": "Help me, please.",
+  "usageNote": "Use with friends or kids.",
+  "formality": "informal",
+  "memoryTip": "Has \"te\" in it, related to \"tu\"."
+}

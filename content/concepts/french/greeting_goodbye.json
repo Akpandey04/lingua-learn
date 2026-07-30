@@ -1,0 +1,20 @@
+{
+  "id": "greeting_goodbye",
+  "language": "French",
+  "native": "Au revoir",
+  "translation": "Goodbye",
+  "pronunciation": "Oh ruh-vwahr",
+  "ipa": "/o ʁəvwaʁ/",
+  "difficulty": 1,
+  "cefr": "A1",
+  "tags": [
+    "basics"
+  ],
+  "relatedConcepts": [],
+  "masteryThreshold": 0.9,
+  "exampleSentence": "Au revoir et merci !",
+  "exampleTranslation": "Goodbye and thank you!",
+  "usageNote": "Standard polite way to say goodbye to anyone.",
+  "formality": "neutral",
+  "memoryTip": "Literally means \"To the re-seeing\"."
+}

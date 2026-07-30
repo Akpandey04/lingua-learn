@@ -1,0 +1,51 @@
+{
+  "id": "unit-14-routine-lesson-1",
+  "title": "Daily Routine Vocabulary",
+  "learningObjectives": [
+    "Learn Daily Routine"
+  ],
+  "modules": [
+    {
+      "id": "unit-14-routine-lesson-1-vocab",
+      "type": "vocabulary",
+      "config": {
+        "words": [
+          {
+            "id": "a1_routine_matin",
+            "native": "Matin",
+            "translation": "Morning",
+            "ipa": "/matɛ̃/",
+            "pronunciation": "Mah-tahn",
+            "exampleSentence": "Le matin.",
+            "exampleTranslation": "The morning.",
+            "memoryTip": "Memorize this!",
+            "tags": [
+              "routine"
+            ],
+            "emoji": "📝",
+            "cefr": "A1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "unit-14-routine-lesson-1-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "payload": {
+              "type": "mcq",
+              "question": "Translate: Morning",
+              "answer": "Matin",
+              "options": [
+                "Matin"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

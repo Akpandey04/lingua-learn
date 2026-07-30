@@ -1,0 +1,20 @@
+{
+  "id": "a1_meeting_bonjour",
+  "type": "vocabulary",
+  "language": "French",
+  "native": "Bonjour",
+  "translation": "Hello",
+  "pronunciation": "Bon-zhoor",
+  "ipa": "/bɔ̃ʒuʁ/",
+  "difficulty": 1,
+  "cefr": "A1",
+  "tags": [
+    "meeting"
+  ],
+  "relatedConcepts": [],
+  "masteryThreshold": 0.9,
+  "exampleSentence": "Bonjour!",
+  "exampleTranslation": "Hello!",
+  "memoryTip": "Memorize this!",
+  "emoji": "📝"
+}

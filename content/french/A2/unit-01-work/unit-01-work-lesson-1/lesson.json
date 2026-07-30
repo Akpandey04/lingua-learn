@@ -1,0 +1,66 @@
+{
+  "id": "unit-01-work-lesson-1",
+  "title": "Work Vocabulary",
+  "learningObjectives": [
+    "Learn Work"
+  ],
+  "modules": [
+    {
+      "id": "unit-01-work-lesson-1-vocab",
+      "type": "vocabulary",
+      "config": {
+        "words": [
+          {
+            "id": "a2_work_travail",
+            "conceptId": "a2_work_travail",
+            "nativeWord": "Travail",
+            "englishMeaning": "Work",
+            "ipa": "/tʁavaj/",
+            "pronunciation": "Trah-vye",
+            "exampleSentence": "Le travail.",
+            "exampleTranslation": "The work.",
+            "memoryTip": "Memorize this!",
+            "tags": [
+              "work"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "Travai",
+              "correct": "Travail"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for work"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "Travail"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "unit-01-work-lesson-1-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "payload": {
+              "type": "mcq",
+              "question": "Translate: Work",
+              "answer": "Travail",
+              "options": [
+                "Travail"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "b1_debates_pourquoi",
+  "type": "vocabulary",
+  "language": "French",
+  "pronunciation": "Poor-kwah",
+  "ipa": "/puʁkwa/",
+  "difficulty": 1,
+  "cefr": "A1",
+  "tags": [
+    "debates"
+  ],
+  "relatedConcepts": [],
+  "masteryThreshold": 0.9,
+  "exampleSentence": "Pourquoi ?",
+  "exampleTranslation": "Why?",
+  "memoryTip": "Memorize this!",
+  "emoji": "📝"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "ask_name_informal",
+  "language": "French",
+  "native": "Comment tu t'appelles ?",
+  "translation": "What is your name? (informal)",
+  "pronunciation": "Ko-mawn too tah-pell",
+  "ipa": "/kɔmɑ̃ ty tapɛl/",
+  "difficulty": 1,
+  "cefr": "A1",
+  "tags": [
+    "basics"
+  ],
+  "relatedConcepts": [],
+  "masteryThreshold": 0.9,
+  "exampleSentence": "Salut, comment tu t'appelles ?",
+  "exampleTranslation": "Hi, what is your name?",
+  "usageNote": "Use with kids, teenagers, and friends.",
+  "formality": "informal",
+  "memoryTip": "Uses \"tu\", which is the informal \"you\"."
+}

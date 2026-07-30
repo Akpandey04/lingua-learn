@@ -1,0 +1,51 @@
+{
+  "id": "unit-06-time-lesson-1",
+  "title": "Time Vocabulary",
+  "learningObjectives": [
+    "Learn Time"
+  ],
+  "modules": [
+    {
+      "id": "unit-06-time-lesson-1-vocab",
+      "type": "vocabulary",
+      "config": {
+        "words": [
+          {
+            "id": "a1_time_heure",
+            "native": "Heure",
+            "translation": "Hour",
+            "ipa": "/œʁ/",
+            "pronunciation": "Uhr",
+            "exampleSentence": "Une heure.",
+            "exampleTranslation": "One hour.",
+            "memoryTip": "Memorize this!",
+            "tags": [
+              "time"
+            ],
+            "emoji": "📝",
+            "cefr": "A1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "unit-06-time-lesson-1-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "payload": {
+              "type": "mcq",
+              "question": "Translate: Hour",
+              "answer": "Heure",
+              "options": [
+                "Heure"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

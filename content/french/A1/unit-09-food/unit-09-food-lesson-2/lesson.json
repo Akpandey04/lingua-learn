@@ -1,0 +1,23 @@
+{
+  "id": "unit-09-food-lesson-2",
+  "title": "Food Practice",
+  "learningObjectives": [
+    "Practice Food"
+  ],
+  "modules": [
+    {
+      "id": "unit-09-food-lesson-2-knowledge",
+      "type": "knowledge_card",
+      "config": {
+        "cards": [
+          {
+            "id": "unit-09-food-lesson-2-card1",
+            "title": "Grammar: Food",
+            "conceptId": "grammar_a1_food",
+            "content": "Learn the rules for Food."
+          }
+        ]
+      }
+    }
+  ]
+}

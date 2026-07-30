@@ -1,0 +1,19 @@
+{
+  "id": "grammar_a1_travel",
+  "type": "grammar",
+  "language": "French",
+  "title": "Travel Grammar",
+  "description": "Rules for Travel",
+  "rules": [
+    "Rule 1 for Travel"
+  ],
+  "examples": [
+    "Example for Travel"
+  ],
+  "difficulty": 2,
+  "cefr": "A1",
+  "tags": [
+    "grammar"
+  ],
+  "relatedConcepts": []
+}

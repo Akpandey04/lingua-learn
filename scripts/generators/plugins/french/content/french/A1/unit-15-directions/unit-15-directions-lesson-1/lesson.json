@@ -1,0 +1,51 @@
+{
+  "id": "unit-15-directions-lesson-1",
+  "title": "Directions Vocabulary",
+  "learningObjectives": [
+    "Learn Directions"
+  ],
+  "modules": [
+    {
+      "id": "unit-15-directions-lesson-1-vocab",
+      "type": "vocabulary",
+      "config": {
+        "words": [
+          {
+            "id": "a1_directions_gauche",
+            "native": "Gauche",
+            "translation": "Left",
+            "ipa": "/ɡoʃ/",
+            "pronunciation": "Gohsh",
+            "exampleSentence": "À gauche.",
+            "exampleTranslation": "To the left.",
+            "memoryTip": "Memorize this!",
+            "tags": [
+              "directions"
+            ],
+            "emoji": "📝",
+            "cefr": "A1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "unit-15-directions-lesson-1-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "payload": {
+              "type": "mcq",
+              "question": "Translate: Left",
+              "answer": "Gauche",
+              "options": [
+                "Gauche"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

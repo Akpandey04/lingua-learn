@@ -1,0 +1,51 @@
+{
+  "id": "unit-04-days-lesson-1",
+  "title": "Days Vocabulary",
+  "learningObjectives": [
+    "Learn Days"
+  ],
+  "modules": [
+    {
+      "id": "unit-04-days-lesson-1-vocab",
+      "type": "vocabulary",
+      "config": {
+        "words": [
+          {
+            "id": "a1_days_lundi",
+            "native": "Lundi",
+            "translation": "Monday",
+            "ipa": "/lœ̃di/",
+            "pronunciation": "Luhn-dee",
+            "exampleSentence": "Lundi.",
+            "exampleTranslation": "Monday.",
+            "memoryTip": "Memorize this!",
+            "tags": [
+              "days"
+            ],
+            "emoji": "📝",
+            "cefr": "A1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "unit-04-days-lesson-1-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "payload": {
+              "type": "mcq",
+              "question": "Translate: Monday",
+              "answer": "Lundi",
+              "options": [
+                "Lundi"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

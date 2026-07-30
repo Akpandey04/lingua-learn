@@ -1,0 +1,20 @@
+{
+  "id": "greeting_hi",
+  "language": "French",
+  "native": "Salut",
+  "translation": "Hi / Bye (informal)",
+  "pronunciation": "Sah-loo",
+  "ipa": "/saly/",
+  "difficulty": 1,
+  "cefr": "A1",
+  "tags": [
+    "basics"
+  ],
+  "relatedConcepts": [],
+  "masteryThreshold": 0.9,
+  "exampleSentence": "Salut Paul !",
+  "exampleTranslation": "Hi Paul!",
+  "usageNote": "Used only with friends, family, and people your own age.",
+  "formality": "informal",
+  "memoryTip": "Sounds like \"Salute\" - a friendly wave."
+}

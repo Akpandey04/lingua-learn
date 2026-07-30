@@ -1,0 +1,20 @@
+{
+  "id": "wellbeing_how_are_you_informal",
+  "language": "French",
+  "native": "Comment ça va ?",
+  "translation": "How's it going?",
+  "pronunciation": "Ko-mawn sah vah",
+  "ipa": "/kɔmɑ̃ sa va/",
+  "difficulty": 1,
+  "cefr": "A1",
+  "tags": [
+    "basics"
+  ],
+  "relatedConcepts": [],
+  "masteryThreshold": 0.9,
+  "exampleSentence": "Salut! Comment ça va ?",
+  "exampleTranslation": "Hi! How's it going?",
+  "usageNote": "The most common casual way to ask how someone is.",
+  "formality": "informal",
+  "memoryTip": "Very short and casual."
+}

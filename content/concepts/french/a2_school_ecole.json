@@ -1,0 +1,18 @@
+{
+  "id": "a2_school_ecole",
+  "type": "vocabulary",
+  "language": "French",
+  "pronunciation": "Ay-kohl",
+  "ipa": "/ekɔl/",
+  "difficulty": 1,
+  "cefr": "A1",
+  "tags": [
+    "school"
+  ],
+  "relatedConcepts": [],
+  "masteryThreshold": 0.9,
+  "exampleSentence": "L'école.",
+  "exampleTranslation": "The school.",
+  "memoryTip": "Memorize this!",
+  "emoji": "📝"
+}

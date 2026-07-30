@@ -1,0 +1,18 @@
+{
+  "id": "a1_home_maison",
+  "type": "vocabulary",
+  "language": "French",
+  "pronunciation": "May-zohn",
+  "ipa": "/mɛzɔ̃/",
+  "difficulty": 1,
+  "cefr": "A1",
+  "tags": [
+    "home"
+  ],
+  "relatedConcepts": [],
+  "masteryThreshold": 0.9,
+  "exampleSentence": "Ma maison.",
+  "exampleTranslation": "My house.",
+  "memoryTip": "Memorize this!",
+  "emoji": "📝"
+}

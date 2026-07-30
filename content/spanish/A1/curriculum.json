@@ -1,0 +1,153 @@
+{
+  "language": "Spanish",
+  "level": "A1",
+  "units": [
+    {
+      "id": "unit-01-meeting",
+      "title": "Meeting People",
+      "cefrLevel": "A1",
+      "unitObjectives": [
+        "Master Meeting People"
+      ],
+      "concepts": [
+        "a1_es_hola",
+        "a1_es_buenos",
+        "a1_es_gracias",
+        "a1_es_porfavor",
+        "a1_es_adios"
+      ],
+      "lessons": [
+        {
+          "id": "unit-01-meeting-lesson-1",
+          "title": "Meeting People"
+        }
+      ]
+    },
+    {
+      "id": "unit-02-numbers",
+      "title": "Numbers",
+      "cefrLevel": "A1",
+      "unitObjectives": [
+        "Master Numbers"
+      ],
+      "concepts": [
+        "a1_es_uno",
+        "a1_es_dos",
+        "a1_es_tres",
+        "a1_es_cuatro",
+        "a1_es_cinco"
+      ],
+      "lessons": [
+        {
+          "id": "unit-02-numbers-lesson-1",
+          "title": "Numbers"
+        }
+      ]
+    },
+    {
+      "id": "unit-03-basics",
+      "title": "Basic Verbs",
+      "cefrLevel": "A1",
+      "unitObjectives": [
+        "Master Basic Verbs"
+      ],
+      "concepts": [
+        "a1_es_ser",
+        "a1_es_estar",
+        "a1_es_tener",
+        "a1_es_hacer",
+        "a1_es_ir"
+      ],
+      "lessons": [
+        {
+          "id": "unit-03-basics-lesson-1",
+          "title": "Basic Verbs"
+        }
+      ]
+    },
+    {
+      "id": "unit-04-family",
+      "title": "La Familia",
+      "cefrLevel": "A1",
+      "unitObjectives": [
+        "Master La Familia"
+      ],
+      "concepts": [
+        "a1_es_madre",
+        "a1_es_padre",
+        "a1_es_hermano",
+        "a1_es_hermana",
+        "a1_es_abuelo"
+      ],
+      "lessons": [
+        {
+          "id": "unit-04-family-lesson-1",
+          "title": "La Familia"
+        }
+      ]
+    },
+    {
+      "id": "unit-05-food",
+      "title": "Food",
+      "cefrLevel": "A1",
+      "unitObjectives": [
+        "Master Food"
+      ],
+      "concepts": [
+        "a1_es_agua",
+        "a1_es_pan",
+        "a1_es_carne",
+        "a1_es_pescado",
+        "a1_es_fruta"
+      ],
+      "lessons": [
+        {
+          "id": "unit-05-food-lesson-1",
+          "title": "Food"
+        }
+      ]
+    },
+    {
+      "id": "unit-06-travel",
+      "title": "Travel",
+      "cefrLevel": "A1",
+      "unitObjectives": [
+        "Master Travel"
+      ],
+      "concepts": [
+        "a1_es_hotel",
+        "a1_es_aeropuerto",
+        "a1_es_maleta",
+        "a1_es_boleto",
+        "a1_es_playa"
+      ],
+      "lessons": [
+        {
+          "id": "unit-06-travel-lesson-1",
+          "title": "Travel"
+        }
+      ]
+    },
+    {
+      "id": "unit-07-time",
+      "title": "Time & Days",
+      "cefrLevel": "A1",
+      "unitObjectives": [
+        "Master Time & Days"
+      ],
+      "concepts": [
+        "a1_es_hoy",
+        "a1_es_manana",
+        "a1_es_hora",
+        "a1_es_semana",
+        "a1_es_lunes"
+      ],
+      "lessons": [
+        {
+          "id": "unit-07-time-lesson-1",
+          "title": "Time & Days"
+        }
+      ]
+    }
+  ]
+}

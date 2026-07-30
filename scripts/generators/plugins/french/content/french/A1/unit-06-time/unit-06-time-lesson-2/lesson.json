@@ -1,0 +1,23 @@
+{
+  "id": "unit-06-time-lesson-2",
+  "title": "Time Practice",
+  "learningObjectives": [
+    "Practice Time"
+  ],
+  "modules": [
+    {
+      "id": "unit-06-time-lesson-2-knowledge",
+      "type": "knowledge_card",
+      "config": {
+        "cards": [
+          {
+            "id": "unit-06-time-lesson-2-card1",
+            "title": "Grammar: Time",
+            "conceptId": "grammar_a1_time",
+            "content": "Learn the rules for Time."
+          }
+        ]
+      }
+    }
+  ]
+}

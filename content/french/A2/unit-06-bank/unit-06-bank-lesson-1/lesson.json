@@ -1,0 +1,66 @@
+{
+  "id": "unit-06-bank-lesson-1",
+  "title": "Bank Vocabulary",
+  "learningObjectives": [
+    "Learn Bank"
+  ],
+  "modules": [
+    {
+      "id": "unit-06-bank-lesson-1-vocab",
+      "type": "vocabulary",
+      "config": {
+        "words": [
+          {
+            "id": "a2_bank_banque",
+            "conceptId": "a2_bank_banque",
+            "nativeWord": "Banque",
+            "englishMeaning": "Bank",
+            "ipa": "/bɑ̃k/",
+            "pronunciation": "Bahnk",
+            "exampleSentence": "La banque.",
+            "exampleTranslation": "The bank.",
+            "memoryTip": "Memorize this!",
+            "tags": [
+              "bank"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "Banqu",
+              "correct": "Banque"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for bank"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "Banque"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "unit-06-bank-lesson-1-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "payload": {
+              "type": "mcq",
+              "question": "Translate: Bank",
+              "answer": "Banque",
+              "options": [
+                "Banque"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

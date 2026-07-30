@@ -1,0 +1,19 @@
+{
+  "id": "grammar_a1_review",
+  "type": "grammar",
+  "language": "French",
+  "title": "Review Grammar",
+  "description": "Rules for Review",
+  "rules": [
+    "Rule 1 for Review"
+  ],
+  "examples": [
+    "Example for Review"
+  ],
+  "difficulty": 2,
+  "cefr": "A1",
+  "tags": [
+    "grammar"
+  ],
+  "relatedConcepts": []
+}

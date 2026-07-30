@@ -1,0 +1,66 @@
+{
+  "id": "unit-07-relationships-lesson-1",
+  "title": "Relationships Vocabulary",
+  "learningObjectives": [
+    "Learn Relationships"
+  ],
+  "modules": [
+    {
+      "id": "unit-07-relationships-lesson-1-vocab",
+      "type": "vocabulary",
+      "config": {
+        "words": [
+          {
+            "id": "b1_relationships_amour",
+            "conceptId": "b1_relationships_amour",
+            "nativeWord": "Amour",
+            "englishMeaning": "Love",
+            "ipa": "/amuʁ/",
+            "pronunciation": "Ah-moor",
+            "exampleSentence": "L'amour.",
+            "exampleTranslation": "The love.",
+            "memoryTip": "Memorize this!",
+            "tags": [
+              "relationships"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "Amou",
+              "correct": "Amour"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for love"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "Amour"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "unit-07-relationships-lesson-1-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "payload": {
+              "type": "mcq",
+              "question": "Translate: Love",
+              "answer": "Amour",
+              "options": [
+                "Amour"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

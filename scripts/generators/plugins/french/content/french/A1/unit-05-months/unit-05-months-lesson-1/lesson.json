@@ -1,0 +1,51 @@
+{
+  "id": "unit-05-months-lesson-1",
+  "title": "Months Vocabulary",
+  "learningObjectives": [
+    "Learn Months"
+  ],
+  "modules": [
+    {
+      "id": "unit-05-months-lesson-1-vocab",
+      "type": "vocabulary",
+      "config": {
+        "words": [
+          {
+            "id": "a1_months_janvier",
+            "native": "Janvier",
+            "translation": "January",
+            "ipa": "/ʒɑ̃vje/",
+            "pronunciation": "Zhan-vyay",
+            "exampleSentence": "Janvier.",
+            "exampleTranslation": "January.",
+            "memoryTip": "Memorize this!",
+            "tags": [
+              "months"
+            ],
+            "emoji": "📝",
+            "cefr": "A1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "unit-05-months-lesson-1-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "payload": {
+              "type": "mcq",
+              "question": "Translate: January",
+              "answer": "Janvier",
+              "options": [
+                "Janvier"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

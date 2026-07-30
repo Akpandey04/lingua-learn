@@ -1,0 +1,66 @@
+{
+  "id": "unit-09-idioms-lesson-1",
+  "title": "Idioms Vocabulary",
+  "learningObjectives": [
+    "Learn Idioms"
+  ],
+  "modules": [
+    {
+      "id": "unit-09-idioms-lesson-1-vocab",
+      "type": "vocabulary",
+      "config": {
+        "words": [
+          {
+            "id": "b1_idioms_coup",
+            "conceptId": "b1_idioms_coup",
+            "nativeWord": "Coup",
+            "englishMeaning": "Blow/Hit",
+            "ipa": "/ku/",
+            "pronunciation": "Koo",
+            "exampleSentence": "Un coup.",
+            "exampleTranslation": "A hit.",
+            "memoryTip": "Memorize this!",
+            "tags": [
+              "idioms"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "Cou",
+              "correct": "Coup"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for blow/hit"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "Coup"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "unit-09-idioms-lesson-1-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "payload": {
+              "type": "mcq",
+              "question": "Translate: Blow/Hit",
+              "answer": "Coup",
+              "options": [
+                "Coup"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

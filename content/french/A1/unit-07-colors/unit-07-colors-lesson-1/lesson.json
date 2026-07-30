@@ -1,0 +1,417 @@
+{
+  "id": "unit-07-colors-lesson-1",
+  "unitId": "unit-07-colors",
+  "title": "Colors",
+  "version": 3,
+  "learningObjectives": [
+    "a1_colors_rouge",
+    "a1_colors_bleu",
+    "a1_colors_vert",
+    "a1_colors_jaune",
+    "a1_colors_noir"
+  ],
+  "modules": [
+    {
+      "id": "mod-intro",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Welcome to Colors",
+        "conceptId": "intro",
+        "content": "Today we will learn about Colors in French. Let's start with 5 important words.",
+        "example": "Pay close attention to how they are pronounced."
+      }
+    },
+    {
+      "id": "mod-vocab",
+      "type": "vocabulary",
+      "config": {
+        "flow": "teach_all",
+        "words": [
+          {
+            "conceptId": "a1_colors_rouge",
+            "emoji": "📚",
+            "nativeWord": "Rouge",
+            "englishMeaning": "Red",
+            "ipa": "/ʁuʒ/",
+            "pronunciation": "Roozh",
+            "exampleSentence": "Une pomme rouge.",
+            "exampleTranslation": "A red apple.",
+            "memoryTip": "Like a rose.",
+            "difficultyRating": 1
+          },
+          {
+            "conceptId": "a1_colors_bleu",
+            "emoji": "📚",
+            "nativeWord": "Bleu",
+            "englishMeaning": "Blue",
+            "ipa": "/blø/",
+            "pronunciation": "Bluh",
+            "exampleSentence": "Le ciel est bleu.",
+            "exampleTranslation": "The sky is blue.",
+            "memoryTip": "Like the sky.",
+            "difficultyRating": 1
+          },
+          {
+            "conceptId": "a1_colors_vert",
+            "emoji": "📚",
+            "nativeWord": "Vert",
+            "englishMeaning": "Green",
+            "ipa": "/vɛʁ/",
+            "pronunciation": "Vair",
+            "exampleSentence": "Un thé vert.",
+            "exampleTranslation": "A green tea.",
+            "memoryTip": "Like grass.",
+            "difficultyRating": 1
+          },
+          {
+            "conceptId": "a1_colors_jaune",
+            "emoji": "📚",
+            "nativeWord": "Jaune",
+            "englishMeaning": "Yellow",
+            "ipa": "/ʒon/",
+            "pronunciation": "Zhone",
+            "exampleSentence": "Le soleil est jaune.",
+            "exampleTranslation": "The sun is yellow.",
+            "memoryTip": "Like the sun.",
+            "difficultyRating": 1
+          },
+          {
+            "conceptId": "a1_colors_noir",
+            "emoji": "📚",
+            "nativeWord": "Noir",
+            "englishMeaning": "Black",
+            "ipa": "/nwaʁ/",
+            "pronunciation": "Nwahr",
+            "exampleSentence": "Un chat noir.",
+            "exampleTranslation": "A black cat.",
+            "memoryTip": "Dark.",
+            "difficultyRating": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-listen",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Rouge",
+            "answer": "Rouge",
+            "options": [
+              "Rouge",
+              "Bleu",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_colors_rouge"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Bleu",
+            "answer": "Bleu",
+            "options": [
+              "Bleu",
+              "Rouge",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_colors_bleu"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Vert",
+            "answer": "Vert",
+            "options": [
+              "Vert",
+              "Rouge",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_colors_vert"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Jaune",
+            "answer": "Jaune",
+            "options": [
+              "Jaune",
+              "Rouge",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_colors_jaune"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Noir",
+            "answer": "Noir",
+            "options": [
+              "Noir",
+              "Rouge",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_colors_noir"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-speak",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Rouge",
+            "prompt": "Say: Red",
+            "conceptId": "a1_colors_rouge",
+            "pronunciation": "Roozh (/ʁuʒ/)"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Bleu",
+            "prompt": "Say: Blue",
+            "conceptId": "a1_colors_bleu",
+            "pronunciation": "Bluh (/blø/)"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Vert",
+            "prompt": "Say: Green",
+            "conceptId": "a1_colors_vert",
+            "pronunciation": "Vair (/vɛʁ/)"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Jaune",
+            "prompt": "Say: Yellow",
+            "conceptId": "a1_colors_jaune",
+            "pronunciation": "Zhone (/ʒon/)"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Noir",
+            "prompt": "Say: Black",
+            "conceptId": "a1_colors_noir",
+            "pronunciation": "Nwahr (/nwaʁ/)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-type",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'Red'?",
+            "answer": "Rouge",
+            "conceptId": "a1_colors_rouge"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'Blue'?",
+            "answer": "Bleu",
+            "conceptId": "a1_colors_bleu"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'Green'?",
+            "answer": "Vert",
+            "conceptId": "a1_colors_vert"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'Yellow'?",
+            "answer": "Jaune",
+            "conceptId": "a1_colors_jaune"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'Black'?",
+            "answer": "Noir",
+            "conceptId": "a1_colors_noir"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-practice",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning Match",
+            "prompt": "What does 'Rouge' mean?",
+            "answer": "Red",
+            "options": [
+              "Red",
+              "Blue",
+              "Fake1",
+              "Fake2"
+            ],
+            "conceptId": "a1_colors_rouge"
+          },
+          {
+            "type": "fill",
+            "phaseTitle": "Fill in the Blank",
+            "phrase": "_ !",
+            "prompt": "Type 'Blue'",
+            "answer": "Bleu",
+            "conceptId": "a1_colors_bleu"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Word Match",
+            "prompt": "Which word means 'Green'?",
+            "answer": "Vert",
+            "options": [
+              "Vert",
+              "Rouge",
+              "Mot1",
+              "Mot2"
+            ],
+            "conceptId": "a1_colors_vert"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning Match",
+            "prompt": "What does 'Jaune' mean?",
+            "answer": "Yellow",
+            "options": [
+              "Yellow",
+              "Red",
+              "Fake1",
+              "Fake2"
+            ],
+            "conceptId": "a1_colors_jaune"
+          },
+          {
+            "type": "fill",
+            "phaseTitle": "Fill in the Blank",
+            "phrase": "_ !",
+            "prompt": "Type 'Black'",
+            "answer": "Noir",
+            "conceptId": "a1_colors_noir"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-summary",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Revision Summary",
+        "conceptId": "intro",
+        "content": "Before the final quiz, let's review what you learned today:\n\n**Rouge** (/ʁuʒ/) - Red\n💡 *Tip: Like a rose.*\n\n**Bleu** (/blø/) - Blue\n💡 *Tip: Like the sky.*\n\n**Vert** (/vɛʁ/) - Green\n💡 *Tip: Like grass.*\n\n**Jaune** (/ʒon/) - Yellow\n💡 *Tip: Like the sun.*\n\n**Noir** (/nwaʁ/) - Black\n💡 *Tip: Dark.*",
+        "example": "Take a deep breath. Let's start the final quiz!"
+      }
+    },
+    {
+      "id": "mod-final-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Translate: Red",
+            "answer": "Rouge",
+            "options": [
+              "Rouge",
+              "Bleu"
+            ],
+            "conceptId": "a1_colors_rouge"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Blue",
+            "answer": "Bleu",
+            "conceptId": "a1_colors_bleu"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Translate: Green",
+            "answer": "Vert",
+            "options": [
+              "Vert",
+              "Rouge"
+            ],
+            "conceptId": "a1_colors_vert"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Yellow",
+            "answer": "Jaune",
+            "conceptId": "a1_colors_jaune"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Translate: Black",
+            "answer": "Noir",
+            "options": [
+              "Noir",
+              "Rouge"
+            ],
+            "conceptId": "a1_colors_noir"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: 'Rouge et bleu'",
+            "tokens": [
+              "Rouge",
+              "et",
+              "bleu",
+              "vert"
+            ],
+            "answer": "Rouge et bleu",
+            "conceptId": "a1_colors_rouge"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: 'Jaune ou noir'",
+            "tokens": [
+              "Jaune",
+              "ou",
+              "noir",
+              "rouge"
+            ],
+            "answer": "Jaune ou noir",
+            "conceptId": "a1_colors_rouge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-celebration",
+      "type": "celebration",
+      "config": {}
+    }
+  ]
+}

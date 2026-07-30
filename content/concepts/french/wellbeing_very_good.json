@@ -1,0 +1,20 @@
+{
+  "id": "wellbeing_very_good",
+  "language": "French",
+  "native": "Très bien",
+  "translation": "Very good / Very well",
+  "pronunciation": "Tray byan",
+  "ipa": "/tʁɛ bjɛ̃/",
+  "difficulty": 1,
+  "cefr": "A1",
+  "tags": [
+    "basics"
+  ],
+  "relatedConcepts": [],
+  "masteryThreshold": 0.9,
+  "exampleSentence": "Je vais très bien.",
+  "exampleTranslation": "I am doing very well.",
+  "usageNote": "To show you are feeling excellent.",
+  "formality": "neutral",
+  "memoryTip": "Think: A \"tray\" full of good things."
+}

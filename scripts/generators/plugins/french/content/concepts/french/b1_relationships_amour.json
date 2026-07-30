@@ -1,0 +1,20 @@
+{
+  "id": "b1_relationships_amour",
+  "type": "vocabulary",
+  "language": "French",
+  "native": "Amour",
+  "translation": "Love",
+  "pronunciation": "Ah-moor",
+  "ipa": "/amuʁ/",
+  "difficulty": 1,
+  "cefr": "A1",
+  "tags": [
+    "relationships"
+  ],
+  "relatedConcepts": [],
+  "masteryThreshold": 0.9,
+  "exampleSentence": "L'amour.",
+  "exampleTranslation": "The love.",
+  "memoryTip": "Memorize this!",
+  "emoji": "📝"
+}

@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌍 LinguaLearn
+
+A completely free, open-source Duolingo-style language learning web app built with Next.js, TypeScript, and Tailwind CSS.
+
+## Languages Supported
+
+| Language | Exercises | Grammar Hints |
+|----------|-----------|---------------|
+| 🇫🇷 French | ✅ | ✅ |
+| 🇩🇪 German | ✅ | ✅ |
+| 🇯🇵 Japanese | ✅ | ✅ |
+| 🇪🇸 Spanish | ✅ | ✅ |
+
+## Features
+
+- **6 Exercise Types**: Multiple choice, translation, word matching, fill-in-the-blank, listening, and speaking
+- **Text-to-Speech**: Built-in browser SpeechSynthesis — no API key needed
+- **Speech Recognition**: Browser SpeechRecognition for speaking exercises (Chrome/Edge)
+- **Gamification**: XP points, hearts system, daily streaks, and confetti 🎉
+- **Dark Mode**: Full dark mode with system preference detection
+- **Progressive Web App**: Installable, works offline after first load
+- **Zero Backend**: All progress saved in localStorage — no login required
+- **Grammar Reference**: Built-in grammar cards for each language
+
+## Tech Stack (All Free)
+
+- [Next.js 16](https://nextjs.org/) – React framework
+- [TypeScript](https://www.typescriptlang.org/) – Type safety
+- [Tailwind CSS v4](https://tailwindcss.com/) – Styling
+- [Zustand](https://github.com/pmndrs/zustand) – State management
+- Web Speech API – TTS & STT (built into browser)
+- Vercel Hobby – Hosting (free tier)
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Deployment
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Deploy to Vercel in one click:
 
-## Learn More
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new)
 
-To learn more about Next.js, take a look at the following resources:
+Or Netlify:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm run build
+# then link your GitHub repo on netlify.com
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Content Sources
 
-## Deploy on Vercel
+Content is based on common language learning vocabulary. Attribution:
+- Sentence patterns inspired by [Tatoeba](https://tatoeba.org/) (CC BY 2.0 FR)
+- Vocabulary aligned with [Wiktionary](https://www.wiktionary.org/) (CC BY-SA 4.0)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Project Structure
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```
+/app              – Next.js App Router pages
+/components       – React UI components
+  /exercises      – MCQ, Translate, Match, FillBlank, Listening, Speaking
+  /ui             – Shared UI (hearts, XP bar, confetti, dark mode toggle)
+/data             – Course content per language
+/hooks            – Custom React hooks (useSpeech, useSpeechRecognition, useProgress)
+/lib              – Core logic (progressService, store, grammarHints)
+/types            – TypeScript type definitions
+/public           – Static assets + PWA manifest
+```
+
+## License
+
+MIT License — use freely, modify, and deploy at zero cost.

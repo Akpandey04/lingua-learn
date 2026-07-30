@@ -1,0 +1,51 @@
+{
+  "id": "unit-04-technology-lesson-1",
+  "title": "Technology Vocabulary",
+  "learningObjectives": [
+    "Learn Technology"
+  ],
+  "modules": [
+    {
+      "id": "unit-04-technology-lesson-1-vocab",
+      "type": "vocabulary",
+      "config": {
+        "words": [
+          {
+            "id": "a2_technology_ordinateur",
+            "native": "Ordinateur",
+            "translation": "Computer",
+            "ipa": "/ɔʁdinatœʁ/",
+            "pronunciation": "Or-dee-nah-tuhr",
+            "exampleSentence": "Mon ordinateur.",
+            "exampleTranslation": "My computer.",
+            "memoryTip": "Memorize this!",
+            "tags": [
+              "technology"
+            ],
+            "emoji": "📝",
+            "cefr": "A1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "unit-04-technology-lesson-1-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "payload": {
+              "type": "mcq",
+              "question": "Translate: Computer",
+              "answer": "Ordinateur",
+              "options": [
+                "Ordinateur"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

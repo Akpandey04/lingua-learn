@@ -1,0 +1,51 @@
+{
+  "id": "unit-07-colors-lesson-1",
+  "title": "Colors Vocabulary",
+  "learningObjectives": [
+    "Learn Colors"
+  ],
+  "modules": [
+    {
+      "id": "unit-07-colors-lesson-1-vocab",
+      "type": "vocabulary",
+      "config": {
+        "words": [
+          {
+            "id": "a1_colors_rouge",
+            "native": "Rouge",
+            "translation": "Red",
+            "ipa": "/ʁuʒ/",
+            "pronunciation": "Roozh",
+            "exampleSentence": "Rouge.",
+            "exampleTranslation": "Red.",
+            "memoryTip": "Memorize this!",
+            "tags": [
+              "colors"
+            ],
+            "emoji": "📝",
+            "cefr": "A1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "unit-07-colors-lesson-1-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "payload": {
+              "type": "mcq",
+              "question": "Translate: Red",
+              "answer": "Rouge",
+              "options": [
+                "Rouge"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

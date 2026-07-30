@@ -1,0 +1,43 @@
+{
+  "fatals": [],
+  "warnings": [
+    "[travel-lesson-1] Repeated memory tip detected: \"Same as English.\""
+  ],
+  "suggestions": [
+    "[greetings-lesson-1] Consider adding an engaging emoji for concept: a1_de_hallo",
+    "[greetings-lesson-1] Consider adding an engaging emoji for concept: a1_de_guten_morgen",
+    "[greetings-lesson-1] Consider adding an engaging emoji for concept: a1_de_guten_tag",
+    "[greetings-lesson-1] Consider adding an engaging emoji for concept: a1_de_guten_abend",
+    "[greetings-lesson-1] Consider adding an engaging emoji for concept: a1_de_tschuess",
+    "[numbers-lesson-1] Consider adding an engaging emoji for concept: a1_de_eins",
+    "[numbers-lesson-1] Consider adding an engaging emoji for concept: a1_de_zwei",
+    "[numbers-lesson-1] Consider adding an engaging emoji for concept: a1_de_drei",
+    "[numbers-lesson-1] Consider adding an engaging emoji for concept: a1_de_vier",
+    "[numbers-lesson-1] Consider adding an engaging emoji for concept: a1_de_fuenf",
+    "[basic_verbs-lesson-1] Consider adding an engaging emoji for concept: a1_de_sein",
+    "[basic_verbs-lesson-1] Consider adding an engaging emoji for concept: a1_de_haben",
+    "[basic_verbs-lesson-1] Consider adding an engaging emoji for concept: a1_de_gehen",
+    "[basic_verbs-lesson-1] Consider adding an engaging emoji for concept: a1_de_kommen",
+    "[basic_verbs-lesson-1] Consider adding an engaging emoji for concept: a1_de_machen",
+    "[family-lesson-1] Consider adding an engaging emoji for concept: a1_de_familie",
+    "[family-lesson-1] Consider adding an engaging emoji for concept: a1_de_mutter",
+    "[family-lesson-1] Consider adding an engaging emoji for concept: a1_de_vater",
+    "[family-lesson-1] Consider adding an engaging emoji for concept: a1_de_bruder",
+    "[family-lesson-1] Consider adding an engaging emoji for concept: a1_de_schwester",
+    "[food-lesson-1] Consider adding an engaging emoji for concept: a1_de_wasser",
+    "[food-lesson-1] Consider adding an engaging emoji for concept: a1_de_brot",
+    "[food-lesson-1] Consider adding an engaging emoji for concept: a1_de_apfel",
+    "[food-lesson-1] Consider adding an engaging emoji for concept: a1_de_kaffee",
+    "[food-lesson-1] Consider adding an engaging emoji for concept: a1_de_milch",
+    "[travel-lesson-1] Consider adding an engaging emoji for concept: a1_de_bahnhof",
+    "[travel-lesson-1] Consider adding an engaging emoji for concept: a1_de_bus",
+    "[travel-lesson-1] Consider adding an engaging emoji for concept: a1_de_ticket",
+    "[travel-lesson-1] Consider adding an engaging emoji for concept: a1_de_hotel",
+    "[travel-lesson-1] Consider adding an engaging emoji for concept: a1_de_flughafen",
+    "[time-lesson-1] Consider adding an engaging emoji for concept: a1_de_heute",
+    "[time-lesson-1] Consider adding an engaging emoji for concept: a1_de_morgen",
+    "[time-lesson-1] Consider adding an engaging emoji for concept: a1_de_uhr",
+    "[time-lesson-1] Consider adding an engaging emoji for concept: a1_de_montag",
+    "[time-lesson-1] Consider adding an engaging emoji for concept: a1_de_wochenende"
+  ]
+}

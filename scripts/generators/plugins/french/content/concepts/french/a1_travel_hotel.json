@@ -1,0 +1,20 @@
+{
+  "id": "a1_travel_hotel",
+  "type": "vocabulary",
+  "language": "French",
+  "native": "Hôtel",
+  "translation": "Hotel",
+  "pronunciation": "Oh-tell",
+  "ipa": "/otɛl/",
+  "difficulty": 1,
+  "cefr": "A1",
+  "tags": [
+    "travel"
+  ],
+  "relatedConcepts": [],
+  "masteryThreshold": 0.9,
+  "exampleSentence": "L'hôtel.",
+  "exampleTranslation": "The hotel.",
+  "memoryTip": "Memorize this!",
+  "emoji": "📝"
+}

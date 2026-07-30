@@ -1,0 +1,13 @@
+{
+  "id": "ask_name",
+  "language": "French",
+  "native": "Comment tu t'appelles ?",
+  "translation": "What is your name? (informal)",
+  "pronunciation": "Ko-mahn too tah-pell",
+  "ipa": "/kɔmɑ̃ ty tapɛl/",
+  "difficulty": 2,
+  "cefr": "A1",
+  "tags": ["introductions", "questions"],
+  "relatedConcepts": ["introduce_self"],
+  "masteryThreshold": 0.8
+}

@@ -1,0 +1,717 @@
+{
+  "id": "time-lesson-1",
+  "unitId": "time",
+  "title": "Time & Days",
+  "version": 3,
+  "learningObjectives": [
+    "a1_es_hoy",
+    "a1_es_manana",
+    "a1_es_hora",
+    "a1_es_semana",
+    "a1_es_lunes"
+  ],
+  "modules": [
+    {
+      "id": "mod-intro",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Welcome to Time & Days",
+        "conceptId": "intro",
+        "content": "Today we will learn about Time & Days in Spanish. Let's start with important words.",
+        "example": "Pay close attention to how they are pronounced."
+      }
+    },
+    {
+      "id": "mod-vocab",
+      "type": "vocabulary",
+      "config": {
+        "flow": "teach_all",
+        "words": [
+          {
+            "id": "a1_es_hoy",
+            "conceptId": "a1_es_hoy",
+            "nativeWord": "Hoy",
+            "englishMeaning": "Today",
+            "ipa": "/oj/",
+            "pronunciation": "Oy",
+            "exampleSentence": "Hoy hace sol.",
+            "exampleTranslation": "Today is sunny.",
+            "memoryTip": "H is silent.",
+            "tags": [
+              "time"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "Ho",
+              "correct": "Hoy"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for today"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "Hoy"
+            }
+          },
+          {
+            "id": "a1_es_manana",
+            "conceptId": "a1_es_manana",
+            "nativeWord": "Mañana",
+            "englishMeaning": "Tomorrow",
+            "ipa": "/maˈɲa.na/",
+            "pronunciation": "Mah-nyah-nah",
+            "exampleSentence": "Hasta mañana.",
+            "exampleTranslation": "See you tomorrow.",
+            "memoryTip": "Manana",
+            "tags": [
+              "time"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "Mañan",
+              "correct": "Mañana"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for tomorrow"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "Mañana"
+            }
+          },
+          {
+            "id": "a1_es_hora",
+            "conceptId": "a1_es_hora",
+            "nativeWord": "Hora",
+            "englishMeaning": "Hour/Time",
+            "ipa": "/ˈo.ɾa/",
+            "pronunciation": "Oh-rah",
+            "exampleSentence": "¿Qué hora es?",
+            "exampleTranslation": "What time is it?",
+            "memoryTip": "Hour",
+            "tags": [
+              "time"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "Hor",
+              "correct": "Hora"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for hour/time"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "Hora"
+            }
+          },
+          {
+            "id": "a1_es_semana",
+            "conceptId": "a1_es_semana",
+            "nativeWord": "Semana",
+            "englishMeaning": "Week",
+            "ipa": "/seˈma.na/",
+            "pronunciation": "Seh-mah-nah",
+            "exampleSentence": "La próxima semana.",
+            "exampleTranslation": "Next week.",
+            "memoryTip": "Seven",
+            "tags": [
+              "time"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "Seman",
+              "correct": "Semana"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for week"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "Semana"
+            }
+          },
+          {
+            "id": "a1_es_lunes",
+            "conceptId": "a1_es_lunes",
+            "nativeWord": "Lunes",
+            "englishMeaning": "Monday",
+            "ipa": "/ˈlu.nes/",
+            "pronunciation": "Loo-nes",
+            "exampleSentence": "Trabajo el lunes.",
+            "exampleTranslation": "I work on Monday.",
+            "memoryTip": "Lunar",
+            "tags": [
+              "time"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "Lune",
+              "correct": "Lunes"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for monday"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "Lunes"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-listen",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "Hoy",
+            "answer": "Hoy",
+            "options": [
+              "Lunes",
+              "Hoy",
+              "Hora",
+              "Mañana",
+              "Semana"
+            ],
+            "conceptId": "a1_es_hoy"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "Mañana",
+            "answer": "Mañana",
+            "options": [
+              "Hoy",
+              "Hora",
+              "Mañana",
+              "Semana",
+              "Lunes"
+            ],
+            "conceptId": "a1_es_manana"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "Hora",
+            "answer": "Hora",
+            "options": [
+              "Hora",
+              "Hoy",
+              "Semana",
+              "Lunes",
+              "Mañana"
+            ],
+            "conceptId": "a1_es_hora"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "Semana",
+            "answer": "Semana",
+            "options": [
+              "Lunes",
+              "Hoy",
+              "Mañana",
+              "Semana",
+              "Hora"
+            ],
+            "conceptId": "a1_es_semana"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "Lunes",
+            "answer": "Lunes",
+            "options": [
+              "Semana",
+              "Mañana",
+              "Lunes",
+              "Hoy",
+              "Hora"
+            ],
+            "conceptId": "a1_es_lunes"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-speak",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: Hoy",
+            "expectedPhrase": "Hoy",
+            "conceptId": "a1_es_hoy"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: Mañana",
+            "expectedPhrase": "Mañana",
+            "conceptId": "a1_es_manana"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: Hora",
+            "expectedPhrase": "Hora",
+            "conceptId": "a1_es_hora"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: Semana",
+            "expectedPhrase": "Semana",
+            "conceptId": "a1_es_semana"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: Lunes",
+            "expectedPhrase": "Lunes",
+            "conceptId": "a1_es_lunes"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-type",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: Today",
+            "answer": "Hoy",
+            "conceptId": "a1_es_hoy"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: Tomorrow",
+            "answer": "Mañana",
+            "conceptId": "a1_es_manana"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: Hour/Time",
+            "answer": "Hora",
+            "conceptId": "a1_es_hora"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: Week",
+            "answer": "Semana",
+            "conceptId": "a1_es_semana"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: Monday",
+            "answer": "Lunes",
+            "conceptId": "a1_es_lunes"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-practice",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: Today",
+            "options": [
+              "Hora",
+              "Mañana",
+              "Lunes",
+              "Hoy",
+              "Semana"
+            ],
+            "answer": "Hoy",
+            "conceptId": "a1_es_hoy"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in Spanish: Today",
+            "answer": "Hoy",
+            "conceptId": "a1_es_hoy"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: Tomorrow",
+            "options": [
+              "Mañana",
+              "Hoy",
+              "Semana",
+              "Lunes",
+              "Hora"
+            ],
+            "answer": "Mañana",
+            "conceptId": "a1_es_manana"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in Spanish: Tomorrow",
+            "answer": "Mañana",
+            "conceptId": "a1_es_manana"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: Hour/Time",
+            "options": [
+              "Lunes",
+              "Hoy",
+              "Mañana",
+              "Semana",
+              "Hora"
+            ],
+            "answer": "Hora",
+            "conceptId": "a1_es_hora"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in Spanish: Hour/Time",
+            "answer": "Hora",
+            "conceptId": "a1_es_hora"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: Week",
+            "options": [
+              "Lunes",
+              "Mañana",
+              "Hoy",
+              "Hora",
+              "Semana"
+            ],
+            "answer": "Semana",
+            "conceptId": "a1_es_semana"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in Spanish: Week",
+            "answer": "Semana",
+            "conceptId": "a1_es_semana"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: Monday",
+            "options": [
+              "Semana",
+              "Hoy",
+              "Hora",
+              "Mañana",
+              "Lunes"
+            ],
+            "answer": "Lunes",
+            "conceptId": "a1_es_lunes"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in Spanish: Monday",
+            "answer": "Lunes",
+            "conceptId": "a1_es_lunes"
+          },
+          {
+            "type": "match",
+            "phaseTitle": "Pair Matching",
+            "pairs": [
+              {
+                "source": "Hoy",
+                "target": "Today"
+              },
+              {
+                "source": "Mañana",
+                "target": "Tomorrow"
+              },
+              {
+                "source": "Hora",
+                "target": "Hour/Time"
+              },
+              {
+                "source": "Semana",
+                "target": "Week"
+              },
+              {
+                "source": "Lunes",
+                "target": "Monday"
+              }
+            ],
+            "conceptId": "a1_es_hoy"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-summary",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Revision Summary",
+        "conceptId": "intro",
+        "content": "You've learned the vocabulary, listened to the pronunciation, and practiced typing. Now, let's put it all together.",
+        "example": "Take a deep breath. Let's start the final quiz!"
+      }
+    },
+    {
+      "id": "mod-final-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: Today",
+            "answer": "Hoy",
+            "options": [
+              "Mañana",
+              "Lunes",
+              "Hora",
+              "Semana",
+              "Hoy"
+            ],
+            "conceptId": "a1_es_hoy"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "Hoy",
+            "answer": "Hoy",
+            "options": [
+              "Lunes",
+              "Hoy",
+              "Hora",
+              "Mañana",
+              "Semana"
+            ],
+            "conceptId": "a1_es_hoy"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Today",
+            "answer": "Hoy",
+            "conceptId": "a1_es_hoy"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: Tomorrow",
+            "answer": "Mañana",
+            "options": [
+              "Semana",
+              "Hora",
+              "Mañana",
+              "Lunes",
+              "Hoy"
+            ],
+            "conceptId": "a1_es_manana"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "Mañana",
+            "answer": "Mañana",
+            "options": [
+              "Hoy",
+              "Semana",
+              "Mañana",
+              "Hora",
+              "Lunes"
+            ],
+            "conceptId": "a1_es_manana"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Tomorrow",
+            "answer": "Mañana",
+            "conceptId": "a1_es_manana"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: Hour/Time",
+            "answer": "Hora",
+            "options": [
+              "Mañana",
+              "Lunes",
+              "Hora",
+              "Semana",
+              "Hoy"
+            ],
+            "conceptId": "a1_es_hora"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "Hora",
+            "answer": "Hora",
+            "options": [
+              "Semana",
+              "Hoy",
+              "Lunes",
+              "Hora",
+              "Mañana"
+            ],
+            "conceptId": "a1_es_hora"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Hour/Time",
+            "answer": "Hora",
+            "conceptId": "a1_es_hora"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: Week",
+            "answer": "Semana",
+            "options": [
+              "Lunes",
+              "Hoy",
+              "Semana",
+              "Mañana",
+              "Hora"
+            ],
+            "conceptId": "a1_es_semana"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "Semana",
+            "answer": "Semana",
+            "options": [
+              "Hora",
+              "Hoy",
+              "Semana",
+              "Mañana",
+              "Lunes"
+            ],
+            "conceptId": "a1_es_semana"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Week",
+            "answer": "Semana",
+            "conceptId": "a1_es_semana"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: Monday",
+            "answer": "Lunes",
+            "options": [
+              "Mañana",
+              "Hoy",
+              "Hora",
+              "Lunes",
+              "Semana"
+            ],
+            "conceptId": "a1_es_lunes"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "Lunes",
+            "answer": "Lunes",
+            "options": [
+              "Hoy",
+              "Hora",
+              "Semana",
+              "Mañana",
+              "Lunes"
+            ],
+            "conceptId": "a1_es_lunes"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Monday",
+            "answer": "Lunes",
+            "conceptId": "a1_es_lunes"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: 'Hoy es lunes'",
+            "tokens": [
+              "Hoy",
+              "es",
+              "lunes",
+              "mañana"
+            ],
+            "answer": "Hoy es lunes",
+            "conceptId": "a1_es_hoy"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: '¿Qué hora es?'",
+            "tokens": [
+              "¿Qué",
+              "hora",
+              "es?",
+              "día"
+            ],
+            "answer": "¿Qué hora es?",
+            "conceptId": "a1_es_hoy"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-celebration",
+      "type": "celebration",
+      "config": {}
+    }
+  ]
+}

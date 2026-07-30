@@ -1,0 +1,417 @@
+{
+  "id": "unit-15-directions-lesson-1",
+  "unitId": "unit-15-directions",
+  "title": "Directions",
+  "version": 3,
+  "learningObjectives": [
+    "a1_directions_gauche",
+    "a1_directions_droite",
+    "a1_directions_tout_droit",
+    "a1_directions_ici",
+    "a1_directions_la"
+  ],
+  "modules": [
+    {
+      "id": "mod-intro",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Welcome to Directions",
+        "conceptId": "intro",
+        "content": "Today we will learn about Directions in French. Let's start with 5 important words.",
+        "example": "Pay close attention to how they are pronounced."
+      }
+    },
+    {
+      "id": "mod-vocab",
+      "type": "vocabulary",
+      "config": {
+        "flow": "teach_all",
+        "words": [
+          {
+            "conceptId": "a1_directions_gauche",
+            "emoji": "📚",
+            "nativeWord": "Gauche",
+            "englishMeaning": "Left",
+            "ipa": "/ɡoʃ/",
+            "pronunciation": "Gohsh",
+            "exampleSentence": "Tournez à gauche.",
+            "exampleTranslation": "Turn left.",
+            "memoryTip": "Not right.",
+            "difficultyRating": 1
+          },
+          {
+            "conceptId": "a1_directions_droite",
+            "emoji": "📚",
+            "nativeWord": "Droite",
+            "englishMeaning": "Right",
+            "ipa": "/dʁwat/",
+            "pronunciation": "Drwaht",
+            "exampleSentence": "Tournez à droite.",
+            "exampleTranslation": "Turn right.",
+            "memoryTip": "Not left.",
+            "difficultyRating": 1
+          },
+          {
+            "conceptId": "a1_directions_tout_droit",
+            "emoji": "📚",
+            "nativeWord": "Tout droit",
+            "englishMeaning": "Straight ahead",
+            "ipa": "/tu dʁwa/",
+            "pronunciation": "Too drwah",
+            "exampleSentence": "Allez tout droit.",
+            "exampleTranslation": "Go straight ahead.",
+            "memoryTip": "Don't turn.",
+            "difficultyRating": 1
+          },
+          {
+            "conceptId": "a1_directions_ici",
+            "emoji": "📚",
+            "nativeWord": "Ici",
+            "englishMeaning": "Here",
+            "ipa": "/isi/",
+            "pronunciation": "Ee-see",
+            "exampleSentence": "Je suis ici.",
+            "exampleTranslation": "I am here.",
+            "memoryTip": "This place.",
+            "difficultyRating": 1
+          },
+          {
+            "conceptId": "a1_directions_la",
+            "emoji": "📚",
+            "nativeWord": "Là",
+            "englishMeaning": "There",
+            "ipa": "/la/",
+            "pronunciation": "Lah",
+            "exampleSentence": "Le livre est là.",
+            "exampleTranslation": "The book is there.",
+            "memoryTip": "That place.",
+            "difficultyRating": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-listen",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Gauche",
+            "answer": "Gauche",
+            "options": [
+              "Gauche",
+              "Droite",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_directions_gauche"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Droite",
+            "answer": "Droite",
+            "options": [
+              "Droite",
+              "Gauche",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_directions_droite"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Tout droit",
+            "answer": "Tout droit",
+            "options": [
+              "Tout droit",
+              "Gauche",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_directions_tout_droit"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Ici",
+            "answer": "Ici",
+            "options": [
+              "Ici",
+              "Gauche",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_directions_ici"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Là",
+            "answer": "Là",
+            "options": [
+              "Là",
+              "Gauche",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_directions_la"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-speak",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Gauche",
+            "prompt": "Say: Left",
+            "conceptId": "a1_directions_gauche",
+            "pronunciation": "Gohsh (/ɡoʃ/)"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Droite",
+            "prompt": "Say: Right",
+            "conceptId": "a1_directions_droite",
+            "pronunciation": "Drwaht (/dʁwat/)"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Tout droit",
+            "prompt": "Say: Straight ahead",
+            "conceptId": "a1_directions_tout_droit",
+            "pronunciation": "Too drwah (/tu dʁwa/)"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Ici",
+            "prompt": "Say: Here",
+            "conceptId": "a1_directions_ici",
+            "pronunciation": "Ee-see (/isi/)"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Là",
+            "prompt": "Say: There",
+            "conceptId": "a1_directions_la",
+            "pronunciation": "Lah (/la/)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-type",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'Left'?",
+            "answer": "Gauche",
+            "conceptId": "a1_directions_gauche"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'Right'?",
+            "answer": "Droite",
+            "conceptId": "a1_directions_droite"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'Straight ahead'?",
+            "answer": "Tout droit",
+            "conceptId": "a1_directions_tout_droit"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'Here'?",
+            "answer": "Ici",
+            "conceptId": "a1_directions_ici"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'There'?",
+            "answer": "Là",
+            "conceptId": "a1_directions_la"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-practice",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning Match",
+            "prompt": "What does 'Gauche' mean?",
+            "answer": "Left",
+            "options": [
+              "Left",
+              "Right",
+              "Fake1",
+              "Fake2"
+            ],
+            "conceptId": "a1_directions_gauche"
+          },
+          {
+            "type": "fill",
+            "phaseTitle": "Fill in the Blank",
+            "phrase": "_ !",
+            "prompt": "Type 'Right'",
+            "answer": "Droite",
+            "conceptId": "a1_directions_droite"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Word Match",
+            "prompt": "Which word means 'Straight ahead'?",
+            "answer": "Tout droit",
+            "options": [
+              "Tout droit",
+              "Gauche",
+              "Mot1",
+              "Mot2"
+            ],
+            "conceptId": "a1_directions_tout_droit"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning Match",
+            "prompt": "What does 'Ici' mean?",
+            "answer": "Here",
+            "options": [
+              "Here",
+              "Left",
+              "Fake1",
+              "Fake2"
+            ],
+            "conceptId": "a1_directions_ici"
+          },
+          {
+            "type": "fill",
+            "phaseTitle": "Fill in the Blank",
+            "phrase": "_ !",
+            "prompt": "Type 'There'",
+            "answer": "Là",
+            "conceptId": "a1_directions_la"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-summary",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Revision Summary",
+        "conceptId": "intro",
+        "content": "Before the final quiz, let's review what you learned today:\n\n**Gauche** (/ɡoʃ/) - Left\n💡 *Tip: Not right.*\n\n**Droite** (/dʁwat/) - Right\n💡 *Tip: Not left.*\n\n**Tout droit** (/tu dʁwa/) - Straight ahead\n💡 *Tip: Don't turn.*\n\n**Ici** (/isi/) - Here\n💡 *Tip: This place.*\n\n**Là** (/la/) - There\n💡 *Tip: That place.*",
+        "example": "Take a deep breath. Let's start the final quiz!"
+      }
+    },
+    {
+      "id": "mod-final-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Translate: Left",
+            "answer": "Gauche",
+            "options": [
+              "Gauche",
+              "Droite"
+            ],
+            "conceptId": "a1_directions_gauche"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Right",
+            "answer": "Droite",
+            "conceptId": "a1_directions_droite"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Translate: Straight ahead",
+            "answer": "Tout droit",
+            "options": [
+              "Tout droit",
+              "Gauche"
+            ],
+            "conceptId": "a1_directions_tout_droit"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Here",
+            "answer": "Ici",
+            "conceptId": "a1_directions_ici"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Translate: There",
+            "answer": "Là",
+            "options": [
+              "Là",
+              "Gauche"
+            ],
+            "conceptId": "a1_directions_la"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: 'À gauche'",
+            "tokens": [
+              "À",
+              "gauche",
+              "droite",
+              "ici"
+            ],
+            "answer": "À gauche",
+            "conceptId": "a1_directions_gauche"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: 'Ici et là'",
+            "tokens": [
+              "Ici",
+              "et",
+              "là",
+              "gauche"
+            ],
+            "answer": "Ici et là",
+            "conceptId": "a1_directions_gauche"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-celebration",
+      "type": "celebration",
+      "config": {}
+    }
+  ]
+}

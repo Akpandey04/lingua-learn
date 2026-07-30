@@ -1,0 +1,51 @@
+{
+  "id": "unit-12-travel-lesson-1",
+  "title": "Travel Vocabulary",
+  "learningObjectives": [
+    "Learn Travel"
+  ],
+  "modules": [
+    {
+      "id": "unit-12-travel-lesson-1-vocab",
+      "type": "vocabulary",
+      "config": {
+        "words": [
+          {
+            "id": "a1_travel_hotel",
+            "native": "Hôtel",
+            "translation": "Hotel",
+            "ipa": "/otɛl/",
+            "pronunciation": "Oh-tell",
+            "exampleSentence": "L'hôtel.",
+            "exampleTranslation": "The hotel.",
+            "memoryTip": "Memorize this!",
+            "tags": [
+              "travel"
+            ],
+            "emoji": "📝",
+            "cefr": "A1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "unit-12-travel-lesson-1-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "payload": {
+              "type": "mcq",
+              "question": "Translate: Hotel",
+              "answer": "Hôtel",
+              "options": [
+                "Hôtel"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,417 @@
+{
+  "id": "unit-13-weather-lesson-1",
+  "unitId": "unit-13-weather",
+  "title": "Weather",
+  "version": 3,
+  "learningObjectives": [
+    "a1_weather_soleil",
+    "a1_weather_pluie",
+    "a1_weather_vent",
+    "a1_weather_chaud",
+    "a1_weather_froid"
+  ],
+  "modules": [
+    {
+      "id": "mod-intro",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Welcome to Weather",
+        "conceptId": "intro",
+        "content": "Today we will learn about Weather in French. Let's start with 5 important words.",
+        "example": "Pay close attention to how they are pronounced."
+      }
+    },
+    {
+      "id": "mod-vocab",
+      "type": "vocabulary",
+      "config": {
+        "flow": "teach_all",
+        "words": [
+          {
+            "conceptId": "a1_weather_soleil",
+            "emoji": "📚",
+            "nativeWord": "Soleil",
+            "englishMeaning": "Sun",
+            "ipa": "/sɔlɛj/",
+            "pronunciation": "So-lay",
+            "exampleSentence": "Il y a du soleil.",
+            "exampleTranslation": "It is sunny.",
+            "memoryTip": "Yellow and hot.",
+            "difficultyRating": 1
+          },
+          {
+            "conceptId": "a1_weather_pluie",
+            "emoji": "📚",
+            "nativeWord": "Pluie",
+            "englishMeaning": "Rain",
+            "ipa": "/plɥi/",
+            "pronunciation": "Plwee",
+            "exampleSentence": "Il y a de la pluie.",
+            "exampleTranslation": "It is raining.",
+            "memoryTip": "Wet.",
+            "difficultyRating": 1
+          },
+          {
+            "conceptId": "a1_weather_vent",
+            "emoji": "📚",
+            "nativeWord": "Vent",
+            "englishMeaning": "Wind",
+            "ipa": "/vɑ̃/",
+            "pronunciation": "Vahn",
+            "exampleSentence": "Le vent souffle fort.",
+            "exampleTranslation": "The wind blows hard.",
+            "memoryTip": "Blowing air.",
+            "difficultyRating": 1
+          },
+          {
+            "conceptId": "a1_weather_chaud",
+            "emoji": "📚",
+            "nativeWord": "Chaud",
+            "englishMeaning": "Hot",
+            "ipa": "/ʃo/",
+            "pronunciation": "Sho",
+            "exampleSentence": "Il fait très chaud.",
+            "exampleTranslation": "It is very hot.",
+            "memoryTip": "High temp.",
+            "difficultyRating": 1
+          },
+          {
+            "conceptId": "a1_weather_froid",
+            "emoji": "📚",
+            "nativeWord": "Froid",
+            "englishMeaning": "Cold",
+            "ipa": "/fʁwa/",
+            "pronunciation": "Frwah",
+            "exampleSentence": "J'ai froid.",
+            "exampleTranslation": "I am cold.",
+            "memoryTip": "Low temp.",
+            "difficultyRating": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-listen",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Soleil",
+            "answer": "Soleil",
+            "options": [
+              "Soleil",
+              "Pluie",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_weather_soleil"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Pluie",
+            "answer": "Pluie",
+            "options": [
+              "Pluie",
+              "Soleil",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_weather_pluie"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Vent",
+            "answer": "Vent",
+            "options": [
+              "Vent",
+              "Soleil",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_weather_vent"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Chaud",
+            "answer": "Chaud",
+            "options": [
+              "Chaud",
+              "Soleil",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_weather_chaud"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Froid",
+            "answer": "Froid",
+            "options": [
+              "Froid",
+              "Soleil",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_weather_froid"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-speak",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Soleil",
+            "prompt": "Say: Sun",
+            "conceptId": "a1_weather_soleil",
+            "pronunciation": "So-lay (/sɔlɛj/)"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Pluie",
+            "prompt": "Say: Rain",
+            "conceptId": "a1_weather_pluie",
+            "pronunciation": "Plwee (/plɥi/)"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Vent",
+            "prompt": "Say: Wind",
+            "conceptId": "a1_weather_vent",
+            "pronunciation": "Vahn (/vɑ̃/)"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Chaud",
+            "prompt": "Say: Hot",
+            "conceptId": "a1_weather_chaud",
+            "pronunciation": "Sho (/ʃo/)"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Froid",
+            "prompt": "Say: Cold",
+            "conceptId": "a1_weather_froid",
+            "pronunciation": "Frwah (/fʁwa/)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-type",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'Sun'?",
+            "answer": "Soleil",
+            "conceptId": "a1_weather_soleil"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'Rain'?",
+            "answer": "Pluie",
+            "conceptId": "a1_weather_pluie"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'Wind'?",
+            "answer": "Vent",
+            "conceptId": "a1_weather_vent"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'Hot'?",
+            "answer": "Chaud",
+            "conceptId": "a1_weather_chaud"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'Cold'?",
+            "answer": "Froid",
+            "conceptId": "a1_weather_froid"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-practice",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning Match",
+            "prompt": "What does 'Soleil' mean?",
+            "answer": "Sun",
+            "options": [
+              "Sun",
+              "Rain",
+              "Fake1",
+              "Fake2"
+            ],
+            "conceptId": "a1_weather_soleil"
+          },
+          {
+            "type": "fill",
+            "phaseTitle": "Fill in the Blank",
+            "phrase": "_ !",
+            "prompt": "Type 'Rain'",
+            "answer": "Pluie",
+            "conceptId": "a1_weather_pluie"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Word Match",
+            "prompt": "Which word means 'Wind'?",
+            "answer": "Vent",
+            "options": [
+              "Vent",
+              "Soleil",
+              "Mot1",
+              "Mot2"
+            ],
+            "conceptId": "a1_weather_vent"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning Match",
+            "prompt": "What does 'Chaud' mean?",
+            "answer": "Hot",
+            "options": [
+              "Hot",
+              "Sun",
+              "Fake1",
+              "Fake2"
+            ],
+            "conceptId": "a1_weather_chaud"
+          },
+          {
+            "type": "fill",
+            "phaseTitle": "Fill in the Blank",
+            "phrase": "_ !",
+            "prompt": "Type 'Cold'",
+            "answer": "Froid",
+            "conceptId": "a1_weather_froid"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-summary",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Revision Summary",
+        "conceptId": "intro",
+        "content": "Before the final quiz, let's review what you learned today:\n\n**Soleil** (/sɔlɛj/) - Sun\n💡 *Tip: Yellow and hot.*\n\n**Pluie** (/plɥi/) - Rain\n💡 *Tip: Wet.*\n\n**Vent** (/vɑ̃/) - Wind\n💡 *Tip: Blowing air.*\n\n**Chaud** (/ʃo/) - Hot\n💡 *Tip: High temp.*\n\n**Froid** (/fʁwa/) - Cold\n💡 *Tip: Low temp.*",
+        "example": "Take a deep breath. Let's start the final quiz!"
+      }
+    },
+    {
+      "id": "mod-final-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Translate: Sun",
+            "answer": "Soleil",
+            "options": [
+              "Soleil",
+              "Pluie"
+            ],
+            "conceptId": "a1_weather_soleil"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Rain",
+            "answer": "Pluie",
+            "conceptId": "a1_weather_pluie"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Translate: Wind",
+            "answer": "Vent",
+            "options": [
+              "Vent",
+              "Soleil"
+            ],
+            "conceptId": "a1_weather_vent"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Hot",
+            "answer": "Chaud",
+            "conceptId": "a1_weather_chaud"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Translate: Cold",
+            "answer": "Froid",
+            "options": [
+              "Froid",
+              "Soleil"
+            ],
+            "conceptId": "a1_weather_froid"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: 'Soleil et chaud'",
+            "tokens": [
+              "Soleil",
+              "et",
+              "chaud",
+              "froid"
+            ],
+            "answer": "Soleil et chaud",
+            "conceptId": "a1_weather_soleil"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: 'Pluie et vent'",
+            "tokens": [
+              "Pluie",
+              "et",
+              "vent",
+              "soleil"
+            ],
+            "answer": "Pluie et vent",
+            "conceptId": "a1_weather_soleil"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-celebration",
+      "type": "celebration",
+      "config": {}
+    }
+  ]
+}

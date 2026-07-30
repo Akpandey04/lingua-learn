@@ -1,0 +1,19 @@
+{
+  "id": "grammar_a2_work",
+  "type": "grammar",
+  "language": "French",
+  "title": "Work Grammar",
+  "description": "Rules for Work",
+  "rules": [
+    "Rule 1 for Work"
+  ],
+  "examples": [
+    "Example for Work"
+  ],
+  "difficulty": 2,
+  "cefr": "A1",
+  "tags": [
+    "grammar"
+  ],
+  "relatedConcepts": []
+}

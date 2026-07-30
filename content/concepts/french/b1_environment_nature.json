@@ -1,0 +1,18 @@
+{
+  "id": "b1_environment_nature",
+  "type": "vocabulary",
+  "language": "French",
+  "pronunciation": "Nah-toor",
+  "ipa": "/natyʁ/",
+  "difficulty": 1,
+  "cefr": "A1",
+  "tags": [
+    "environment"
+  ],
+  "relatedConcepts": [],
+  "masteryThreshold": 0.9,
+  "exampleSentence": "La nature.",
+  "exampleTranslation": "Nature.",
+  "memoryTip": "Memorize this!",
+  "emoji": "📝"
+}

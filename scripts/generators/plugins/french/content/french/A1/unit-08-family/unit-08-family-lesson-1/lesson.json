@@ -1,0 +1,51 @@
+{
+  "id": "unit-08-family-lesson-1",
+  "title": "Family Vocabulary",
+  "learningObjectives": [
+    "Learn Family"
+  ],
+  "modules": [
+    {
+      "id": "unit-08-family-lesson-1-vocab",
+      "type": "vocabulary",
+      "config": {
+        "words": [
+          {
+            "id": "a1_family_mere",
+            "native": "Mère",
+            "translation": "Mother",
+            "ipa": "/mɛʁ/",
+            "pronunciation": "Mair",
+            "exampleSentence": "Ma mère.",
+            "exampleTranslation": "My mother.",
+            "memoryTip": "Memorize this!",
+            "tags": [
+              "family"
+            ],
+            "emoji": "📝",
+            "cefr": "A1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "unit-08-family-lesson-1-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "payload": {
+              "type": "mcq",
+              "question": "Translate: Mother",
+              "answer": "Mère",
+              "options": [
+                "Mère"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

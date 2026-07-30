@@ -1,0 +1,19 @@
+{
+  "id": "grammar_a1_alphabet",
+  "type": "grammar",
+  "language": "French",
+  "title": "Alphabet Grammar",
+  "description": "Rules for Alphabet",
+  "rules": [
+    "Rule 1 for Alphabet"
+  ],
+  "examples": [
+    "Example for Alphabet"
+  ],
+  "difficulty": 2,
+  "cefr": "A1",
+  "tags": [
+    "grammar"
+  ],
+  "relatedConcepts": []
+}

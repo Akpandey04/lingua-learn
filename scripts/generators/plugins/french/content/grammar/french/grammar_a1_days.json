@@ -1,0 +1,19 @@
+{
+  "id": "grammar_a1_days",
+  "type": "grammar",
+  "language": "French",
+  "title": "Days Grammar",
+  "description": "Rules for Days",
+  "rules": [
+    "Rule 1 for Days"
+  ],
+  "examples": [
+    "Example for Days"
+  ],
+  "difficulty": 2,
+  "cefr": "A1",
+  "tags": [
+    "grammar"
+  ],
+  "relatedConcepts": []
+}

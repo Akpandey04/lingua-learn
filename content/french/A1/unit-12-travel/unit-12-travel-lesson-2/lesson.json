@@ -1,0 +1,23 @@
+{
+  "id": "unit-12-travel-lesson-2",
+  "title": "Travel Practice",
+  "learningObjectives": [
+    "Practice Travel"
+  ],
+  "modules": [
+    {
+      "id": "unit-12-travel-lesson-2-knowledge",
+      "type": "knowledge_card",
+      "config": {
+        "cards": [
+          {
+            "id": "unit-12-travel-lesson-2-card1",
+            "title": "Grammar: Travel",
+            "conceptId": "grammar_a1_travel",
+            "content": "Learn the rules for Travel."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,717 @@
+{
+  "id": "food-lesson-1",
+  "unitId": "food",
+  "title": "Food",
+  "version": 3,
+  "learningObjectives": [
+    "a1_es_agua",
+    "a1_es_pan",
+    "a1_es_carne",
+    "a1_es_pescado",
+    "a1_es_fruta"
+  ],
+  "modules": [
+    {
+      "id": "mod-intro",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Welcome to Food",
+        "conceptId": "intro",
+        "content": "Today we will learn about Food in Spanish. Let's start with important words.",
+        "example": "Pay close attention to how they are pronounced."
+      }
+    },
+    {
+      "id": "mod-vocab",
+      "type": "vocabulary",
+      "config": {
+        "flow": "teach_all",
+        "words": [
+          {
+            "id": "a1_es_agua",
+            "conceptId": "a1_es_agua",
+            "nativeWord": "Agua",
+            "englishMeaning": "Water",
+            "ipa": "/ˈa.ɣwa/",
+            "pronunciation": "Ah-gwah",
+            "exampleSentence": "Bebo mucha agua.",
+            "exampleTranslation": "I drink a lot of water.",
+            "memoryTip": "Aqua",
+            "tags": [
+              "food"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "Agu",
+              "correct": "Agua"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for water"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "Agua"
+            }
+          },
+          {
+            "id": "a1_es_pan",
+            "conceptId": "a1_es_pan",
+            "nativeWord": "Pan",
+            "englishMeaning": "Bread",
+            "ipa": "/pan/",
+            "pronunciation": "Pahn",
+            "exampleSentence": "Como pan con queso.",
+            "exampleTranslation": "I eat bread with cheese.",
+            "memoryTip": "Pan",
+            "tags": [
+              "food"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "Pa",
+              "correct": "Pan"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for bread"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "Pan"
+            }
+          },
+          {
+            "id": "a1_es_carne",
+            "conceptId": "a1_es_carne",
+            "nativeWord": "Carne",
+            "englishMeaning": "Meat",
+            "ipa": "/ˈkaɾ.ne/",
+            "pronunciation": "Car-nay",
+            "exampleSentence": "No como carne.",
+            "exampleTranslation": "I do not eat meat.",
+            "memoryTip": "Carnivore",
+            "tags": [
+              "food"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "Carn",
+              "correct": "Carne"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for meat"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "Carne"
+            }
+          },
+          {
+            "id": "a1_es_pescado",
+            "conceptId": "a1_es_pescado",
+            "nativeWord": "Pescado",
+            "englishMeaning": "Fish",
+            "ipa": "/pesˈka.ðo/",
+            "pronunciation": "Pes-cah-do",
+            "exampleSentence": "El pescado es fresco.",
+            "exampleTranslation": "The fish is fresh.",
+            "memoryTip": "Pescatarian",
+            "tags": [
+              "food"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "Pescad",
+              "correct": "Pescado"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for fish"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "Pescado"
+            }
+          },
+          {
+            "id": "a1_es_fruta",
+            "conceptId": "a1_es_fruta",
+            "nativeWord": "Fruta",
+            "englishMeaning": "Fruit",
+            "ipa": "/ˈfɾu.ta/",
+            "pronunciation": "Froo-tah",
+            "exampleSentence": "Me gusta la fruta.",
+            "exampleTranslation": "I like fruit.",
+            "memoryTip": "Fruit",
+            "tags": [
+              "food"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "Frut",
+              "correct": "Fruta"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for fruit"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "Fruta"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-listen",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "Agua",
+            "answer": "Agua",
+            "options": [
+              "Fruta",
+              "Pan",
+              "Agua",
+              "Carne",
+              "Pescado"
+            ],
+            "conceptId": "a1_es_agua"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "Pan",
+            "answer": "Pan",
+            "options": [
+              "Agua",
+              "Pan",
+              "Pescado",
+              "Fruta",
+              "Carne"
+            ],
+            "conceptId": "a1_es_pan"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "Carne",
+            "answer": "Carne",
+            "options": [
+              "Agua",
+              "Carne",
+              "Pan",
+              "Pescado",
+              "Fruta"
+            ],
+            "conceptId": "a1_es_carne"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "Pescado",
+            "answer": "Pescado",
+            "options": [
+              "Pan",
+              "Carne",
+              "Fruta",
+              "Pescado",
+              "Agua"
+            ],
+            "conceptId": "a1_es_pescado"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "Fruta",
+            "answer": "Fruta",
+            "options": [
+              "Pescado",
+              "Carne",
+              "Agua",
+              "Pan",
+              "Fruta"
+            ],
+            "conceptId": "a1_es_fruta"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-speak",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: Agua",
+            "expectedPhrase": "Agua",
+            "conceptId": "a1_es_agua"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: Pan",
+            "expectedPhrase": "Pan",
+            "conceptId": "a1_es_pan"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: Carne",
+            "expectedPhrase": "Carne",
+            "conceptId": "a1_es_carne"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: Pescado",
+            "expectedPhrase": "Pescado",
+            "conceptId": "a1_es_pescado"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: Fruta",
+            "expectedPhrase": "Fruta",
+            "conceptId": "a1_es_fruta"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-type",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: Water",
+            "answer": "Agua",
+            "conceptId": "a1_es_agua"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: Bread",
+            "answer": "Pan",
+            "conceptId": "a1_es_pan"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: Meat",
+            "answer": "Carne",
+            "conceptId": "a1_es_carne"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: Fish",
+            "answer": "Pescado",
+            "conceptId": "a1_es_pescado"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: Fruit",
+            "answer": "Fruta",
+            "conceptId": "a1_es_fruta"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-practice",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: Water",
+            "options": [
+              "Agua",
+              "Carne",
+              "Pan",
+              "Pescado",
+              "Fruta"
+            ],
+            "answer": "Agua",
+            "conceptId": "a1_es_agua"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in Spanish: Water",
+            "answer": "Agua",
+            "conceptId": "a1_es_agua"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: Bread",
+            "options": [
+              "Carne",
+              "Pescado",
+              "Fruta",
+              "Pan",
+              "Agua"
+            ],
+            "answer": "Pan",
+            "conceptId": "a1_es_pan"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in Spanish: Bread",
+            "answer": "Pan",
+            "conceptId": "a1_es_pan"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: Meat",
+            "options": [
+              "Carne",
+              "Fruta",
+              "Pan",
+              "Pescado",
+              "Agua"
+            ],
+            "answer": "Carne",
+            "conceptId": "a1_es_carne"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in Spanish: Meat",
+            "answer": "Carne",
+            "conceptId": "a1_es_carne"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: Fish",
+            "options": [
+              "Pescado",
+              "Pan",
+              "Agua",
+              "Carne",
+              "Fruta"
+            ],
+            "answer": "Pescado",
+            "conceptId": "a1_es_pescado"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in Spanish: Fish",
+            "answer": "Pescado",
+            "conceptId": "a1_es_pescado"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: Fruit",
+            "options": [
+              "Pan",
+              "Carne",
+              "Pescado",
+              "Fruta",
+              "Agua"
+            ],
+            "answer": "Fruta",
+            "conceptId": "a1_es_fruta"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in Spanish: Fruit",
+            "answer": "Fruta",
+            "conceptId": "a1_es_fruta"
+          },
+          {
+            "type": "match",
+            "phaseTitle": "Pair Matching",
+            "pairs": [
+              {
+                "source": "Agua",
+                "target": "Water"
+              },
+              {
+                "source": "Pan",
+                "target": "Bread"
+              },
+              {
+                "source": "Carne",
+                "target": "Meat"
+              },
+              {
+                "source": "Pescado",
+                "target": "Fish"
+              },
+              {
+                "source": "Fruta",
+                "target": "Fruit"
+              }
+            ],
+            "conceptId": "a1_es_agua"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-summary",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Revision Summary",
+        "conceptId": "intro",
+        "content": "You've learned the vocabulary, listened to the pronunciation, and practiced typing. Now, let's put it all together.",
+        "example": "Take a deep breath. Let's start the final quiz!"
+      }
+    },
+    {
+      "id": "mod-final-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: Water",
+            "answer": "Agua",
+            "options": [
+              "Carne",
+              "Pan",
+              "Agua",
+              "Fruta",
+              "Pescado"
+            ],
+            "conceptId": "a1_es_agua"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "Agua",
+            "answer": "Agua",
+            "options": [
+              "Agua",
+              "Pan",
+              "Fruta",
+              "Carne",
+              "Pescado"
+            ],
+            "conceptId": "a1_es_agua"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Water",
+            "answer": "Agua",
+            "conceptId": "a1_es_agua"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: Bread",
+            "answer": "Pan",
+            "options": [
+              "Agua",
+              "Fruta",
+              "Carne",
+              "Pescado",
+              "Pan"
+            ],
+            "conceptId": "a1_es_pan"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "Pan",
+            "answer": "Pan",
+            "options": [
+              "Agua",
+              "Pescado",
+              "Pan",
+              "Fruta",
+              "Carne"
+            ],
+            "conceptId": "a1_es_pan"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Bread",
+            "answer": "Pan",
+            "conceptId": "a1_es_pan"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: Meat",
+            "answer": "Carne",
+            "options": [
+              "Fruta",
+              "Carne",
+              "Pescado",
+              "Agua",
+              "Pan"
+            ],
+            "conceptId": "a1_es_carne"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "Carne",
+            "answer": "Carne",
+            "options": [
+              "Fruta",
+              "Pescado",
+              "Carne",
+              "Pan",
+              "Agua"
+            ],
+            "conceptId": "a1_es_carne"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Meat",
+            "answer": "Carne",
+            "conceptId": "a1_es_carne"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: Fish",
+            "answer": "Pescado",
+            "options": [
+              "Fruta",
+              "Carne",
+              "Pescado",
+              "Agua",
+              "Pan"
+            ],
+            "conceptId": "a1_es_pescado"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "Pescado",
+            "answer": "Pescado",
+            "options": [
+              "Agua",
+              "Fruta",
+              "Pescado",
+              "Pan",
+              "Carne"
+            ],
+            "conceptId": "a1_es_pescado"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Fish",
+            "answer": "Pescado",
+            "conceptId": "a1_es_pescado"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: Fruit",
+            "answer": "Fruta",
+            "options": [
+              "Fruta",
+              "Carne",
+              "Agua",
+              "Pan",
+              "Pescado"
+            ],
+            "conceptId": "a1_es_fruta"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "Fruta",
+            "answer": "Fruta",
+            "options": [
+              "Carne",
+              "Fruta",
+              "Agua",
+              "Pan",
+              "Pescado"
+            ],
+            "conceptId": "a1_es_fruta"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Fruit",
+            "answer": "Fruta",
+            "conceptId": "a1_es_fruta"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: 'Bebo agua fría'",
+            "tokens": [
+              "Bebo",
+              "agua",
+              "fría",
+              "caliente"
+            ],
+            "answer": "Bebo agua fría",
+            "conceptId": "a1_es_agua"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: 'Como pan y fruta'",
+            "tokens": [
+              "Como",
+              "pan",
+              "y",
+              "fruta"
+            ],
+            "answer": "Como pan y fruta",
+            "conceptId": "a1_es_agua"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-celebration",
+      "type": "celebration",
+      "config": {}
+    }
+  ]
+}

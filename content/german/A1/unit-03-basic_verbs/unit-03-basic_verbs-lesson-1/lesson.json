@@ -1,0 +1,717 @@
+{
+  "id": "basic_verbs-lesson-1",
+  "unitId": "basic_verbs",
+  "title": "Basic Verbs",
+  "version": 3,
+  "learningObjectives": [
+    "a1_de_sein",
+    "a1_de_haben",
+    "a1_de_gehen",
+    "a1_de_kommen",
+    "a1_de_machen"
+  ],
+  "modules": [
+    {
+      "id": "mod-intro",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Welcome to Basic Verbs",
+        "conceptId": "intro",
+        "content": "Today we will learn about Basic Verbs in German. Let's start with important words.",
+        "example": "Pay close attention to how they are pronounced."
+      }
+    },
+    {
+      "id": "mod-vocab",
+      "type": "vocabulary",
+      "config": {
+        "flow": "teach_all",
+        "words": [
+          {
+            "id": "a1_de_sein",
+            "conceptId": "a1_de_sein",
+            "nativeWord": "sein",
+            "englishMeaning": "to be",
+            "ipa": "/zaɪ̯n/",
+            "pronunciation": "zyne",
+            "exampleSentence": "Ich will da sein.",
+            "exampleTranslation": "I want to be there.",
+            "memoryTip": "To be or not to be.",
+            "tags": [
+              "basic_verbs"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "sei",
+              "correct": "sein"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for to be"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "sein"
+            }
+          },
+          {
+            "id": "a1_de_haben",
+            "conceptId": "a1_de_haben",
+            "nativeWord": "haben",
+            "englishMeaning": "to have",
+            "ipa": "/ˈhaː.bən/",
+            "pronunciation": "hah-ben",
+            "exampleSentence": "Wir haben Zeit.",
+            "exampleTranslation": "We have time.",
+            "memoryTip": "Looks like have.",
+            "tags": [
+              "basic_verbs"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "habe",
+              "correct": "haben"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for to have"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "haben"
+            }
+          },
+          {
+            "id": "a1_de_gehen",
+            "conceptId": "a1_de_gehen",
+            "nativeWord": "gehen",
+            "englishMeaning": "to go",
+            "ipa": "/ˈɡeː.ən/",
+            "pronunciation": "gay-en",
+            "exampleSentence": "Wir gehen jetzt.",
+            "exampleTranslation": "We go now.",
+            "memoryTip": "G for go.",
+            "tags": [
+              "basic_verbs"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "gehe",
+              "correct": "gehen"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for to go"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "gehen"
+            }
+          },
+          {
+            "id": "a1_de_kommen",
+            "conceptId": "a1_de_kommen",
+            "nativeWord": "kommen",
+            "englishMeaning": "to come",
+            "ipa": "/ˈkɔ.mən/",
+            "pronunciation": "koh-men",
+            "exampleSentence": "Sie kommen heute.",
+            "exampleTranslation": "They come today.",
+            "memoryTip": "Looks and means come.",
+            "tags": [
+              "basic_verbs"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "komme",
+              "correct": "kommen"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for to come"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "kommen"
+            }
+          },
+          {
+            "id": "a1_de_machen",
+            "conceptId": "a1_de_machen",
+            "nativeWord": "machen",
+            "englishMeaning": "to do/make",
+            "ipa": "/ˈma.xən/",
+            "pronunciation": "mah-khen",
+            "exampleSentence": "Was machen wir?",
+            "exampleTranslation": "What do we do?",
+            "memoryTip": "Similar to make.",
+            "tags": [
+              "basic_verbs"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "mache",
+              "correct": "machen"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for to do/make"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "machen"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-listen",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "sein",
+            "answer": "sein",
+            "options": [
+              "machen",
+              "gehen",
+              "haben",
+              "kommen",
+              "sein"
+            ],
+            "conceptId": "a1_de_sein"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "haben",
+            "answer": "haben",
+            "options": [
+              "kommen",
+              "sein",
+              "gehen",
+              "haben",
+              "machen"
+            ],
+            "conceptId": "a1_de_haben"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "gehen",
+            "answer": "gehen",
+            "options": [
+              "gehen",
+              "sein",
+              "machen",
+              "kommen",
+              "haben"
+            ],
+            "conceptId": "a1_de_gehen"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "kommen",
+            "answer": "kommen",
+            "options": [
+              "gehen",
+              "machen",
+              "haben",
+              "sein",
+              "kommen"
+            ],
+            "conceptId": "a1_de_kommen"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "machen",
+            "answer": "machen",
+            "options": [
+              "sein",
+              "kommen",
+              "gehen",
+              "machen",
+              "haben"
+            ],
+            "conceptId": "a1_de_machen"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-speak",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: sein",
+            "expectedPhrase": "sein",
+            "conceptId": "a1_de_sein"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: haben",
+            "expectedPhrase": "haben",
+            "conceptId": "a1_de_haben"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: gehen",
+            "expectedPhrase": "gehen",
+            "conceptId": "a1_de_gehen"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: kommen",
+            "expectedPhrase": "kommen",
+            "conceptId": "a1_de_kommen"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: machen",
+            "expectedPhrase": "machen",
+            "conceptId": "a1_de_machen"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-type",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: to be",
+            "answer": "sein",
+            "conceptId": "a1_de_sein"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: to have",
+            "answer": "haben",
+            "conceptId": "a1_de_haben"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: to go",
+            "answer": "gehen",
+            "conceptId": "a1_de_gehen"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: to come",
+            "answer": "kommen",
+            "conceptId": "a1_de_kommen"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: to do/make",
+            "answer": "machen",
+            "conceptId": "a1_de_machen"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-practice",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: to be",
+            "options": [
+              "sein",
+              "haben",
+              "machen",
+              "gehen",
+              "kommen"
+            ],
+            "answer": "sein",
+            "conceptId": "a1_de_sein"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in German: to be",
+            "answer": "sein",
+            "conceptId": "a1_de_sein"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: to have",
+            "options": [
+              "haben",
+              "gehen",
+              "machen",
+              "kommen",
+              "sein"
+            ],
+            "answer": "haben",
+            "conceptId": "a1_de_haben"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in German: to have",
+            "answer": "haben",
+            "conceptId": "a1_de_haben"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: to go",
+            "options": [
+              "haben",
+              "kommen",
+              "gehen",
+              "sein",
+              "machen"
+            ],
+            "answer": "gehen",
+            "conceptId": "a1_de_gehen"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in German: to go",
+            "answer": "gehen",
+            "conceptId": "a1_de_gehen"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: to come",
+            "options": [
+              "machen",
+              "haben",
+              "sein",
+              "kommen",
+              "gehen"
+            ],
+            "answer": "kommen",
+            "conceptId": "a1_de_kommen"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in German: to come",
+            "answer": "kommen",
+            "conceptId": "a1_de_kommen"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: to do/make",
+            "options": [
+              "haben",
+              "machen",
+              "kommen",
+              "gehen",
+              "sein"
+            ],
+            "answer": "machen",
+            "conceptId": "a1_de_machen"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in German: to do/make",
+            "answer": "machen",
+            "conceptId": "a1_de_machen"
+          },
+          {
+            "type": "match",
+            "phaseTitle": "Pair Matching",
+            "pairs": [
+              {
+                "source": "sein",
+                "target": "to be"
+              },
+              {
+                "source": "haben",
+                "target": "to have"
+              },
+              {
+                "source": "gehen",
+                "target": "to go"
+              },
+              {
+                "source": "kommen",
+                "target": "to come"
+              },
+              {
+                "source": "machen",
+                "target": "to do/make"
+              }
+            ],
+            "conceptId": "a1_de_sein"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-summary",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Revision Summary",
+        "conceptId": "intro",
+        "content": "You've learned the vocabulary, listened to the pronunciation, and practiced typing. Now, let's put it all together.",
+        "example": "Take a deep breath. Let's start the final quiz!"
+      }
+    },
+    {
+      "id": "mod-final-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: to be",
+            "answer": "sein",
+            "options": [
+              "haben",
+              "gehen",
+              "kommen",
+              "sein",
+              "machen"
+            ],
+            "conceptId": "a1_de_sein"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "sein",
+            "answer": "sein",
+            "options": [
+              "gehen",
+              "sein",
+              "kommen",
+              "machen",
+              "haben"
+            ],
+            "conceptId": "a1_de_sein"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: to be",
+            "answer": "sein",
+            "conceptId": "a1_de_sein"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: to have",
+            "answer": "haben",
+            "options": [
+              "machen",
+              "haben",
+              "sein",
+              "gehen",
+              "kommen"
+            ],
+            "conceptId": "a1_de_haben"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "haben",
+            "answer": "haben",
+            "options": [
+              "machen",
+              "sein",
+              "haben",
+              "kommen",
+              "gehen"
+            ],
+            "conceptId": "a1_de_haben"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: to have",
+            "answer": "haben",
+            "conceptId": "a1_de_haben"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: to go",
+            "answer": "gehen",
+            "options": [
+              "gehen",
+              "haben",
+              "machen",
+              "kommen",
+              "sein"
+            ],
+            "conceptId": "a1_de_gehen"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "gehen",
+            "answer": "gehen",
+            "options": [
+              "haben",
+              "sein",
+              "machen",
+              "kommen",
+              "gehen"
+            ],
+            "conceptId": "a1_de_gehen"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: to go",
+            "answer": "gehen",
+            "conceptId": "a1_de_gehen"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: to come",
+            "answer": "kommen",
+            "options": [
+              "kommen",
+              "sein",
+              "gehen",
+              "haben",
+              "machen"
+            ],
+            "conceptId": "a1_de_kommen"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "kommen",
+            "answer": "kommen",
+            "options": [
+              "haben",
+              "kommen",
+              "machen",
+              "gehen",
+              "sein"
+            ],
+            "conceptId": "a1_de_kommen"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: to come",
+            "answer": "kommen",
+            "conceptId": "a1_de_kommen"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: to do/make",
+            "answer": "machen",
+            "options": [
+              "kommen",
+              "sein",
+              "haben",
+              "gehen",
+              "machen"
+            ],
+            "conceptId": "a1_de_machen"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "machen",
+            "answer": "machen",
+            "options": [
+              "gehen",
+              "machen",
+              "haben",
+              "sein",
+              "kommen"
+            ],
+            "conceptId": "a1_de_machen"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: to do/make",
+            "answer": "machen",
+            "conceptId": "a1_de_machen"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: 'Wir haben Zeit'",
+            "tokens": [
+              "Wir",
+              "haben",
+              "Zeit",
+              "sein"
+            ],
+            "answer": "Wir haben Zeit",
+            "conceptId": "a1_de_sein"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: 'Wir gehen jetzt'",
+            "tokens": [
+              "Wir",
+              "gehen",
+              "jetzt",
+              "kommen"
+            ],
+            "answer": "Wir gehen jetzt",
+            "conceptId": "a1_de_sein"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-celebration",
+      "type": "celebration",
+      "config": {}
+    }
+  ]
+}

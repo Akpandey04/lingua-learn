@@ -1,0 +1,20 @@
+{
+  "id": "a1_numbers_un",
+  "type": "vocabulary",
+  "language": "French",
+  "native": "Un",
+  "translation": "One",
+  "pronunciation": "Uhn",
+  "ipa": "/œ̃/",
+  "difficulty": 1,
+  "cefr": "A1",
+  "tags": [
+    "numbers"
+  ],
+  "relatedConcepts": [],
+  "masteryThreshold": 0.9,
+  "exampleSentence": "Un.",
+  "exampleTranslation": "One.",
+  "memoryTip": "Memorize this!",
+  "emoji": "📝"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "b1_education_universite",
+  "type": "vocabulary",
+  "language": "French",
+  "native": "Université",
+  "translation": "University",
+  "pronunciation": "Oo-nee-vair-see-tay",
+  "ipa": "/ynivɛʁsite/",
+  "difficulty": 1,
+  "cefr": "A1",
+  "tags": [
+    "education"
+  ],
+  "relatedConcepts": [],
+  "masteryThreshold": 0.9,
+  "exampleSentence": "L'université.",
+  "exampleTranslation": "The university.",
+  "memoryTip": "Memorize this!",
+  "emoji": "📝"
+}

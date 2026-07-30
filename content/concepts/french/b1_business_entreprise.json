@@ -1,0 +1,18 @@
+{
+  "id": "b1_business_entreprise",
+  "type": "vocabulary",
+  "language": "French",
+  "pronunciation": "Ahn-truh-preez",
+  "ipa": "/ɑ̃tʁəpʁiz/",
+  "difficulty": 1,
+  "cefr": "A1",
+  "tags": [
+    "business"
+  ],
+  "relatedConcepts": [],
+  "masteryThreshold": 0.9,
+  "exampleSentence": "L'entreprise.",
+  "exampleTranslation": "The company.",
+  "memoryTip": "Memorize this!",
+  "emoji": "📝"
+}

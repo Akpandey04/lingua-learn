@@ -1,0 +1,23 @@
+{
+  "id": "unit-07-relationships-lesson-2",
+  "title": "Relationships Practice",
+  "learningObjectives": [
+    "Practice Relationships"
+  ],
+  "modules": [
+    {
+      "id": "unit-07-relationships-lesson-2-knowledge",
+      "type": "knowledge_card",
+      "config": {
+        "cards": [
+          {
+            "id": "unit-07-relationships-lesson-2-card1",
+            "title": "Grammar: Relationships",
+            "conceptId": "grammar_b1_relationships",
+            "content": "Learn the rules for Relationships."
+          }
+        ]
+      }
+    }
+  ]
+}

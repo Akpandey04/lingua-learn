@@ -1,0 +1,13 @@
+{
+  "id": "wellbeing_how_are_you",
+  "language": "French",
+  "native": "Ça va ?",
+  "translation": "How are you? / Are you okay?",
+  "pronunciation": "Sah vah",
+  "ipa": "/sa va/",
+  "difficulty": 1,
+  "cefr": "A1",
+  "tags": ["greetings", "informal"],
+  "relatedConcepts": ["wellbeing_good"],
+  "masteryThreshold": 0.9
+}

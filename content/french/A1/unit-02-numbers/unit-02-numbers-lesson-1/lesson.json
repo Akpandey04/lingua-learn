@@ -1,0 +1,417 @@
+{
+  "id": "unit-02-numbers-lesson-1",
+  "unitId": "unit-02-numbers",
+  "title": "Numbers",
+  "version": 3,
+  "learningObjectives": [
+    "a1_numbers_un",
+    "a1_numbers_deux",
+    "a1_numbers_trois",
+    "a1_numbers_quatre",
+    "a1_numbers_cinq"
+  ],
+  "modules": [
+    {
+      "id": "mod-intro",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Welcome to Numbers",
+        "conceptId": "intro",
+        "content": "Today we will learn about Numbers in French. Let's start with 5 important words.",
+        "example": "Pay close attention to how they are pronounced."
+      }
+    },
+    {
+      "id": "mod-vocab",
+      "type": "vocabulary",
+      "config": {
+        "flow": "teach_all",
+        "words": [
+          {
+            "conceptId": "a1_numbers_un",
+            "emoji": "📚",
+            "nativeWord": "Un",
+            "englishMeaning": "One",
+            "ipa": "/œ̃/",
+            "pronunciation": "Uhn",
+            "exampleSentence": "Un billet.",
+            "exampleTranslation": "One ticket.",
+            "memoryTip": "Number 1.",
+            "difficultyRating": 1
+          },
+          {
+            "conceptId": "a1_numbers_deux",
+            "emoji": "📚",
+            "nativeWord": "Deux",
+            "englishMeaning": "Two",
+            "ipa": "/dø/",
+            "pronunciation": "Duh",
+            "exampleSentence": "Deux personnes.",
+            "exampleTranslation": "Two people.",
+            "memoryTip": "Number 2.",
+            "difficultyRating": 1
+          },
+          {
+            "conceptId": "a1_numbers_trois",
+            "emoji": "📚",
+            "nativeWord": "Trois",
+            "englishMeaning": "Three",
+            "ipa": "/tʁwa/",
+            "pronunciation": "Trwah",
+            "exampleSentence": "Trois jours.",
+            "exampleTranslation": "Three days.",
+            "memoryTip": "Number 3.",
+            "difficultyRating": 1
+          },
+          {
+            "conceptId": "a1_numbers_quatre",
+            "emoji": "📚",
+            "nativeWord": "Quatre",
+            "englishMeaning": "Four",
+            "ipa": "/katʁ/",
+            "pronunciation": "Kat-r",
+            "exampleSentence": "Quatre heures.",
+            "exampleTranslation": "Four hours.",
+            "memoryTip": "Number 4.",
+            "difficultyRating": 1
+          },
+          {
+            "conceptId": "a1_numbers_cinq",
+            "emoji": "📚",
+            "nativeWord": "Cinq",
+            "englishMeaning": "Five",
+            "ipa": "/sɛ̃k/",
+            "pronunciation": "Sank",
+            "exampleSentence": "Cinq euros.",
+            "exampleTranslation": "Five euros.",
+            "memoryTip": "Number 5.",
+            "difficultyRating": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-listen",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Un",
+            "answer": "Un",
+            "options": [
+              "Un",
+              "Deux",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_numbers_un"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Deux",
+            "answer": "Deux",
+            "options": [
+              "Deux",
+              "Un",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_numbers_deux"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Trois",
+            "answer": "Trois",
+            "options": [
+              "Trois",
+              "Un",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_numbers_trois"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Quatre",
+            "answer": "Quatre",
+            "options": [
+              "Quatre",
+              "Un",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_numbers_quatre"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Cinq",
+            "answer": "Cinq",
+            "options": [
+              "Cinq",
+              "Un",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_numbers_cinq"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-speak",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Un",
+            "prompt": "Say: One",
+            "conceptId": "a1_numbers_un",
+            "pronunciation": "Uhn (/œ̃/)"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Deux",
+            "prompt": "Say: Two",
+            "conceptId": "a1_numbers_deux",
+            "pronunciation": "Duh (/dø/)"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Trois",
+            "prompt": "Say: Three",
+            "conceptId": "a1_numbers_trois",
+            "pronunciation": "Trwah (/tʁwa/)"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Quatre",
+            "prompt": "Say: Four",
+            "conceptId": "a1_numbers_quatre",
+            "pronunciation": "Kat-r (/katʁ/)"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Cinq",
+            "prompt": "Say: Five",
+            "conceptId": "a1_numbers_cinq",
+            "pronunciation": "Sank (/sɛ̃k/)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-type",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'One'?",
+            "answer": "Un",
+            "conceptId": "a1_numbers_un"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'Two'?",
+            "answer": "Deux",
+            "conceptId": "a1_numbers_deux"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'Three'?",
+            "answer": "Trois",
+            "conceptId": "a1_numbers_trois"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'Four'?",
+            "answer": "Quatre",
+            "conceptId": "a1_numbers_quatre"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'Five'?",
+            "answer": "Cinq",
+            "conceptId": "a1_numbers_cinq"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-practice",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning Match",
+            "prompt": "What does 'Un' mean?",
+            "answer": "One",
+            "options": [
+              "One",
+              "Two",
+              "Fake1",
+              "Fake2"
+            ],
+            "conceptId": "a1_numbers_un"
+          },
+          {
+            "type": "fill",
+            "phaseTitle": "Fill in the Blank",
+            "phrase": "_ !",
+            "prompt": "Type 'Two'",
+            "answer": "Deux",
+            "conceptId": "a1_numbers_deux"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Word Match",
+            "prompt": "Which word means 'Three'?",
+            "answer": "Trois",
+            "options": [
+              "Trois",
+              "Un",
+              "Mot1",
+              "Mot2"
+            ],
+            "conceptId": "a1_numbers_trois"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning Match",
+            "prompt": "What does 'Quatre' mean?",
+            "answer": "Four",
+            "options": [
+              "Four",
+              "One",
+              "Fake1",
+              "Fake2"
+            ],
+            "conceptId": "a1_numbers_quatre"
+          },
+          {
+            "type": "fill",
+            "phaseTitle": "Fill in the Blank",
+            "phrase": "_ !",
+            "prompt": "Type 'Five'",
+            "answer": "Cinq",
+            "conceptId": "a1_numbers_cinq"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-summary",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Revision Summary",
+        "conceptId": "intro",
+        "content": "Before the final quiz, let's review what you learned today:\n\n**Un** (/œ̃/) - One\n💡 *Tip: Number 1.*\n\n**Deux** (/dø/) - Two\n💡 *Tip: Number 2.*\n\n**Trois** (/tʁwa/) - Three\n💡 *Tip: Number 3.*\n\n**Quatre** (/katʁ/) - Four\n💡 *Tip: Number 4.*\n\n**Cinq** (/sɛ̃k/) - Five\n💡 *Tip: Number 5.*",
+        "example": "Take a deep breath. Let's start the final quiz!"
+      }
+    },
+    {
+      "id": "mod-final-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Translate: One",
+            "answer": "Un",
+            "options": [
+              "Un",
+              "Deux"
+            ],
+            "conceptId": "a1_numbers_un"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Two",
+            "answer": "Deux",
+            "conceptId": "a1_numbers_deux"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Translate: Three",
+            "answer": "Trois",
+            "options": [
+              "Trois",
+              "Un"
+            ],
+            "conceptId": "a1_numbers_trois"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Four",
+            "answer": "Quatre",
+            "conceptId": "a1_numbers_quatre"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Translate: Five",
+            "answer": "Cinq",
+            "options": [
+              "Cinq",
+              "Un"
+            ],
+            "conceptId": "a1_numbers_cinq"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: 'Un, deux, trois'",
+            "tokens": [
+              "Un,",
+              "deux,",
+              "trois",
+              "quatre"
+            ],
+            "answer": "Un, deux, trois",
+            "conceptId": "a1_numbers_un"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: 'Quatre et cinq'",
+            "tokens": [
+              "Quatre",
+              "et",
+              "cinq",
+              "deux"
+            ],
+            "answer": "Quatre et cinq",
+            "conceptId": "a1_numbers_un"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-celebration",
+      "type": "celebration",
+      "config": {}
+    }
+  ]
+}

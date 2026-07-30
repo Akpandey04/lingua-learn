@@ -1,0 +1,717 @@
+{
+  "id": "greetings-lesson-1",
+  "unitId": "greetings",
+  "title": "Greetings",
+  "version": 3,
+  "learningObjectives": [
+    "a1_de_hallo",
+    "a1_de_guten_morgen",
+    "a1_de_guten_tag",
+    "a1_de_guten_abend",
+    "a1_de_tschuess"
+  ],
+  "modules": [
+    {
+      "id": "mod-intro",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Welcome to Greetings",
+        "conceptId": "intro",
+        "content": "Today we will learn about Greetings in German. Let's start with important words.",
+        "example": "Pay close attention to how they are pronounced."
+      }
+    },
+    {
+      "id": "mod-vocab",
+      "type": "vocabulary",
+      "config": {
+        "flow": "teach_all",
+        "words": [
+          {
+            "id": "a1_de_hallo",
+            "conceptId": "a1_de_hallo",
+            "nativeWord": "Hallo",
+            "englishMeaning": "Hello",
+            "ipa": "/ˈha.lo/",
+            "pronunciation": "Hah-lo",
+            "exampleSentence": "Hallo, ich bin Julia.",
+            "exampleTranslation": "Hello, I am Julia.",
+            "memoryTip": "Almost identical to English.",
+            "tags": [
+              "greetings"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "Hall",
+              "correct": "Hallo"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for hello"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "Hallo"
+            }
+          },
+          {
+            "id": "a1_de_guten_morgen",
+            "conceptId": "a1_de_guten_morgen",
+            "nativeWord": "Guten Morgen",
+            "englishMeaning": "Good morning",
+            "ipa": "/ˈɡuː.tən ˈmɔʁ.ɡən/",
+            "pronunciation": "Goo-ten mor-gen",
+            "exampleSentence": "Guten Morgen, Anna.",
+            "exampleTranslation": "Good morning, Anna.",
+            "memoryTip": "Morgen sounds like morning.",
+            "tags": [
+              "greetings"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "Guten Morge",
+              "correct": "Guten Morgen"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for good morning"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "Guten Morgen"
+            }
+          },
+          {
+            "id": "a1_de_guten_tag",
+            "conceptId": "a1_de_guten_tag",
+            "nativeWord": "Guten Tag",
+            "englishMeaning": "Good day",
+            "ipa": "/ˈɡuː.tən taːk/",
+            "pronunciation": "Goo-ten tahk",
+            "exampleSentence": "Guten Tag, Herr Weber.",
+            "exampleTranslation": "Good day, Mr. Weber.",
+            "memoryTip": "Tag means day.",
+            "tags": [
+              "greetings"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "Guten Ta",
+              "correct": "Guten Tag"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for good day"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "Guten Tag"
+            }
+          },
+          {
+            "id": "a1_de_guten_abend",
+            "conceptId": "a1_de_guten_abend",
+            "nativeWord": "Guten Abend",
+            "englishMeaning": "Good evening",
+            "ipa": "/ˈɡuː.tən ˈaː.bənt/",
+            "pronunciation": "Goo-ten ah-bent",
+            "exampleSentence": "Guten Abend, Maria.",
+            "exampleTranslation": "Good evening, Maria.",
+            "memoryTip": "Abend sounds slightly like event.",
+            "tags": [
+              "greetings"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "Guten Aben",
+              "correct": "Guten Abend"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for good evening"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "Guten Abend"
+            }
+          },
+          {
+            "id": "a1_de_tschuess",
+            "conceptId": "a1_de_tschuess",
+            "nativeWord": "Tschüss",
+            "englishMeaning": "Bye",
+            "ipa": "/tʃʏs/",
+            "pronunciation": "Tshoos",
+            "exampleSentence": "Tschüss, bis bald!",
+            "exampleTranslation": "Bye, see you soon!",
+            "memoryTip": "A casual, fun way to say bye.",
+            "tags": [
+              "greetings"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "Tschüs",
+              "correct": "Tschüss"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for bye"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "Tschüss"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-listen",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "Hallo",
+            "answer": "Hallo",
+            "options": [
+              "Guten Morgen",
+              "Hallo",
+              "Tschüss",
+              "Guten Abend",
+              "Guten Tag"
+            ],
+            "conceptId": "a1_de_hallo"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "Guten Morgen",
+            "answer": "Guten Morgen",
+            "options": [
+              "Guten Morgen",
+              "Guten Abend",
+              "Hallo",
+              "Guten Tag",
+              "Tschüss"
+            ],
+            "conceptId": "a1_de_guten_morgen"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "Guten Tag",
+            "answer": "Guten Tag",
+            "options": [
+              "Hallo",
+              "Guten Abend",
+              "Guten Morgen",
+              "Guten Tag",
+              "Tschüss"
+            ],
+            "conceptId": "a1_de_guten_tag"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "Guten Abend",
+            "answer": "Guten Abend",
+            "options": [
+              "Tschüss",
+              "Hallo",
+              "Guten Morgen",
+              "Guten Abend",
+              "Guten Tag"
+            ],
+            "conceptId": "a1_de_guten_abend"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "Tschüss",
+            "answer": "Tschüss",
+            "options": [
+              "Guten Tag",
+              "Tschüss",
+              "Guten Abend",
+              "Hallo",
+              "Guten Morgen"
+            ],
+            "conceptId": "a1_de_tschuess"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-speak",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: Hallo",
+            "expectedPhrase": "Hallo",
+            "conceptId": "a1_de_hallo"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: Guten Morgen",
+            "expectedPhrase": "Guten Morgen",
+            "conceptId": "a1_de_guten_morgen"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: Guten Tag",
+            "expectedPhrase": "Guten Tag",
+            "conceptId": "a1_de_guten_tag"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: Guten Abend",
+            "expectedPhrase": "Guten Abend",
+            "conceptId": "a1_de_guten_abend"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: Tschüss",
+            "expectedPhrase": "Tschüss",
+            "conceptId": "a1_de_tschuess"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-type",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: Hello",
+            "answer": "Hallo",
+            "conceptId": "a1_de_hallo"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: Good morning",
+            "answer": "Guten Morgen",
+            "conceptId": "a1_de_guten_morgen"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: Good day",
+            "answer": "Guten Tag",
+            "conceptId": "a1_de_guten_tag"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: Good evening",
+            "answer": "Guten Abend",
+            "conceptId": "a1_de_guten_abend"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: Bye",
+            "answer": "Tschüss",
+            "conceptId": "a1_de_tschuess"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-practice",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: Hello",
+            "options": [
+              "Tschüss",
+              "Guten Tag",
+              "Guten Morgen",
+              "Guten Abend",
+              "Hallo"
+            ],
+            "answer": "Hallo",
+            "conceptId": "a1_de_hallo"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in German: Hello",
+            "answer": "Hallo",
+            "conceptId": "a1_de_hallo"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: Good morning",
+            "options": [
+              "Guten Morgen",
+              "Tschüss",
+              "Guten Tag",
+              "Guten Abend",
+              "Hallo"
+            ],
+            "answer": "Guten Morgen",
+            "conceptId": "a1_de_guten_morgen"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in German: Good morning",
+            "answer": "Guten Morgen",
+            "conceptId": "a1_de_guten_morgen"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: Good day",
+            "options": [
+              "Guten Tag",
+              "Hallo",
+              "Tschüss",
+              "Guten Abend",
+              "Guten Morgen"
+            ],
+            "answer": "Guten Tag",
+            "conceptId": "a1_de_guten_tag"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in German: Good day",
+            "answer": "Guten Tag",
+            "conceptId": "a1_de_guten_tag"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: Good evening",
+            "options": [
+              "Guten Morgen",
+              "Tschüss",
+              "Guten Tag",
+              "Hallo",
+              "Guten Abend"
+            ],
+            "answer": "Guten Abend",
+            "conceptId": "a1_de_guten_abend"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in German: Good evening",
+            "answer": "Guten Abend",
+            "conceptId": "a1_de_guten_abend"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: Bye",
+            "options": [
+              "Hallo",
+              "Tschüss",
+              "Guten Abend",
+              "Guten Tag",
+              "Guten Morgen"
+            ],
+            "answer": "Tschüss",
+            "conceptId": "a1_de_tschuess"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in German: Bye",
+            "answer": "Tschüss",
+            "conceptId": "a1_de_tschuess"
+          },
+          {
+            "type": "match",
+            "phaseTitle": "Pair Matching",
+            "pairs": [
+              {
+                "source": "Hallo",
+                "target": "Hello"
+              },
+              {
+                "source": "Guten Morgen",
+                "target": "Good morning"
+              },
+              {
+                "source": "Guten Tag",
+                "target": "Good day"
+              },
+              {
+                "source": "Guten Abend",
+                "target": "Good evening"
+              },
+              {
+                "source": "Tschüss",
+                "target": "Bye"
+              }
+            ],
+            "conceptId": "a1_de_hallo"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-summary",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Revision Summary",
+        "conceptId": "intro",
+        "content": "You've learned the vocabulary, listened to the pronunciation, and practiced typing. Now, let's put it all together.",
+        "example": "Take a deep breath. Let's start the final quiz!"
+      }
+    },
+    {
+      "id": "mod-final-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: Hello",
+            "answer": "Hallo",
+            "options": [
+              "Hallo",
+              "Guten Abend",
+              "Guten Morgen",
+              "Guten Tag",
+              "Tschüss"
+            ],
+            "conceptId": "a1_de_hallo"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "Hallo",
+            "answer": "Hallo",
+            "options": [
+              "Tschüss",
+              "Guten Tag",
+              "Guten Morgen",
+              "Hallo",
+              "Guten Abend"
+            ],
+            "conceptId": "a1_de_hallo"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Hello",
+            "answer": "Hallo",
+            "conceptId": "a1_de_hallo"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: Good morning",
+            "answer": "Guten Morgen",
+            "options": [
+              "Hallo",
+              "Guten Abend",
+              "Tschüss",
+              "Guten Tag",
+              "Guten Morgen"
+            ],
+            "conceptId": "a1_de_guten_morgen"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "Guten Morgen",
+            "answer": "Guten Morgen",
+            "options": [
+              "Hallo",
+              "Guten Morgen",
+              "Guten Tag",
+              "Guten Abend",
+              "Tschüss"
+            ],
+            "conceptId": "a1_de_guten_morgen"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Good morning",
+            "answer": "Guten Morgen",
+            "conceptId": "a1_de_guten_morgen"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: Good day",
+            "answer": "Guten Tag",
+            "options": [
+              "Tschüss",
+              "Guten Morgen",
+              "Guten Tag",
+              "Guten Abend",
+              "Hallo"
+            ],
+            "conceptId": "a1_de_guten_tag"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "Guten Tag",
+            "answer": "Guten Tag",
+            "options": [
+              "Hallo",
+              "Guten Abend",
+              "Tschüss",
+              "Guten Tag",
+              "Guten Morgen"
+            ],
+            "conceptId": "a1_de_guten_tag"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Good day",
+            "answer": "Guten Tag",
+            "conceptId": "a1_de_guten_tag"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: Good evening",
+            "answer": "Guten Abend",
+            "options": [
+              "Guten Morgen",
+              "Guten Abend",
+              "Guten Tag",
+              "Hallo",
+              "Tschüss"
+            ],
+            "conceptId": "a1_de_guten_abend"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "Guten Abend",
+            "answer": "Guten Abend",
+            "options": [
+              "Guten Tag",
+              "Guten Abend",
+              "Tschüss",
+              "Guten Morgen",
+              "Hallo"
+            ],
+            "conceptId": "a1_de_guten_abend"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Good evening",
+            "answer": "Guten Abend",
+            "conceptId": "a1_de_guten_abend"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: Bye",
+            "answer": "Tschüss",
+            "options": [
+              "Guten Abend",
+              "Guten Morgen",
+              "Tschüss",
+              "Hallo",
+              "Guten Tag"
+            ],
+            "conceptId": "a1_de_tschuess"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "Tschüss",
+            "answer": "Tschüss",
+            "options": [
+              "Guten Abend",
+              "Hallo",
+              "Tschüss",
+              "Guten Tag",
+              "Guten Morgen"
+            ],
+            "conceptId": "a1_de_tschuess"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Bye",
+            "answer": "Tschüss",
+            "conceptId": "a1_de_tschuess"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: 'Hallo, Guten Morgen'",
+            "tokens": [
+              "Hallo,",
+              "Guten",
+              "Morgen",
+              "Abend"
+            ],
+            "answer": "Hallo, Guten Morgen",
+            "conceptId": "a1_de_hallo"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: 'Guten Tag und Tschüss'",
+            "tokens": [
+              "Guten",
+              "Tag",
+              "und",
+              "Tschüss"
+            ],
+            "answer": "Guten Tag und Tschüss",
+            "conceptId": "a1_de_hallo"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-celebration",
+      "type": "celebration",
+      "config": {}
+    }
+  ]
+}

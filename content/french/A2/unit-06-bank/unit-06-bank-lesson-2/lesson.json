@@ -1,0 +1,23 @@
+{
+  "id": "unit-06-bank-lesson-2",
+  "title": "Bank Practice",
+  "learningObjectives": [
+    "Practice Bank"
+  ],
+  "modules": [
+    {
+      "id": "unit-06-bank-lesson-2-knowledge",
+      "type": "knowledge_card",
+      "config": {
+        "cards": [
+          {
+            "id": "unit-06-bank-lesson-2-card1",
+            "title": "Grammar: Bank",
+            "conceptId": "grammar_a2_bank",
+            "content": "Learn the rules for Bank."
+          }
+        ]
+      }
+    }
+  ]
+}

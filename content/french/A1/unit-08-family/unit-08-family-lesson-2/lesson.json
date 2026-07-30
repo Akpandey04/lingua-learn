@@ -1,0 +1,23 @@
+{
+  "id": "unit-08-family-lesson-2",
+  "title": "Family Practice",
+  "learningObjectives": [
+    "Practice Family"
+  ],
+  "modules": [
+    {
+      "id": "unit-08-family-lesson-2-knowledge",
+      "type": "knowledge_card",
+      "config": {
+        "cards": [
+          {
+            "id": "unit-08-family-lesson-2-card1",
+            "title": "Grammar: Family",
+            "conceptId": "grammar_a1_family",
+            "content": "Learn the rules for Family."
+          }
+        ]
+      }
+    }
+  ]
+}

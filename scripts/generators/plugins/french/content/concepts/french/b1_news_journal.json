@@ -1,0 +1,20 @@
+{
+  "id": "b1_news_journal",
+  "type": "vocabulary",
+  "language": "French",
+  "native": "Journal",
+  "translation": "Newspaper",
+  "pronunciation": "Zhoor-nahl",
+  "ipa": "/ʒuʁnal/",
+  "difficulty": 1,
+  "cefr": "A1",
+  "tags": [
+    "news"
+  ],
+  "relatedConcepts": [],
+  "masteryThreshold": 0.9,
+  "exampleSentence": "Le journal.",
+  "exampleTranslation": "The newspaper.",
+  "memoryTip": "Memorize this!",
+  "emoji": "📝"
+}

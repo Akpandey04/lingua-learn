@@ -1,0 +1,417 @@
+{
+  "id": "unit-05-months-lesson-1",
+  "unitId": "unit-05-months",
+  "title": "Months",
+  "version": 3,
+  "learningObjectives": [
+    "a1_months_janvier",
+    "a1_months_fevrier",
+    "a1_months_mars",
+    "a1_months_avril",
+    "a1_months_mai"
+  ],
+  "modules": [
+    {
+      "id": "mod-intro",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Welcome to Months",
+        "conceptId": "intro",
+        "content": "Today we will learn about Months in French. Let's start with 5 important words.",
+        "example": "Pay close attention to how they are pronounced."
+      }
+    },
+    {
+      "id": "mod-vocab",
+      "type": "vocabulary",
+      "config": {
+        "flow": "teach_all",
+        "words": [
+          {
+            "conceptId": "a1_months_janvier",
+            "emoji": "📚",
+            "nativeWord": "Janvier",
+            "englishMeaning": "January",
+            "ipa": "/ʒɑ̃vje/",
+            "pronunciation": "Zhan-vyay",
+            "exampleSentence": "Il fait froid en janvier.",
+            "exampleTranslation": "It is cold in January.",
+            "memoryTip": "First month.",
+            "difficultyRating": 1
+          },
+          {
+            "conceptId": "a1_months_fevrier",
+            "emoji": "📚",
+            "nativeWord": "Février",
+            "englishMeaning": "February",
+            "ipa": "/fevʁije/",
+            "pronunciation": "Fay-vree-yay",
+            "exampleSentence": "Mon anniversaire est en février.",
+            "exampleTranslation": "My birthday is in February.",
+            "memoryTip": "Short month.",
+            "difficultyRating": 1
+          },
+          {
+            "conceptId": "a1_months_mars",
+            "emoji": "📚",
+            "nativeWord": "Mars",
+            "englishMeaning": "March",
+            "ipa": "/maʁs/",
+            "pronunciation": "Marse",
+            "exampleSentence": "Le printemps commence en mars.",
+            "exampleTranslation": "Spring begins in March.",
+            "memoryTip": "Third month.",
+            "difficultyRating": 1
+          },
+          {
+            "conceptId": "a1_months_avril",
+            "emoji": "📚",
+            "nativeWord": "Avril",
+            "englishMeaning": "April",
+            "ipa": "/avʁil/",
+            "pronunciation": "Ah-vreel",
+            "exampleSentence": "Un jour en avril.",
+            "exampleTranslation": "A day in April.",
+            "memoryTip": "April showers.",
+            "difficultyRating": 1
+          },
+          {
+            "conceptId": "a1_months_mai",
+            "emoji": "📚",
+            "nativeWord": "Mai",
+            "englishMeaning": "May",
+            "ipa": "/mɛ/",
+            "pronunciation": "May",
+            "exampleSentence": "Le premier mai.",
+            "exampleTranslation": "The first of May.",
+            "memoryTip": "Fifth month.",
+            "difficultyRating": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-listen",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Janvier",
+            "answer": "Janvier",
+            "options": [
+              "Janvier",
+              "Février",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_months_janvier"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Février",
+            "answer": "Février",
+            "options": [
+              "Février",
+              "Janvier",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_months_fevrier"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Mars",
+            "answer": "Mars",
+            "options": [
+              "Mars",
+              "Janvier",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_months_mars"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Avril",
+            "answer": "Avril",
+            "options": [
+              "Avril",
+              "Janvier",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_months_avril"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Mai",
+            "answer": "Mai",
+            "options": [
+              "Mai",
+              "Janvier",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_months_mai"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-speak",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Janvier",
+            "prompt": "Say: January",
+            "conceptId": "a1_months_janvier",
+            "pronunciation": "Zhan-vyay (/ʒɑ̃vje/)"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Février",
+            "prompt": "Say: February",
+            "conceptId": "a1_months_fevrier",
+            "pronunciation": "Fay-vree-yay (/fevʁije/)"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Mars",
+            "prompt": "Say: March",
+            "conceptId": "a1_months_mars",
+            "pronunciation": "Marse (/maʁs/)"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Avril",
+            "prompt": "Say: April",
+            "conceptId": "a1_months_avril",
+            "pronunciation": "Ah-vreel (/avʁil/)"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Mai",
+            "prompt": "Say: May",
+            "conceptId": "a1_months_mai",
+            "pronunciation": "May (/mɛ/)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-type",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'January'?",
+            "answer": "Janvier",
+            "conceptId": "a1_months_janvier"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'February'?",
+            "answer": "Février",
+            "conceptId": "a1_months_fevrier"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'March'?",
+            "answer": "Mars",
+            "conceptId": "a1_months_mars"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'April'?",
+            "answer": "Avril",
+            "conceptId": "a1_months_avril"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'May'?",
+            "answer": "Mai",
+            "conceptId": "a1_months_mai"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-practice",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning Match",
+            "prompt": "What does 'Janvier' mean?",
+            "answer": "January",
+            "options": [
+              "January",
+              "February",
+              "Fake1",
+              "Fake2"
+            ],
+            "conceptId": "a1_months_janvier"
+          },
+          {
+            "type": "fill",
+            "phaseTitle": "Fill in the Blank",
+            "phrase": "_ !",
+            "prompt": "Type 'February'",
+            "answer": "Février",
+            "conceptId": "a1_months_fevrier"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Word Match",
+            "prompt": "Which word means 'March'?",
+            "answer": "Mars",
+            "options": [
+              "Mars",
+              "Janvier",
+              "Mot1",
+              "Mot2"
+            ],
+            "conceptId": "a1_months_mars"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning Match",
+            "prompt": "What does 'Avril' mean?",
+            "answer": "April",
+            "options": [
+              "April",
+              "January",
+              "Fake1",
+              "Fake2"
+            ],
+            "conceptId": "a1_months_avril"
+          },
+          {
+            "type": "fill",
+            "phaseTitle": "Fill in the Blank",
+            "phrase": "_ !",
+            "prompt": "Type 'May'",
+            "answer": "Mai",
+            "conceptId": "a1_months_mai"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-summary",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Revision Summary",
+        "conceptId": "intro",
+        "content": "Before the final quiz, let's review what you learned today:\n\n**Janvier** (/ʒɑ̃vje/) - January\n💡 *Tip: First month.*\n\n**Février** (/fevʁije/) - February\n💡 *Tip: Short month.*\n\n**Mars** (/maʁs/) - March\n💡 *Tip: Third month.*\n\n**Avril** (/avʁil/) - April\n💡 *Tip: April showers.*\n\n**Mai** (/mɛ/) - May\n💡 *Tip: Fifth month.*",
+        "example": "Take a deep breath. Let's start the final quiz!"
+      }
+    },
+    {
+      "id": "mod-final-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Translate: January",
+            "answer": "Janvier",
+            "options": [
+              "Janvier",
+              "Février"
+            ],
+            "conceptId": "a1_months_janvier"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: February",
+            "answer": "Février",
+            "conceptId": "a1_months_fevrier"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Translate: March",
+            "answer": "Mars",
+            "options": [
+              "Mars",
+              "Janvier"
+            ],
+            "conceptId": "a1_months_mars"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: April",
+            "answer": "Avril",
+            "conceptId": "a1_months_avril"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Translate: May",
+            "answer": "Mai",
+            "options": [
+              "Mai",
+              "Janvier"
+            ],
+            "conceptId": "a1_months_mai"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: 'Janvier et février'",
+            "tokens": [
+              "Janvier",
+              "et",
+              "février",
+              "mars"
+            ],
+            "answer": "Janvier et février",
+            "conceptId": "a1_months_janvier"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: 'Mars, avril, mai'",
+            "tokens": [
+              "Mars,",
+              "avril,",
+              "mai",
+              "janvier"
+            ],
+            "answer": "Mars, avril, mai",
+            "conceptId": "a1_months_janvier"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-celebration",
+      "type": "celebration",
+      "config": {}
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "a1_months_janvier",
+  "type": "vocabulary",
+  "language": "French",
+  "native": "Janvier",
+  "translation": "January",
+  "pronunciation": "Zhan-vyay",
+  "ipa": "/ʒɑ̃vje/",
+  "difficulty": 1,
+  "cefr": "A1",
+  "tags": [
+    "months"
+  ],
+  "relatedConcepts": [],
+  "masteryThreshold": 0.9,
+  "exampleSentence": "Janvier.",
+  "exampleTranslation": "January.",
+  "memoryTip": "Memorize this!",
+  "emoji": "📝"
+}

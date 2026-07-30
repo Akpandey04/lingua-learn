@@ -1,0 +1,417 @@
+{
+  "id": "unit-06-time-lesson-1",
+  "unitId": "unit-06-time",
+  "title": "Time",
+  "version": 3,
+  "learningObjectives": [
+    "a1_time_heure",
+    "a1_time_minute",
+    "a1_time_midi",
+    "a1_time_minuit",
+    "a1_time_matin"
+  ],
+  "modules": [
+    {
+      "id": "mod-intro",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Welcome to Time",
+        "conceptId": "intro",
+        "content": "Today we will learn about Time in French. Let's start with 5 important words.",
+        "example": "Pay close attention to how they are pronounced."
+      }
+    },
+    {
+      "id": "mod-vocab",
+      "type": "vocabulary",
+      "config": {
+        "flow": "teach_all",
+        "words": [
+          {
+            "conceptId": "a1_time_heure",
+            "emoji": "📚",
+            "nativeWord": "Heure",
+            "englishMeaning": "Hour",
+            "ipa": "/œʁ/",
+            "pronunciation": "Uhr",
+            "exampleSentence": "Il est une heure.",
+            "exampleTranslation": "It is one o'clock.",
+            "memoryTip": "Time.",
+            "difficultyRating": 1
+          },
+          {
+            "conceptId": "a1_time_minute",
+            "emoji": "📚",
+            "nativeWord": "Minute",
+            "englishMeaning": "Minute",
+            "ipa": "/minyt/",
+            "pronunciation": "Mee-noot",
+            "exampleSentence": "Attendez une minute.",
+            "exampleTranslation": "Wait a minute.",
+            "memoryTip": "60 seconds.",
+            "difficultyRating": 1
+          },
+          {
+            "conceptId": "a1_time_midi",
+            "emoji": "📚",
+            "nativeWord": "Midi",
+            "englishMeaning": "Noon",
+            "ipa": "/midi/",
+            "pronunciation": "Mee-dee",
+            "exampleSentence": "Nous mangeons à midi.",
+            "exampleTranslation": "We eat at noon.",
+            "memoryTip": "Midday.",
+            "difficultyRating": 1
+          },
+          {
+            "conceptId": "a1_time_minuit",
+            "emoji": "📚",
+            "nativeWord": "Minuit",
+            "englishMeaning": "Midnight",
+            "ipa": "/minɥi/",
+            "pronunciation": "Mee-nwee",
+            "exampleSentence": "Il est minuit.",
+            "exampleTranslation": "It is midnight.",
+            "memoryTip": "Mid-night.",
+            "difficultyRating": 1
+          },
+          {
+            "conceptId": "a1_time_matin",
+            "emoji": "📚",
+            "nativeWord": "Matin",
+            "englishMeaning": "Morning",
+            "ipa": "/matɛ̃/",
+            "pronunciation": "Mah-tahn",
+            "exampleSentence": "Le matin, je bois du café.",
+            "exampleTranslation": "In the morning, I drink coffee.",
+            "memoryTip": "Early day.",
+            "difficultyRating": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-listen",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Heure",
+            "answer": "Heure",
+            "options": [
+              "Heure",
+              "Minute",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_time_heure"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Minute",
+            "answer": "Minute",
+            "options": [
+              "Minute",
+              "Heure",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_time_minute"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Midi",
+            "answer": "Midi",
+            "options": [
+              "Midi",
+              "Heure",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_time_midi"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Minuit",
+            "answer": "Minuit",
+            "options": [
+              "Minuit",
+              "Heure",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_time_minuit"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Matin",
+            "answer": "Matin",
+            "options": [
+              "Matin",
+              "Heure",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_time_matin"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-speak",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Heure",
+            "prompt": "Say: Hour",
+            "conceptId": "a1_time_heure",
+            "pronunciation": "Uhr (/œʁ/)"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Minute",
+            "prompt": "Say: Minute",
+            "conceptId": "a1_time_minute",
+            "pronunciation": "Mee-noot (/minyt/)"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Midi",
+            "prompt": "Say: Noon",
+            "conceptId": "a1_time_midi",
+            "pronunciation": "Mee-dee (/midi/)"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Minuit",
+            "prompt": "Say: Midnight",
+            "conceptId": "a1_time_minuit",
+            "pronunciation": "Mee-nwee (/minɥi/)"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Matin",
+            "prompt": "Say: Morning",
+            "conceptId": "a1_time_matin",
+            "pronunciation": "Mah-tahn (/matɛ̃/)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-type",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'Hour'?",
+            "answer": "Heure",
+            "conceptId": "a1_time_heure"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'Minute'?",
+            "answer": "Minute",
+            "conceptId": "a1_time_minute"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'Noon'?",
+            "answer": "Midi",
+            "conceptId": "a1_time_midi"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'Midnight'?",
+            "answer": "Minuit",
+            "conceptId": "a1_time_minuit"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'Morning'?",
+            "answer": "Matin",
+            "conceptId": "a1_time_matin"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-practice",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning Match",
+            "prompt": "What does 'Heure' mean?",
+            "answer": "Hour",
+            "options": [
+              "Hour",
+              "Minute",
+              "Fake1",
+              "Fake2"
+            ],
+            "conceptId": "a1_time_heure"
+          },
+          {
+            "type": "fill",
+            "phaseTitle": "Fill in the Blank",
+            "phrase": "_ !",
+            "prompt": "Type 'Minute'",
+            "answer": "Minute",
+            "conceptId": "a1_time_minute"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Word Match",
+            "prompt": "Which word means 'Noon'?",
+            "answer": "Midi",
+            "options": [
+              "Midi",
+              "Heure",
+              "Mot1",
+              "Mot2"
+            ],
+            "conceptId": "a1_time_midi"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning Match",
+            "prompt": "What does 'Minuit' mean?",
+            "answer": "Midnight",
+            "options": [
+              "Midnight",
+              "Hour",
+              "Fake1",
+              "Fake2"
+            ],
+            "conceptId": "a1_time_minuit"
+          },
+          {
+            "type": "fill",
+            "phaseTitle": "Fill in the Blank",
+            "phrase": "_ !",
+            "prompt": "Type 'Morning'",
+            "answer": "Matin",
+            "conceptId": "a1_time_matin"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-summary",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Revision Summary",
+        "conceptId": "intro",
+        "content": "Before the final quiz, let's review what you learned today:\n\n**Heure** (/œʁ/) - Hour\n💡 *Tip: Time.*\n\n**Minute** (/minyt/) - Minute\n💡 *Tip: 60 seconds.*\n\n**Midi** (/midi/) - Noon\n💡 *Tip: Midday.*\n\n**Minuit** (/minɥi/) - Midnight\n💡 *Tip: Mid-night.*\n\n**Matin** (/matɛ̃/) - Morning\n💡 *Tip: Early day.*",
+        "example": "Take a deep breath. Let's start the final quiz!"
+      }
+    },
+    {
+      "id": "mod-final-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Translate: Hour",
+            "answer": "Heure",
+            "options": [
+              "Heure",
+              "Minute"
+            ],
+            "conceptId": "a1_time_heure"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Minute",
+            "answer": "Minute",
+            "conceptId": "a1_time_minute"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Translate: Noon",
+            "answer": "Midi",
+            "options": [
+              "Midi",
+              "Heure"
+            ],
+            "conceptId": "a1_time_midi"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Midnight",
+            "answer": "Minuit",
+            "conceptId": "a1_time_minuit"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Translate: Morning",
+            "answer": "Matin",
+            "options": [
+              "Matin",
+              "Heure"
+            ],
+            "conceptId": "a1_time_matin"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: 'Une heure'",
+            "tokens": [
+              "Une",
+              "heure",
+              "midi",
+              "matin"
+            ],
+            "answer": "Une heure",
+            "conceptId": "a1_time_heure"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: 'Midi et minuit'",
+            "tokens": [
+              "Midi",
+              "et",
+              "minuit",
+              "minute"
+            ],
+            "answer": "Midi et minuit",
+            "conceptId": "a1_time_heure"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-celebration",
+      "type": "celebration",
+      "config": {}
+    }
+  ]
+}

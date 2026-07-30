@@ -1,0 +1,23 @@
+{
+  "id": "unit-02-school-lesson-2",
+  "title": "School Practice",
+  "learningObjectives": [
+    "Practice School"
+  ],
+  "modules": [
+    {
+      "id": "unit-02-school-lesson-2-knowledge",
+      "type": "knowledge_card",
+      "config": {
+        "cards": [
+          {
+            "id": "unit-02-school-lesson-2-card1",
+            "title": "Grammar: School",
+            "conceptId": "grammar_a2_school",
+            "content": "Learn the rules for School."
+          }
+        ]
+      }
+    }
+  ]
+}

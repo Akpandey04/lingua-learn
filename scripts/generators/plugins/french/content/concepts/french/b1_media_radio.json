@@ -1,0 +1,20 @@
+{
+  "id": "b1_media_radio",
+  "type": "vocabulary",
+  "language": "French",
+  "native": "Radio",
+  "translation": "Radio",
+  "pronunciation": "Rah-dee-oh",
+  "ipa": "/ʁadjo/",
+  "difficulty": 1,
+  "cefr": "A1",
+  "tags": [
+    "media"
+  ],
+  "relatedConcepts": [],
+  "masteryThreshold": 0.9,
+  "exampleSentence": "La radio.",
+  "exampleTranslation": "The radio.",
+  "memoryTip": "Memorize this!",
+  "emoji": "📝"
+}

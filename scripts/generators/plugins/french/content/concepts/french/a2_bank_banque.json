@@ -1,0 +1,20 @@
+{
+  "id": "a2_bank_banque",
+  "type": "vocabulary",
+  "language": "French",
+  "native": "Banque",
+  "translation": "Bank",
+  "pronunciation": "Bahnk",
+  "ipa": "/bɑ̃k/",
+  "difficulty": 1,
+  "cefr": "A1",
+  "tags": [
+    "bank"
+  ],
+  "relatedConcepts": [],
+  "masteryThreshold": 0.9,
+  "exampleSentence": "La banque.",
+  "exampleTranslation": "The bank.",
+  "memoryTip": "Memorize this!",
+  "emoji": "📝"
+}

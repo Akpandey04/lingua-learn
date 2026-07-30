@@ -1,0 +1,23 @@
+{
+  "id": "unit-04-technology-lesson-2",
+  "title": "Technology Practice",
+  "learningObjectives": [
+    "Practice Technology"
+  ],
+  "modules": [
+    {
+      "id": "unit-04-technology-lesson-2-knowledge",
+      "type": "knowledge_card",
+      "config": {
+        "cards": [
+          {
+            "id": "unit-04-technology-lesson-2-card1",
+            "title": "Grammar: Technology",
+            "conceptId": "grammar_a2_technology",
+            "content": "Learn the rules for Technology."
+          }
+        ]
+      }
+    }
+  ]
+}

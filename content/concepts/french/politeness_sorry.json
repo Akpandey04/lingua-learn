@@ -1,0 +1,20 @@
+{
+  "id": "politeness_sorry",
+  "language": "French",
+  "native": "Désolé",
+  "translation": "Sorry",
+  "pronunciation": "Day-zoh-lay",
+  "ipa": "/dezɔle/",
+  "difficulty": 1,
+  "cefr": "A1",
+  "tags": [
+    "basics"
+  ],
+  "relatedConcepts": [],
+  "masteryThreshold": 0.9,
+  "exampleSentence": "Je suis désolé.",
+  "exampleTranslation": "I am sorry.",
+  "usageNote": "Used to apologize for a mistake or express sympathy. Add an \"e\" (désolée) if you are female.",
+  "formality": "neutral",
+  "memoryTip": "Think: You feel desolate when you are sorry."
+}

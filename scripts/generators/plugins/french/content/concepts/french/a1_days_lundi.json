@@ -1,0 +1,20 @@
+{
+  "id": "a1_days_lundi",
+  "type": "vocabulary",
+  "language": "French",
+  "native": "Lundi",
+  "translation": "Monday",
+  "pronunciation": "Luhn-dee",
+  "ipa": "/lœ̃di/",
+  "difficulty": 1,
+  "cefr": "A1",
+  "tags": [
+    "days"
+  ],
+  "relatedConcepts": [],
+  "masteryThreshold": 0.9,
+  "exampleSentence": "Lundi.",
+  "exampleTranslation": "Monday.",
+  "memoryTip": "Memorize this!",
+  "emoji": "📝"
+}

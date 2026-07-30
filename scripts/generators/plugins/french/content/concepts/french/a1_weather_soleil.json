@@ -1,0 +1,20 @@
+{
+  "id": "a1_weather_soleil",
+  "type": "vocabulary",
+  "language": "French",
+  "native": "Soleil",
+  "translation": "Sun",
+  "pronunciation": "So-lay",
+  "ipa": "/sɔlɛj/",
+  "difficulty": 1,
+  "cefr": "A1",
+  "tags": [
+    "weather"
+  ],
+  "relatedConcepts": [],
+  "masteryThreshold": 0.9,
+  "exampleSentence": "Le soleil.",
+  "exampleTranslation": "The sun.",
+  "memoryTip": "Memorize this!",
+  "emoji": "📝"
+}

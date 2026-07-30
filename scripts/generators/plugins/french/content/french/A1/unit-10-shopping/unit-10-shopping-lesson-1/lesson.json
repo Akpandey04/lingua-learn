@@ -1,0 +1,51 @@
+{
+  "id": "unit-10-shopping-lesson-1",
+  "title": "Shopping Vocabulary",
+  "learningObjectives": [
+    "Learn Shopping"
+  ],
+  "modules": [
+    {
+      "id": "unit-10-shopping-lesson-1-vocab",
+      "type": "vocabulary",
+      "config": {
+        "words": [
+          {
+            "id": "a1_shopping_acheter",
+            "native": "Acheter",
+            "translation": "To buy",
+            "ipa": "/aʃte/",
+            "pronunciation": "Ah-shuh-tay",
+            "exampleSentence": "Acheter.",
+            "exampleTranslation": "To buy.",
+            "memoryTip": "Memorize this!",
+            "tags": [
+              "shopping"
+            ],
+            "emoji": "📝",
+            "cefr": "A1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "unit-10-shopping-lesson-1-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "payload": {
+              "type": "mcq",
+              "question": "Translate: To buy",
+              "answer": "Acheter",
+              "options": [
+                "Acheter"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

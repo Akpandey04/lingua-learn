@@ -1,0 +1,19 @@
+{
+  "id": "grammar_a1_directions",
+  "type": "grammar",
+  "language": "French",
+  "title": "Directions Grammar",
+  "description": "Rules for Directions",
+  "rules": [
+    "Rule 1 for Directions"
+  ],
+  "examples": [
+    "Example for Directions"
+  ],
+  "difficulty": 2,
+  "cefr": "A1",
+  "tags": [
+    "grammar"
+  ],
+  "relatedConcepts": []
+}

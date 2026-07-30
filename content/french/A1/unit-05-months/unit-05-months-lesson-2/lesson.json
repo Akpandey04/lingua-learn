@@ -1,0 +1,23 @@
+{
+  "id": "unit-05-months-lesson-2",
+  "title": "Months Practice",
+  "learningObjectives": [
+    "Practice Months"
+  ],
+  "modules": [
+    {
+      "id": "unit-05-months-lesson-2-knowledge",
+      "type": "knowledge_card",
+      "config": {
+        "cards": [
+          {
+            "id": "unit-05-months-lesson-2-card1",
+            "title": "Grammar: Months",
+            "conceptId": "grammar_a1_months",
+            "content": "Learn the rules for Months."
+          }
+        ]
+      }
+    }
+  ]
+}

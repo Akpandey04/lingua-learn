@@ -1,0 +1,51 @@
+{
+  "id": "unit-03-media-lesson-1",
+  "title": "Media Vocabulary",
+  "learningObjectives": [
+    "Learn Media"
+  ],
+  "modules": [
+    {
+      "id": "unit-03-media-lesson-1-vocab",
+      "type": "vocabulary",
+      "config": {
+        "words": [
+          {
+            "id": "b1_media_radio",
+            "native": "Radio",
+            "translation": "Radio",
+            "ipa": "/ʁadjo/",
+            "pronunciation": "Rah-dee-oh",
+            "exampleSentence": "La radio.",
+            "exampleTranslation": "The radio.",
+            "memoryTip": "Memorize this!",
+            "tags": [
+              "media"
+            ],
+            "emoji": "📝",
+            "cefr": "A1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "unit-03-media-lesson-1-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "payload": {
+              "type": "mcq",
+              "question": "Translate: Radio",
+              "answer": "Radio",
+              "options": [
+                "Radio"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

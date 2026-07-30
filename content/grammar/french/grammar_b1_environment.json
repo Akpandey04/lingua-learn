@@ -1,0 +1,19 @@
+{
+  "id": "grammar_b1_environment",
+  "type": "grammar",
+  "language": "French",
+  "title": "Environment Grammar",
+  "description": "Rules for Environment",
+  "rules": [
+    "Rule 1 for Environment"
+  ],
+  "examples": [
+    "Example for Environment"
+  ],
+  "difficulty": 2,
+  "cefr": "A1",
+  "tags": [
+    "grammar"
+  ],
+  "relatedConcepts": []
+}

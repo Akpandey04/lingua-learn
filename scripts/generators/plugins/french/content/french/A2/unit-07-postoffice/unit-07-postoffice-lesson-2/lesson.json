@@ -1,0 +1,23 @@
+{
+  "id": "unit-07-postoffice-lesson-2",
+  "title": "Post Office Practice",
+  "learningObjectives": [
+    "Practice Post Office"
+  ],
+  "modules": [
+    {
+      "id": "unit-07-postoffice-lesson-2-knowledge",
+      "type": "knowledge_card",
+      "config": {
+        "cards": [
+          {
+            "id": "unit-07-postoffice-lesson-2-card1",
+            "title": "Grammar: Post Office",
+            "conceptId": "grammar_a2_postoffice",
+            "content": "Learn the rules for Post Office."
+          }
+        ]
+      }
+    }
+  ]
+}

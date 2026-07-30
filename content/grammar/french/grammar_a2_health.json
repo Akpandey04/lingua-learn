@@ -1,0 +1,19 @@
+{
+  "id": "grammar_a2_health",
+  "type": "grammar",
+  "language": "French",
+  "title": "Health Grammar",
+  "description": "Rules for Health",
+  "rules": [
+    "Rule 1 for Health"
+  ],
+  "examples": [
+    "Example for Health"
+  ],
+  "difficulty": 2,
+  "cefr": "A1",
+  "tags": [
+    "grammar"
+  ],
+  "relatedConcepts": []
+}

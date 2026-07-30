@@ -1,0 +1,66 @@
+{
+  "id": "unit-08-debates-lesson-1",
+  "title": "Debates Vocabulary",
+  "learningObjectives": [
+    "Learn Debates"
+  ],
+  "modules": [
+    {
+      "id": "unit-08-debates-lesson-1-vocab",
+      "type": "vocabulary",
+      "config": {
+        "words": [
+          {
+            "id": "b1_debates_pourquoi",
+            "conceptId": "b1_debates_pourquoi",
+            "nativeWord": "Pourquoi",
+            "englishMeaning": "Why",
+            "ipa": "/puʁkwa/",
+            "pronunciation": "Poor-kwah",
+            "exampleSentence": "Pourquoi ?",
+            "exampleTranslation": "Why?",
+            "memoryTip": "Memorize this!",
+            "tags": [
+              "debates"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "Pourquo",
+              "correct": "Pourquoi"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for why"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "Pourquoi"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "unit-08-debates-lesson-1-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "payload": {
+              "type": "mcq",
+              "question": "Translate: Why",
+              "answer": "Pourquoi",
+              "options": [
+                "Pourquoi"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

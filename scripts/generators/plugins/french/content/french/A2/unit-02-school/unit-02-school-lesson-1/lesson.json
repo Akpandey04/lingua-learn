@@ -1,0 +1,51 @@
+{
+  "id": "unit-02-school-lesson-1",
+  "title": "School Vocabulary",
+  "learningObjectives": [
+    "Learn School"
+  ],
+  "modules": [
+    {
+      "id": "unit-02-school-lesson-1-vocab",
+      "type": "vocabulary",
+      "config": {
+        "words": [
+          {
+            "id": "a2_school_ecole",
+            "native": "École",
+            "translation": "School",
+            "ipa": "/ekɔl/",
+            "pronunciation": "Ay-kohl",
+            "exampleSentence": "L'école.",
+            "exampleTranslation": "The school.",
+            "memoryTip": "Memorize this!",
+            "tags": [
+              "school"
+            ],
+            "emoji": "📝",
+            "cefr": "A1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "unit-02-school-lesson-1-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "payload": {
+              "type": "mcq",
+              "question": "Translate: School",
+              "answer": "École",
+              "options": [
+                "École"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

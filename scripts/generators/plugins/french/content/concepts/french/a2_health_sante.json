@@ -1,0 +1,20 @@
+{
+  "id": "a2_health_sante",
+  "type": "vocabulary",
+  "language": "French",
+  "native": "Santé",
+  "translation": "Health",
+  "pronunciation": "Sahn-tay",
+  "ipa": "/sɑ̃te/",
+  "difficulty": 1,
+  "cefr": "A1",
+  "tags": [
+    "health"
+  ],
+  "relatedConcepts": [],
+  "masteryThreshold": 0.9,
+  "exampleSentence": "La santé.",
+  "exampleTranslation": "The health.",
+  "memoryTip": "Memorize this!",
+  "emoji": "📝"
+}

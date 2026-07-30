@@ -1,0 +1,66 @@
+{
+  "id": "unit-01-opinions-lesson-1",
+  "title": "Opinions Vocabulary",
+  "learningObjectives": [
+    "Learn Opinions"
+  ],
+  "modules": [
+    {
+      "id": "unit-01-opinions-lesson-1-vocab",
+      "type": "vocabulary",
+      "config": {
+        "words": [
+          {
+            "id": "b1_opinions_penser",
+            "conceptId": "b1_opinions_penser",
+            "nativeWord": "Penser",
+            "englishMeaning": "To think",
+            "ipa": "/pɑ̃se/",
+            "pronunciation": "Pahn-say",
+            "exampleSentence": "Je pense.",
+            "exampleTranslation": "I think.",
+            "memoryTip": "Memorize this!",
+            "tags": [
+              "opinions"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "Pense",
+              "correct": "Penser"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for to think"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "Penser"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "unit-01-opinions-lesson-1-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "payload": {
+              "type": "mcq",
+              "question": "Translate: To think",
+              "answer": "Penser",
+              "options": [
+                "Penser"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

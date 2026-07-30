@@ -1,0 +1,23 @@
+{
+  "id": "unit-16-review-lesson-2",
+  "title": "Review Practice",
+  "learningObjectives": [
+    "Practice Review"
+  ],
+  "modules": [
+    {
+      "id": "unit-16-review-lesson-2-knowledge",
+      "type": "knowledge_card",
+      "config": {
+        "cards": [
+          {
+            "id": "unit-16-review-lesson-2-card1",
+            "title": "Grammar: Review",
+            "conceptId": "grammar_a1_review",
+            "content": "Learn the rules for Review."
+          }
+        ]
+      }
+    }
+  ]
+}

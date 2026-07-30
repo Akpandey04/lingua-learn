@@ -1,0 +1,19 @@
+{
+  "id": "grammar_a2_postoffice",
+  "type": "grammar",
+  "language": "French",
+  "title": "Post Office Grammar",
+  "description": "Rules for Post Office",
+  "rules": [
+    "Rule 1 for Post Office"
+  ],
+  "examples": [
+    "Example for Post Office"
+  ],
+  "difficulty": 2,
+  "cefr": "A1",
+  "tags": [
+    "grammar"
+  ],
+  "relatedConcepts": []
+}

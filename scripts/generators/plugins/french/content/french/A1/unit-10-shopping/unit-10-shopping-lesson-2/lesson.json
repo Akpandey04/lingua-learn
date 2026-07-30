@@ -1,0 +1,23 @@
+{
+  "id": "unit-10-shopping-lesson-2",
+  "title": "Shopping Practice",
+  "learningObjectives": [
+    "Practice Shopping"
+  ],
+  "modules": [
+    {
+      "id": "unit-10-shopping-lesson-2-knowledge",
+      "type": "knowledge_card",
+      "config": {
+        "cards": [
+          {
+            "id": "unit-10-shopping-lesson-2-card1",
+            "title": "Grammar: Shopping",
+            "conceptId": "grammar_a1_shopping",
+            "content": "Learn the rules for Shopping."
+          }
+        ]
+      }
+    }
+  ]
+}

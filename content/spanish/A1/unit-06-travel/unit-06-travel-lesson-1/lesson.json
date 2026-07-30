@@ -1,0 +1,717 @@
+{
+  "id": "travel-lesson-1",
+  "unitId": "travel",
+  "title": "Travel",
+  "version": 3,
+  "learningObjectives": [
+    "a1_es_hotel",
+    "a1_es_aeropuerto",
+    "a1_es_maleta",
+    "a1_es_boleto",
+    "a1_es_playa"
+  ],
+  "modules": [
+    {
+      "id": "mod-intro",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Welcome to Travel",
+        "conceptId": "intro",
+        "content": "Today we will learn about Travel in Spanish. Let's start with important words.",
+        "example": "Pay close attention to how they are pronounced."
+      }
+    },
+    {
+      "id": "mod-vocab",
+      "type": "vocabulary",
+      "config": {
+        "flow": "teach_all",
+        "words": [
+          {
+            "id": "a1_es_hotel",
+            "conceptId": "a1_es_hotel",
+            "nativeWord": "Hotel",
+            "englishMeaning": "Hotel",
+            "ipa": "/oˈtel/",
+            "pronunciation": "Oh-tell",
+            "exampleSentence": "El hotel es grande.",
+            "exampleTranslation": "The hotel is big.",
+            "memoryTip": "H is silent.",
+            "tags": [
+              "travel"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "Hote",
+              "correct": "Hotel"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for hotel"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "Hotel"
+            }
+          },
+          {
+            "id": "a1_es_aeropuerto",
+            "conceptId": "a1_es_aeropuerto",
+            "nativeWord": "Aeropuerto",
+            "englishMeaning": "Airport",
+            "ipa": "/a.e.ɾoˈpweɾ.to/",
+            "pronunciation": "Ah-eh-ro-pwer-to",
+            "exampleSentence": "Vamos al aeropuerto.",
+            "exampleTranslation": "We are going to the airport.",
+            "memoryTip": "Aero-port",
+            "tags": [
+              "travel"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "Aeropuert",
+              "correct": "Aeropuerto"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for airport"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "Aeropuerto"
+            }
+          },
+          {
+            "id": "a1_es_maleta",
+            "conceptId": "a1_es_maleta",
+            "nativeWord": "Maleta",
+            "englishMeaning": "Suitcase",
+            "ipa": "/maˈle.ta/",
+            "pronunciation": "Mah-leh-tah",
+            "exampleSentence": "Tengo mi maleta.",
+            "exampleTranslation": "I have my suitcase.",
+            "memoryTip": "Mallet",
+            "tags": [
+              "travel"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "Malet",
+              "correct": "Maleta"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for suitcase"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "Maleta"
+            }
+          },
+          {
+            "id": "a1_es_boleto",
+            "conceptId": "a1_es_boleto",
+            "nativeWord": "Boleto",
+            "englishMeaning": "Ticket",
+            "ipa": "/boˈle.to/",
+            "pronunciation": "Bo-leh-to",
+            "exampleSentence": "Compro un boleto.",
+            "exampleTranslation": "I buy a ticket.",
+            "memoryTip": "Ticket",
+            "tags": [
+              "travel"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "Bolet",
+              "correct": "Boleto"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for ticket"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "Boleto"
+            }
+          },
+          {
+            "id": "a1_es_playa",
+            "conceptId": "a1_es_playa",
+            "nativeWord": "Playa",
+            "englishMeaning": "Beach",
+            "ipa": "/ˈpla.ʝa/",
+            "pronunciation": "Plah-yah",
+            "exampleSentence": "Me encanta la playa.",
+            "exampleTranslation": "I love the beach.",
+            "memoryTip": "Play at the beach",
+            "tags": [
+              "travel"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "Play",
+              "correct": "Playa"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for beach"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "Playa"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-listen",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "Hotel",
+            "answer": "Hotel",
+            "options": [
+              "Hotel",
+              "Boleto",
+              "Playa",
+              "Aeropuerto",
+              "Maleta"
+            ],
+            "conceptId": "a1_es_hotel"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "Aeropuerto",
+            "answer": "Aeropuerto",
+            "options": [
+              "Maleta",
+              "Aeropuerto",
+              "Hotel",
+              "Playa",
+              "Boleto"
+            ],
+            "conceptId": "a1_es_aeropuerto"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "Maleta",
+            "answer": "Maleta",
+            "options": [
+              "Maleta",
+              "Boleto",
+              "Aeropuerto",
+              "Playa",
+              "Hotel"
+            ],
+            "conceptId": "a1_es_maleta"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "Boleto",
+            "answer": "Boleto",
+            "options": [
+              "Aeropuerto",
+              "Playa",
+              "Hotel",
+              "Boleto",
+              "Maleta"
+            ],
+            "conceptId": "a1_es_boleto"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "Playa",
+            "answer": "Playa",
+            "options": [
+              "Aeropuerto",
+              "Maleta",
+              "Hotel",
+              "Playa",
+              "Boleto"
+            ],
+            "conceptId": "a1_es_playa"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-speak",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: Hotel",
+            "expectedPhrase": "Hotel",
+            "conceptId": "a1_es_hotel"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: Aeropuerto",
+            "expectedPhrase": "Aeropuerto",
+            "conceptId": "a1_es_aeropuerto"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: Maleta",
+            "expectedPhrase": "Maleta",
+            "conceptId": "a1_es_maleta"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: Boleto",
+            "expectedPhrase": "Boleto",
+            "conceptId": "a1_es_boleto"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: Playa",
+            "expectedPhrase": "Playa",
+            "conceptId": "a1_es_playa"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-type",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: Hotel",
+            "answer": "Hotel",
+            "conceptId": "a1_es_hotel"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: Airport",
+            "answer": "Aeropuerto",
+            "conceptId": "a1_es_aeropuerto"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: Suitcase",
+            "answer": "Maleta",
+            "conceptId": "a1_es_maleta"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: Ticket",
+            "answer": "Boleto",
+            "conceptId": "a1_es_boleto"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: Beach",
+            "answer": "Playa",
+            "conceptId": "a1_es_playa"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-practice",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: Hotel",
+            "options": [
+              "Maleta",
+              "Aeropuerto",
+              "Playa",
+              "Boleto",
+              "Hotel"
+            ],
+            "answer": "Hotel",
+            "conceptId": "a1_es_hotel"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in Spanish: Hotel",
+            "answer": "Hotel",
+            "conceptId": "a1_es_hotel"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: Airport",
+            "options": [
+              "Playa",
+              "Boleto",
+              "Maleta",
+              "Aeropuerto",
+              "Hotel"
+            ],
+            "answer": "Aeropuerto",
+            "conceptId": "a1_es_aeropuerto"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in Spanish: Airport",
+            "answer": "Aeropuerto",
+            "conceptId": "a1_es_aeropuerto"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: Suitcase",
+            "options": [
+              "Boleto",
+              "Hotel",
+              "Maleta",
+              "Aeropuerto",
+              "Playa"
+            ],
+            "answer": "Maleta",
+            "conceptId": "a1_es_maleta"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in Spanish: Suitcase",
+            "answer": "Maleta",
+            "conceptId": "a1_es_maleta"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: Ticket",
+            "options": [
+              "Playa",
+              "Maleta",
+              "Aeropuerto",
+              "Hotel",
+              "Boleto"
+            ],
+            "answer": "Boleto",
+            "conceptId": "a1_es_boleto"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in Spanish: Ticket",
+            "answer": "Boleto",
+            "conceptId": "a1_es_boleto"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: Beach",
+            "options": [
+              "Aeropuerto",
+              "Playa",
+              "Boleto",
+              "Hotel",
+              "Maleta"
+            ],
+            "answer": "Playa",
+            "conceptId": "a1_es_playa"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in Spanish: Beach",
+            "answer": "Playa",
+            "conceptId": "a1_es_playa"
+          },
+          {
+            "type": "match",
+            "phaseTitle": "Pair Matching",
+            "pairs": [
+              {
+                "source": "Hotel",
+                "target": "Hotel"
+              },
+              {
+                "source": "Aeropuerto",
+                "target": "Airport"
+              },
+              {
+                "source": "Maleta",
+                "target": "Suitcase"
+              },
+              {
+                "source": "Boleto",
+                "target": "Ticket"
+              },
+              {
+                "source": "Playa",
+                "target": "Beach"
+              }
+            ],
+            "conceptId": "a1_es_hotel"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-summary",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Revision Summary",
+        "conceptId": "intro",
+        "content": "You've learned the vocabulary, listened to the pronunciation, and practiced typing. Now, let's put it all together.",
+        "example": "Take a deep breath. Let's start the final quiz!"
+      }
+    },
+    {
+      "id": "mod-final-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: Hotel",
+            "answer": "Hotel",
+            "options": [
+              "Aeropuerto",
+              "Boleto",
+              "Hotel",
+              "Playa",
+              "Maleta"
+            ],
+            "conceptId": "a1_es_hotel"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "Hotel",
+            "answer": "Hotel",
+            "options": [
+              "Boleto",
+              "Maleta",
+              "Playa",
+              "Aeropuerto",
+              "Hotel"
+            ],
+            "conceptId": "a1_es_hotel"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Hotel",
+            "answer": "Hotel",
+            "conceptId": "a1_es_hotel"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: Airport",
+            "answer": "Aeropuerto",
+            "options": [
+              "Hotel",
+              "Boleto",
+              "Playa",
+              "Maleta",
+              "Aeropuerto"
+            ],
+            "conceptId": "a1_es_aeropuerto"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "Aeropuerto",
+            "answer": "Aeropuerto",
+            "options": [
+              "Hotel",
+              "Aeropuerto",
+              "Playa",
+              "Boleto",
+              "Maleta"
+            ],
+            "conceptId": "a1_es_aeropuerto"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Airport",
+            "answer": "Aeropuerto",
+            "conceptId": "a1_es_aeropuerto"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: Suitcase",
+            "answer": "Maleta",
+            "options": [
+              "Boleto",
+              "Maleta",
+              "Playa",
+              "Aeropuerto",
+              "Hotel"
+            ],
+            "conceptId": "a1_es_maleta"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "Maleta",
+            "answer": "Maleta",
+            "options": [
+              "Aeropuerto",
+              "Boleto",
+              "Hotel",
+              "Maleta",
+              "Playa"
+            ],
+            "conceptId": "a1_es_maleta"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Suitcase",
+            "answer": "Maleta",
+            "conceptId": "a1_es_maleta"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: Ticket",
+            "answer": "Boleto",
+            "options": [
+              "Aeropuerto",
+              "Boleto",
+              "Maleta",
+              "Hotel",
+              "Playa"
+            ],
+            "conceptId": "a1_es_boleto"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "Boleto",
+            "answer": "Boleto",
+            "options": [
+              "Maleta",
+              "Hotel",
+              "Playa",
+              "Boleto",
+              "Aeropuerto"
+            ],
+            "conceptId": "a1_es_boleto"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Ticket",
+            "answer": "Boleto",
+            "conceptId": "a1_es_boleto"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: Beach",
+            "answer": "Playa",
+            "options": [
+              "Playa",
+              "Hotel",
+              "Boleto",
+              "Maleta",
+              "Aeropuerto"
+            ],
+            "conceptId": "a1_es_playa"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "Playa",
+            "answer": "Playa",
+            "options": [
+              "Boleto",
+              "Playa",
+              "Aeropuerto",
+              "Hotel",
+              "Maleta"
+            ],
+            "conceptId": "a1_es_playa"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Beach",
+            "answer": "Playa",
+            "conceptId": "a1_es_playa"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: 'Voy al hotel'",
+            "tokens": [
+              "Voy",
+              "al",
+              "hotel",
+              "aeropuerto"
+            ],
+            "answer": "Voy al hotel",
+            "conceptId": "a1_es_hotel"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: 'Tengo mi boleto'",
+            "tokens": [
+              "Tengo",
+              "mi",
+              "boleto",
+              "maleta"
+            ],
+            "answer": "Tengo mi boleto",
+            "conceptId": "a1_es_hotel"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-celebration",
+      "type": "celebration",
+      "config": {}
+    }
+  ]
+}

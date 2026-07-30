@@ -1,0 +1,23 @@
+{
+  "id": "unit-15-directions-lesson-2",
+  "title": "Directions Practice",
+  "learningObjectives": [
+    "Practice Directions"
+  ],
+  "modules": [
+    {
+      "id": "unit-15-directions-lesson-2-knowledge",
+      "type": "knowledge_card",
+      "config": {
+        "cards": [
+          {
+            "id": "unit-15-directions-lesson-2-card1",
+            "title": "Grammar: Directions",
+            "conceptId": "grammar_a1_directions",
+            "content": "Learn the rules for Directions."
+          }
+        ]
+      }
+    }
+  ]
+}

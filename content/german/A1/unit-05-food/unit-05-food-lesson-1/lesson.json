@@ -1,0 +1,717 @@
+{
+  "id": "food-lesson-1",
+  "unitId": "food",
+  "title": "Food & Drinks",
+  "version": 3,
+  "learningObjectives": [
+    "a1_de_wasser",
+    "a1_de_brot",
+    "a1_de_apfel",
+    "a1_de_kaffee",
+    "a1_de_milch"
+  ],
+  "modules": [
+    {
+      "id": "mod-intro",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Welcome to Food & Drinks",
+        "conceptId": "intro",
+        "content": "Today we will learn about Food & Drinks in German. Let's start with important words.",
+        "example": "Pay close attention to how they are pronounced."
+      }
+    },
+    {
+      "id": "mod-vocab",
+      "type": "vocabulary",
+      "config": {
+        "flow": "teach_all",
+        "words": [
+          {
+            "id": "a1_de_wasser",
+            "conceptId": "a1_de_wasser",
+            "nativeWord": "das Wasser",
+            "englishMeaning": "the water",
+            "ipa": "/das ˈva.sɐ/",
+            "pronunciation": "dahs vah-ser",
+            "exampleSentence": "Ich trinke das Wasser.",
+            "exampleTranslation": "I drink the water.",
+            "memoryTip": "Water with a V sound.",
+            "tags": [
+              "food"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "das Wasse",
+              "correct": "das Wasser"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for the water"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "das Wasser"
+            }
+          },
+          {
+            "id": "a1_de_brot",
+            "conceptId": "a1_de_brot",
+            "nativeWord": "das Brot",
+            "englishMeaning": "the bread",
+            "ipa": "/das bʁoːt/",
+            "pronunciation": "dahs brot",
+            "exampleSentence": "Das Brot ist gut.",
+            "exampleTranslation": "The bread is good.",
+            "memoryTip": "Bread.",
+            "tags": [
+              "food"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "das Bro",
+              "correct": "das Brot"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for the bread"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "das Brot"
+            }
+          },
+          {
+            "id": "a1_de_apfel",
+            "conceptId": "a1_de_apfel",
+            "nativeWord": "der Apfel",
+            "englishMeaning": "the apple",
+            "ipa": "/deːɐ̯ ˈap.fl̩/",
+            "pronunciation": "der ahp-fel",
+            "exampleSentence": "Ich esse den Apfel.",
+            "exampleTranslation": "I eat the apple.",
+            "memoryTip": "Apple.",
+            "tags": [
+              "food"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "der Apfe",
+              "correct": "der Apfel"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for the apple"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "der Apfel"
+            }
+          },
+          {
+            "id": "a1_de_kaffee",
+            "conceptId": "a1_de_kaffee",
+            "nativeWord": "der Kaffee",
+            "englishMeaning": "the coffee",
+            "ipa": "/deːɐ̯ ˈka.fe/",
+            "pronunciation": "der kah-fay",
+            "exampleSentence": "Der Kaffee ist heiß.",
+            "exampleTranslation": "The coffee is hot.",
+            "memoryTip": "Coffee.",
+            "tags": [
+              "food"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "der Kaffe",
+              "correct": "der Kaffee"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for the coffee"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "der Kaffee"
+            }
+          },
+          {
+            "id": "a1_de_milch",
+            "conceptId": "a1_de_milch",
+            "nativeWord": "die Milch",
+            "englishMeaning": "the milk",
+            "ipa": "/diː mɪlç/",
+            "pronunciation": "dee milch",
+            "exampleSentence": "Ich mag die Milch.",
+            "exampleTranslation": "I like the milk.",
+            "memoryTip": "Milk.",
+            "tags": [
+              "food"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "die Milc",
+              "correct": "die Milch"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for the milk"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "die Milch"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-listen",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "das Wasser",
+            "answer": "das Wasser",
+            "options": [
+              "das Wasser",
+              "der Apfel",
+              "das Brot",
+              "die Milch",
+              "der Kaffee"
+            ],
+            "conceptId": "a1_de_wasser"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "das Brot",
+            "answer": "das Brot",
+            "options": [
+              "das Wasser",
+              "der Apfel",
+              "die Milch",
+              "der Kaffee",
+              "das Brot"
+            ],
+            "conceptId": "a1_de_brot"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "der Apfel",
+            "answer": "der Apfel",
+            "options": [
+              "die Milch",
+              "der Kaffee",
+              "das Wasser",
+              "das Brot",
+              "der Apfel"
+            ],
+            "conceptId": "a1_de_apfel"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "der Kaffee",
+            "answer": "der Kaffee",
+            "options": [
+              "das Brot",
+              "der Apfel",
+              "die Milch",
+              "das Wasser",
+              "der Kaffee"
+            ],
+            "conceptId": "a1_de_kaffee"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "die Milch",
+            "answer": "die Milch",
+            "options": [
+              "das Brot",
+              "der Apfel",
+              "das Wasser",
+              "der Kaffee",
+              "die Milch"
+            ],
+            "conceptId": "a1_de_milch"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-speak",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: das Wasser",
+            "expectedPhrase": "das Wasser",
+            "conceptId": "a1_de_wasser"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: das Brot",
+            "expectedPhrase": "das Brot",
+            "conceptId": "a1_de_brot"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: der Apfel",
+            "expectedPhrase": "der Apfel",
+            "conceptId": "a1_de_apfel"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: der Kaffee",
+            "expectedPhrase": "der Kaffee",
+            "conceptId": "a1_de_kaffee"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: die Milch",
+            "expectedPhrase": "die Milch",
+            "conceptId": "a1_de_milch"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-type",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: the water",
+            "answer": "das Wasser",
+            "conceptId": "a1_de_wasser"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: the bread",
+            "answer": "das Brot",
+            "conceptId": "a1_de_brot"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: the apple",
+            "answer": "der Apfel",
+            "conceptId": "a1_de_apfel"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: the coffee",
+            "answer": "der Kaffee",
+            "conceptId": "a1_de_kaffee"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: the milk",
+            "answer": "die Milch",
+            "conceptId": "a1_de_milch"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-practice",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: the water",
+            "options": [
+              "der Kaffee",
+              "die Milch",
+              "das Brot",
+              "der Apfel",
+              "das Wasser"
+            ],
+            "answer": "das Wasser",
+            "conceptId": "a1_de_wasser"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in German: the water",
+            "answer": "das Wasser",
+            "conceptId": "a1_de_wasser"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: the bread",
+            "options": [
+              "der Kaffee",
+              "das Brot",
+              "der Apfel",
+              "das Wasser",
+              "die Milch"
+            ],
+            "answer": "das Brot",
+            "conceptId": "a1_de_brot"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in German: the bread",
+            "answer": "das Brot",
+            "conceptId": "a1_de_brot"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: the apple",
+            "options": [
+              "der Apfel",
+              "die Milch",
+              "das Wasser",
+              "der Kaffee",
+              "das Brot"
+            ],
+            "answer": "der Apfel",
+            "conceptId": "a1_de_apfel"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in German: the apple",
+            "answer": "der Apfel",
+            "conceptId": "a1_de_apfel"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: the coffee",
+            "options": [
+              "das Wasser",
+              "der Apfel",
+              "die Milch",
+              "der Kaffee",
+              "das Brot"
+            ],
+            "answer": "der Kaffee",
+            "conceptId": "a1_de_kaffee"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in German: the coffee",
+            "answer": "der Kaffee",
+            "conceptId": "a1_de_kaffee"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: the milk",
+            "options": [
+              "das Brot",
+              "das Wasser",
+              "der Kaffee",
+              "der Apfel",
+              "die Milch"
+            ],
+            "answer": "die Milch",
+            "conceptId": "a1_de_milch"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in German: the milk",
+            "answer": "die Milch",
+            "conceptId": "a1_de_milch"
+          },
+          {
+            "type": "match",
+            "phaseTitle": "Pair Matching",
+            "pairs": [
+              {
+                "source": "das Wasser",
+                "target": "the water"
+              },
+              {
+                "source": "das Brot",
+                "target": "the bread"
+              },
+              {
+                "source": "der Apfel",
+                "target": "the apple"
+              },
+              {
+                "source": "der Kaffee",
+                "target": "the coffee"
+              },
+              {
+                "source": "die Milch",
+                "target": "the milk"
+              }
+            ],
+            "conceptId": "a1_de_wasser"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-summary",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Revision Summary",
+        "conceptId": "intro",
+        "content": "You've learned the vocabulary, listened to the pronunciation, and practiced typing. Now, let's put it all together.",
+        "example": "Take a deep breath. Let's start the final quiz!"
+      }
+    },
+    {
+      "id": "mod-final-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: the water",
+            "answer": "das Wasser",
+            "options": [
+              "das Wasser",
+              "der Kaffee",
+              "der Apfel",
+              "das Brot",
+              "die Milch"
+            ],
+            "conceptId": "a1_de_wasser"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "das Wasser",
+            "answer": "das Wasser",
+            "options": [
+              "der Kaffee",
+              "das Wasser",
+              "das Brot",
+              "der Apfel",
+              "die Milch"
+            ],
+            "conceptId": "a1_de_wasser"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: the water",
+            "answer": "das Wasser",
+            "conceptId": "a1_de_wasser"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: the bread",
+            "answer": "das Brot",
+            "options": [
+              "die Milch",
+              "das Brot",
+              "der Kaffee",
+              "der Apfel",
+              "das Wasser"
+            ],
+            "conceptId": "a1_de_brot"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "das Brot",
+            "answer": "das Brot",
+            "options": [
+              "das Brot",
+              "der Kaffee",
+              "die Milch",
+              "der Apfel",
+              "das Wasser"
+            ],
+            "conceptId": "a1_de_brot"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: the bread",
+            "answer": "das Brot",
+            "conceptId": "a1_de_brot"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: the apple",
+            "answer": "der Apfel",
+            "options": [
+              "der Kaffee",
+              "das Brot",
+              "das Wasser",
+              "die Milch",
+              "der Apfel"
+            ],
+            "conceptId": "a1_de_apfel"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "der Apfel",
+            "answer": "der Apfel",
+            "options": [
+              "der Apfel",
+              "der Kaffee",
+              "das Wasser",
+              "das Brot",
+              "die Milch"
+            ],
+            "conceptId": "a1_de_apfel"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: the apple",
+            "answer": "der Apfel",
+            "conceptId": "a1_de_apfel"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: the coffee",
+            "answer": "der Kaffee",
+            "options": [
+              "das Brot",
+              "der Apfel",
+              "die Milch",
+              "der Kaffee",
+              "das Wasser"
+            ],
+            "conceptId": "a1_de_kaffee"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "der Kaffee",
+            "answer": "der Kaffee",
+            "options": [
+              "das Wasser",
+              "das Brot",
+              "der Kaffee",
+              "die Milch",
+              "der Apfel"
+            ],
+            "conceptId": "a1_de_kaffee"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: the coffee",
+            "answer": "der Kaffee",
+            "conceptId": "a1_de_kaffee"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: the milk",
+            "answer": "die Milch",
+            "options": [
+              "das Wasser",
+              "die Milch",
+              "der Apfel",
+              "das Brot",
+              "der Kaffee"
+            ],
+            "conceptId": "a1_de_milch"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "die Milch",
+            "answer": "die Milch",
+            "options": [
+              "das Wasser",
+              "der Apfel",
+              "der Kaffee",
+              "das Brot",
+              "die Milch"
+            ],
+            "conceptId": "a1_de_milch"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: the milk",
+            "answer": "die Milch",
+            "conceptId": "a1_de_milch"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: 'Ich trinke das Wasser'",
+            "tokens": [
+              "Ich",
+              "trinke",
+              "das",
+              "Wasser"
+            ],
+            "answer": "Ich trinke das Wasser",
+            "conceptId": "a1_de_wasser"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: 'Das Brot ist gut'",
+            "tokens": [
+              "Das",
+              "Brot",
+              "ist",
+              "gut"
+            ],
+            "answer": "Das Brot ist gut",
+            "conceptId": "a1_de_wasser"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-celebration",
+      "type": "celebration",
+      "config": {}
+    }
+  ]
+}

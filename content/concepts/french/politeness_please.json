@@ -1,0 +1,13 @@
+{
+  "id": "politeness_please",
+  "language": "French",
+  "native": "S'il vous plaît",
+  "translation": "Please (formal)",
+  "pronunciation": "Seel voo play",
+  "ipa": "/sil vu plɛ/",
+  "difficulty": 2,
+  "cefr": "A1",
+  "tags": ["politeness", "formal"],
+  "relatedConcepts": ["politeness_thanks"],
+  "masteryThreshold": 0.85
+}

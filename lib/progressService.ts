@@ -3,9 +3,7 @@ import type { UserProgress, LessonProgress } from '@/types';
 const STORAGE_KEY = 'lingua_learn_progress';
 
 const defaultProgress = (): UserProgress => ({
-  totalXP: 0,
   streak: 0,
-  hearts: 5,
   lessons: {},
 });
 
@@ -14,9 +12,6 @@ export interface IProgressService {
   getProgress(): UserProgress;
   getLessonProgress(lessonId: string): LessonProgress | null;
   saveLesson(progress: LessonProgress): void;
-  addXP(amount: number): void;
-  loseHeart(): void;
-  refillHearts(): void;
   updateStreak(): void;
   resetAll(): void;
 }
@@ -50,36 +45,11 @@ class LocalProgressService implements IProgressService {
 
   saveLesson(progress: LessonProgress): void {
     const p = this.load();
-    const prev = p.lessons[progress.lessonId];
-    // Keep best score
-    if (prev && prev.score > progress.score) {
-      progress.score = prev.score;
-    }
     p.lessons[progress.lessonId] = progress;
-    if (progress.completed) {
-      p.totalXP += progress.score - (prev?.score ?? 0);
-    }
     this.save(p);
   }
 
-  addXP(amount: number): void {
-    const p = this.load();
-    p.totalXP += amount;
-    this.save(p);
-  }
 
-  loseHeart(): void {
-    const p = this.load();
-    if (p.hearts > 0) p.hearts -= 1;
-    this.save(p);
-  }
-
-  refillHearts(): void {
-    const p = this.load();
-    p.hearts = 5;
-    p.lastHeartRefill = new Date().toISOString();
-    this.save(p);
-  }
 
   updateStreak(): void {
     const p = this.load();

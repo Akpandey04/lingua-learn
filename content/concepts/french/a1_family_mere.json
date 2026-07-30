@@ -1,0 +1,18 @@
+{
+  "id": "a1_family_mere",
+  "type": "vocabulary",
+  "language": "French",
+  "pronunciation": "Mair",
+  "ipa": "/mɛʁ/",
+  "difficulty": 1,
+  "cefr": "A1",
+  "tags": [
+    "family"
+  ],
+  "relatedConcepts": [],
+  "masteryThreshold": 0.9,
+  "exampleSentence": "Ma mère.",
+  "exampleTranslation": "My mother.",
+  "memoryTip": "Memorize this!",
+  "emoji": "📝"
+}

@@ -1,0 +1,337 @@
+{
+  "id": "unit-01-meeting-lesson-1",
+  "unitId": "unit-01-meeting",
+  "title": "Meeting People",
+  "version": 3,
+  "learningObjectives": [
+    "a1_meeting_bonjour",
+    "a1_meeting_salut",
+    "a1_meeting_je_mappelle",
+    "a1_meeting_merci",
+    "a1_meeting_beaucoup"
+  ],
+  "modules": [
+    {
+      "id": "mod-intro",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Welcome to Greetings",
+        "conceptId": "intro",
+        "content": "Today we will learn how to greet people and introduce ourselves in French. Let's start with 5 important phrases.",
+        "example": "Pay close attention to how they are pronounced."
+      }
+    },
+    {
+      "id": "mod-vocab",
+      "type": "vocabulary",
+      "config": {
+        "flow": "teach_all",
+        "words": [
+          {
+            "conceptId": "a1_meeting_bonjour",
+            "emoji": "☀️",
+            "nativeWord": "Bonjour",
+            "englishMeaning": "Hello / Good Morning",
+            "ipa": "/bɔ̃ʒuʁ/",
+            "pronunciation": "Bon-zhoor",
+            "exampleSentence": "Bonjour Marie !",
+            "exampleTranslation": "Hello Marie!",
+            "memoryTip": "Bon = Good. Jour = Day.",
+            "difficultyRating": 1
+          },
+          {
+            "conceptId": "a1_meeting_salut",
+            "emoji": "👋",
+            "nativeWord": "Salut",
+            "englishMeaning": "Hi / Bye (Casual)",
+            "ipa": "/saly/",
+            "pronunciation": "Sah-loo",
+            "exampleSentence": "Salut Pierre !",
+            "exampleTranslation": "Hi Pierre!",
+            "memoryTip": "Used with friends for both hello and goodbye.",
+            "difficultyRating": 1
+          },
+          {
+            "conceptId": "a1_meeting_je_mappelle",
+            "emoji": "🤝",
+            "nativeWord": "Je m'appelle",
+            "englishMeaning": "My name is",
+            "ipa": "/ʒə mapɛl/",
+            "pronunciation": "Zhuh mah-pell",
+            "exampleSentence": "Je m'appelle Paul.",
+            "exampleTranslation": "My name is Paul.",
+            "memoryTip": "Literally 'I call myself'.",
+            "difficultyRating": 2
+          },
+          {
+            "conceptId": "a1_meeting_merci",
+            "emoji": "🙏",
+            "nativeWord": "Merci",
+            "englishMeaning": "Thank you",
+            "ipa": "/mɛʁ.si/",
+            "pronunciation": "Mare-see",
+            "exampleSentence": "Merci Marie !",
+            "exampleTranslation": "Thank you Marie!",
+            "memoryTip": "Sounds a bit like 'mercy'.",
+            "difficultyRating": 1
+          },
+          {
+            "conceptId": "a1_meeting_beaucoup",
+            "emoji": "🌟",
+            "nativeWord": "Beaucoup",
+            "englishMeaning": "A lot / Very much",
+            "ipa": "/bo.ku/",
+            "pronunciation": "Bow-koo",
+            "exampleSentence": "Merci beaucoup !",
+            "exampleTranslation": "Thank you very much!",
+            "memoryTip": "Beaucoup means 'a lot'. Used with merci.",
+            "difficultyRating": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-listen",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Bonjour",
+            "answer": "Bonjour",
+            "options": ["Bonjour", "Salut", "Merci", "Beaucoup"],
+            "conceptId": "a1_meeting_bonjour"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Salut",
+            "answer": "Salut",
+            "options": ["Je m'appelle", "Salut", "Bonjour", "Merci"],
+            "conceptId": "a1_meeting_salut"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Je m'appelle",
+            "answer": "Je m'appelle",
+            "options": ["Bonjour", "Salut", "Je m'appelle", "Beaucoup"],
+            "conceptId": "a1_meeting_je_mappelle"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Merci",
+            "answer": "Merci",
+            "options": ["Merci", "Bonjour", "Beaucoup", "Salut"],
+            "conceptId": "a1_meeting_merci"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Beaucoup",
+            "answer": "Beaucoup",
+            "options": ["Merci", "Je m'appelle", "Bonjour", "Beaucoup"],
+            "conceptId": "a1_meeting_beaucoup"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-speak",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Bonjour",
+            "prompt": "Say: Hello",
+            "conceptId": "a1_meeting_bonjour",
+            "pronunciation": "Bon-zhoor (/bɔ̃ʒuʁ/)"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Salut",
+            "prompt": "Say: Hi",
+            "conceptId": "a1_meeting_salut",
+            "pronunciation": "Sah-loo (/saly/)"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Je m'appelle",
+            "prompt": "Say: My name is",
+            "conceptId": "a1_meeting_je_mappelle",
+            "pronunciation": "Zhuh mah-pell (/ʒə mapɛl/)"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Merci",
+            "prompt": "Say: Thank you",
+            "conceptId": "a1_meeting_merci",
+            "pronunciation": "Mare-see (/mɛʁ.si/)"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Beaucoup",
+            "prompt": "Say: A lot",
+            "conceptId": "a1_meeting_beaucoup",
+            "pronunciation": "Bow-koo (/bo.ku/)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-type",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'Hello'?",
+            "answer": "Bonjour",
+            "conceptId": "a1_meeting_bonjour"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'Hi/Bye'?",
+            "answer": "Salut",
+            "conceptId": "a1_meeting_salut"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'My name is'?",
+            "answer": "Je m'appelle",
+            "conceptId": "a1_meeting_je_mappelle"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'Thank you'?",
+            "answer": "Merci",
+            "conceptId": "a1_meeting_merci"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'A lot'?",
+            "answer": "Beaucoup",
+            "conceptId": "a1_meeting_beaucoup"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-practice",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning Match",
+            "prompt": "Which greeting is casual and used with friends?",
+            "answer": "Salut",
+            "options": ["Bonjour", "Salut"],
+            "conceptId": "a1_meeting_salut"
+          },
+          {
+            "type": "fill",
+            "phaseTitle": "Fill in the Blank",
+            "phrase": "_____ beaucoup !",
+            "prompt": "Type the missing word (Thank you)",
+            "answer": "Merci",
+            "conceptId": "a1_meeting_merci"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Je m'appelle",
+            "answer": "Je m'appelle",
+            "options": ["Bonjour", "Je m'appelle", "Beaucoup", "Merci"],
+            "conceptId": "a1_meeting_je_mappelle"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Word Match",
+            "prompt": "What does 'Bonjour' mean?",
+            "answer": "Hello",
+            "options": ["Hi", "Hello", "Thank you", "My name is"],
+            "conceptId": "a1_meeting_bonjour"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Translate: 'A lot'",
+            "answer": "Beaucoup",
+            "conceptId": "a1_meeting_beaucoup"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-summary",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Revision Summary",
+        "conceptId": "intro",
+        "content": "Before the final quiz, let's review what you learned today:\n\n**Bonjour** (/bɔ̃ʒuʁ/) - Hello / Good Morning\n💡 *Tip: Bon = Good. Jour = Day.*\n\n**Salut** (/saly/) - Hi / Bye (Casual)\n💡 *Tip: Used with friends.*\n\n**Je m'appelle** (/ʒə mapɛl/) - My name is\n💡 *Tip: Literally means 'I call myself'.*\n\n**Merci** (/mɛʁ.si/) - Thank you\n💡 *Tip: Sounds like 'mercy'.*\n\n**Beaucoup** (/bo.ku/) - A lot\n💡 *Tip: Use with 'Merci' for 'Thank you very much'.*",
+        "example": "Take a deep breath. Let's start the final quiz!"
+      }
+    },
+    {
+      "id": "mod-final-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "prompt": "How do you say 'Hello' in a formal setting?",
+            "answer": "Bonjour",
+            "options": ["Salut", "Bonjour"],
+            "conceptId": "a1_meeting_bonjour"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type the casual greeting for 'Hi/Bye'",
+            "answer": "Salut",
+            "conceptId": "a1_meeting_salut"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: 'Hello, my name is'",
+            "tokens": ["m'appelle", "Je", "Bonjour,", "merci"],
+            "answer": "Bonjour, Je m'appelle",
+            "conceptId": "a1_meeting_je_mappelle"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: 'Thank you very much'",
+            "tokens": ["beaucoup", "Salut", "Merci", "Je"],
+            "answer": "Merci beaucoup",
+            "conceptId": "a1_meeting_merci"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "prompt": "What does 'Beaucoup' mean?",
+            "answer": "A lot",
+            "options": ["Hello", "Thank you", "A lot", "My name is"],
+            "conceptId": "a1_meeting_beaucoup"
+          }
+        ]
+      }
+    }
+  ]
+}

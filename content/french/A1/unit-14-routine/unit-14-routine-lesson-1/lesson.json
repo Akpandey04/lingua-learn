@@ -1,0 +1,417 @@
+{
+  "id": "unit-14-routine-lesson-1",
+  "unitId": "unit-14-routine",
+  "title": "Daily Routine",
+  "version": 3,
+  "learningObjectives": [
+    "a1_routine_matin",
+    "a1_routine_soir",
+    "a1_routine_reveil",
+    "a1_routine_dormir",
+    "a1_routine_journee"
+  ],
+  "modules": [
+    {
+      "id": "mod-intro",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Welcome to Daily Routine",
+        "conceptId": "intro",
+        "content": "Today we will learn about Daily Routine in French. Let's start with 5 important words.",
+        "example": "Pay close attention to how they are pronounced."
+      }
+    },
+    {
+      "id": "mod-vocab",
+      "type": "vocabulary",
+      "config": {
+        "flow": "teach_all",
+        "words": [
+          {
+            "conceptId": "a1_routine_matin",
+            "emoji": "📚",
+            "nativeWord": "Matin",
+            "englishMeaning": "Morning",
+            "ipa": "/matɛ̃/",
+            "pronunciation": "Mah-tahn",
+            "exampleSentence": "Je lis le matin.",
+            "exampleTranslation": "I read in the morning.",
+            "memoryTip": "Start of day.",
+            "difficultyRating": 1
+          },
+          {
+            "conceptId": "a1_routine_soir",
+            "emoji": "📚",
+            "nativeWord": "Soir",
+            "englishMeaning": "Evening",
+            "ipa": "/swaʁ/",
+            "pronunciation": "Swahr",
+            "exampleSentence": "À ce soir.",
+            "exampleTranslation": "See you this evening.",
+            "memoryTip": "End of day.",
+            "difficultyRating": 1
+          },
+          {
+            "conceptId": "a1_routine_reveil",
+            "emoji": "📚",
+            "nativeWord": "Réveil",
+            "englishMeaning": "Waking up",
+            "ipa": "/ʁevɛj/",
+            "pronunciation": "Ray-vay",
+            "exampleSentence": "Le réveil sonne.",
+            "exampleTranslation": "The alarm rings.",
+            "memoryTip": "Alarm.",
+            "difficultyRating": 1
+          },
+          {
+            "conceptId": "a1_routine_dormir",
+            "emoji": "📚",
+            "nativeWord": "Dormir",
+            "englishMeaning": "To sleep",
+            "ipa": "/dɔʁmiʁ/",
+            "pronunciation": "Dor-meer",
+            "exampleSentence": "Je veux dormir.",
+            "exampleTranslation": "I want to sleep.",
+            "memoryTip": "At night.",
+            "difficultyRating": 1
+          },
+          {
+            "conceptId": "a1_routine_journee",
+            "emoji": "📚",
+            "nativeWord": "Journée",
+            "englishMeaning": "Day",
+            "ipa": "/ʒuʁne/",
+            "pronunciation": "Zhoor-nay",
+            "exampleSentence": "Bonne journée !",
+            "exampleTranslation": "Have a good day!",
+            "memoryTip": "Whole day.",
+            "difficultyRating": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-listen",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Matin",
+            "answer": "Matin",
+            "options": [
+              "Matin",
+              "Soir",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_routine_matin"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Soir",
+            "answer": "Soir",
+            "options": [
+              "Soir",
+              "Matin",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_routine_soir"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Réveil",
+            "answer": "Réveil",
+            "options": [
+              "Réveil",
+              "Matin",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_routine_reveil"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Dormir",
+            "answer": "Dormir",
+            "options": [
+              "Dormir",
+              "Matin",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_routine_dormir"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Journée",
+            "answer": "Journée",
+            "options": [
+              "Journée",
+              "Matin",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_routine_journee"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-speak",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Matin",
+            "prompt": "Say: Morning",
+            "conceptId": "a1_routine_matin",
+            "pronunciation": "Mah-tahn (/matɛ̃/)"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Soir",
+            "prompt": "Say: Evening",
+            "conceptId": "a1_routine_soir",
+            "pronunciation": "Swahr (/swaʁ/)"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Réveil",
+            "prompt": "Say: Waking up",
+            "conceptId": "a1_routine_reveil",
+            "pronunciation": "Ray-vay (/ʁevɛj/)"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Dormir",
+            "prompt": "Say: To sleep",
+            "conceptId": "a1_routine_dormir",
+            "pronunciation": "Dor-meer (/dɔʁmiʁ/)"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Journée",
+            "prompt": "Say: Day",
+            "conceptId": "a1_routine_journee",
+            "pronunciation": "Zhoor-nay (/ʒuʁne/)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-type",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'Morning'?",
+            "answer": "Matin",
+            "conceptId": "a1_routine_matin"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'Evening'?",
+            "answer": "Soir",
+            "conceptId": "a1_routine_soir"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'Waking up'?",
+            "answer": "Réveil",
+            "conceptId": "a1_routine_reveil"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'To sleep'?",
+            "answer": "Dormir",
+            "conceptId": "a1_routine_dormir"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'Day'?",
+            "answer": "Journée",
+            "conceptId": "a1_routine_journee"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-practice",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning Match",
+            "prompt": "What does 'Matin' mean?",
+            "answer": "Morning",
+            "options": [
+              "Morning",
+              "Evening",
+              "Fake1",
+              "Fake2"
+            ],
+            "conceptId": "a1_routine_matin"
+          },
+          {
+            "type": "fill",
+            "phaseTitle": "Fill in the Blank",
+            "phrase": "_ !",
+            "prompt": "Type 'Evening'",
+            "answer": "Soir",
+            "conceptId": "a1_routine_soir"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Word Match",
+            "prompt": "Which word means 'Waking up'?",
+            "answer": "Réveil",
+            "options": [
+              "Réveil",
+              "Matin",
+              "Mot1",
+              "Mot2"
+            ],
+            "conceptId": "a1_routine_reveil"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning Match",
+            "prompt": "What does 'Dormir' mean?",
+            "answer": "To sleep",
+            "options": [
+              "To sleep",
+              "Morning",
+              "Fake1",
+              "Fake2"
+            ],
+            "conceptId": "a1_routine_dormir"
+          },
+          {
+            "type": "fill",
+            "phaseTitle": "Fill in the Blank",
+            "phrase": "_ !",
+            "prompt": "Type 'Day'",
+            "answer": "Journée",
+            "conceptId": "a1_routine_journee"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-summary",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Revision Summary",
+        "conceptId": "intro",
+        "content": "Before the final quiz, let's review what you learned today:\n\n**Matin** (/matɛ̃/) - Morning\n💡 *Tip: Start of day.*\n\n**Soir** (/swaʁ/) - Evening\n💡 *Tip: End of day.*\n\n**Réveil** (/ʁevɛj/) - Waking up\n💡 *Tip: Alarm.*\n\n**Dormir** (/dɔʁmiʁ/) - To sleep\n💡 *Tip: At night.*\n\n**Journée** (/ʒuʁne/) - Day\n💡 *Tip: Whole day.*",
+        "example": "Take a deep breath. Let's start the final quiz!"
+      }
+    },
+    {
+      "id": "mod-final-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Translate: Morning",
+            "answer": "Matin",
+            "options": [
+              "Matin",
+              "Soir"
+            ],
+            "conceptId": "a1_routine_matin"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Evening",
+            "answer": "Soir",
+            "conceptId": "a1_routine_soir"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Translate: Waking up",
+            "answer": "Réveil",
+            "options": [
+              "Réveil",
+              "Matin"
+            ],
+            "conceptId": "a1_routine_reveil"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: To sleep",
+            "answer": "Dormir",
+            "conceptId": "a1_routine_dormir"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Translate: Day",
+            "answer": "Journée",
+            "options": [
+              "Journée",
+              "Matin"
+            ],
+            "conceptId": "a1_routine_journee"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: 'Matin et soir'",
+            "tokens": [
+              "Matin",
+              "et",
+              "soir",
+              "dormir"
+            ],
+            "answer": "Matin et soir",
+            "conceptId": "a1_routine_matin"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: 'Bonne journée'",
+            "tokens": [
+              "Bonne",
+              "journée",
+              "réveil",
+              "matin"
+            ],
+            "answer": "Bonne journée",
+            "conceptId": "a1_routine_matin"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-celebration",
+      "type": "celebration",
+      "config": {}
+    }
+  ]
+}

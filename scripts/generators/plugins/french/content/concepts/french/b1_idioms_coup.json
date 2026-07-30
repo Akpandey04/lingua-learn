@@ -1,0 +1,20 @@
+{
+  "id": "b1_idioms_coup",
+  "type": "vocabulary",
+  "language": "French",
+  "native": "Coup",
+  "translation": "Blow/Hit",
+  "pronunciation": "Koo",
+  "ipa": "/ku/",
+  "difficulty": 1,
+  "cefr": "A1",
+  "tags": [
+    "idioms"
+  ],
+  "relatedConcepts": [],
+  "masteryThreshold": 0.9,
+  "exampleSentence": "Un coup.",
+  "exampleTranslation": "A hit.",
+  "memoryTip": "Memorize this!",
+  "emoji": "📝"
+}

@@ -1,0 +1,417 @@
+{
+  "id": "unit-08-family-lesson-1",
+  "unitId": "unit-08-family",
+  "title": "Family",
+  "version": 3,
+  "learningObjectives": [
+    "a1_family_mere",
+    "a1_family_pere",
+    "a1_family_frere",
+    "a1_family_soeur",
+    "a1_family_famille"
+  ],
+  "modules": [
+    {
+      "id": "mod-intro",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Welcome to Family",
+        "conceptId": "intro",
+        "content": "Today we will learn about Family in French. Let's start with 5 important words.",
+        "example": "Pay close attention to how they are pronounced."
+      }
+    },
+    {
+      "id": "mod-vocab",
+      "type": "vocabulary",
+      "config": {
+        "flow": "teach_all",
+        "words": [
+          {
+            "conceptId": "a1_family_mere",
+            "emoji": "📚",
+            "nativeWord": "Mère",
+            "englishMeaning": "Mother",
+            "ipa": "/mɛʁ/",
+            "pronunciation": "Mair",
+            "exampleSentence": "Ma mère est gentille.",
+            "exampleTranslation": "My mother is nice.",
+            "memoryTip": "Mom.",
+            "difficultyRating": 1
+          },
+          {
+            "conceptId": "a1_family_pere",
+            "emoji": "📚",
+            "nativeWord": "Père",
+            "englishMeaning": "Father",
+            "ipa": "/pɛʁ/",
+            "pronunciation": "Pair",
+            "exampleSentence": "Mon père travaille.",
+            "exampleTranslation": "My father works.",
+            "memoryTip": "Dad.",
+            "difficultyRating": 1
+          },
+          {
+            "conceptId": "a1_family_frere",
+            "emoji": "📚",
+            "nativeWord": "Frère",
+            "englishMeaning": "Brother",
+            "ipa": "/fʁɛʁ/",
+            "pronunciation": "Frair",
+            "exampleSentence": "J'ai un frère.",
+            "exampleTranslation": "I have one brother.",
+            "memoryTip": "Bro.",
+            "difficultyRating": 1
+          },
+          {
+            "conceptId": "a1_family_soeur",
+            "emoji": "📚",
+            "nativeWord": "Sœur",
+            "englishMeaning": "Sister",
+            "ipa": "/sœʁ/",
+            "pronunciation": "Suhr",
+            "exampleSentence": "Ma sœur est grande.",
+            "exampleTranslation": "My sister is tall.",
+            "memoryTip": "Sis.",
+            "difficultyRating": 1
+          },
+          {
+            "conceptId": "a1_family_famille",
+            "emoji": "📚",
+            "nativeWord": "Famille",
+            "englishMeaning": "Family",
+            "ipa": "/famij/",
+            "pronunciation": "Fah-mee",
+            "exampleSentence": "J'aime ma famille.",
+            "exampleTranslation": "I love my family.",
+            "memoryTip": "Everyone.",
+            "difficultyRating": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-listen",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Mère",
+            "answer": "Mère",
+            "options": [
+              "Mère",
+              "Père",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_family_mere"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Père",
+            "answer": "Père",
+            "options": [
+              "Père",
+              "Mère",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_family_pere"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Frère",
+            "answer": "Frère",
+            "options": [
+              "Frère",
+              "Mère",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_family_frere"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Sœur",
+            "answer": "Sœur",
+            "options": [
+              "Sœur",
+              "Mère",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_family_soeur"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Famille",
+            "answer": "Famille",
+            "options": [
+              "Famille",
+              "Mère",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_family_famille"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-speak",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Mère",
+            "prompt": "Say: Mother",
+            "conceptId": "a1_family_mere",
+            "pronunciation": "Mair (/mɛʁ/)"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Père",
+            "prompt": "Say: Father",
+            "conceptId": "a1_family_pere",
+            "pronunciation": "Pair (/pɛʁ/)"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Frère",
+            "prompt": "Say: Brother",
+            "conceptId": "a1_family_frere",
+            "pronunciation": "Frair (/fʁɛʁ/)"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Sœur",
+            "prompt": "Say: Sister",
+            "conceptId": "a1_family_soeur",
+            "pronunciation": "Suhr (/sœʁ/)"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Famille",
+            "prompt": "Say: Family",
+            "conceptId": "a1_family_famille",
+            "pronunciation": "Fah-mee (/famij/)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-type",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'Mother'?",
+            "answer": "Mère",
+            "conceptId": "a1_family_mere"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'Father'?",
+            "answer": "Père",
+            "conceptId": "a1_family_pere"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'Brother'?",
+            "answer": "Frère",
+            "conceptId": "a1_family_frere"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'Sister'?",
+            "answer": "Sœur",
+            "conceptId": "a1_family_soeur"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'Family'?",
+            "answer": "Famille",
+            "conceptId": "a1_family_famille"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-practice",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning Match",
+            "prompt": "What does 'Mère' mean?",
+            "answer": "Mother",
+            "options": [
+              "Mother",
+              "Father",
+              "Fake1",
+              "Fake2"
+            ],
+            "conceptId": "a1_family_mere"
+          },
+          {
+            "type": "fill",
+            "phaseTitle": "Fill in the Blank",
+            "phrase": "_ !",
+            "prompt": "Type 'Father'",
+            "answer": "Père",
+            "conceptId": "a1_family_pere"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Word Match",
+            "prompt": "Which word means 'Brother'?",
+            "answer": "Frère",
+            "options": [
+              "Frère",
+              "Mère",
+              "Mot1",
+              "Mot2"
+            ],
+            "conceptId": "a1_family_frere"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning Match",
+            "prompt": "What does 'Sœur' mean?",
+            "answer": "Sister",
+            "options": [
+              "Sister",
+              "Mother",
+              "Fake1",
+              "Fake2"
+            ],
+            "conceptId": "a1_family_soeur"
+          },
+          {
+            "type": "fill",
+            "phaseTitle": "Fill in the Blank",
+            "phrase": "_ !",
+            "prompt": "Type 'Family'",
+            "answer": "Famille",
+            "conceptId": "a1_family_famille"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-summary",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Revision Summary",
+        "conceptId": "intro",
+        "content": "Before the final quiz, let's review what you learned today:\n\n**Mère** (/mɛʁ/) - Mother\n💡 *Tip: Mom.*\n\n**Père** (/pɛʁ/) - Father\n💡 *Tip: Dad.*\n\n**Frère** (/fʁɛʁ/) - Brother\n💡 *Tip: Bro.*\n\n**Sœur** (/sœʁ/) - Sister\n💡 *Tip: Sis.*\n\n**Famille** (/famij/) - Family\n💡 *Tip: Everyone.*",
+        "example": "Take a deep breath. Let's start the final quiz!"
+      }
+    },
+    {
+      "id": "mod-final-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Translate: Mother",
+            "answer": "Mère",
+            "options": [
+              "Mère",
+              "Père"
+            ],
+            "conceptId": "a1_family_mere"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Father",
+            "answer": "Père",
+            "conceptId": "a1_family_pere"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Translate: Brother",
+            "answer": "Frère",
+            "options": [
+              "Frère",
+              "Mère"
+            ],
+            "conceptId": "a1_family_frere"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Sister",
+            "answer": "Sœur",
+            "conceptId": "a1_family_soeur"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Translate: Family",
+            "answer": "Famille",
+            "options": [
+              "Famille",
+              "Mère"
+            ],
+            "conceptId": "a1_family_famille"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: 'Mère et père'",
+            "tokens": [
+              "Mère",
+              "et",
+              "père",
+              "frère"
+            ],
+            "answer": "Mère et père",
+            "conceptId": "a1_family_mere"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: 'Ma famille'",
+            "tokens": [
+              "Ma",
+              "famille",
+              "sœur",
+              "père"
+            ],
+            "answer": "Ma famille",
+            "conceptId": "a1_family_mere"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-celebration",
+      "type": "celebration",
+      "config": {}
+    }
+  ]
+}

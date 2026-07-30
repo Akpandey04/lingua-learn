@@ -1,0 +1,20 @@
+{
+  "id": "basic_no",
+  "language": "French",
+  "native": "Non",
+  "translation": "No",
+  "pronunciation": "Noh(n)",
+  "ipa": "/nɔ̃/",
+  "difficulty": 1,
+  "cefr": "A1",
+  "tags": [
+    "basics"
+  ],
+  "relatedConcepts": [],
+  "masteryThreshold": 0.9,
+  "exampleSentence": "Non, merci.",
+  "exampleTranslation": "No, thank you.",
+  "usageNote": "The standard word for no. The \"n\" at the end is nasal.",
+  "formality": "neutral",
+  "memoryTip": "Very similar to \"No\" in English."
+}

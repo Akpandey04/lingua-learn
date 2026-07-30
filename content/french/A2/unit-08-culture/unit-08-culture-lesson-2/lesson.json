@@ -1,0 +1,23 @@
+{
+  "id": "unit-08-culture-lesson-2",
+  "title": "Culture Practice",
+  "learningObjectives": [
+    "Practice Culture"
+  ],
+  "modules": [
+    {
+      "id": "unit-08-culture-lesson-2-knowledge",
+      "type": "knowledge_card",
+      "config": {
+        "cards": [
+          {
+            "id": "unit-08-culture-lesson-2-card1",
+            "title": "Grammar: Culture",
+            "conceptId": "grammar_a2_culture",
+            "content": "Learn the rules for Culture."
+          }
+        ]
+      }
+    }
+  ]
+}

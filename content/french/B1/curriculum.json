@@ -1,0 +1,285 @@
+{
+  "language": "French",
+  "level": "B1",
+  "units": [
+    {
+      "id": "unit-01-opinions",
+      "title": "Opinions",
+      "cefrLevel": "A1",
+      "estimatedHours": 2,
+      "unitObjectives": [
+        "Master Opinions"
+      ],
+      "concepts": [
+        "b1_opinions_penser",
+        "grammar_b1_opinions"
+      ],
+      "lessons": [
+        {
+          "id": "unit-01-opinions-lesson-1",
+          "title": "Opinions Vocabulary",
+          "type": "learning",
+          "conceptIds": [
+            "b1_opinions_penser"
+          ]
+        },
+        {
+          "id": "unit-01-opinions-lesson-2",
+          "title": "Opinions Practice",
+          "type": "learning",
+          "conceptIds": [
+            "grammar_b1_opinions"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-02-news",
+      "title": "News",
+      "cefrLevel": "A1",
+      "estimatedHours": 2,
+      "unitObjectives": [
+        "Master News"
+      ],
+      "concepts": [
+        "b1_news_journal",
+        "grammar_b1_news"
+      ],
+      "lessons": [
+        {
+          "id": "unit-02-news-lesson-1",
+          "title": "News Vocabulary",
+          "type": "learning",
+          "conceptIds": [
+            "b1_news_journal"
+          ]
+        },
+        {
+          "id": "unit-02-news-lesson-2",
+          "title": "News Practice",
+          "type": "learning",
+          "conceptIds": [
+            "grammar_b1_news"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-03-media",
+      "title": "Media",
+      "cefrLevel": "A1",
+      "estimatedHours": 2,
+      "unitObjectives": [
+        "Master Media"
+      ],
+      "concepts": [
+        "b1_media_radio",
+        "grammar_b1_media"
+      ],
+      "lessons": [
+        {
+          "id": "unit-03-media-lesson-1",
+          "title": "Media Vocabulary",
+          "type": "learning",
+          "conceptIds": [
+            "b1_media_radio"
+          ]
+        },
+        {
+          "id": "unit-03-media-lesson-2",
+          "title": "Media Practice",
+          "type": "learning",
+          "conceptIds": [
+            "grammar_b1_media"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-04-environment",
+      "title": "Environment",
+      "cefrLevel": "A1",
+      "estimatedHours": 2,
+      "unitObjectives": [
+        "Master Environment"
+      ],
+      "concepts": [
+        "b1_environment_nature",
+        "grammar_b1_environment"
+      ],
+      "lessons": [
+        {
+          "id": "unit-04-environment-lesson-1",
+          "title": "Environment Vocabulary",
+          "type": "learning",
+          "conceptIds": [
+            "b1_environment_nature"
+          ]
+        },
+        {
+          "id": "unit-04-environment-lesson-2",
+          "title": "Environment Practice",
+          "type": "learning",
+          "conceptIds": [
+            "grammar_b1_environment"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-05-education",
+      "title": "Education",
+      "cefrLevel": "A1",
+      "estimatedHours": 2,
+      "unitObjectives": [
+        "Master Education"
+      ],
+      "concepts": [
+        "b1_education_universite",
+        "grammar_b1_education"
+      ],
+      "lessons": [
+        {
+          "id": "unit-05-education-lesson-1",
+          "title": "Education Vocabulary",
+          "type": "learning",
+          "conceptIds": [
+            "b1_education_universite"
+          ]
+        },
+        {
+          "id": "unit-05-education-lesson-2",
+          "title": "Education Practice",
+          "type": "learning",
+          "conceptIds": [
+            "grammar_b1_education"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-06-business",
+      "title": "Business",
+      "cefrLevel": "A1",
+      "estimatedHours": 2,
+      "unitObjectives": [
+        "Master Business"
+      ],
+      "concepts": [
+        "b1_business_entreprise",
+        "grammar_b1_business"
+      ],
+      "lessons": [
+        {
+          "id": "unit-06-business-lesson-1",
+          "title": "Business Vocabulary",
+          "type": "learning",
+          "conceptIds": [
+            "b1_business_entreprise"
+          ]
+        },
+        {
+          "id": "unit-06-business-lesson-2",
+          "title": "Business Practice",
+          "type": "learning",
+          "conceptIds": [
+            "grammar_b1_business"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-07-relationships",
+      "title": "Relationships",
+      "cefrLevel": "A1",
+      "estimatedHours": 2,
+      "unitObjectives": [
+        "Master Relationships"
+      ],
+      "concepts": [
+        "b1_relationships_amour",
+        "grammar_b1_relationships"
+      ],
+      "lessons": [
+        {
+          "id": "unit-07-relationships-lesson-1",
+          "title": "Relationships Vocabulary",
+          "type": "learning",
+          "conceptIds": [
+            "b1_relationships_amour"
+          ]
+        },
+        {
+          "id": "unit-07-relationships-lesson-2",
+          "title": "Relationships Practice",
+          "type": "learning",
+          "conceptIds": [
+            "grammar_b1_relationships"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-08-debates",
+      "title": "Debates",
+      "cefrLevel": "A1",
+      "estimatedHours": 2,
+      "unitObjectives": [
+        "Master Debates"
+      ],
+      "concepts": [
+        "b1_debates_pourquoi",
+        "grammar_b1_debates"
+      ],
+      "lessons": [
+        {
+          "id": "unit-08-debates-lesson-1",
+          "title": "Debates Vocabulary",
+          "type": "learning",
+          "conceptIds": [
+            "b1_debates_pourquoi"
+          ]
+        },
+        {
+          "id": "unit-08-debates-lesson-2",
+          "title": "Debates Practice",
+          "type": "learning",
+          "conceptIds": [
+            "grammar_b1_debates"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-09-idioms",
+      "title": "Idioms",
+      "cefrLevel": "A1",
+      "estimatedHours": 2,
+      "unitObjectives": [
+        "Master Idioms"
+      ],
+      "concepts": [
+        "b1_idioms_coup",
+        "grammar_b1_idioms"
+      ],
+      "lessons": [
+        {
+          "id": "unit-09-idioms-lesson-1",
+          "title": "Idioms Vocabulary",
+          "type": "learning",
+          "conceptIds": [
+            "b1_idioms_coup"
+          ]
+        },
+        {
+          "id": "unit-09-idioms-lesson-2",
+          "title": "Idioms Practice",
+          "type": "learning",
+          "conceptIds": [
+            "grammar_b1_idioms"
+          ]
+        }
+      ]
+    }
+  ]
+}

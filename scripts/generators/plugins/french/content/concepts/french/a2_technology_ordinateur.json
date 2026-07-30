@@ -1,0 +1,20 @@
+{
+  "id": "a2_technology_ordinateur",
+  "type": "vocabulary",
+  "language": "French",
+  "native": "Ordinateur",
+  "translation": "Computer",
+  "pronunciation": "Or-dee-nah-tuhr",
+  "ipa": "/ɔʁdinatœʁ/",
+  "difficulty": 1,
+  "cefr": "A1",
+  "tags": [
+    "technology"
+  ],
+  "relatedConcepts": [],
+  "masteryThreshold": 0.9,
+  "exampleSentence": "Mon ordinateur.",
+  "exampleTranslation": "My computer.",
+  "memoryTip": "Memorize this!",
+  "emoji": "📝"
+}

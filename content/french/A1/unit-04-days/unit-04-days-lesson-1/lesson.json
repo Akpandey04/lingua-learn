@@ -1,0 +1,417 @@
+{
+  "id": "unit-04-days-lesson-1",
+  "unitId": "unit-04-days",
+  "title": "Days",
+  "version": 3,
+  "learningObjectives": [
+    "a1_days_lundi",
+    "a1_days_mardi",
+    "a1_days_mercredi",
+    "a1_days_jeudi",
+    "a1_days_vendredi"
+  ],
+  "modules": [
+    {
+      "id": "mod-intro",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Welcome to Days",
+        "conceptId": "intro",
+        "content": "Today we will learn about Days in French. Let's start with 5 important words.",
+        "example": "Pay close attention to how they are pronounced."
+      }
+    },
+    {
+      "id": "mod-vocab",
+      "type": "vocabulary",
+      "config": {
+        "flow": "teach_all",
+        "words": [
+          {
+            "conceptId": "a1_days_lundi",
+            "emoji": "📚",
+            "nativeWord": "Lundi",
+            "englishMeaning": "Monday",
+            "ipa": "/lœ̃di/",
+            "pronunciation": "Luhn-dee",
+            "exampleSentence": "Le musée est fermé le lundi.",
+            "exampleTranslation": "The museum is closed on Monday.",
+            "memoryTip": "Moon day.",
+            "difficultyRating": 1
+          },
+          {
+            "conceptId": "a1_days_mardi",
+            "emoji": "📚",
+            "nativeWord": "Mardi",
+            "englishMeaning": "Tuesday",
+            "ipa": "/maʁdi/",
+            "pronunciation": "Mar-dee",
+            "exampleSentence": "À mardi !",
+            "exampleTranslation": "See you Tuesday!",
+            "memoryTip": "Mars day.",
+            "difficultyRating": 1
+          },
+          {
+            "conceptId": "a1_days_mercredi",
+            "emoji": "📚",
+            "nativeWord": "Mercredi",
+            "englishMeaning": "Wednesday",
+            "ipa": "/mɛʁkʁədi/",
+            "pronunciation": "Mair-kruh-dee",
+            "exampleSentence": "Je travaille mercredi.",
+            "exampleTranslation": "I work on Wednesday.",
+            "memoryTip": "Mercury day.",
+            "difficultyRating": 1
+          },
+          {
+            "conceptId": "a1_days_jeudi",
+            "emoji": "📚",
+            "nativeWord": "Jeudi",
+            "englishMeaning": "Thursday",
+            "ipa": "/ʒødi/",
+            "pronunciation": "Zhuh-dee",
+            "exampleSentence": "Jeudi matin.",
+            "exampleTranslation": "Thursday morning.",
+            "memoryTip": "Jupiter day.",
+            "difficultyRating": 1
+          },
+          {
+            "conceptId": "a1_days_vendredi",
+            "emoji": "📚",
+            "nativeWord": "Vendredi",
+            "englishMeaning": "Friday",
+            "ipa": "/vɑ̃dʁədi/",
+            "pronunciation": "Vahn-druh-dee",
+            "exampleSentence": "C'est enfin vendredi.",
+            "exampleTranslation": "It is finally Friday.",
+            "memoryTip": "Venus day.",
+            "difficultyRating": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-listen",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Lundi",
+            "answer": "Lundi",
+            "options": [
+              "Lundi",
+              "Mardi",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_days_lundi"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Mardi",
+            "answer": "Mardi",
+            "options": [
+              "Mardi",
+              "Lundi",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_days_mardi"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Mercredi",
+            "answer": "Mercredi",
+            "options": [
+              "Mercredi",
+              "Lundi",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_days_mercredi"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Jeudi",
+            "answer": "Jeudi",
+            "options": [
+              "Jeudi",
+              "Lundi",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_days_jeudi"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "Vendredi",
+            "answer": "Vendredi",
+            "options": [
+              "Vendredi",
+              "Lundi",
+              "Test1",
+              "Test2"
+            ],
+            "conceptId": "a1_days_vendredi"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-speak",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Lundi",
+            "prompt": "Say: Monday",
+            "conceptId": "a1_days_lundi",
+            "pronunciation": "Luhn-dee (/lœ̃di/)"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Mardi",
+            "prompt": "Say: Tuesday",
+            "conceptId": "a1_days_mardi",
+            "pronunciation": "Mar-dee (/maʁdi/)"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Mercredi",
+            "prompt": "Say: Wednesday",
+            "conceptId": "a1_days_mercredi",
+            "pronunciation": "Mair-kruh-dee (/mɛʁkʁədi/)"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Jeudi",
+            "prompt": "Say: Thursday",
+            "conceptId": "a1_days_jeudi",
+            "pronunciation": "Zhuh-dee (/ʒødi/)"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Speaking Practice",
+            "answer": "Vendredi",
+            "prompt": "Say: Friday",
+            "conceptId": "a1_days_vendredi",
+            "pronunciation": "Vahn-druh-dee (/vɑ̃dʁədi/)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-type",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'Monday'?",
+            "answer": "Lundi",
+            "conceptId": "a1_days_lundi"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'Tuesday'?",
+            "answer": "Mardi",
+            "conceptId": "a1_days_mardi"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'Wednesday'?",
+            "answer": "Mercredi",
+            "conceptId": "a1_days_mercredi"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'Thursday'?",
+            "answer": "Jeudi",
+            "conceptId": "a1_days_jeudi"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "How do you write 'Friday'?",
+            "answer": "Vendredi",
+            "conceptId": "a1_days_vendredi"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-practice",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning Match",
+            "prompt": "What does 'Lundi' mean?",
+            "answer": "Monday",
+            "options": [
+              "Monday",
+              "Tuesday",
+              "Fake1",
+              "Fake2"
+            ],
+            "conceptId": "a1_days_lundi"
+          },
+          {
+            "type": "fill",
+            "phaseTitle": "Fill in the Blank",
+            "phrase": "_ !",
+            "prompt": "Type 'Tuesday'",
+            "answer": "Mardi",
+            "conceptId": "a1_days_mardi"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Word Match",
+            "prompt": "Which word means 'Wednesday'?",
+            "answer": "Mercredi",
+            "options": [
+              "Mercredi",
+              "Lundi",
+              "Mot1",
+              "Mot2"
+            ],
+            "conceptId": "a1_days_mercredi"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning Match",
+            "prompt": "What does 'Jeudi' mean?",
+            "answer": "Thursday",
+            "options": [
+              "Thursday",
+              "Monday",
+              "Fake1",
+              "Fake2"
+            ],
+            "conceptId": "a1_days_jeudi"
+          },
+          {
+            "type": "fill",
+            "phaseTitle": "Fill in the Blank",
+            "phrase": "_ !",
+            "prompt": "Type 'Friday'",
+            "answer": "Vendredi",
+            "conceptId": "a1_days_vendredi"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-summary",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Revision Summary",
+        "conceptId": "intro",
+        "content": "Before the final quiz, let's review what you learned today:\n\n**Lundi** (/lœ̃di/) - Monday\n💡 *Tip: Moon day.*\n\n**Mardi** (/maʁdi/) - Tuesday\n💡 *Tip: Mars day.*\n\n**Mercredi** (/mɛʁkʁədi/) - Wednesday\n💡 *Tip: Mercury day.*\n\n**Jeudi** (/ʒødi/) - Thursday\n💡 *Tip: Jupiter day.*\n\n**Vendredi** (/vɑ̃dʁədi/) - Friday\n💡 *Tip: Venus day.*",
+        "example": "Take a deep breath. Let's start the final quiz!"
+      }
+    },
+    {
+      "id": "mod-final-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Translate: Monday",
+            "answer": "Lundi",
+            "options": [
+              "Lundi",
+              "Mardi"
+            ],
+            "conceptId": "a1_days_lundi"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Tuesday",
+            "answer": "Mardi",
+            "conceptId": "a1_days_mardi"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Translate: Wednesday",
+            "answer": "Mercredi",
+            "options": [
+              "Mercredi",
+              "Lundi"
+            ],
+            "conceptId": "a1_days_mercredi"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Thursday",
+            "answer": "Jeudi",
+            "conceptId": "a1_days_jeudi"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Translate: Friday",
+            "answer": "Vendredi",
+            "options": [
+              "Vendredi",
+              "Lundi"
+            ],
+            "conceptId": "a1_days_vendredi"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: 'Lundi et mardi'",
+            "tokens": [
+              "Lundi",
+              "et",
+              "mardi",
+              "jeudi"
+            ],
+            "answer": "Lundi et mardi",
+            "conceptId": "a1_days_lundi"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: 'Jeudi, vendredi'",
+            "tokens": [
+              "Jeudi,",
+              "vendredi",
+              "mercredi",
+              "lundi"
+            ],
+            "answer": "Jeudi, vendredi",
+            "conceptId": "a1_days_lundi"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-celebration",
+      "type": "celebration",
+      "config": {}
+    }
+  ]
+}

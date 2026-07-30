@@ -1,0 +1,18 @@
+{
+  "id": "a1_time_heure",
+  "type": "vocabulary",
+  "language": "French",
+  "pronunciation": "Uhr",
+  "ipa": "/œʁ/",
+  "difficulty": 1,
+  "cefr": "A1",
+  "tags": [
+    "time"
+  ],
+  "relatedConcepts": [],
+  "masteryThreshold": 0.9,
+  "exampleSentence": "Une heure.",
+  "exampleTranslation": "One hour.",
+  "memoryTip": "Memorize this!",
+  "emoji": "📝"
+}
