@@ -1,0 +1,716 @@
+{
+  "id": "family-lesson-1",
+  "unitId": "family",
+  "title": "Family",
+  "version": 3,
+  "learningObjectives": [
+    "a1_ja_haha",
+    "a1_ja_chichi",
+    "a1_ja_ane",
+    "a1_ja_ani",
+    "a1_ja_imouto"
+  ],
+  "modules": [
+    {
+      "id": "mod-intro",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Welcome to Family",
+        "conceptId": "intro",
+        "content": "Today we will learn about Family in Japanese. Let's start with important words.",
+        "example": "Pay close attention to how they are pronounced."
+      }
+    },
+    {
+      "id": "mod-vocab",
+      "type": "vocabulary",
+      "config": {
+        "flow": "teach_all",
+        "words": [
+          {
+            "id": "a1_ja_haha",
+            "conceptId": "a1_ja_haha",
+            "nativeWord": "母",
+            "englishMeaning": "Mother (my)",
+            "ipa": "haha",
+            "pronunciation": "Haha",
+            "exampleSentence": "母は優しい。",
+            "exampleTranslation": "My mother is kind.",
+            "memoryTip": "My mom",
+            "tags": [
+              "family"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "",
+              "correct": "母"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for mother (my)"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "母"
+            }
+          },
+          {
+            "id": "a1_ja_chichi",
+            "conceptId": "a1_ja_chichi",
+            "nativeWord": "父",
+            "englishMeaning": "Father (my)",
+            "ipa": "chichi",
+            "pronunciation": "Chichi",
+            "exampleSentence": "父は忙しい。",
+            "exampleTranslation": "My father is busy.",
+            "memoryTip": "My dad",
+            "tags": [
+              "family"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "",
+              "correct": "父"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for father (my)"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "父"
+            }
+          },
+          {
+            "id": "a1_ja_ane",
+            "conceptId": "a1_ja_ane",
+            "nativeWord": "姉",
+            "englishMeaning": "Older sister (my)",
+            "ipa": "ane",
+            "pronunciation": "Ane",
+            "exampleSentence": "姉は学生です。",
+            "exampleTranslation": "My older sister is a student.",
+            "memoryTip": "My older sister",
+            "tags": [
+              "family"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "",
+              "correct": "姉"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for older sister (my)"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "姉"
+            }
+          },
+          {
+            "id": "a1_ja_ani",
+            "conceptId": "a1_ja_ani",
+            "nativeWord": "兄",
+            "englishMeaning": "Older brother (my)",
+            "ipa": "ani",
+            "pronunciation": "Ani",
+            "exampleSentence": "兄は会社員です。",
+            "exampleTranslation": "My older brother is an office worker.",
+            "memoryTip": "My older brother",
+            "tags": [
+              "family"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "",
+              "correct": "兄"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for older brother (my)"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "兄"
+            }
+          },
+          {
+            "id": "a1_ja_imouto",
+            "conceptId": "a1_ja_imouto",
+            "nativeWord": "妹",
+            "englishMeaning": "Younger sister (my)",
+            "ipa": "imouto",
+            "pronunciation": "Imouto",
+            "exampleSentence": "妹は可愛いです。",
+            "exampleTranslation": "My younger sister is cute.",
+            "memoryTip": "My younger sister",
+            "tags": [
+              "family"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "",
+              "correct": "妹"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for younger sister (my)"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "妹"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-listen",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "母",
+            "answer": "母",
+            "options": [
+              "妹",
+              "母",
+              "父",
+              "姉",
+              "兄"
+            ],
+            "conceptId": "a1_ja_haha"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "父",
+            "answer": "父",
+            "options": [
+              "母",
+              "姉",
+              "父",
+              "妹",
+              "兄"
+            ],
+            "conceptId": "a1_ja_chichi"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "姉",
+            "answer": "姉",
+            "options": [
+              "母",
+              "妹",
+              "姉",
+              "兄",
+              "父"
+            ],
+            "conceptId": "a1_ja_ane"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "兄",
+            "answer": "兄",
+            "options": [
+              "父",
+              "姉",
+              "母",
+              "兄",
+              "妹"
+            ],
+            "conceptId": "a1_ja_ani"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "妹",
+            "answer": "妹",
+            "options": [
+              "父",
+              "姉",
+              "兄",
+              "妹",
+              "母"
+            ],
+            "conceptId": "a1_ja_imouto"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-speak",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: 母",
+            "expectedPhrase": "母",
+            "conceptId": "a1_ja_haha"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: 父",
+            "expectedPhrase": "父",
+            "conceptId": "a1_ja_chichi"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: 姉",
+            "expectedPhrase": "姉",
+            "conceptId": "a1_ja_ane"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: 兄",
+            "expectedPhrase": "兄",
+            "conceptId": "a1_ja_ani"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: 妹",
+            "expectedPhrase": "妹",
+            "conceptId": "a1_ja_imouto"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-type",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: Mother (my)",
+            "answer": "母",
+            "conceptId": "a1_ja_haha"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: Father (my)",
+            "answer": "父",
+            "conceptId": "a1_ja_chichi"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: Older sister (my)",
+            "answer": "姉",
+            "conceptId": "a1_ja_ane"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: Older brother (my)",
+            "answer": "兄",
+            "conceptId": "a1_ja_ani"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: Younger sister (my)",
+            "answer": "妹",
+            "conceptId": "a1_ja_imouto"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-practice",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: Mother (my)",
+            "options": [
+              "父",
+              "妹",
+              "姉",
+              "兄",
+              "母"
+            ],
+            "answer": "母",
+            "conceptId": "a1_ja_haha"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in Japanese: Mother (my)",
+            "answer": "母",
+            "conceptId": "a1_ja_haha"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: Father (my)",
+            "options": [
+              "兄",
+              "姉",
+              "父",
+              "妹",
+              "母"
+            ],
+            "answer": "父",
+            "conceptId": "a1_ja_chichi"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in Japanese: Father (my)",
+            "answer": "父",
+            "conceptId": "a1_ja_chichi"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: Older sister (my)",
+            "options": [
+              "母",
+              "妹",
+              "兄",
+              "父",
+              "姉"
+            ],
+            "answer": "姉",
+            "conceptId": "a1_ja_ane"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in Japanese: Older sister (my)",
+            "answer": "姉",
+            "conceptId": "a1_ja_ane"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: Older brother (my)",
+            "options": [
+              "妹",
+              "母",
+              "姉",
+              "父",
+              "兄"
+            ],
+            "answer": "兄",
+            "conceptId": "a1_ja_ani"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in Japanese: Older brother (my)",
+            "answer": "兄",
+            "conceptId": "a1_ja_ani"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: Younger sister (my)",
+            "options": [
+              "妹",
+              "母",
+              "姉",
+              "兄",
+              "父"
+            ],
+            "answer": "妹",
+            "conceptId": "a1_ja_imouto"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in Japanese: Younger sister (my)",
+            "answer": "妹",
+            "conceptId": "a1_ja_imouto"
+          },
+          {
+            "type": "match",
+            "phaseTitle": "Pair Matching",
+            "pairs": [
+              {
+                "source": "母",
+                "target": "Mother (my)"
+              },
+              {
+                "source": "父",
+                "target": "Father (my)"
+              },
+              {
+                "source": "姉",
+                "target": "Older sister (my)"
+              },
+              {
+                "source": "兄",
+                "target": "Older brother (my)"
+              },
+              {
+                "source": "妹",
+                "target": "Younger sister (my)"
+              }
+            ],
+            "conceptId": "a1_ja_haha"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-summary",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Revision Summary",
+        "conceptId": "intro",
+        "content": "You've learned the vocabulary, listened to the pronunciation, and practiced typing. Now, let's put it all together.",
+        "example": "Take a deep breath. Let's start the final quiz!"
+      }
+    },
+    {
+      "id": "mod-final-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: Mother (my)",
+            "answer": "母",
+            "options": [
+              "兄",
+              "妹",
+              "姉",
+              "父",
+              "母"
+            ],
+            "conceptId": "a1_ja_haha"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "母",
+            "answer": "母",
+            "options": [
+              "母",
+              "兄",
+              "姉",
+              "父",
+              "妹"
+            ],
+            "conceptId": "a1_ja_haha"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Mother (my)",
+            "answer": "母",
+            "conceptId": "a1_ja_haha"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: Father (my)",
+            "answer": "父",
+            "options": [
+              "兄",
+              "姉",
+              "父",
+              "妹",
+              "母"
+            ],
+            "conceptId": "a1_ja_chichi"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "父",
+            "answer": "父",
+            "options": [
+              "姉",
+              "妹",
+              "兄",
+              "母",
+              "父"
+            ],
+            "conceptId": "a1_ja_chichi"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Father (my)",
+            "answer": "父",
+            "conceptId": "a1_ja_chichi"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: Older sister (my)",
+            "answer": "姉",
+            "options": [
+              "母",
+              "父",
+              "姉",
+              "兄",
+              "妹"
+            ],
+            "conceptId": "a1_ja_ane"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "姉",
+            "answer": "姉",
+            "options": [
+              "姉",
+              "妹",
+              "父",
+              "母",
+              "兄"
+            ],
+            "conceptId": "a1_ja_ane"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Older sister (my)",
+            "answer": "姉",
+            "conceptId": "a1_ja_ane"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: Older brother (my)",
+            "answer": "兄",
+            "options": [
+              "妹",
+              "母",
+              "姉",
+              "兄",
+              "父"
+            ],
+            "conceptId": "a1_ja_ani"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "兄",
+            "answer": "兄",
+            "options": [
+              "兄",
+              "父",
+              "母",
+              "妹",
+              "姉"
+            ],
+            "conceptId": "a1_ja_ani"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Older brother (my)",
+            "answer": "兄",
+            "conceptId": "a1_ja_ani"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: Younger sister (my)",
+            "answer": "妹",
+            "options": [
+              "父",
+              "兄",
+              "姉",
+              "母",
+              "妹"
+            ],
+            "conceptId": "a1_ja_imouto"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "妹",
+            "answer": "妹",
+            "options": [
+              "兄",
+              "妹",
+              "姉",
+              "母",
+              "父"
+            ],
+            "conceptId": "a1_ja_imouto"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Younger sister (my)",
+            "answer": "妹",
+            "conceptId": "a1_ja_imouto"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: '母と父'",
+            "tokens": [
+              "母",
+              "と",
+              "父"
+            ],
+            "answer": "母と父",
+            "conceptId": "a1_ja_haha"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: '姉と兄'",
+            "tokens": [
+              "姉",
+              "と",
+              "兄",
+              "妹"
+            ],
+            "answer": "姉と兄",
+            "conceptId": "a1_ja_haha"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-celebration",
+      "type": "celebration",
+      "config": {}
+    }
+  ]
+}

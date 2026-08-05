@@ -1,0 +1,719 @@
+{
+  "id": "time-lesson-1",
+  "unitId": "time",
+  "title": "Time & Days",
+  "version": 3,
+  "learningObjectives": [
+    "a1_ja_kyou",
+    "a1_ja_ashita",
+    "a1_ja_ima",
+    "a1_ja_jikan",
+    "a1_ja_getsuyoubi"
+  ],
+  "modules": [
+    {
+      "id": "mod-intro",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Welcome to Time & Days",
+        "conceptId": "intro",
+        "content": "Today we will learn about Time & Days in Japanese. Let's start with important words.",
+        "example": "Pay close attention to how they are pronounced."
+      }
+    },
+    {
+      "id": "mod-vocab",
+      "type": "vocabulary",
+      "config": {
+        "flow": "teach_all",
+        "words": [
+          {
+            "id": "a1_ja_kyou",
+            "conceptId": "a1_ja_kyou",
+            "nativeWord": "今日",
+            "englishMeaning": "Today",
+            "ipa": "kyou",
+            "pronunciation": "Kyou",
+            "exampleSentence": "今日は暑い。",
+            "exampleTranslation": "Today is hot.",
+            "memoryTip": "Today",
+            "tags": [
+              "time"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "今",
+              "correct": "今日"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for today"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "今日"
+            }
+          },
+          {
+            "id": "a1_ja_ashita",
+            "conceptId": "a1_ja_ashita",
+            "nativeWord": "明日",
+            "englishMeaning": "Tomorrow",
+            "ipa": "ashita",
+            "pronunciation": "Ashita",
+            "exampleSentence": "明日会おう。",
+            "exampleTranslation": "Let's meet tomorrow.",
+            "memoryTip": "Tomorrow",
+            "tags": [
+              "time"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "明",
+              "correct": "明日"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for tomorrow"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "明日"
+            }
+          },
+          {
+            "id": "a1_ja_ima",
+            "conceptId": "a1_ja_ima",
+            "nativeWord": "今",
+            "englishMeaning": "Now",
+            "ipa": "ima",
+            "pronunciation": "Ima",
+            "exampleSentence": "今は何時ですか。",
+            "exampleTranslation": "What time is it now?",
+            "memoryTip": "Now",
+            "tags": [
+              "time"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "",
+              "correct": "今"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for now"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "今"
+            }
+          },
+          {
+            "id": "a1_ja_jikan",
+            "conceptId": "a1_ja_jikan",
+            "nativeWord": "時間",
+            "englishMeaning": "Time / Hour",
+            "ipa": "jikan",
+            "pronunciation": "Jikan",
+            "exampleSentence": "時間がありません。",
+            "exampleTranslation": "I don't have time.",
+            "memoryTip": "Time",
+            "tags": [
+              "time"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "時",
+              "correct": "時間"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for time / hour"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "時間"
+            }
+          },
+          {
+            "id": "a1_ja_getsuyoubi",
+            "conceptId": "a1_ja_getsuyoubi",
+            "nativeWord": "月曜日",
+            "englishMeaning": "Monday",
+            "ipa": "getsuyoubi",
+            "pronunciation": "Getsuyoubi",
+            "exampleSentence": "月曜日に働く。",
+            "exampleTranslation": "I work on Monday.",
+            "memoryTip": "Monday",
+            "tags": [
+              "time"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "月曜",
+              "correct": "月曜日"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for monday"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "月曜日"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-listen",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "今日",
+            "answer": "今日",
+            "options": [
+              "時間",
+              "明日",
+              "今日",
+              "今",
+              "月曜日"
+            ],
+            "conceptId": "a1_ja_kyou"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "明日",
+            "answer": "明日",
+            "options": [
+              "今",
+              "明日",
+              "時間",
+              "月曜日",
+              "今日"
+            ],
+            "conceptId": "a1_ja_ashita"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "今",
+            "answer": "今",
+            "options": [
+              "月曜日",
+              "明日",
+              "時間",
+              "今日",
+              "今"
+            ],
+            "conceptId": "a1_ja_ima"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "時間",
+            "answer": "時間",
+            "options": [
+              "明日",
+              "今日",
+              "今",
+              "時間",
+              "月曜日"
+            ],
+            "conceptId": "a1_ja_jikan"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "月曜日",
+            "answer": "月曜日",
+            "options": [
+              "明日",
+              "今",
+              "時間",
+              "月曜日",
+              "今日"
+            ],
+            "conceptId": "a1_ja_getsuyoubi"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-speak",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: 今日",
+            "expectedPhrase": "今日",
+            "conceptId": "a1_ja_kyou"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: 明日",
+            "expectedPhrase": "明日",
+            "conceptId": "a1_ja_ashita"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: 今",
+            "expectedPhrase": "今",
+            "conceptId": "a1_ja_ima"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: 時間",
+            "expectedPhrase": "時間",
+            "conceptId": "a1_ja_jikan"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: 月曜日",
+            "expectedPhrase": "月曜日",
+            "conceptId": "a1_ja_getsuyoubi"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-type",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: Today",
+            "answer": "今日",
+            "conceptId": "a1_ja_kyou"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: Tomorrow",
+            "answer": "明日",
+            "conceptId": "a1_ja_ashita"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: Now",
+            "answer": "今",
+            "conceptId": "a1_ja_ima"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: Time / Hour",
+            "answer": "時間",
+            "conceptId": "a1_ja_jikan"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: Monday",
+            "answer": "月曜日",
+            "conceptId": "a1_ja_getsuyoubi"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-practice",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: Today",
+            "options": [
+              "今",
+              "時間",
+              "明日",
+              "今日",
+              "月曜日"
+            ],
+            "answer": "今日",
+            "conceptId": "a1_ja_kyou"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in Japanese: Today",
+            "answer": "今日",
+            "conceptId": "a1_ja_kyou"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: Tomorrow",
+            "options": [
+              "今",
+              "今日",
+              "明日",
+              "時間",
+              "月曜日"
+            ],
+            "answer": "明日",
+            "conceptId": "a1_ja_ashita"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in Japanese: Tomorrow",
+            "answer": "明日",
+            "conceptId": "a1_ja_ashita"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: Now",
+            "options": [
+              "時間",
+              "月曜日",
+              "今",
+              "今日",
+              "明日"
+            ],
+            "answer": "今",
+            "conceptId": "a1_ja_ima"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in Japanese: Now",
+            "answer": "今",
+            "conceptId": "a1_ja_ima"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: Time / Hour",
+            "options": [
+              "今",
+              "明日",
+              "今日",
+              "月曜日",
+              "時間"
+            ],
+            "answer": "時間",
+            "conceptId": "a1_ja_jikan"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in Japanese: Time / Hour",
+            "answer": "時間",
+            "conceptId": "a1_ja_jikan"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: Monday",
+            "options": [
+              "今日",
+              "明日",
+              "時間",
+              "今",
+              "月曜日"
+            ],
+            "answer": "月曜日",
+            "conceptId": "a1_ja_getsuyoubi"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in Japanese: Monday",
+            "answer": "月曜日",
+            "conceptId": "a1_ja_getsuyoubi"
+          },
+          {
+            "type": "match",
+            "phaseTitle": "Pair Matching",
+            "pairs": [
+              {
+                "source": "今日",
+                "target": "Today"
+              },
+              {
+                "source": "明日",
+                "target": "Tomorrow"
+              },
+              {
+                "source": "今",
+                "target": "Now"
+              },
+              {
+                "source": "時間",
+                "target": "Time / Hour"
+              },
+              {
+                "source": "月曜日",
+                "target": "Monday"
+              }
+            ],
+            "conceptId": "a1_ja_kyou"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-summary",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Revision Summary",
+        "conceptId": "intro",
+        "content": "You've learned the vocabulary, listened to the pronunciation, and practiced typing. Now, let's put it all together.",
+        "example": "Take a deep breath. Let's start the final quiz!"
+      }
+    },
+    {
+      "id": "mod-final-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: Today",
+            "answer": "今日",
+            "options": [
+              "明日",
+              "時間",
+              "月曜日",
+              "今",
+              "今日"
+            ],
+            "conceptId": "a1_ja_kyou"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "今日",
+            "answer": "今日",
+            "options": [
+              "今日",
+              "月曜日",
+              "時間",
+              "明日",
+              "今"
+            ],
+            "conceptId": "a1_ja_kyou"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Today",
+            "answer": "今日",
+            "conceptId": "a1_ja_kyou"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: Tomorrow",
+            "answer": "明日",
+            "options": [
+              "今日",
+              "時間",
+              "明日",
+              "今",
+              "月曜日"
+            ],
+            "conceptId": "a1_ja_ashita"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "明日",
+            "answer": "明日",
+            "options": [
+              "月曜日",
+              "明日",
+              "時間",
+              "今日",
+              "今"
+            ],
+            "conceptId": "a1_ja_ashita"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Tomorrow",
+            "answer": "明日",
+            "conceptId": "a1_ja_ashita"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: Now",
+            "answer": "今",
+            "options": [
+              "今",
+              "時間",
+              "明日",
+              "月曜日",
+              "今日"
+            ],
+            "conceptId": "a1_ja_ima"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "今",
+            "answer": "今",
+            "options": [
+              "月曜日",
+              "今",
+              "明日",
+              "時間",
+              "今日"
+            ],
+            "conceptId": "a1_ja_ima"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Now",
+            "answer": "今",
+            "conceptId": "a1_ja_ima"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: Time / Hour",
+            "answer": "時間",
+            "options": [
+              "今日",
+              "月曜日",
+              "明日",
+              "時間",
+              "今"
+            ],
+            "conceptId": "a1_ja_jikan"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "時間",
+            "answer": "時間",
+            "options": [
+              "今",
+              "時間",
+              "月曜日",
+              "明日",
+              "今日"
+            ],
+            "conceptId": "a1_ja_jikan"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Time / Hour",
+            "answer": "時間",
+            "conceptId": "a1_ja_jikan"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: Monday",
+            "answer": "月曜日",
+            "options": [
+              "月曜日",
+              "今",
+              "明日",
+              "時間",
+              "今日"
+            ],
+            "conceptId": "a1_ja_getsuyoubi"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "月曜日",
+            "answer": "月曜日",
+            "options": [
+              "今",
+              "月曜日",
+              "時間",
+              "今日",
+              "明日"
+            ],
+            "conceptId": "a1_ja_getsuyoubi"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Monday",
+            "answer": "月曜日",
+            "conceptId": "a1_ja_getsuyoubi"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: '今日は月曜日です'",
+            "tokens": [
+              "今日",
+              "は",
+              "月曜日",
+              "です",
+              "明日"
+            ],
+            "answer": "今日は月曜日です",
+            "conceptId": "a1_ja_kyou"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: '今は何時ですか'",
+            "tokens": [
+              "今",
+              "は",
+              "何時",
+              "ですか",
+              "時間"
+            ],
+            "answer": "今は何時ですか",
+            "conceptId": "a1_ja_kyou"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-celebration",
+      "type": "celebration",
+      "config": {}
+    }
+  ]
+}

@@ -1,0 +1,717 @@
+{
+  "id": "basics-lesson-1",
+  "unitId": "basics",
+  "title": "Basic Verbs",
+  "version": 3,
+  "learningObjectives": [
+    "a1_ja_taberu",
+    "a1_ja_nomu",
+    "a1_ja_miru",
+    "a1_ja_kiku",
+    "a1_ja_iku"
+  ],
+  "modules": [
+    {
+      "id": "mod-intro",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Welcome to Basic Verbs",
+        "conceptId": "intro",
+        "content": "Today we will learn about Basic Verbs in Japanese. Let's start with important words.",
+        "example": "Pay close attention to how they are pronounced."
+      }
+    },
+    {
+      "id": "mod-vocab",
+      "type": "vocabulary",
+      "config": {
+        "flow": "teach_all",
+        "words": [
+          {
+            "id": "a1_ja_taberu",
+            "conceptId": "a1_ja_taberu",
+            "nativeWord": "食べる",
+            "englishMeaning": "To eat",
+            "ipa": "taberu",
+            "pronunciation": "Taberu",
+            "exampleSentence": "寿司を食べる。",
+            "exampleTranslation": "I eat sushi.",
+            "memoryTip": "Eating",
+            "tags": [
+              "basics"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "食べ",
+              "correct": "食べる"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for to eat"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "食べる"
+            }
+          },
+          {
+            "id": "a1_ja_nomu",
+            "conceptId": "a1_ja_nomu",
+            "nativeWord": "飲む",
+            "englishMeaning": "To drink",
+            "ipa": "nomu",
+            "pronunciation": "Nomu",
+            "exampleSentence": "水を飲む。",
+            "exampleTranslation": "I drink water.",
+            "memoryTip": "Drinking",
+            "tags": [
+              "basics"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "飲",
+              "correct": "飲む"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for to drink"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "飲む"
+            }
+          },
+          {
+            "id": "a1_ja_miru",
+            "conceptId": "a1_ja_miru",
+            "nativeWord": "見る",
+            "englishMeaning": "To see / watch",
+            "ipa": "miru",
+            "pronunciation": "Miru",
+            "exampleSentence": "テレビを見る。",
+            "exampleTranslation": "I watch TV.",
+            "memoryTip": "Seeing",
+            "tags": [
+              "basics"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "見",
+              "correct": "見る"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for to see / watch"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "見る"
+            }
+          },
+          {
+            "id": "a1_ja_kiku",
+            "conceptId": "a1_ja_kiku",
+            "nativeWord": "聞く",
+            "englishMeaning": "To listen / ask",
+            "ipa": "kiku",
+            "pronunciation": "Kiku",
+            "exampleSentence": "音楽を聞く。",
+            "exampleTranslation": "I listen to music.",
+            "memoryTip": "Listening",
+            "tags": [
+              "basics"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "聞",
+              "correct": "聞く"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for to listen / ask"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "聞く"
+            }
+          },
+          {
+            "id": "a1_ja_iku",
+            "conceptId": "a1_ja_iku",
+            "nativeWord": "行く",
+            "englishMeaning": "To go",
+            "ipa": "iku",
+            "pronunciation": "Iku",
+            "exampleSentence": "学校へ行く。",
+            "exampleTranslation": "I go to school.",
+            "memoryTip": "Going",
+            "tags": [
+              "basics"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "行",
+              "correct": "行く"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for to go"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "行く"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-listen",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "食べる",
+            "answer": "食べる",
+            "options": [
+              "行く",
+              "聞く",
+              "見る",
+              "食べる",
+              "飲む"
+            ],
+            "conceptId": "a1_ja_taberu"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "飲む",
+            "answer": "飲む",
+            "options": [
+              "食べる",
+              "聞く",
+              "見る",
+              "飲む",
+              "行く"
+            ],
+            "conceptId": "a1_ja_nomu"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "見る",
+            "answer": "見る",
+            "options": [
+              "見る",
+              "飲む",
+              "行く",
+              "食べる",
+              "聞く"
+            ],
+            "conceptId": "a1_ja_miru"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "聞く",
+            "answer": "聞く",
+            "options": [
+              "行く",
+              "聞く",
+              "食べる",
+              "見る",
+              "飲む"
+            ],
+            "conceptId": "a1_ja_kiku"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "行く",
+            "answer": "行く",
+            "options": [
+              "行く",
+              "見る",
+              "聞く",
+              "食べる",
+              "飲む"
+            ],
+            "conceptId": "a1_ja_iku"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-speak",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: 食べる",
+            "expectedPhrase": "食べる",
+            "conceptId": "a1_ja_taberu"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: 飲む",
+            "expectedPhrase": "飲む",
+            "conceptId": "a1_ja_nomu"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: 見る",
+            "expectedPhrase": "見る",
+            "conceptId": "a1_ja_miru"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: 聞く",
+            "expectedPhrase": "聞く",
+            "conceptId": "a1_ja_kiku"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: 行く",
+            "expectedPhrase": "行く",
+            "conceptId": "a1_ja_iku"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-type",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: To eat",
+            "answer": "食べる",
+            "conceptId": "a1_ja_taberu"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: To drink",
+            "answer": "飲む",
+            "conceptId": "a1_ja_nomu"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: To see / watch",
+            "answer": "見る",
+            "conceptId": "a1_ja_miru"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: To listen / ask",
+            "answer": "聞く",
+            "conceptId": "a1_ja_kiku"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: To go",
+            "answer": "行く",
+            "conceptId": "a1_ja_iku"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-practice",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: To eat",
+            "options": [
+              "飲む",
+              "食べる",
+              "行く",
+              "見る",
+              "聞く"
+            ],
+            "answer": "食べる",
+            "conceptId": "a1_ja_taberu"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in Japanese: To eat",
+            "answer": "食べる",
+            "conceptId": "a1_ja_taberu"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: To drink",
+            "options": [
+              "飲む",
+              "見る",
+              "食べる",
+              "聞く",
+              "行く"
+            ],
+            "answer": "飲む",
+            "conceptId": "a1_ja_nomu"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in Japanese: To drink",
+            "answer": "飲む",
+            "conceptId": "a1_ja_nomu"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: To see / watch",
+            "options": [
+              "食べる",
+              "見る",
+              "飲む",
+              "聞く",
+              "行く"
+            ],
+            "answer": "見る",
+            "conceptId": "a1_ja_miru"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in Japanese: To see / watch",
+            "answer": "見る",
+            "conceptId": "a1_ja_miru"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: To listen / ask",
+            "options": [
+              "聞く",
+              "食べる",
+              "見る",
+              "行く",
+              "飲む"
+            ],
+            "answer": "聞く",
+            "conceptId": "a1_ja_kiku"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in Japanese: To listen / ask",
+            "answer": "聞く",
+            "conceptId": "a1_ja_kiku"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: To go",
+            "options": [
+              "見る",
+              "聞く",
+              "食べる",
+              "行く",
+              "飲む"
+            ],
+            "answer": "行く",
+            "conceptId": "a1_ja_iku"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in Japanese: To go",
+            "answer": "行く",
+            "conceptId": "a1_ja_iku"
+          },
+          {
+            "type": "match",
+            "phaseTitle": "Pair Matching",
+            "pairs": [
+              {
+                "source": "食べる",
+                "target": "To eat"
+              },
+              {
+                "source": "飲む",
+                "target": "To drink"
+              },
+              {
+                "source": "見る",
+                "target": "To see / watch"
+              },
+              {
+                "source": "聞く",
+                "target": "To listen / ask"
+              },
+              {
+                "source": "行く",
+                "target": "To go"
+              }
+            ],
+            "conceptId": "a1_ja_taberu"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-summary",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Revision Summary",
+        "conceptId": "intro",
+        "content": "You've learned the vocabulary, listened to the pronunciation, and practiced typing. Now, let's put it all together.",
+        "example": "Take a deep breath. Let's start the final quiz!"
+      }
+    },
+    {
+      "id": "mod-final-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: To eat",
+            "answer": "食べる",
+            "options": [
+              "飲む",
+              "行く",
+              "食べる",
+              "見る",
+              "聞く"
+            ],
+            "conceptId": "a1_ja_taberu"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "食べる",
+            "answer": "食べる",
+            "options": [
+              "食べる",
+              "飲む",
+              "聞く",
+              "行く",
+              "見る"
+            ],
+            "conceptId": "a1_ja_taberu"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: To eat",
+            "answer": "食べる",
+            "conceptId": "a1_ja_taberu"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: To drink",
+            "answer": "飲む",
+            "options": [
+              "見る",
+              "行く",
+              "聞く",
+              "飲む",
+              "食べる"
+            ],
+            "conceptId": "a1_ja_nomu"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "飲む",
+            "answer": "飲む",
+            "options": [
+              "飲む",
+              "聞く",
+              "見る",
+              "行く",
+              "食べる"
+            ],
+            "conceptId": "a1_ja_nomu"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: To drink",
+            "answer": "飲む",
+            "conceptId": "a1_ja_nomu"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: To see / watch",
+            "answer": "見る",
+            "options": [
+              "見る",
+              "食べる",
+              "聞く",
+              "行く",
+              "飲む"
+            ],
+            "conceptId": "a1_ja_miru"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "見る",
+            "answer": "見る",
+            "options": [
+              "飲む",
+              "食べる",
+              "行く",
+              "見る",
+              "聞く"
+            ],
+            "conceptId": "a1_ja_miru"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: To see / watch",
+            "answer": "見る",
+            "conceptId": "a1_ja_miru"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: To listen / ask",
+            "answer": "聞く",
+            "options": [
+              "聞く",
+              "飲む",
+              "見る",
+              "食べる",
+              "行く"
+            ],
+            "conceptId": "a1_ja_kiku"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "聞く",
+            "answer": "聞く",
+            "options": [
+              "行く",
+              "聞く",
+              "見る",
+              "食べる",
+              "飲む"
+            ],
+            "conceptId": "a1_ja_kiku"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: To listen / ask",
+            "answer": "聞く",
+            "conceptId": "a1_ja_kiku"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: To go",
+            "answer": "行く",
+            "options": [
+              "見る",
+              "飲む",
+              "聞く",
+              "食べる",
+              "行く"
+            ],
+            "conceptId": "a1_ja_iku"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "行く",
+            "answer": "行く",
+            "options": [
+              "見る",
+              "飲む",
+              "聞く",
+              "食べる",
+              "行く"
+            ],
+            "conceptId": "a1_ja_iku"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: To go",
+            "answer": "行く",
+            "conceptId": "a1_ja_iku"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: '寿司を食べる'",
+            "tokens": [
+              "寿司",
+              "を",
+              "食べる",
+              "飲む"
+            ],
+            "answer": "寿司を食べる",
+            "conceptId": "a1_ja_taberu"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: '学校へ行く'",
+            "tokens": [
+              "学校",
+              "へ",
+              "行く",
+              "見る"
+            ],
+            "answer": "学校へ行く",
+            "conceptId": "a1_ja_taberu"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-celebration",
+      "type": "celebration",
+      "config": {}
+    }
+  ]
+}

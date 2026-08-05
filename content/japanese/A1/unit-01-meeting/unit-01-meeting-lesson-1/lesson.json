@@ -1,0 +1,715 @@
+{
+  "id": "meeting-lesson-1",
+  "unitId": "meeting",
+  "title": "Greetings",
+  "version": 3,
+  "learningObjectives": [
+    "a1_ja_konnichiwa",
+    "a1_ja_ohayou",
+    "a1_ja_arigatou",
+    "a1_ja_sumimasen",
+    "a1_ja_sayounara"
+  ],
+  "modules": [
+    {
+      "id": "mod-intro",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Welcome to Greetings",
+        "conceptId": "intro",
+        "content": "Today we will learn about Greetings in Japanese. Let's start with important words.",
+        "example": "Pay close attention to how they are pronounced."
+      }
+    },
+    {
+      "id": "mod-vocab",
+      "type": "vocabulary",
+      "config": {
+        "flow": "teach_all",
+        "words": [
+          {
+            "id": "a1_ja_konnichiwa",
+            "conceptId": "a1_ja_konnichiwa",
+            "nativeWord": "こんにちは",
+            "englishMeaning": "Hello",
+            "ipa": "konnichiwa",
+            "pronunciation": "Konnichiwa",
+            "exampleSentence": "こんにちは。",
+            "exampleTranslation": "Hello.",
+            "memoryTip": "Daytime greeting",
+            "tags": [
+              "meeting"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "こんにち",
+              "correct": "こんにちは"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for hello"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "こんにちは"
+            }
+          },
+          {
+            "id": "a1_ja_ohayou",
+            "conceptId": "a1_ja_ohayou",
+            "nativeWord": "おはよう",
+            "englishMeaning": "Good morning",
+            "ipa": "ohayou",
+            "pronunciation": "Ohayou",
+            "exampleSentence": "おはようございます。",
+            "exampleTranslation": "Good morning.",
+            "memoryTip": "Morning greeting",
+            "tags": [
+              "meeting"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "おはよ",
+              "correct": "おはよう"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for good morning"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "おはよう"
+            }
+          },
+          {
+            "id": "a1_ja_arigatou",
+            "conceptId": "a1_ja_arigatou",
+            "nativeWord": "ありがとう",
+            "englishMeaning": "Thank you",
+            "ipa": "arigatou",
+            "pronunciation": "Arigatou",
+            "exampleSentence": "ありがとうございます。",
+            "exampleTranslation": "Thank you very much.",
+            "memoryTip": "Thanks",
+            "tags": [
+              "meeting"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "ありがと",
+              "correct": "ありがとう"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for thank you"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "ありがとう"
+            }
+          },
+          {
+            "id": "a1_ja_sumimasen",
+            "conceptId": "a1_ja_sumimasen",
+            "nativeWord": "すみません",
+            "englishMeaning": "Excuse me / Sorry",
+            "ipa": "sumimasen",
+            "pronunciation": "Sumimasen",
+            "exampleSentence": "すみません。",
+            "exampleTranslation": "Excuse me.",
+            "memoryTip": "Useful for apologizing or getting attention",
+            "tags": [
+              "meeting"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "すみませ",
+              "correct": "すみません"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for excuse me / sorry"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "すみません"
+            }
+          },
+          {
+            "id": "a1_ja_sayounara",
+            "conceptId": "a1_ja_sayounara",
+            "nativeWord": "さようなら",
+            "englishMeaning": "Goodbye",
+            "ipa": "sayounara",
+            "pronunciation": "Sayounara",
+            "exampleSentence": "さようなら。",
+            "exampleTranslation": "Goodbye.",
+            "memoryTip": "Farewell",
+            "tags": [
+              "meeting"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "さような",
+              "correct": "さようなら"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for goodbye"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "さようなら"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-listen",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "こんにちは",
+            "answer": "こんにちは",
+            "options": [
+              "こんにちは",
+              "ありがとう",
+              "おはよう",
+              "すみません",
+              "さようなら"
+            ],
+            "conceptId": "a1_ja_konnichiwa"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "おはよう",
+            "answer": "おはよう",
+            "options": [
+              "ありがとう",
+              "こんにちは",
+              "すみません",
+              "おはよう",
+              "さようなら"
+            ],
+            "conceptId": "a1_ja_ohayou"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "ありがとう",
+            "answer": "ありがとう",
+            "options": [
+              "ありがとう",
+              "こんにちは",
+              "おはよう",
+              "さようなら",
+              "すみません"
+            ],
+            "conceptId": "a1_ja_arigatou"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "すみません",
+            "answer": "すみません",
+            "options": [
+              "すみません",
+              "おはよう",
+              "こんにちは",
+              "さようなら",
+              "ありがとう"
+            ],
+            "conceptId": "a1_ja_sumimasen"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "さようなら",
+            "answer": "さようなら",
+            "options": [
+              "おはよう",
+              "さようなら",
+              "こんにちは",
+              "すみません",
+              "ありがとう"
+            ],
+            "conceptId": "a1_ja_sayounara"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-speak",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: こんにちは",
+            "expectedPhrase": "こんにちは",
+            "conceptId": "a1_ja_konnichiwa"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: おはよう",
+            "expectedPhrase": "おはよう",
+            "conceptId": "a1_ja_ohayou"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: ありがとう",
+            "expectedPhrase": "ありがとう",
+            "conceptId": "a1_ja_arigatou"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: すみません",
+            "expectedPhrase": "すみません",
+            "conceptId": "a1_ja_sumimasen"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: さようなら",
+            "expectedPhrase": "さようなら",
+            "conceptId": "a1_ja_sayounara"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-type",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: Hello",
+            "answer": "こんにちは",
+            "conceptId": "a1_ja_konnichiwa"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: Good morning",
+            "answer": "おはよう",
+            "conceptId": "a1_ja_ohayou"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: Thank you",
+            "answer": "ありがとう",
+            "conceptId": "a1_ja_arigatou"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: Excuse me / Sorry",
+            "answer": "すみません",
+            "conceptId": "a1_ja_sumimasen"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: Goodbye",
+            "answer": "さようなら",
+            "conceptId": "a1_ja_sayounara"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-practice",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: Hello",
+            "options": [
+              "こんにちは",
+              "すみません",
+              "ありがとう",
+              "おはよう",
+              "さようなら"
+            ],
+            "answer": "こんにちは",
+            "conceptId": "a1_ja_konnichiwa"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in Japanese: Hello",
+            "answer": "こんにちは",
+            "conceptId": "a1_ja_konnichiwa"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: Good morning",
+            "options": [
+              "こんにちは",
+              "ありがとう",
+              "おはよう",
+              "さようなら",
+              "すみません"
+            ],
+            "answer": "おはよう",
+            "conceptId": "a1_ja_ohayou"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in Japanese: Good morning",
+            "answer": "おはよう",
+            "conceptId": "a1_ja_ohayou"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: Thank you",
+            "options": [
+              "ありがとう",
+              "おはよう",
+              "こんにちは",
+              "すみません",
+              "さようなら"
+            ],
+            "answer": "ありがとう",
+            "conceptId": "a1_ja_arigatou"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in Japanese: Thank you",
+            "answer": "ありがとう",
+            "conceptId": "a1_ja_arigatou"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: Excuse me / Sorry",
+            "options": [
+              "こんにちは",
+              "おはよう",
+              "ありがとう",
+              "すみません",
+              "さようなら"
+            ],
+            "answer": "すみません",
+            "conceptId": "a1_ja_sumimasen"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in Japanese: Excuse me / Sorry",
+            "answer": "すみません",
+            "conceptId": "a1_ja_sumimasen"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: Goodbye",
+            "options": [
+              "すみません",
+              "おはよう",
+              "こんにちは",
+              "ありがとう",
+              "さようなら"
+            ],
+            "answer": "さようなら",
+            "conceptId": "a1_ja_sayounara"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in Japanese: Goodbye",
+            "answer": "さようなら",
+            "conceptId": "a1_ja_sayounara"
+          },
+          {
+            "type": "match",
+            "phaseTitle": "Pair Matching",
+            "pairs": [
+              {
+                "source": "こんにちは",
+                "target": "Hello"
+              },
+              {
+                "source": "おはよう",
+                "target": "Good morning"
+              },
+              {
+                "source": "ありがとう",
+                "target": "Thank you"
+              },
+              {
+                "source": "すみません",
+                "target": "Excuse me / Sorry"
+              },
+              {
+                "source": "さようなら",
+                "target": "Goodbye"
+              }
+            ],
+            "conceptId": "a1_ja_konnichiwa"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-summary",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Revision Summary",
+        "conceptId": "intro",
+        "content": "You've learned the vocabulary, listened to the pronunciation, and practiced typing. Now, let's put it all together.",
+        "example": "Take a deep breath. Let's start the final quiz!"
+      }
+    },
+    {
+      "id": "mod-final-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: Hello",
+            "answer": "こんにちは",
+            "options": [
+              "ありがとう",
+              "さようなら",
+              "おはよう",
+              "こんにちは",
+              "すみません"
+            ],
+            "conceptId": "a1_ja_konnichiwa"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "こんにちは",
+            "answer": "こんにちは",
+            "options": [
+              "ありがとう",
+              "すみません",
+              "さようなら",
+              "こんにちは",
+              "おはよう"
+            ],
+            "conceptId": "a1_ja_konnichiwa"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Hello",
+            "answer": "こんにちは",
+            "conceptId": "a1_ja_konnichiwa"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: Good morning",
+            "answer": "おはよう",
+            "options": [
+              "すみません",
+              "おはよう",
+              "さようなら",
+              "ありがとう",
+              "こんにちは"
+            ],
+            "conceptId": "a1_ja_ohayou"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "おはよう",
+            "answer": "おはよう",
+            "options": [
+              "すみません",
+              "さようなら",
+              "ありがとう",
+              "こんにちは",
+              "おはよう"
+            ],
+            "conceptId": "a1_ja_ohayou"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Good morning",
+            "answer": "おはよう",
+            "conceptId": "a1_ja_ohayou"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: Thank you",
+            "answer": "ありがとう",
+            "options": [
+              "すみません",
+              "おはよう",
+              "ありがとう",
+              "こんにちは",
+              "さようなら"
+            ],
+            "conceptId": "a1_ja_arigatou"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "ありがとう",
+            "answer": "ありがとう",
+            "options": [
+              "すみません",
+              "こんにちは",
+              "おはよう",
+              "さようなら",
+              "ありがとう"
+            ],
+            "conceptId": "a1_ja_arigatou"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Thank you",
+            "answer": "ありがとう",
+            "conceptId": "a1_ja_arigatou"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: Excuse me / Sorry",
+            "answer": "すみません",
+            "options": [
+              "おはよう",
+              "こんにちは",
+              "ありがとう",
+              "さようなら",
+              "すみません"
+            ],
+            "conceptId": "a1_ja_sumimasen"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "すみません",
+            "answer": "すみません",
+            "options": [
+              "すみません",
+              "こんにちは",
+              "おはよう",
+              "さようなら",
+              "ありがとう"
+            ],
+            "conceptId": "a1_ja_sumimasen"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Excuse me / Sorry",
+            "answer": "すみません",
+            "conceptId": "a1_ja_sumimasen"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: Goodbye",
+            "answer": "さようなら",
+            "options": [
+              "こんにちは",
+              "すみません",
+              "ありがとう",
+              "さようなら",
+              "おはよう"
+            ],
+            "conceptId": "a1_ja_sayounara"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "さようなら",
+            "answer": "さようなら",
+            "options": [
+              "すみません",
+              "ありがとう",
+              "おはよう",
+              "こんにちは",
+              "さようなら"
+            ],
+            "conceptId": "a1_ja_sayounara"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Goodbye",
+            "answer": "さようなら",
+            "conceptId": "a1_ja_sayounara"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: 'おはようございます'",
+            "tokens": [
+              "おはよう",
+              "ござい",
+              "ます"
+            ],
+            "answer": "おはようございます",
+            "conceptId": "a1_ja_konnichiwa"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: 'ありがとうございます'",
+            "tokens": [
+              "ありがとう",
+              "ござい",
+              "ます"
+            ],
+            "answer": "ありがとうございます",
+            "conceptId": "a1_ja_konnichiwa"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-celebration",
+      "type": "celebration",
+      "config": {}
+    }
+  ]
+}

@@ -1,0 +1,717 @@
+{
+  "id": "numbers-lesson-1",
+  "unitId": "numbers",
+  "title": "Numbers",
+  "version": 3,
+  "learningObjectives": [
+    "a1_ja_ichi",
+    "a1_ja_ni",
+    "a1_ja_san",
+    "a1_ja_yon",
+    "a1_ja_go"
+  ],
+  "modules": [
+    {
+      "id": "mod-intro",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Welcome to Numbers",
+        "conceptId": "intro",
+        "content": "Today we will learn about Numbers in Japanese. Let's start with important words.",
+        "example": "Pay close attention to how they are pronounced."
+      }
+    },
+    {
+      "id": "mod-vocab",
+      "type": "vocabulary",
+      "config": {
+        "flow": "teach_all",
+        "words": [
+          {
+            "id": "a1_ja_ichi",
+            "conceptId": "a1_ja_ichi",
+            "nativeWord": "一",
+            "englishMeaning": "One",
+            "ipa": "ichi",
+            "pronunciation": "Ichi",
+            "exampleSentence": "一つ。",
+            "exampleTranslation": "One thing.",
+            "memoryTip": "Number 1",
+            "tags": [
+              "numbers"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "",
+              "correct": "一"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for one"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "一"
+            }
+          },
+          {
+            "id": "a1_ja_ni",
+            "conceptId": "a1_ja_ni",
+            "nativeWord": "二",
+            "englishMeaning": "Two",
+            "ipa": "ni",
+            "pronunciation": "Ni",
+            "exampleSentence": "二つ。",
+            "exampleTranslation": "Two things.",
+            "memoryTip": "Number 2",
+            "tags": [
+              "numbers"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "",
+              "correct": "二"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for two"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "二"
+            }
+          },
+          {
+            "id": "a1_ja_san",
+            "conceptId": "a1_ja_san",
+            "nativeWord": "三",
+            "englishMeaning": "Three",
+            "ipa": "san",
+            "pronunciation": "San",
+            "exampleSentence": "三つ。",
+            "exampleTranslation": "Three things.",
+            "memoryTip": "Number 3",
+            "tags": [
+              "numbers"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "",
+              "correct": "三"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for three"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "三"
+            }
+          },
+          {
+            "id": "a1_ja_yon",
+            "conceptId": "a1_ja_yon",
+            "nativeWord": "四",
+            "englishMeaning": "Four",
+            "ipa": "yon",
+            "pronunciation": "Yon",
+            "exampleSentence": "四つ。",
+            "exampleTranslation": "Four things.",
+            "memoryTip": "Number 4",
+            "tags": [
+              "numbers"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "",
+              "correct": "四"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for four"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "四"
+            }
+          },
+          {
+            "id": "a1_ja_go",
+            "conceptId": "a1_ja_go",
+            "nativeWord": "五",
+            "englishMeaning": "Five",
+            "ipa": "go",
+            "pronunciation": "Go",
+            "exampleSentence": "五つ。",
+            "exampleTranslation": "Five things.",
+            "memoryTip": "Number 5",
+            "tags": [
+              "numbers"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "",
+              "correct": "五"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for five"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "五"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-listen",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "一",
+            "answer": "一",
+            "options": [
+              "四",
+              "五",
+              "一",
+              "三",
+              "二"
+            ],
+            "conceptId": "a1_ja_ichi"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "二",
+            "answer": "二",
+            "options": [
+              "五",
+              "三",
+              "二",
+              "四",
+              "一"
+            ],
+            "conceptId": "a1_ja_ni"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "三",
+            "answer": "三",
+            "options": [
+              "二",
+              "一",
+              "四",
+              "五",
+              "三"
+            ],
+            "conceptId": "a1_ja_san"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "四",
+            "answer": "四",
+            "options": [
+              "四",
+              "五",
+              "三",
+              "二",
+              "一"
+            ],
+            "conceptId": "a1_ja_yon"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "五",
+            "answer": "五",
+            "options": [
+              "二",
+              "四",
+              "三",
+              "五",
+              "一"
+            ],
+            "conceptId": "a1_ja_go"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-speak",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: 一",
+            "expectedPhrase": "一",
+            "conceptId": "a1_ja_ichi"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: 二",
+            "expectedPhrase": "二",
+            "conceptId": "a1_ja_ni"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: 三",
+            "expectedPhrase": "三",
+            "conceptId": "a1_ja_san"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: 四",
+            "expectedPhrase": "四",
+            "conceptId": "a1_ja_yon"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: 五",
+            "expectedPhrase": "五",
+            "conceptId": "a1_ja_go"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-type",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: One",
+            "answer": "一",
+            "conceptId": "a1_ja_ichi"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: Two",
+            "answer": "二",
+            "conceptId": "a1_ja_ni"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: Three",
+            "answer": "三",
+            "conceptId": "a1_ja_san"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: Four",
+            "answer": "四",
+            "conceptId": "a1_ja_yon"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: Five",
+            "answer": "五",
+            "conceptId": "a1_ja_go"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-practice",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: One",
+            "options": [
+              "三",
+              "一",
+              "四",
+              "二",
+              "五"
+            ],
+            "answer": "一",
+            "conceptId": "a1_ja_ichi"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in Japanese: One",
+            "answer": "一",
+            "conceptId": "a1_ja_ichi"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: Two",
+            "options": [
+              "一",
+              "三",
+              "五",
+              "二",
+              "四"
+            ],
+            "answer": "二",
+            "conceptId": "a1_ja_ni"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in Japanese: Two",
+            "answer": "二",
+            "conceptId": "a1_ja_ni"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: Three",
+            "options": [
+              "四",
+              "一",
+              "三",
+              "二",
+              "五"
+            ],
+            "answer": "三",
+            "conceptId": "a1_ja_san"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in Japanese: Three",
+            "answer": "三",
+            "conceptId": "a1_ja_san"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: Four",
+            "options": [
+              "五",
+              "一",
+              "二",
+              "四",
+              "三"
+            ],
+            "answer": "四",
+            "conceptId": "a1_ja_yon"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in Japanese: Four",
+            "answer": "四",
+            "conceptId": "a1_ja_yon"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: Five",
+            "options": [
+              "四",
+              "二",
+              "一",
+              "五",
+              "三"
+            ],
+            "answer": "五",
+            "conceptId": "a1_ja_go"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in Japanese: Five",
+            "answer": "五",
+            "conceptId": "a1_ja_go"
+          },
+          {
+            "type": "match",
+            "phaseTitle": "Pair Matching",
+            "pairs": [
+              {
+                "source": "一",
+                "target": "One"
+              },
+              {
+                "source": "二",
+                "target": "Two"
+              },
+              {
+                "source": "三",
+                "target": "Three"
+              },
+              {
+                "source": "四",
+                "target": "Four"
+              },
+              {
+                "source": "五",
+                "target": "Five"
+              }
+            ],
+            "conceptId": "a1_ja_ichi"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-summary",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Revision Summary",
+        "conceptId": "intro",
+        "content": "You've learned the vocabulary, listened to the pronunciation, and practiced typing. Now, let's put it all together.",
+        "example": "Take a deep breath. Let's start the final quiz!"
+      }
+    },
+    {
+      "id": "mod-final-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: One",
+            "answer": "一",
+            "options": [
+              "四",
+              "一",
+              "五",
+              "二",
+              "三"
+            ],
+            "conceptId": "a1_ja_ichi"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "一",
+            "answer": "一",
+            "options": [
+              "四",
+              "二",
+              "三",
+              "一",
+              "五"
+            ],
+            "conceptId": "a1_ja_ichi"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: One",
+            "answer": "一",
+            "conceptId": "a1_ja_ichi"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: Two",
+            "answer": "二",
+            "options": [
+              "三",
+              "五",
+              "四",
+              "一",
+              "二"
+            ],
+            "conceptId": "a1_ja_ni"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "二",
+            "answer": "二",
+            "options": [
+              "二",
+              "三",
+              "四",
+              "一",
+              "五"
+            ],
+            "conceptId": "a1_ja_ni"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Two",
+            "answer": "二",
+            "conceptId": "a1_ja_ni"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: Three",
+            "answer": "三",
+            "options": [
+              "五",
+              "一",
+              "三",
+              "二",
+              "四"
+            ],
+            "conceptId": "a1_ja_san"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "三",
+            "answer": "三",
+            "options": [
+              "一",
+              "五",
+              "二",
+              "四",
+              "三"
+            ],
+            "conceptId": "a1_ja_san"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Three",
+            "answer": "三",
+            "conceptId": "a1_ja_san"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: Four",
+            "answer": "四",
+            "options": [
+              "四",
+              "三",
+              "五",
+              "二",
+              "一"
+            ],
+            "conceptId": "a1_ja_yon"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "四",
+            "answer": "四",
+            "options": [
+              "一",
+              "四",
+              "三",
+              "五",
+              "二"
+            ],
+            "conceptId": "a1_ja_yon"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Four",
+            "answer": "四",
+            "conceptId": "a1_ja_yon"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: Five",
+            "answer": "五",
+            "options": [
+              "三",
+              "一",
+              "二",
+              "五",
+              "四"
+            ],
+            "conceptId": "a1_ja_go"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "五",
+            "answer": "五",
+            "options": [
+              "五",
+              "三",
+              "一",
+              "二",
+              "四"
+            ],
+            "conceptId": "a1_ja_go"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Five",
+            "answer": "五",
+            "conceptId": "a1_ja_go"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: '一、二、三'",
+            "tokens": [
+              "一、",
+              "二、",
+              "三",
+              "四"
+            ],
+            "answer": "一、二、三",
+            "conceptId": "a1_ja_ichi"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: '四と五'",
+            "tokens": [
+              "四",
+              "と",
+              "五",
+              "一"
+            ],
+            "answer": "四と五",
+            "conceptId": "a1_ja_ichi"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-celebration",
+      "type": "celebration",
+      "config": {}
+    }
+  ]
+}

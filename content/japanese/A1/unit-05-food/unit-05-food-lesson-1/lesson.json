@@ -1,0 +1,717 @@
+{
+  "id": "food-lesson-1",
+  "unitId": "food",
+  "title": "Food",
+  "version": 3,
+  "learningObjectives": [
+    "a1_ja_mizu",
+    "a1_ja_gohan",
+    "a1_ja_niku",
+    "a1_ja_sakana",
+    "a1_ja_yasai"
+  ],
+  "modules": [
+    {
+      "id": "mod-intro",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Welcome to Food",
+        "conceptId": "intro",
+        "content": "Today we will learn about Food in Japanese. Let's start with important words.",
+        "example": "Pay close attention to how they are pronounced."
+      }
+    },
+    {
+      "id": "mod-vocab",
+      "type": "vocabulary",
+      "config": {
+        "flow": "teach_all",
+        "words": [
+          {
+            "id": "a1_ja_mizu",
+            "conceptId": "a1_ja_mizu",
+            "nativeWord": "水",
+            "englishMeaning": "Water",
+            "ipa": "mizu",
+            "pronunciation": "Mizu",
+            "exampleSentence": "水をください。",
+            "exampleTranslation": "Water, please.",
+            "memoryTip": "Water",
+            "tags": [
+              "food"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "",
+              "correct": "水"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for water"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "水"
+            }
+          },
+          {
+            "id": "a1_ja_gohan",
+            "conceptId": "a1_ja_gohan",
+            "nativeWord": "ご飯",
+            "englishMeaning": "Rice / Meal",
+            "ipa": "gohan",
+            "pronunciation": "Gohan",
+            "exampleSentence": "ご飯を食べる。",
+            "exampleTranslation": "I eat rice.",
+            "memoryTip": "Rice",
+            "tags": [
+              "food"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "ご",
+              "correct": "ご飯"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for rice / meal"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "ご飯"
+            }
+          },
+          {
+            "id": "a1_ja_niku",
+            "conceptId": "a1_ja_niku",
+            "nativeWord": "肉",
+            "englishMeaning": "Meat",
+            "ipa": "niku",
+            "pronunciation": "Niku",
+            "exampleSentence": "肉が好きです。",
+            "exampleTranslation": "I like meat.",
+            "memoryTip": "Meat",
+            "tags": [
+              "food"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "",
+              "correct": "肉"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for meat"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "肉"
+            }
+          },
+          {
+            "id": "a1_ja_sakana",
+            "conceptId": "a1_ja_sakana",
+            "nativeWord": "魚",
+            "englishMeaning": "Fish",
+            "ipa": "sakana",
+            "pronunciation": "Sakana",
+            "exampleSentence": "魚を食べます。",
+            "exampleTranslation": "I eat fish.",
+            "memoryTip": "Fish",
+            "tags": [
+              "food"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "",
+              "correct": "魚"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for fish"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "魚"
+            }
+          },
+          {
+            "id": "a1_ja_yasai",
+            "conceptId": "a1_ja_yasai",
+            "nativeWord": "野菜",
+            "englishMeaning": "Vegetable",
+            "ipa": "yasai",
+            "pronunciation": "Yasai",
+            "exampleSentence": "野菜は健康にいい。",
+            "exampleTranslation": "Vegetables are good for health.",
+            "memoryTip": "Vegetable",
+            "tags": [
+              "food"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "野",
+              "correct": "野菜"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for vegetable"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "野菜"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-listen",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "水",
+            "answer": "水",
+            "options": [
+              "魚",
+              "肉",
+              "水",
+              "ご飯",
+              "野菜"
+            ],
+            "conceptId": "a1_ja_mizu"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "ご飯",
+            "answer": "ご飯",
+            "options": [
+              "肉",
+              "水",
+              "魚",
+              "野菜",
+              "ご飯"
+            ],
+            "conceptId": "a1_ja_gohan"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "肉",
+            "answer": "肉",
+            "options": [
+              "野菜",
+              "ご飯",
+              "肉",
+              "魚",
+              "水"
+            ],
+            "conceptId": "a1_ja_niku"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "魚",
+            "answer": "魚",
+            "options": [
+              "野菜",
+              "魚",
+              "ご飯",
+              "肉",
+              "水"
+            ],
+            "conceptId": "a1_ja_sakana"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "野菜",
+            "answer": "野菜",
+            "options": [
+              "水",
+              "ご飯",
+              "野菜",
+              "魚",
+              "肉"
+            ],
+            "conceptId": "a1_ja_yasai"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-speak",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: 水",
+            "expectedPhrase": "水",
+            "conceptId": "a1_ja_mizu"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: ご飯",
+            "expectedPhrase": "ご飯",
+            "conceptId": "a1_ja_gohan"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: 肉",
+            "expectedPhrase": "肉",
+            "conceptId": "a1_ja_niku"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: 魚",
+            "expectedPhrase": "魚",
+            "conceptId": "a1_ja_sakana"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: 野菜",
+            "expectedPhrase": "野菜",
+            "conceptId": "a1_ja_yasai"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-type",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: Water",
+            "answer": "水",
+            "conceptId": "a1_ja_mizu"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: Rice / Meal",
+            "answer": "ご飯",
+            "conceptId": "a1_ja_gohan"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: Meat",
+            "answer": "肉",
+            "conceptId": "a1_ja_niku"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: Fish",
+            "answer": "魚",
+            "conceptId": "a1_ja_sakana"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: Vegetable",
+            "answer": "野菜",
+            "conceptId": "a1_ja_yasai"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-practice",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: Water",
+            "options": [
+              "水",
+              "肉",
+              "野菜",
+              "魚",
+              "ご飯"
+            ],
+            "answer": "水",
+            "conceptId": "a1_ja_mizu"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in Japanese: Water",
+            "answer": "水",
+            "conceptId": "a1_ja_mizu"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: Rice / Meal",
+            "options": [
+              "ご飯",
+              "水",
+              "魚",
+              "肉",
+              "野菜"
+            ],
+            "answer": "ご飯",
+            "conceptId": "a1_ja_gohan"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in Japanese: Rice / Meal",
+            "answer": "ご飯",
+            "conceptId": "a1_ja_gohan"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: Meat",
+            "options": [
+              "野菜",
+              "ご飯",
+              "水",
+              "肉",
+              "魚"
+            ],
+            "answer": "肉",
+            "conceptId": "a1_ja_niku"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in Japanese: Meat",
+            "answer": "肉",
+            "conceptId": "a1_ja_niku"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: Fish",
+            "options": [
+              "水",
+              "ご飯",
+              "肉",
+              "野菜",
+              "魚"
+            ],
+            "answer": "魚",
+            "conceptId": "a1_ja_sakana"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in Japanese: Fish",
+            "answer": "魚",
+            "conceptId": "a1_ja_sakana"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: Vegetable",
+            "options": [
+              "肉",
+              "野菜",
+              "魚",
+              "水",
+              "ご飯"
+            ],
+            "answer": "野菜",
+            "conceptId": "a1_ja_yasai"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in Japanese: Vegetable",
+            "answer": "野菜",
+            "conceptId": "a1_ja_yasai"
+          },
+          {
+            "type": "match",
+            "phaseTitle": "Pair Matching",
+            "pairs": [
+              {
+                "source": "水",
+                "target": "Water"
+              },
+              {
+                "source": "ご飯",
+                "target": "Rice / Meal"
+              },
+              {
+                "source": "肉",
+                "target": "Meat"
+              },
+              {
+                "source": "魚",
+                "target": "Fish"
+              },
+              {
+                "source": "野菜",
+                "target": "Vegetable"
+              }
+            ],
+            "conceptId": "a1_ja_mizu"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-summary",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Revision Summary",
+        "conceptId": "intro",
+        "content": "You've learned the vocabulary, listened to the pronunciation, and practiced typing. Now, let's put it all together.",
+        "example": "Take a deep breath. Let's start the final quiz!"
+      }
+    },
+    {
+      "id": "mod-final-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: Water",
+            "answer": "水",
+            "options": [
+              "肉",
+              "水",
+              "野菜",
+              "魚",
+              "ご飯"
+            ],
+            "conceptId": "a1_ja_mizu"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "水",
+            "answer": "水",
+            "options": [
+              "野菜",
+              "肉",
+              "水",
+              "魚",
+              "ご飯"
+            ],
+            "conceptId": "a1_ja_mizu"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Water",
+            "answer": "水",
+            "conceptId": "a1_ja_mizu"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: Rice / Meal",
+            "answer": "ご飯",
+            "options": [
+              "肉",
+              "水",
+              "野菜",
+              "ご飯",
+              "魚"
+            ],
+            "conceptId": "a1_ja_gohan"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "ご飯",
+            "answer": "ご飯",
+            "options": [
+              "野菜",
+              "ご飯",
+              "水",
+              "魚",
+              "肉"
+            ],
+            "conceptId": "a1_ja_gohan"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Rice / Meal",
+            "answer": "ご飯",
+            "conceptId": "a1_ja_gohan"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: Meat",
+            "answer": "肉",
+            "options": [
+              "野菜",
+              "水",
+              "魚",
+              "ご飯",
+              "肉"
+            ],
+            "conceptId": "a1_ja_niku"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "肉",
+            "answer": "肉",
+            "options": [
+              "ご飯",
+              "野菜",
+              "水",
+              "魚",
+              "肉"
+            ],
+            "conceptId": "a1_ja_niku"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Meat",
+            "answer": "肉",
+            "conceptId": "a1_ja_niku"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: Fish",
+            "answer": "魚",
+            "options": [
+              "水",
+              "肉",
+              "魚",
+              "野菜",
+              "ご飯"
+            ],
+            "conceptId": "a1_ja_sakana"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "魚",
+            "answer": "魚",
+            "options": [
+              "魚",
+              "水",
+              "ご飯",
+              "野菜",
+              "肉"
+            ],
+            "conceptId": "a1_ja_sakana"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Fish",
+            "answer": "魚",
+            "conceptId": "a1_ja_sakana"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: Vegetable",
+            "answer": "野菜",
+            "options": [
+              "ご飯",
+              "魚",
+              "野菜",
+              "肉",
+              "水"
+            ],
+            "conceptId": "a1_ja_yasai"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "野菜",
+            "answer": "野菜",
+            "options": [
+              "ご飯",
+              "野菜",
+              "魚",
+              "水",
+              "肉"
+            ],
+            "conceptId": "a1_ja_yasai"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Vegetable",
+            "answer": "野菜",
+            "conceptId": "a1_ja_yasai"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: '水を飲む'",
+            "tokens": [
+              "水",
+              "を",
+              "飲む",
+              "食べる"
+            ],
+            "answer": "水を飲む",
+            "conceptId": "a1_ja_mizu"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: 'ご飯と肉'",
+            "tokens": [
+              "ご飯",
+              "と",
+              "肉",
+              "野菜"
+            ],
+            "answer": "ご飯と肉",
+            "conceptId": "a1_ja_mizu"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-celebration",
+      "type": "celebration",
+      "config": {}
+    }
+  ]
+}

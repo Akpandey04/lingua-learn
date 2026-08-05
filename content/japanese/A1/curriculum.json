@@ -3,24 +3,149 @@
   "level": "A1",
   "units": [
     {
-      "id": "unit-01-basics",
-      "title": "Greetings and Basics",
+      "id": "unit-01-meeting",
+      "title": "Greetings",
       "cefrLevel": "A1",
-      "estimatedHours": 2,
       "unitObjectives": [
-        "Learn basic Japanese greetings"
+        "Master Greetings"
       ],
       "concepts": [
-        "ja_basics_konnichiwa"
+        "a1_ja_konnichiwa",
+        "a1_ja_ohayou",
+        "a1_ja_arigatou",
+        "a1_ja_sumimasen",
+        "a1_ja_sayounara"
       ],
       "lessons": [
         {
-          "id": "unit-01-basics-lesson-1",
-          "title": "Greetings and Basics",
-          "type": "learning",
-          "conceptIds": [
-            "ja_basics_konnichiwa"
-          ]
+          "id": "unit-01-meeting-lesson-1",
+          "title": "Greetings"
+        }
+      ]
+    },
+    {
+      "id": "unit-02-numbers",
+      "title": "Numbers",
+      "cefrLevel": "A1",
+      "unitObjectives": [
+        "Master Numbers"
+      ],
+      "concepts": [
+        "a1_ja_ichi",
+        "a1_ja_ni",
+        "a1_ja_san",
+        "a1_ja_yon",
+        "a1_ja_go"
+      ],
+      "lessons": [
+        {
+          "id": "unit-02-numbers-lesson-1",
+          "title": "Numbers"
+        }
+      ]
+    },
+    {
+      "id": "unit-03-basics",
+      "title": "Basic Verbs",
+      "cefrLevel": "A1",
+      "unitObjectives": [
+        "Master Basic Verbs"
+      ],
+      "concepts": [
+        "a1_ja_taberu",
+        "a1_ja_nomu",
+        "a1_ja_miru",
+        "a1_ja_kiku",
+        "a1_ja_iku"
+      ],
+      "lessons": [
+        {
+          "id": "unit-03-basics-lesson-1",
+          "title": "Basic Verbs"
+        }
+      ]
+    },
+    {
+      "id": "unit-04-family",
+      "title": "Family",
+      "cefrLevel": "A1",
+      "unitObjectives": [
+        "Master Family"
+      ],
+      "concepts": [
+        "a1_ja_haha",
+        "a1_ja_chichi",
+        "a1_ja_ane",
+        "a1_ja_ani",
+        "a1_ja_imouto"
+      ],
+      "lessons": [
+        {
+          "id": "unit-04-family-lesson-1",
+          "title": "Family"
+        }
+      ]
+    },
+    {
+      "id": "unit-05-food",
+      "title": "Food",
+      "cefrLevel": "A1",
+      "unitObjectives": [
+        "Master Food"
+      ],
+      "concepts": [
+        "a1_ja_mizu",
+        "a1_ja_gohan",
+        "a1_ja_niku",
+        "a1_ja_sakana",
+        "a1_ja_yasai"
+      ],
+      "lessons": [
+        {
+          "id": "unit-05-food-lesson-1",
+          "title": "Food"
+        }
+      ]
+    },
+    {
+      "id": "unit-06-travel",
+      "title": "Travel",
+      "cefrLevel": "A1",
+      "unitObjectives": [
+        "Master Travel"
+      ],
+      "concepts": [
+        "a1_ja_eki",
+        "a1_ja_densha",
+        "a1_ja_hikouki",
+        "a1_ja_kippu",
+        "a1_ja_umi"
+      ],
+      "lessons": [
+        {
+          "id": "unit-06-travel-lesson-1",
+          "title": "Travel"
+        }
+      ]
+    },
+    {
+      "id": "unit-07-time",
+      "title": "Time & Days",
+      "cefrLevel": "A1",
+      "unitObjectives": [
+        "Master Time & Days"
+      ],
+      "concepts": [
+        "a1_ja_kyou",
+        "a1_ja_ashita",
+        "a1_ja_ima",
+        "a1_ja_jikan",
+        "a1_ja_getsuyoubi"
+      ],
+      "lessons": [
+        {
+          "id": "unit-07-time-lesson-1",
+          "title": "Time & Days"
         }
       ]
     }

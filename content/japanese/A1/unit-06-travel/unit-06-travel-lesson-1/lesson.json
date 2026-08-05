@@ -1,0 +1,718 @@
+{
+  "id": "travel-lesson-1",
+  "unitId": "travel",
+  "title": "Travel",
+  "version": 3,
+  "learningObjectives": [
+    "a1_ja_eki",
+    "a1_ja_densha",
+    "a1_ja_hikouki",
+    "a1_ja_kippu",
+    "a1_ja_umi"
+  ],
+  "modules": [
+    {
+      "id": "mod-intro",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Welcome to Travel",
+        "conceptId": "intro",
+        "content": "Today we will learn about Travel in Japanese. Let's start with important words.",
+        "example": "Pay close attention to how they are pronounced."
+      }
+    },
+    {
+      "id": "mod-vocab",
+      "type": "vocabulary",
+      "config": {
+        "flow": "teach_all",
+        "words": [
+          {
+            "id": "a1_ja_eki",
+            "conceptId": "a1_ja_eki",
+            "nativeWord": "駅",
+            "englishMeaning": "Train station",
+            "ipa": "eki",
+            "pronunciation": "Eki",
+            "exampleSentence": "駅はどこですか。",
+            "exampleTranslation": "Where is the station?",
+            "memoryTip": "Station",
+            "tags": [
+              "travel"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "",
+              "correct": "駅"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for train station"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "駅"
+            }
+          },
+          {
+            "id": "a1_ja_densha",
+            "conceptId": "a1_ja_densha",
+            "nativeWord": "電車",
+            "englishMeaning": "Train",
+            "ipa": "densha",
+            "pronunciation": "Densha",
+            "exampleSentence": "電車に乗る。",
+            "exampleTranslation": "I ride the train.",
+            "memoryTip": "Train",
+            "tags": [
+              "travel"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "電",
+              "correct": "電車"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for train"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "電車"
+            }
+          },
+          {
+            "id": "a1_ja_hikouki",
+            "conceptId": "a1_ja_hikouki",
+            "nativeWord": "飛行機",
+            "englishMeaning": "Airplane",
+            "ipa": "hikouki",
+            "pronunciation": "Hikouki",
+            "exampleSentence": "飛行機で行く。",
+            "exampleTranslation": "I go by airplane.",
+            "memoryTip": "Airplane",
+            "tags": [
+              "travel"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "飛行",
+              "correct": "飛行機"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for airplane"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "飛行機"
+            }
+          },
+          {
+            "id": "a1_ja_kippu",
+            "conceptId": "a1_ja_kippu",
+            "nativeWord": "切符",
+            "englishMeaning": "Ticket",
+            "ipa": "kippu",
+            "pronunciation": "Kippu",
+            "exampleSentence": "切符を買う。",
+            "exampleTranslation": "I buy a ticket.",
+            "memoryTip": "Ticket",
+            "tags": [
+              "travel"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "切",
+              "correct": "切符"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for ticket"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "切符"
+            }
+          },
+          {
+            "id": "a1_ja_umi",
+            "conceptId": "a1_ja_umi",
+            "nativeWord": "海",
+            "englishMeaning": "Sea / Ocean",
+            "ipa": "umi",
+            "pronunciation": "Umi",
+            "exampleSentence": "海に行きたい。",
+            "exampleTranslation": "I want to go to the sea.",
+            "memoryTip": "Sea",
+            "tags": [
+              "travel"
+            ],
+            "emoji": "📝",
+            "cefr": "A1",
+            "difficultyRating": 1,
+            "commonMistake": {
+              "wrong": "",
+              "correct": "海"
+            },
+            "contextualUsage": {
+              "whenToUse": [
+                "Standard expression for sea / ocean"
+              ],
+              "doNotUse": [
+                "In incorrect context"
+              ],
+              "insteadSay": "海"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-listen",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "駅",
+            "answer": "駅",
+            "options": [
+              "駅",
+              "電車",
+              "海",
+              "飛行機",
+              "切符"
+            ],
+            "conceptId": "a1_ja_eki"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "電車",
+            "answer": "電車",
+            "options": [
+              "駅",
+              "海",
+              "電車",
+              "飛行機",
+              "切符"
+            ],
+            "conceptId": "a1_ja_densha"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "飛行機",
+            "answer": "飛行機",
+            "options": [
+              "電車",
+              "切符",
+              "海",
+              "駅",
+              "飛行機"
+            ],
+            "conceptId": "a1_ja_hikouki"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "切符",
+            "answer": "切符",
+            "options": [
+              "駅",
+              "電車",
+              "海",
+              "飛行機",
+              "切符"
+            ],
+            "conceptId": "a1_ja_kippu"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "phrase": "海",
+            "answer": "海",
+            "options": [
+              "切符",
+              "海",
+              "電車",
+              "駅",
+              "飛行機"
+            ],
+            "conceptId": "a1_ja_umi"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-speak",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: 駅",
+            "expectedPhrase": "駅",
+            "conceptId": "a1_ja_eki"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: 電車",
+            "expectedPhrase": "電車",
+            "conceptId": "a1_ja_densha"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: 飛行機",
+            "expectedPhrase": "飛行機",
+            "conceptId": "a1_ja_hikouki"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: 切符",
+            "expectedPhrase": "切符",
+            "conceptId": "a1_ja_kippu"
+          },
+          {
+            "type": "speaking",
+            "phaseTitle": "Pronunciation",
+            "prompt": "Read aloud: 海",
+            "expectedPhrase": "海",
+            "conceptId": "a1_ja_umi"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-type",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: Train station",
+            "answer": "駅",
+            "conceptId": "a1_ja_eki"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: Train",
+            "answer": "電車",
+            "conceptId": "a1_ja_densha"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: Airplane",
+            "answer": "飛行機",
+            "conceptId": "a1_ja_hikouki"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: Ticket",
+            "answer": "切符",
+            "conceptId": "a1_ja_kippu"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Typing Practice",
+            "prompt": "Type: Sea / Ocean",
+            "answer": "海",
+            "conceptId": "a1_ja_umi"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-practice",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: Train station",
+            "options": [
+              "電車",
+              "駅",
+              "海",
+              "切符",
+              "飛行機"
+            ],
+            "answer": "駅",
+            "conceptId": "a1_ja_eki"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in Japanese: Train station",
+            "answer": "駅",
+            "conceptId": "a1_ja_eki"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: Train",
+            "options": [
+              "駅",
+              "切符",
+              "電車",
+              "海",
+              "飛行機"
+            ],
+            "answer": "電車",
+            "conceptId": "a1_ja_densha"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in Japanese: Train",
+            "answer": "電車",
+            "conceptId": "a1_ja_densha"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: Airplane",
+            "options": [
+              "飛行機",
+              "駅",
+              "切符",
+              "電車",
+              "海"
+            ],
+            "answer": "飛行機",
+            "conceptId": "a1_ja_hikouki"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in Japanese: Airplane",
+            "answer": "飛行機",
+            "conceptId": "a1_ja_hikouki"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: Ticket",
+            "options": [
+              "飛行機",
+              "海",
+              "切符",
+              "駅",
+              "電車"
+            ],
+            "answer": "切符",
+            "conceptId": "a1_ja_kippu"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in Japanese: Ticket",
+            "answer": "切符",
+            "conceptId": "a1_ja_kippu"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Meaning",
+            "question": "Translate: Sea / Ocean",
+            "options": [
+              "海",
+              "電車",
+              "飛行機",
+              "切符",
+              "駅"
+            ],
+            "answer": "海",
+            "conceptId": "a1_ja_umi"
+          },
+          {
+            "type": "translate",
+            "phaseTitle": "Translation",
+            "direction": "to-native",
+            "question": "Write in Japanese: Sea / Ocean",
+            "answer": "海",
+            "conceptId": "a1_ja_umi"
+          },
+          {
+            "type": "match",
+            "phaseTitle": "Pair Matching",
+            "pairs": [
+              {
+                "source": "駅",
+                "target": "Train station"
+              },
+              {
+                "source": "電車",
+                "target": "Train"
+              },
+              {
+                "source": "飛行機",
+                "target": "Airplane"
+              },
+              {
+                "source": "切符",
+                "target": "Ticket"
+              },
+              {
+                "source": "海",
+                "target": "Sea / Ocean"
+              }
+            ],
+            "conceptId": "a1_ja_eki"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-summary",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Revision Summary",
+        "conceptId": "intro",
+        "content": "You've learned the vocabulary, listened to the pronunciation, and practiced typing. Now, let's put it all together.",
+        "example": "Take a deep breath. Let's start the final quiz!"
+      }
+    },
+    {
+      "id": "mod-final-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: Train station",
+            "answer": "駅",
+            "options": [
+              "飛行機",
+              "駅",
+              "海",
+              "電車",
+              "切符"
+            ],
+            "conceptId": "a1_ja_eki"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "駅",
+            "answer": "駅",
+            "options": [
+              "飛行機",
+              "切符",
+              "海",
+              "電車",
+              "駅"
+            ],
+            "conceptId": "a1_ja_eki"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Train station",
+            "answer": "駅",
+            "conceptId": "a1_ja_eki"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: Train",
+            "answer": "電車",
+            "options": [
+              "海",
+              "電車",
+              "飛行機",
+              "切符",
+              "駅"
+            ],
+            "conceptId": "a1_ja_densha"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "電車",
+            "answer": "電車",
+            "options": [
+              "電車",
+              "海",
+              "飛行機",
+              "切符",
+              "駅"
+            ],
+            "conceptId": "a1_ja_densha"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Train",
+            "answer": "電車",
+            "conceptId": "a1_ja_densha"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: Airplane",
+            "answer": "飛行機",
+            "options": [
+              "電車",
+              "切符",
+              "海",
+              "飛行機",
+              "駅"
+            ],
+            "conceptId": "a1_ja_hikouki"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "飛行機",
+            "answer": "飛行機",
+            "options": [
+              "駅",
+              "飛行機",
+              "電車",
+              "海",
+              "切符"
+            ],
+            "conceptId": "a1_ja_hikouki"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Airplane",
+            "answer": "飛行機",
+            "conceptId": "a1_ja_hikouki"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: Ticket",
+            "answer": "切符",
+            "options": [
+              "飛行機",
+              "駅",
+              "切符",
+              "海",
+              "電車"
+            ],
+            "conceptId": "a1_ja_kippu"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "切符",
+            "answer": "切符",
+            "options": [
+              "電車",
+              "海",
+              "駅",
+              "飛行機",
+              "切符"
+            ],
+            "conceptId": "a1_ja_kippu"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Ticket",
+            "answer": "切符",
+            "conceptId": "a1_ja_kippu"
+          },
+          {
+            "type": "mcq",
+            "phaseTitle": "Final Quiz",
+            "question": "Translate: Sea / Ocean",
+            "answer": "海",
+            "options": [
+              "海",
+              "駅",
+              "飛行機",
+              "電車",
+              "切符"
+            ],
+            "conceptId": "a1_ja_umi"
+          },
+          {
+            "type": "listening",
+            "phaseTitle": "Final Quiz",
+            "phrase": "海",
+            "answer": "海",
+            "options": [
+              "切符",
+              "飛行機",
+              "海",
+              "電車",
+              "駅"
+            ],
+            "conceptId": "a1_ja_umi"
+          },
+          {
+            "type": "typing",
+            "phaseTitle": "Final Quiz",
+            "prompt": "Type: Sea / Ocean",
+            "answer": "海",
+            "conceptId": "a1_ja_umi"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: '駅はどこですか'",
+            "tokens": [
+              "駅",
+              "は",
+              "どこ",
+              "ですか",
+              "海"
+            ],
+            "answer": "駅はどこですか",
+            "conceptId": "a1_ja_eki"
+          },
+          {
+            "type": "sentence_build",
+            "phaseTitle": "Sentence Building",
+            "prompt": "Translate: '電車に乗る'",
+            "tokens": [
+              "電車",
+              "に",
+              "乗る",
+              "飛行機"
+            ],
+            "answer": "電車に乗る",
+            "conceptId": "a1_ja_eki"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-celebration",
+      "type": "celebration",
+      "config": {}
+    }
+  ]
+}
