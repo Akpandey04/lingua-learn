@@ -1,0 +1,19 @@
+{
+  "id": "ja_basics_konnichiwa",
+  "type": "vocabulary",
+  "language": "Japanese",
+  "pronunciation": "Konnichiwa",
+  "ipa": "konnichiwa",
+  "difficulty": 1,
+  "cefr": "A1",
+  "tags": [
+    "basics",
+    "greetings"
+  ],
+  "relatedConcepts": [],
+  "masteryThreshold": 0.9,
+  "exampleSentence": "こんにちは",
+  "exampleTranslation": "Hello",
+  "memoryTip": "Standard daytime greeting",
+  "emoji": "👋"
+}

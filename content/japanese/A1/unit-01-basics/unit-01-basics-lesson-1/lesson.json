@@ -1,0 +1,58 @@
+{
+  "id": "unit-01-basics-lesson-1",
+  "unitId": "unit-01-basics",
+  "title": "Greetings and Basics",
+  "version": 1,
+  "learningObjectives": [
+    "ja_basics_konnichiwa"
+  ],
+  "modules": [
+    {
+      "id": "mod-intro",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Welcome to Japanese",
+        "conceptId": "intro",
+        "content": "Today we will learn a basic Japanese greeting.",
+        "example": "Pay close attention to pronunciation."
+      }
+    },
+    {
+      "id": "mod-vocab",
+      "type": "vocabulary",
+      "config": {
+        "flow": "teach_all",
+        "words": [
+          {
+            "conceptId": "ja_basics_konnichiwa",
+            "emoji": "👋",
+            "nativeWord": "こんにちは",
+            "englishMeaning": "Hello",
+            "ipa": "konnichiwa",
+            "pronunciation": "Konnichiwa",
+            "exampleSentence": "こんにちは！",
+            "exampleTranslation": "Hello!",
+            "memoryTip": "Standard daytime greeting",
+            "difficultyRating": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "mod-listen",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "listening",
+            "phaseTitle": "Listening Practice",
+            "audioText": "こんにちは",
+            "answer": "こんにちは",
+            "options": ["こんにちは", "さようなら"],
+            "conceptId": "ja_basics_konnichiwa"
+          }
+        ]
+      }
+    }
+  ]
+}

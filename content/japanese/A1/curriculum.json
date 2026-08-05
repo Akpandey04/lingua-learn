@@ -1,0 +1,28 @@
+{
+  "language": "Japanese",
+  "level": "A1",
+  "units": [
+    {
+      "id": "unit-01-basics",
+      "title": "Greetings and Basics",
+      "cefrLevel": "A1",
+      "estimatedHours": 2,
+      "unitObjectives": [
+        "Learn basic Japanese greetings"
+      ],
+      "concepts": [
+        "ja_basics_konnichiwa"
+      ],
+      "lessons": [
+        {
+          "id": "unit-01-basics-lesson-1",
+          "title": "Greetings and Basics",
+          "type": "learning",
+          "conceptIds": [
+            "ja_basics_konnichiwa"
+          ]
+        }
+      ]
+    }
+  ]
+}
