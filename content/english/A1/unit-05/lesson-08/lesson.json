@@ -1,0 +1,125 @@
+{
+  "id": "lesson-08",
+  "unitId": "unit-05",
+  "title": "Comparing Things",
+  "version": 2,
+  "learningObjectives": [
+    "comparing_things"
+  ],
+  "modules": [
+    {
+      "id": "intro",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Comparing Things",
+        "conceptId": "comparing_things",
+        "content": "In this lesson, we will focus on: Comparing Things. Let's learn how to use this in everyday English conversations.",
+        "example": "Pay attention to the structure and vocabulary."
+      }
+    },
+    {
+      "id": "vocab",
+      "type": "vocabulary",
+      "config": {
+        "flow": "teach_all",
+        "words": [
+          {
+            "conceptId": "comparing_things",
+            "emoji": "📘",
+            "nativeWord": "Example 1 for Comparing Things",
+            "englishMeaning": "Translated Example 1",
+            "pronunciation": "example one",
+            "exampleSentence": "This is the first example of Comparing Things.",
+            "exampleTranslation": "This is the first translation.",
+            "difficultyRating": 1,
+            "contextualUsage": {
+              "whenToUse": [
+                "In daily situations"
+              ],
+              "doNotUse": [],
+              "insteadSay": ""
+            }
+          },
+          {
+            "conceptId": "comparing_things",
+            "emoji": "📗",
+            "nativeWord": "Example 2 for Comparing Things",
+            "englishMeaning": "Translated Example 2",
+            "pronunciation": "example two",
+            "exampleSentence": "Here is another example using Comparing Things.",
+            "exampleTranslation": "Here is another translation.",
+            "difficultyRating": 2,
+            "contextualUsage": {
+              "whenToUse": [
+                "When explaining details"
+              ],
+              "doNotUse": [],
+              "insteadSay": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "payload": {
+              "id": "q-1",
+              "type": "mcq",
+              "phaseTitle": "Check Your Understanding",
+              "question": "Which sentence correctly uses Comparing Things?",
+              "answer": "Correct use of Comparing Things.",
+              "options": [
+                "Correct use of Comparing Things.",
+                "Incorrect use of Comparing Things.",
+                "Another incorrect use."
+              ],
+              "conceptId": "comparing_things"
+            }
+          },
+          {
+            "type": "sentence_build",
+            "payload": {
+              "id": "q-2",
+              "type": "sentence_build",
+              "phaseTitle": "Build Sentences",
+              "question": "Arrange the words for: Comparing Things",
+              "tokens": [
+                "This",
+                "is",
+                "a",
+                "good",
+                "example"
+              ],
+              "answer": "This is a good example",
+              "conceptId": "comparing_things"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "speaking-1",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "speaking",
+            "payload": {
+              "id": "s-1",
+              "type": "speaking",
+              "phaseTitle": "Real Life Speaking",
+              "question": "Say out loud: 'This is a good example.'",
+              "answer": "This is a good example",
+              "conceptId": "comparing_things"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

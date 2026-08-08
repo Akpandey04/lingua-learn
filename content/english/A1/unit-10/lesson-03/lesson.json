@@ -1,0 +1,125 @@
+{
+  "id": "lesson-03",
+  "unitId": "unit-10",
+  "title": "Talking About Time",
+  "version": 2,
+  "learningObjectives": [
+    "talking_about_time"
+  ],
+  "modules": [
+    {
+      "id": "intro",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Talking About Time",
+        "conceptId": "talking_about_time",
+        "content": "In this lesson, we will focus on: Talking About Time. Let's learn how to use this in everyday English conversations.",
+        "example": "Pay attention to the structure and vocabulary."
+      }
+    },
+    {
+      "id": "vocab",
+      "type": "vocabulary",
+      "config": {
+        "flow": "teach_all",
+        "words": [
+          {
+            "conceptId": "talking_about_time",
+            "emoji": "📘",
+            "nativeWord": "Example 1 for Talking About Time",
+            "englishMeaning": "Translated Example 1",
+            "pronunciation": "example one",
+            "exampleSentence": "This is the first example of Talking About Time.",
+            "exampleTranslation": "This is the first translation.",
+            "difficultyRating": 1,
+            "contextualUsage": {
+              "whenToUse": [
+                "In daily situations"
+              ],
+              "doNotUse": [],
+              "insteadSay": ""
+            }
+          },
+          {
+            "conceptId": "talking_about_time",
+            "emoji": "📗",
+            "nativeWord": "Example 2 for Talking About Time",
+            "englishMeaning": "Translated Example 2",
+            "pronunciation": "example two",
+            "exampleSentence": "Here is another example using Talking About Time.",
+            "exampleTranslation": "Here is another translation.",
+            "difficultyRating": 2,
+            "contextualUsage": {
+              "whenToUse": [
+                "When explaining details"
+              ],
+              "doNotUse": [],
+              "insteadSay": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "payload": {
+              "id": "q-1",
+              "type": "mcq",
+              "phaseTitle": "Check Your Understanding",
+              "question": "Which sentence correctly uses Talking About Time?",
+              "answer": "Correct use of Talking About Time.",
+              "options": [
+                "Correct use of Talking About Time.",
+                "Incorrect use of Talking About Time.",
+                "Another incorrect use."
+              ],
+              "conceptId": "talking_about_time"
+            }
+          },
+          {
+            "type": "sentence_build",
+            "payload": {
+              "id": "q-2",
+              "type": "sentence_build",
+              "phaseTitle": "Build Sentences",
+              "question": "Arrange the words for: Talking About Time",
+              "tokens": [
+                "This",
+                "is",
+                "a",
+                "good",
+                "example"
+              ],
+              "answer": "This is a good example",
+              "conceptId": "talking_about_time"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "speaking-1",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "speaking",
+            "payload": {
+              "id": "s-1",
+              "type": "speaking",
+              "phaseTitle": "Real Life Speaking",
+              "question": "Say out loud: 'This is a good example.'",
+              "answer": "This is a good example",
+              "conceptId": "talking_about_time"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

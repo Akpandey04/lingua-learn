@@ -1,0 +1,125 @@
+{
+  "id": "lesson-05",
+  "unitId": "unit-02",
+  "title": "Look For & Find",
+  "version": 2,
+  "learningObjectives": [
+    "look_for___find"
+  ],
+  "modules": [
+    {
+      "id": "intro",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Look For & Find",
+        "conceptId": "look_for___find",
+        "content": "In this lesson, we will focus on: Look For & Find. Let's learn how to use this in everyday English conversations.",
+        "example": "Pay attention to the structure and vocabulary."
+      }
+    },
+    {
+      "id": "vocab",
+      "type": "vocabulary",
+      "config": {
+        "flow": "teach_all",
+        "words": [
+          {
+            "conceptId": "look_for___find",
+            "emoji": "📘",
+            "nativeWord": "Example 1 for Look For & Find",
+            "englishMeaning": "Translated Example 1",
+            "pronunciation": "example one",
+            "exampleSentence": "This is the first example of Look For & Find.",
+            "exampleTranslation": "This is the first translation.",
+            "difficultyRating": 1,
+            "contextualUsage": {
+              "whenToUse": [
+                "In daily situations"
+              ],
+              "doNotUse": [],
+              "insteadSay": ""
+            }
+          },
+          {
+            "conceptId": "look_for___find",
+            "emoji": "📗",
+            "nativeWord": "Example 2 for Look For & Find",
+            "englishMeaning": "Translated Example 2",
+            "pronunciation": "example two",
+            "exampleSentence": "Here is another example using Look For & Find.",
+            "exampleTranslation": "Here is another translation.",
+            "difficultyRating": 2,
+            "contextualUsage": {
+              "whenToUse": [
+                "When explaining details"
+              ],
+              "doNotUse": [],
+              "insteadSay": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "payload": {
+              "id": "q-1",
+              "type": "mcq",
+              "phaseTitle": "Check Your Understanding",
+              "question": "Which sentence correctly uses Look For & Find?",
+              "answer": "Correct use of Look For & Find.",
+              "options": [
+                "Correct use of Look For & Find.",
+                "Incorrect use of Look For & Find.",
+                "Another incorrect use."
+              ],
+              "conceptId": "look_for___find"
+            }
+          },
+          {
+            "type": "sentence_build",
+            "payload": {
+              "id": "q-2",
+              "type": "sentence_build",
+              "phaseTitle": "Build Sentences",
+              "question": "Arrange the words for: Look For & Find",
+              "tokens": [
+                "This",
+                "is",
+                "a",
+                "good",
+                "example"
+              ],
+              "answer": "This is a good example",
+              "conceptId": "look_for___find"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "speaking-1",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "speaking",
+            "payload": {
+              "id": "s-1",
+              "type": "speaking",
+              "phaseTitle": "Real Life Speaking",
+              "question": "Say out loud: 'This is a good example.'",
+              "answer": "This is a good example",
+              "conceptId": "look_for___find"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "id": "lesson-02",
+  "unitId": "unit-06",
+  "title": "How? — Adverbs of Manner",
+  "version": 2,
+  "learningObjectives": [
+    "how____adverbs_of_manner"
+  ],
+  "modules": [
+    {
+      "id": "intro",
+      "type": "knowledge_card",
+      "config": {
+        "title": "How? — Adverbs of Manner",
+        "conceptId": "how____adverbs_of_manner",
+        "content": "In this lesson, we will focus on: How? — Adverbs of Manner. Let's learn how to use this in everyday English conversations.",
+        "example": "Pay attention to the structure and vocabulary."
+      }
+    },
+    {
+      "id": "vocab",
+      "type": "vocabulary",
+      "config": {
+        "flow": "teach_all",
+        "words": [
+          {
+            "conceptId": "how____adverbs_of_manner",
+            "emoji": "📘",
+            "nativeWord": "Example 1 for How? — Adverbs of Manner",
+            "englishMeaning": "Translated Example 1",
+            "pronunciation": "example one",
+            "exampleSentence": "This is the first example of How? — Adverbs of Manner.",
+            "exampleTranslation": "This is the first translation.",
+            "difficultyRating": 1,
+            "contextualUsage": {
+              "whenToUse": [
+                "In daily situations"
+              ],
+              "doNotUse": [],
+              "insteadSay": ""
+            }
+          },
+          {
+            "conceptId": "how____adverbs_of_manner",
+            "emoji": "📗",
+            "nativeWord": "Example 2 for How? — Adverbs of Manner",
+            "englishMeaning": "Translated Example 2",
+            "pronunciation": "example two",
+            "exampleSentence": "Here is another example using How? — Adverbs of Manner.",
+            "exampleTranslation": "Here is another translation.",
+            "difficultyRating": 2,
+            "contextualUsage": {
+              "whenToUse": [
+                "When explaining details"
+              ],
+              "doNotUse": [],
+              "insteadSay": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "payload": {
+              "id": "q-1",
+              "type": "mcq",
+              "phaseTitle": "Check Your Understanding",
+              "question": "Which sentence correctly uses How? — Adverbs of Manner?",
+              "answer": "Correct use of How? — Adverbs of Manner.",
+              "options": [
+                "Correct use of How? — Adverbs of Manner.",
+                "Incorrect use of How? — Adverbs of Manner.",
+                "Another incorrect use."
+              ],
+              "conceptId": "how____adverbs_of_manner"
+            }
+          },
+          {
+            "type": "sentence_build",
+            "payload": {
+              "id": "q-2",
+              "type": "sentence_build",
+              "phaseTitle": "Build Sentences",
+              "question": "Arrange the words for: How? — Adverbs of Manner",
+              "tokens": [
+                "This",
+                "is",
+                "a",
+                "good",
+                "example"
+              ],
+              "answer": "This is a good example",
+              "conceptId": "how____adverbs_of_manner"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "speaking-1",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "speaking",
+            "payload": {
+              "id": "s-1",
+              "type": "speaking",
+              "phaseTitle": "Real Life Speaking",
+              "question": "Say out loud: 'This is a good example.'",
+              "answer": "This is a good example",
+              "conceptId": "how____adverbs_of_manner"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

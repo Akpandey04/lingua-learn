@@ -1,0 +1,125 @@
+{
+  "id": "lesson-02",
+  "unitId": "unit-06",
+  "title": "More / Less",
+  "version": 2,
+  "learningObjectives": [
+    "more___less"
+  ],
+  "modules": [
+    {
+      "id": "intro",
+      "type": "knowledge_card",
+      "config": {
+        "title": "More / Less",
+        "conceptId": "more___less",
+        "content": "In this lesson, we will focus on: More / Less. Let's learn how to use this in everyday English conversations.",
+        "example": "Pay attention to the structure and vocabulary."
+      }
+    },
+    {
+      "id": "vocab",
+      "type": "vocabulary",
+      "config": {
+        "flow": "teach_all",
+        "words": [
+          {
+            "conceptId": "more___less",
+            "emoji": "📘",
+            "nativeWord": "Example 1 for More / Less",
+            "englishMeaning": "Translated Example 1",
+            "pronunciation": "example one",
+            "exampleSentence": "This is the first example of More / Less.",
+            "exampleTranslation": "This is the first translation.",
+            "difficultyRating": 1,
+            "contextualUsage": {
+              "whenToUse": [
+                "In daily situations"
+              ],
+              "doNotUse": [],
+              "insteadSay": ""
+            }
+          },
+          {
+            "conceptId": "more___less",
+            "emoji": "📗",
+            "nativeWord": "Example 2 for More / Less",
+            "englishMeaning": "Translated Example 2",
+            "pronunciation": "example two",
+            "exampleSentence": "Here is another example using More / Less.",
+            "exampleTranslation": "Here is another translation.",
+            "difficultyRating": 2,
+            "contextualUsage": {
+              "whenToUse": [
+                "When explaining details"
+              ],
+              "doNotUse": [],
+              "insteadSay": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "payload": {
+              "id": "q-1",
+              "type": "mcq",
+              "phaseTitle": "Check Your Understanding",
+              "question": "Which sentence correctly uses More / Less?",
+              "answer": "Correct use of More / Less.",
+              "options": [
+                "Correct use of More / Less.",
+                "Incorrect use of More / Less.",
+                "Another incorrect use."
+              ],
+              "conceptId": "more___less"
+            }
+          },
+          {
+            "type": "sentence_build",
+            "payload": {
+              "id": "q-2",
+              "type": "sentence_build",
+              "phaseTitle": "Build Sentences",
+              "question": "Arrange the words for: More / Less",
+              "tokens": [
+                "This",
+                "is",
+                "a",
+                "good",
+                "example"
+              ],
+              "answer": "This is a good example",
+              "conceptId": "more___less"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "speaking-1",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "speaking",
+            "payload": {
+              "id": "s-1",
+              "type": "speaking",
+              "phaseTitle": "Real Life Speaking",
+              "question": "Say out loud: 'This is a good example.'",
+              "answer": "This is a good example",
+              "conceptId": "more___less"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

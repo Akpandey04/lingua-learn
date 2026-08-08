@@ -1,0 +1,571 @@
+{
+  "language": "English",
+  "level": "B2",
+  "units": [
+    {
+      "id": "unit-01",
+      "title": "Advanced Grammar",
+      "cefrLevel": "B2",
+      "estimatedHours": 2,
+      "unitObjectives": [
+        "Master Advanced Grammar"
+      ],
+      "concepts": [
+        "advanced_clauses",
+        "advanced_conditionals",
+        "participles",
+        "gerunds_vs_infinitives",
+        "advanced_modal_meanings",
+        "emphasis",
+        "inversion",
+        "advanced_sentence_structures",
+        "complex_practice",
+        "review___mastery"
+      ],
+      "lessons": [
+        {
+          "id": "lesson-01",
+          "title": "Advanced Clauses",
+          "intro": "Learn about Advanced Clauses.",
+          "type": "learning",
+          "conceptIds": [
+            "advanced_clauses"
+          ]
+        },
+        {
+          "id": "lesson-02",
+          "title": "Advanced Conditionals",
+          "intro": "Learn about Advanced Conditionals.",
+          "type": "learning",
+          "conceptIds": [
+            "advanced_conditionals"
+          ]
+        },
+        {
+          "id": "lesson-03",
+          "title": "Participles",
+          "intro": "Learn about Participles.",
+          "type": "learning",
+          "conceptIds": [
+            "participles"
+          ]
+        },
+        {
+          "id": "lesson-04",
+          "title": "Gerunds vs Infinitives",
+          "intro": "Learn about Gerunds vs Infinitives.",
+          "type": "learning",
+          "conceptIds": [
+            "gerunds_vs_infinitives"
+          ]
+        },
+        {
+          "id": "lesson-05",
+          "title": "Advanced Modal Meanings",
+          "intro": "Learn about Advanced Modal Meanings.",
+          "type": "learning",
+          "conceptIds": [
+            "advanced_modal_meanings"
+          ]
+        },
+        {
+          "id": "lesson-06",
+          "title": "Emphasis",
+          "intro": "Learn about Emphasis.",
+          "type": "learning",
+          "conceptIds": [
+            "emphasis"
+          ]
+        },
+        {
+          "id": "lesson-07",
+          "title": "Inversion",
+          "intro": "Learn about Inversion.",
+          "type": "learning",
+          "conceptIds": [
+            "inversion"
+          ]
+        },
+        {
+          "id": "lesson-08",
+          "title": "Advanced Sentence Structures",
+          "intro": "Learn about Advanced Sentence Structures.",
+          "type": "learning",
+          "conceptIds": [
+            "advanced_sentence_structures"
+          ]
+        },
+        {
+          "id": "lesson-09",
+          "title": "Complex Practice",
+          "intro": "Learn about Complex Practice.",
+          "type": "learning",
+          "conceptIds": [
+            "complex_practice"
+          ]
+        },
+        {
+          "id": "lesson-10",
+          "title": "Review & Mastery",
+          "intro": "Learn about Review & Mastery.",
+          "type": "checkpoint",
+          "conceptIds": [
+            "review___mastery"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-02",
+      "title": "Fluent Speaking",
+      "cefrLevel": "B2",
+      "estimatedHours": 2,
+      "unitObjectives": [
+        "Master Fluent Speaking"
+      ],
+      "concepts": [
+        "expressing_opinions",
+        "explaining_ideas",
+        "storytelling",
+        "discussion",
+        "debate",
+        "persuasion",
+        "disagreement",
+        "clarification",
+        "spontaneous_responses",
+        "speaking_fluency"
+      ],
+      "lessons": [
+        {
+          "id": "lesson-01",
+          "title": "Expressing Opinions",
+          "intro": "Learn about Expressing Opinions.",
+          "type": "learning",
+          "conceptIds": [
+            "expressing_opinions"
+          ]
+        },
+        {
+          "id": "lesson-02",
+          "title": "Explaining Ideas",
+          "intro": "Learn about Explaining Ideas.",
+          "type": "learning",
+          "conceptIds": [
+            "explaining_ideas"
+          ]
+        },
+        {
+          "id": "lesson-03",
+          "title": "Storytelling",
+          "intro": "Learn about Storytelling.",
+          "type": "learning",
+          "conceptIds": [
+            "storytelling"
+          ]
+        },
+        {
+          "id": "lesson-04",
+          "title": "Discussion",
+          "intro": "Learn about Discussion.",
+          "type": "learning",
+          "conceptIds": [
+            "discussion"
+          ]
+        },
+        {
+          "id": "lesson-05",
+          "title": "Debate",
+          "intro": "Learn about Debate.",
+          "type": "learning",
+          "conceptIds": [
+            "debate"
+          ]
+        },
+        {
+          "id": "lesson-06",
+          "title": "Persuasion",
+          "intro": "Learn about Persuasion.",
+          "type": "learning",
+          "conceptIds": [
+            "persuasion"
+          ]
+        },
+        {
+          "id": "lesson-07",
+          "title": "Disagreement",
+          "intro": "Learn about Disagreement.",
+          "type": "learning",
+          "conceptIds": [
+            "disagreement"
+          ]
+        },
+        {
+          "id": "lesson-08",
+          "title": "Clarification",
+          "intro": "Learn about Clarification.",
+          "type": "learning",
+          "conceptIds": [
+            "clarification"
+          ]
+        },
+        {
+          "id": "lesson-09",
+          "title": "Spontaneous Responses",
+          "intro": "Learn about Spontaneous Responses.",
+          "type": "learning",
+          "conceptIds": [
+            "spontaneous_responses"
+          ]
+        },
+        {
+          "id": "lesson-10",
+          "title": "Speaking Fluency",
+          "intro": "Learn about Speaking Fluency.",
+          "type": "learning",
+          "conceptIds": [
+            "speaking_fluency"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-03",
+      "title": "Professional English",
+      "cefrLevel": "B2",
+      "estimatedHours": 2,
+      "unitObjectives": [
+        "Master Professional English"
+      ],
+      "concepts": [
+        "workplace_vocabulary",
+        "emails",
+        "meetings",
+        "asking_questions_professionally",
+        "giving_updates",
+        "explaining_projects",
+        "presentations",
+        "professional_conversations",
+        "workplace_problem_solving",
+        "professional_mastery"
+      ],
+      "lessons": [
+        {
+          "id": "lesson-01",
+          "title": "Workplace Vocabulary",
+          "intro": "Learn about Workplace Vocabulary.",
+          "type": "learning",
+          "conceptIds": [
+            "workplace_vocabulary"
+          ]
+        },
+        {
+          "id": "lesson-02",
+          "title": "Emails",
+          "intro": "Learn about Emails.",
+          "type": "learning",
+          "conceptIds": [
+            "emails"
+          ]
+        },
+        {
+          "id": "lesson-03",
+          "title": "Meetings",
+          "intro": "Learn about Meetings.",
+          "type": "learning",
+          "conceptIds": [
+            "meetings"
+          ]
+        },
+        {
+          "id": "lesson-04",
+          "title": "Asking Questions Professionally",
+          "intro": "Learn about Asking Questions Professionally.",
+          "type": "learning",
+          "conceptIds": [
+            "asking_questions_professionally"
+          ]
+        },
+        {
+          "id": "lesson-05",
+          "title": "Giving Updates",
+          "intro": "Learn about Giving Updates.",
+          "type": "learning",
+          "conceptIds": [
+            "giving_updates"
+          ]
+        },
+        {
+          "id": "lesson-06",
+          "title": "Explaining Projects",
+          "intro": "Learn about Explaining Projects.",
+          "type": "learning",
+          "conceptIds": [
+            "explaining_projects"
+          ]
+        },
+        {
+          "id": "lesson-07",
+          "title": "Presentations",
+          "intro": "Learn about Presentations.",
+          "type": "learning",
+          "conceptIds": [
+            "presentations"
+          ]
+        },
+        {
+          "id": "lesson-08",
+          "title": "Professional Conversations",
+          "intro": "Learn about Professional Conversations.",
+          "type": "learning",
+          "conceptIds": [
+            "professional_conversations"
+          ]
+        },
+        {
+          "id": "lesson-09",
+          "title": "Workplace Problem Solving",
+          "intro": "Learn about Workplace Problem Solving.",
+          "type": "learning",
+          "conceptIds": [
+            "workplace_problem_solving"
+          ]
+        },
+        {
+          "id": "lesson-10",
+          "title": "Professional Mastery",
+          "intro": "Learn about Professional Mastery.",
+          "type": "checkpoint",
+          "conceptIds": [
+            "professional_mastery"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-04",
+      "title": "Interview English",
+      "cefrLevel": "B2",
+      "estimatedHours": 2,
+      "unitObjectives": [
+        "Master Interview English"
+      ],
+      "concepts": [
+        "introduce_yourself",
+        "education",
+        "strengths",
+        "weaknesses",
+        "projects",
+        "experience",
+        "behavioral_questions",
+        "technical_explanation",
+        "asking_interviewer_questions",
+        "mock_interview"
+      ],
+      "lessons": [
+        {
+          "id": "lesson-01",
+          "title": "Introduce Yourself",
+          "intro": "Learn about Introduce Yourself.",
+          "type": "learning",
+          "conceptIds": [
+            "introduce_yourself"
+          ]
+        },
+        {
+          "id": "lesson-02",
+          "title": "Education",
+          "intro": "Learn about Education.",
+          "type": "learning",
+          "conceptIds": [
+            "education"
+          ]
+        },
+        {
+          "id": "lesson-03",
+          "title": "Strengths",
+          "intro": "Learn about Strengths.",
+          "type": "learning",
+          "conceptIds": [
+            "strengths"
+          ]
+        },
+        {
+          "id": "lesson-04",
+          "title": "Weaknesses",
+          "intro": "Learn about Weaknesses.",
+          "type": "learning",
+          "conceptIds": [
+            "weaknesses"
+          ]
+        },
+        {
+          "id": "lesson-05",
+          "title": "Projects",
+          "intro": "Learn about Projects.",
+          "type": "learning",
+          "conceptIds": [
+            "projects"
+          ]
+        },
+        {
+          "id": "lesson-06",
+          "title": "Experience",
+          "intro": "Learn about Experience.",
+          "type": "learning",
+          "conceptIds": [
+            "experience"
+          ]
+        },
+        {
+          "id": "lesson-07",
+          "title": "Behavioral Questions",
+          "intro": "Learn about Behavioral Questions.",
+          "type": "learning",
+          "conceptIds": [
+            "behavioral_questions"
+          ]
+        },
+        {
+          "id": "lesson-08",
+          "title": "Technical Explanation",
+          "intro": "Learn about Technical Explanation.",
+          "type": "learning",
+          "conceptIds": [
+            "technical_explanation"
+          ]
+        },
+        {
+          "id": "lesson-09",
+          "title": "Asking Interviewer Questions",
+          "intro": "Learn about Asking Interviewer Questions.",
+          "type": "learning",
+          "conceptIds": [
+            "asking_interviewer_questions"
+          ]
+        },
+        {
+          "id": "lesson-10",
+          "title": "Mock Interview",
+          "intro": "Learn about Mock Interview.",
+          "type": "learning",
+          "conceptIds": [
+            "mock_interview"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-05",
+      "title": "Presentations & Public Speaking",
+      "cefrLevel": "B2",
+      "estimatedHours": 2,
+      "unitObjectives": [
+        "Master Presentations & Public Speaking"
+      ],
+      "concepts": [
+        "opening_a_presentation",
+        "introducing_topic",
+        "explaining_data",
+        "transitions",
+        "emphasizing_points",
+        "answering_questions",
+        "handling_interruptions",
+        "concluding",
+        "presentation_practice",
+        "final_presentation"
+      ],
+      "lessons": [
+        {
+          "id": "lesson-01",
+          "title": "Opening a Presentation",
+          "intro": "Learn about Opening a Presentation.",
+          "type": "learning",
+          "conceptIds": [
+            "opening_a_presentation"
+          ]
+        },
+        {
+          "id": "lesson-02",
+          "title": "Introducing Topic",
+          "intro": "Learn about Introducing Topic.",
+          "type": "learning",
+          "conceptIds": [
+            "introducing_topic"
+          ]
+        },
+        {
+          "id": "lesson-03",
+          "title": "Explaining Data",
+          "intro": "Learn about Explaining Data.",
+          "type": "learning",
+          "conceptIds": [
+            "explaining_data"
+          ]
+        },
+        {
+          "id": "lesson-04",
+          "title": "Transitions",
+          "intro": "Learn about Transitions.",
+          "type": "learning",
+          "conceptIds": [
+            "transitions"
+          ]
+        },
+        {
+          "id": "lesson-05",
+          "title": "Emphasizing Points",
+          "intro": "Learn about Emphasizing Points.",
+          "type": "learning",
+          "conceptIds": [
+            "emphasizing_points"
+          ]
+        },
+        {
+          "id": "lesson-06",
+          "title": "Answering Questions",
+          "intro": "Learn about Answering Questions.",
+          "type": "learning",
+          "conceptIds": [
+            "answering_questions"
+          ]
+        },
+        {
+          "id": "lesson-07",
+          "title": "Handling Interruptions",
+          "intro": "Learn about Handling Interruptions.",
+          "type": "learning",
+          "conceptIds": [
+            "handling_interruptions"
+          ]
+        },
+        {
+          "id": "lesson-08",
+          "title": "Concluding",
+          "intro": "Learn about Concluding.",
+          "type": "learning",
+          "conceptIds": [
+            "concluding"
+          ]
+        },
+        {
+          "id": "lesson-09",
+          "title": "Presentation Practice",
+          "intro": "Learn about Presentation Practice.",
+          "type": "learning",
+          "conceptIds": [
+            "presentation_practice"
+          ]
+        },
+        {
+          "id": "lesson-10",
+          "title": "Final Presentation",
+          "intro": "Learn about Final Presentation.",
+          "type": "learning",
+          "conceptIds": [
+            "final_presentation"
+          ]
+        }
+      ]
+    }
+  ]
+}

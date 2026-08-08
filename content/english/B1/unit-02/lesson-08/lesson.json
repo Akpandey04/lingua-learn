@@ -1,0 +1,125 @@
+{
+  "id": "lesson-08",
+  "unitId": "unit-02",
+  "title": "Figure Out & Solve",
+  "version": 2,
+  "learningObjectives": [
+    "figure_out___solve"
+  ],
+  "modules": [
+    {
+      "id": "intro",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Figure Out & Solve",
+        "conceptId": "figure_out___solve",
+        "content": "In this lesson, we will focus on: Figure Out & Solve. Let's learn how to use this in everyday English conversations.",
+        "example": "Pay attention to the structure and vocabulary."
+      }
+    },
+    {
+      "id": "vocab",
+      "type": "vocabulary",
+      "config": {
+        "flow": "teach_all",
+        "words": [
+          {
+            "conceptId": "figure_out___solve",
+            "emoji": "📘",
+            "nativeWord": "Example 1 for Figure Out & Solve",
+            "englishMeaning": "Translated Example 1",
+            "pronunciation": "example one",
+            "exampleSentence": "This is the first example of Figure Out & Solve.",
+            "exampleTranslation": "This is the first translation.",
+            "difficultyRating": 1,
+            "contextualUsage": {
+              "whenToUse": [
+                "In daily situations"
+              ],
+              "doNotUse": [],
+              "insteadSay": ""
+            }
+          },
+          {
+            "conceptId": "figure_out___solve",
+            "emoji": "📗",
+            "nativeWord": "Example 2 for Figure Out & Solve",
+            "englishMeaning": "Translated Example 2",
+            "pronunciation": "example two",
+            "exampleSentence": "Here is another example using Figure Out & Solve.",
+            "exampleTranslation": "Here is another translation.",
+            "difficultyRating": 2,
+            "contextualUsage": {
+              "whenToUse": [
+                "When explaining details"
+              ],
+              "doNotUse": [],
+              "insteadSay": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "payload": {
+              "id": "q-1",
+              "type": "mcq",
+              "phaseTitle": "Check Your Understanding",
+              "question": "Which sentence correctly uses Figure Out & Solve?",
+              "answer": "Correct use of Figure Out & Solve.",
+              "options": [
+                "Correct use of Figure Out & Solve.",
+                "Incorrect use of Figure Out & Solve.",
+                "Another incorrect use."
+              ],
+              "conceptId": "figure_out___solve"
+            }
+          },
+          {
+            "type": "sentence_build",
+            "payload": {
+              "id": "q-2",
+              "type": "sentence_build",
+              "phaseTitle": "Build Sentences",
+              "question": "Arrange the words for: Figure Out & Solve",
+              "tokens": [
+                "This",
+                "is",
+                "a",
+                "good",
+                "example"
+              ],
+              "answer": "This is a good example",
+              "conceptId": "figure_out___solve"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "speaking-1",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "speaking",
+            "payload": {
+              "id": "s-1",
+              "type": "speaking",
+              "phaseTitle": "Real Life Speaking",
+              "question": "Say out loud: 'This is a good example.'",
+              "answer": "This is a good example",
+              "conceptId": "figure_out___solve"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -3,50 +3,824 @@
   "level": "A2",
   "units": [
     {
+      "id": "unit-01",
+      "title": "Present Tense",
+      "cefrLevel": "A2",
+      "estimatedHours": 2,
+      "unitObjectives": [
+        "Master Present Tense"
+      ],
+      "concepts": [
+        "present_simple",
+        "present_simple_negative",
+        "present_simple_questions",
+        "present_continuous",
+        "present_continuous_questions",
+        "present_simple_vs_present_continuous",
+        "present_perfect",
+        "present_perfect_vs_past_simple",
+        "present_tenses_in_daily_life",
+        "review___mastery"
+      ],
+      "lessons": [
+        {
+          "id": "lesson-01",
+          "title": "Present Simple",
+          "intro": "Learn about Present Simple.",
+          "type": "learning",
+          "conceptIds": [
+            "present_simple"
+          ]
+        },
+        {
+          "id": "lesson-02",
+          "title": "Present Simple Negative",
+          "intro": "Learn about Present Simple Negative.",
+          "type": "learning",
+          "conceptIds": [
+            "present_simple_negative"
+          ]
+        },
+        {
+          "id": "lesson-03",
+          "title": "Present Simple Questions",
+          "intro": "Learn about Present Simple Questions.",
+          "type": "learning",
+          "conceptIds": [
+            "present_simple_questions"
+          ]
+        },
+        {
+          "id": "lesson-04",
+          "title": "Present Continuous",
+          "intro": "Learn about Present Continuous.",
+          "type": "learning",
+          "conceptIds": [
+            "present_continuous"
+          ]
+        },
+        {
+          "id": "lesson-05",
+          "title": "Present Continuous Questions",
+          "intro": "Learn about Present Continuous Questions.",
+          "type": "learning",
+          "conceptIds": [
+            "present_continuous_questions"
+          ]
+        },
+        {
+          "id": "lesson-06",
+          "title": "Present Simple vs Present Continuous",
+          "intro": "Learn about Present Simple vs Present Continuous.",
+          "type": "learning",
+          "conceptIds": [
+            "present_simple_vs_present_continuous"
+          ]
+        },
+        {
+          "id": "lesson-07",
+          "title": "Present Perfect",
+          "intro": "Learn about Present Perfect.",
+          "type": "learning",
+          "conceptIds": [
+            "present_perfect"
+          ]
+        },
+        {
+          "id": "lesson-08",
+          "title": "Present Perfect vs Past Simple",
+          "intro": "Learn about Present Perfect vs Past Simple.",
+          "type": "learning",
+          "conceptIds": [
+            "present_perfect_vs_past_simple"
+          ]
+        },
+        {
+          "id": "lesson-09",
+          "title": "Present Tenses in Daily Life",
+          "intro": "Learn about Present Tenses in Daily Life.",
+          "type": "learning",
+          "conceptIds": [
+            "present_tenses_in_daily_life"
+          ]
+        },
+        {
+          "id": "lesson-10",
+          "title": "Review & Mastery",
+          "intro": "Learn about Review & Mastery.",
+          "type": "checkpoint",
+          "conceptIds": [
+            "review___mastery"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-02",
+      "title": "Past Tense",
+      "cefrLevel": "A2",
+      "estimatedHours": 2,
+      "unitObjectives": [
+        "Master Past Tense"
+      ],
+      "concepts": [
+        "past_simple",
+        "regular_past_verbs",
+        "irregular_past_verbs",
+        "past_negative",
+        "past_questions",
+        "past_continuous",
+        "past_simple_vs_past_continuous",
+        "past_perfect",
+        "tell_a_story",
+        "review___mastery"
+      ],
+      "lessons": [
+        {
+          "id": "lesson-01",
+          "title": "Past Simple",
+          "intro": "Learn about Past Simple.",
+          "type": "learning",
+          "conceptIds": [
+            "past_simple"
+          ]
+        },
+        {
+          "id": "lesson-02",
+          "title": "Regular Past Verbs",
+          "intro": "Learn about Regular Past Verbs.",
+          "type": "learning",
+          "conceptIds": [
+            "regular_past_verbs"
+          ]
+        },
+        {
+          "id": "lesson-03",
+          "title": "Irregular Past Verbs",
+          "intro": "Learn about Irregular Past Verbs.",
+          "type": "learning",
+          "conceptIds": [
+            "irregular_past_verbs"
+          ]
+        },
+        {
+          "id": "lesson-04",
+          "title": "Past Negative",
+          "intro": "Learn about Past Negative.",
+          "type": "learning",
+          "conceptIds": [
+            "past_negative"
+          ]
+        },
+        {
+          "id": "lesson-05",
+          "title": "Past Questions",
+          "intro": "Learn about Past Questions.",
+          "type": "learning",
+          "conceptIds": [
+            "past_questions"
+          ]
+        },
+        {
+          "id": "lesson-06",
+          "title": "Past Continuous",
+          "intro": "Learn about Past Continuous.",
+          "type": "learning",
+          "conceptIds": [
+            "past_continuous"
+          ]
+        },
+        {
+          "id": "lesson-07",
+          "title": "Past Simple vs Past Continuous",
+          "intro": "Learn about Past Simple vs Past Continuous.",
+          "type": "learning",
+          "conceptIds": [
+            "past_simple_vs_past_continuous"
+          ]
+        },
+        {
+          "id": "lesson-08",
+          "title": "Past Perfect",
+          "intro": "Learn about Past Perfect.",
+          "type": "learning",
+          "conceptIds": [
+            "past_perfect"
+          ]
+        },
+        {
+          "id": "lesson-09",
+          "title": "Tell a Story",
+          "intro": "Learn about Tell a Story.",
+          "type": "learning",
+          "conceptIds": [
+            "tell_a_story"
+          ]
+        },
+        {
+          "id": "lesson-10",
+          "title": "Review & Mastery",
+          "intro": "Learn about Review & Mastery.",
+          "type": "checkpoint",
+          "conceptIds": [
+            "review___mastery"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-03",
+      "title": "Future",
+      "cefrLevel": "A2",
+      "estimatedHours": 2,
+      "unitObjectives": [
+        "Master Future"
+      ],
+      "concepts": [
+        "will",
+        "going_to",
+        "will_vs_going_to",
+        "future_plans",
+        "predictions",
+        "offers_and_promises",
+        "future_in_conversation",
+        "review___mastery"
+      ],
+      "lessons": [
+        {
+          "id": "lesson-01",
+          "title": "Will",
+          "intro": "Learn about Will.",
+          "type": "learning",
+          "conceptIds": [
+            "will"
+          ]
+        },
+        {
+          "id": "lesson-02",
+          "title": "Going To",
+          "intro": "Learn about Going To.",
+          "type": "learning",
+          "conceptIds": [
+            "going_to"
+          ]
+        },
+        {
+          "id": "lesson-03",
+          "title": "Will vs Going To",
+          "intro": "Learn about Will vs Going To.",
+          "type": "learning",
+          "conceptIds": [
+            "will_vs_going_to"
+          ]
+        },
+        {
+          "id": "lesson-04",
+          "title": "Future Plans",
+          "intro": "Learn about Future Plans.",
+          "type": "learning",
+          "conceptIds": [
+            "future_plans"
+          ]
+        },
+        {
+          "id": "lesson-05",
+          "title": "Predictions",
+          "intro": "Learn about Predictions.",
+          "type": "learning",
+          "conceptIds": [
+            "predictions"
+          ]
+        },
+        {
+          "id": "lesson-06",
+          "title": "Offers and Promises",
+          "intro": "Learn about Offers and Promises.",
+          "type": "learning",
+          "conceptIds": [
+            "offers_and_promises"
+          ]
+        },
+        {
+          "id": "lesson-07",
+          "title": "Future in Conversation",
+          "intro": "Learn about Future in Conversation.",
+          "type": "learning",
+          "conceptIds": [
+            "future_in_conversation"
+          ]
+        },
+        {
+          "id": "lesson-08",
+          "title": "Review & Mastery",
+          "intro": "Learn about Review & Mastery.",
+          "type": "checkpoint",
+          "conceptIds": [
+            "review___mastery"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-04",
+      "title": "Questions & Communication",
+      "cefrLevel": "A2",
+      "estimatedHours": 2,
+      "unitObjectives": [
+        "Master Questions & Communication"
+      ],
+      "concepts": [
+        "yes_no_questions",
+        "what",
+        "where",
+        "when",
+        "why",
+        "who",
+        "how",
+        "follow_up_questions",
+        "natural_conversation",
+        "review___mastery"
+      ],
+      "lessons": [
+        {
+          "id": "lesson-01",
+          "title": "Yes/No Questions",
+          "intro": "Learn about Yes/No Questions.",
+          "type": "learning",
+          "conceptIds": [
+            "yes_no_questions"
+          ]
+        },
+        {
+          "id": "lesson-02",
+          "title": "What",
+          "intro": "Learn about What.",
+          "type": "learning",
+          "conceptIds": [
+            "what"
+          ]
+        },
+        {
+          "id": "lesson-03",
+          "title": "Where",
+          "intro": "Learn about Where.",
+          "type": "learning",
+          "conceptIds": [
+            "where"
+          ]
+        },
+        {
+          "id": "lesson-04",
+          "title": "When",
+          "intro": "Learn about When.",
+          "type": "learning",
+          "conceptIds": [
+            "when"
+          ]
+        },
+        {
+          "id": "lesson-05",
+          "title": "Why",
+          "intro": "Learn about Why.",
+          "type": "learning",
+          "conceptIds": [
+            "why"
+          ]
+        },
+        {
+          "id": "lesson-06",
+          "title": "Who",
+          "intro": "Learn about Who.",
+          "type": "learning",
+          "conceptIds": [
+            "who"
+          ]
+        },
+        {
+          "id": "lesson-07",
+          "title": "How",
+          "intro": "Learn about How.",
+          "type": "learning",
+          "conceptIds": [
+            "how"
+          ]
+        },
+        {
+          "id": "lesson-08",
+          "title": "Follow-up Questions",
+          "intro": "Learn about Follow-up Questions.",
+          "type": "learning",
+          "conceptIds": [
+            "follow_up_questions"
+          ]
+        },
+        {
+          "id": "lesson-09",
+          "title": "Natural Conversation",
+          "intro": "Learn about Natural Conversation.",
+          "type": "learning",
+          "conceptIds": [
+            "natural_conversation"
+          ]
+        },
+        {
+          "id": "lesson-10",
+          "title": "Review & Mastery",
+          "intro": "Learn about Review & Mastery.",
+          "type": "checkpoint",
+          "conceptIds": [
+            "review___mastery"
+          ]
+        }
+      ]
+    },
+    {
       "id": "unit-05",
       "title": "Modal Verbs",
       "cefrLevel": "A2",
-      "estimatedHours": 3,
+      "estimatedHours": 2,
       "unitObjectives": [
-        "Master English Modal Verbs in Real Conversations"
+        "Master Modal Verbs"
       ],
       "concepts": [
-        "modal_can_ability",
-        "modal_can_requests",
-        "modal_could",
-        "modal_may_might",
-        "modal_should",
-        "modal_must",
-        "modal_mustnt_dont_have_to",
-        "modal_have_to",
-        "modal_will",
-        "modal_would",
-        "modal_shall",
-        "modal_used_to",
-        "modal_be_able_to",
-        "modal_comparison_1",
-        "modal_comparison_2",
-        "modal_real_life",
-        "modal_review"
+        "can__ability___permission",
+        "can__requests",
+        "could__past_ability___polite_requests",
+        "may__permission___possibility",
+        "might__possibility",
+        "should__advice",
+        "should__recommendations___expectations",
+        "must__strong_obligation",
+        "mustn_t",
+        "have_to___need_to",
+        "will",
+        "would",
+        "shall",
+        "used_to",
+        "be_able_to",
+        "modal_comparison",
+        "modal_mastery_challenge"
       ],
       "lessons": [
-        { "id": "lesson-01", "title": "Can: Ability & Permission", "intro": "Learn to talk about abilities and ask for permission.", "type": "learning", "conceptIds": ["modal_can_ability"] },
-        { "id": "lesson-02", "title": "Can: Requests", "intro": "Learn how to ask someone to do something.", "type": "learning", "conceptIds": ["modal_can_requests"] },
-        { "id": "lesson-03", "title": "Could: Past Ability & Requests", "intro": "Learn polite requests and past abilities.", "type": "learning", "conceptIds": ["modal_could"] },
-        { "id": "lesson-04", "title": "May & Might: Possibility", "intro": "Express possibilities and formal permission.", "type": "learning", "conceptIds": ["modal_may_might"] },
-        { "id": "lesson-05", "title": "Should: Advice", "intro": "Give advice and recommendations.", "type": "learning", "conceptIds": ["modal_should"] },
-        { "id": "lesson-06", "title": "Must: Strong Obligation", "intro": "Express strong obligations and rules.", "type": "learning", "conceptIds": ["modal_must"] },
-        { "id": "lesson-07", "title": "Mustn't vs Don't Have To", "intro": "Understand the difference between prohibition and choice.", "type": "learning", "conceptIds": ["modal_mustnt_dont_have_to"] },
-        { "id": "lesson-08", "title": "Have To & Need To", "intro": "Express external obligations and necessities.", "type": "learning", "conceptIds": ["modal_have_to"] },
-        { "id": "lesson-09", "title": "Will: Decisions & Promises", "intro": "Make spontaneous decisions and promises.", "type": "learning", "conceptIds": ["modal_will"] },
-        { "id": "lesson-10", "title": "Would: Offers & Hypotheticals", "intro": "Make polite offers and talk about hypotheticals.", "type": "learning", "conceptIds": ["modal_would"] },
-        { "id": "lesson-11", "title": "Shall: Suggestions", "intro": "Make suggestions and offers.", "type": "learning", "conceptIds": ["modal_shall"] },
-        { "id": "lesson-12", "title": "Used To", "intro": "Talk about past habits and states.", "type": "learning", "conceptIds": ["modal_used_to"] },
-        { "id": "lesson-13", "title": "Be Able To", "intro": "Use 'be able to' as an alternative to 'can'.", "type": "learning", "conceptIds": ["modal_be_able_to"] },
-        { "id": "lesson-14", "title": "Modal Comparison", "intro": "Compare similar modals like can/could and may/might.", "type": "learning", "conceptIds": ["modal_comparison_1"] },
-        { "id": "lesson-15", "title": "Real-Life Modal Challenge", "intro": "Apply modals in real-world situations.", "type": "learning", "conceptIds": ["modal_real_life"] },
-        { "id": "lesson-16", "title": "Modal Review", "intro": "Review all modal verbs covered in this unit.", "type": "learning", "conceptIds": ["modal_review"] },
-        { "id": "lesson-17", "title": "Modal Mastery Challenge", "intro": "Test your skills on Modal Verbs!", "type": "checkpoint", "conceptIds": ["modal_review"] }
+        {
+          "id": "lesson-01",
+          "title": "CAN: Ability & Permission",
+          "intro": "Learn about CAN: Ability & Permission.",
+          "type": "learning",
+          "conceptIds": [
+            "can__ability___permission"
+          ]
+        },
+        {
+          "id": "lesson-02",
+          "title": "CAN: Requests",
+          "intro": "Learn about CAN: Requests.",
+          "type": "learning",
+          "conceptIds": [
+            "can__requests"
+          ]
+        },
+        {
+          "id": "lesson-03",
+          "title": "COULD: Past Ability & Polite Requests",
+          "intro": "Learn about COULD: Past Ability & Polite Requests.",
+          "type": "learning",
+          "conceptIds": [
+            "could__past_ability___polite_requests"
+          ]
+        },
+        {
+          "id": "lesson-04",
+          "title": "MAY: Permission & Possibility",
+          "intro": "Learn about MAY: Permission & Possibility.",
+          "type": "learning",
+          "conceptIds": [
+            "may__permission___possibility"
+          ]
+        },
+        {
+          "id": "lesson-05",
+          "title": "MIGHT: Possibility",
+          "intro": "Learn about MIGHT: Possibility.",
+          "type": "learning",
+          "conceptIds": [
+            "might__possibility"
+          ]
+        },
+        {
+          "id": "lesson-06",
+          "title": "SHOULD: Advice",
+          "intro": "Learn about SHOULD: Advice.",
+          "type": "learning",
+          "conceptIds": [
+            "should__advice"
+          ]
+        },
+        {
+          "id": "lesson-07",
+          "title": "SHOULD: Recommendations & Expectations",
+          "intro": "Learn about SHOULD: Recommendations & Expectations.",
+          "type": "learning",
+          "conceptIds": [
+            "should__recommendations___expectations"
+          ]
+        },
+        {
+          "id": "lesson-08",
+          "title": "MUST: Strong Obligation",
+          "intro": "Learn about MUST: Strong Obligation.",
+          "type": "learning",
+          "conceptIds": [
+            "must__strong_obligation"
+          ]
+        },
+        {
+          "id": "lesson-09",
+          "title": "MUSTN'T",
+          "intro": "Learn about MUSTN'T.",
+          "type": "learning",
+          "conceptIds": [
+            "mustn_t"
+          ]
+        },
+        {
+          "id": "lesson-10",
+          "title": "HAVE TO & NEED TO",
+          "intro": "Learn about HAVE TO & NEED TO.",
+          "type": "learning",
+          "conceptIds": [
+            "have_to___need_to"
+          ]
+        },
+        {
+          "id": "lesson-11",
+          "title": "WILL",
+          "intro": "Learn about WILL.",
+          "type": "learning",
+          "conceptIds": [
+            "will"
+          ]
+        },
+        {
+          "id": "lesson-12",
+          "title": "WOULD",
+          "intro": "Learn about WOULD.",
+          "type": "learning",
+          "conceptIds": [
+            "would"
+          ]
+        },
+        {
+          "id": "lesson-13",
+          "title": "SHALL",
+          "intro": "Learn about SHALL.",
+          "type": "learning",
+          "conceptIds": [
+            "shall"
+          ]
+        },
+        {
+          "id": "lesson-14",
+          "title": "USED TO",
+          "intro": "Learn about USED TO.",
+          "type": "learning",
+          "conceptIds": [
+            "used_to"
+          ]
+        },
+        {
+          "id": "lesson-15",
+          "title": "BE ABLE TO",
+          "intro": "Learn about BE ABLE TO.",
+          "type": "learning",
+          "conceptIds": [
+            "be_able_to"
+          ]
+        },
+        {
+          "id": "lesson-16",
+          "title": "MODAL COMPARISON",
+          "intro": "Learn about MODAL COMPARISON.",
+          "type": "learning",
+          "conceptIds": [
+            "modal_comparison"
+          ]
+        },
+        {
+          "id": "lesson-17",
+          "title": "MODAL MASTERy CHALLENGE",
+          "intro": "Learn about MODAL MASTERy CHALLENGE.",
+          "type": "learning",
+          "conceptIds": [
+            "modal_mastery_challenge"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-06",
+      "title": "Comparatives & Superlatives",
+      "cefrLevel": "A2",
+      "estimatedHours": 2,
+      "unitObjectives": [
+        "Master Comparatives & Superlatives"
+      ],
+      "concepts": [
+        "bigger___smaller",
+        "more___less",
+        "better___worse",
+        "superlatives",
+        "comparing_people",
+        "comparing_places___things",
+        "real_life_comparison",
+        "review___mastery"
+      ],
+      "lessons": [
+        {
+          "id": "lesson-01",
+          "title": "Bigger / Smaller",
+          "intro": "Learn about Bigger / Smaller.",
+          "type": "learning",
+          "conceptIds": [
+            "bigger___smaller"
+          ]
+        },
+        {
+          "id": "lesson-02",
+          "title": "More / Less",
+          "intro": "Learn about More / Less.",
+          "type": "learning",
+          "conceptIds": [
+            "more___less"
+          ]
+        },
+        {
+          "id": "lesson-03",
+          "title": "Better / Worse",
+          "intro": "Learn about Better / Worse.",
+          "type": "learning",
+          "conceptIds": [
+            "better___worse"
+          ]
+        },
+        {
+          "id": "lesson-04",
+          "title": "Superlatives",
+          "intro": "Learn about Superlatives.",
+          "type": "learning",
+          "conceptIds": [
+            "superlatives"
+          ]
+        },
+        {
+          "id": "lesson-05",
+          "title": "Comparing People",
+          "intro": "Learn about Comparing People.",
+          "type": "learning",
+          "conceptIds": [
+            "comparing_people"
+          ]
+        },
+        {
+          "id": "lesson-06",
+          "title": "Comparing Places & Things",
+          "intro": "Learn about Comparing Places & Things.",
+          "type": "learning",
+          "conceptIds": [
+            "comparing_places___things"
+          ]
+        },
+        {
+          "id": "lesson-07",
+          "title": "Real-Life Comparison",
+          "intro": "Learn about Real-Life Comparison.",
+          "type": "learning",
+          "conceptIds": [
+            "real_life_comparison"
+          ]
+        },
+        {
+          "id": "lesson-08",
+          "title": "Review & Mastery",
+          "intro": "Learn about Review & Mastery.",
+          "type": "checkpoint",
+          "conceptIds": [
+            "review___mastery"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-07",
+      "title": "Practical English",
+      "cefrLevel": "A2",
+      "estimatedHours": 2,
+      "unitObjectives": [
+        "Master Practical English"
+      ],
+      "concepts": [
+        "shopping",
+        "restaurants",
+        "asking_for_directions",
+        "travel",
+        "phone_conversations",
+        "making_plans",
+        "invitations",
+        "asking_for_help",
+        "handling_problems",
+        "review___mastery"
+      ],
+      "lessons": [
+        {
+          "id": "lesson-01",
+          "title": "Shopping",
+          "intro": "Learn about Shopping.",
+          "type": "learning",
+          "conceptIds": [
+            "shopping"
+          ]
+        },
+        {
+          "id": "lesson-02",
+          "title": "Restaurants",
+          "intro": "Learn about Restaurants.",
+          "type": "learning",
+          "conceptIds": [
+            "restaurants"
+          ]
+        },
+        {
+          "id": "lesson-03",
+          "title": "Asking for Directions",
+          "intro": "Learn about Asking for Directions.",
+          "type": "learning",
+          "conceptIds": [
+            "asking_for_directions"
+          ]
+        },
+        {
+          "id": "lesson-04",
+          "title": "Travel",
+          "intro": "Learn about Travel.",
+          "type": "learning",
+          "conceptIds": [
+            "travel"
+          ]
+        },
+        {
+          "id": "lesson-05",
+          "title": "Phone Conversations",
+          "intro": "Learn about Phone Conversations.",
+          "type": "learning",
+          "conceptIds": [
+            "phone_conversations"
+          ]
+        },
+        {
+          "id": "lesson-06",
+          "title": "Making Plans",
+          "intro": "Learn about Making Plans.",
+          "type": "learning",
+          "conceptIds": [
+            "making_plans"
+          ]
+        },
+        {
+          "id": "lesson-07",
+          "title": "Invitations",
+          "intro": "Learn about Invitations.",
+          "type": "learning",
+          "conceptIds": [
+            "invitations"
+          ]
+        },
+        {
+          "id": "lesson-08",
+          "title": "Asking for Help",
+          "intro": "Learn about Asking for Help.",
+          "type": "learning",
+          "conceptIds": [
+            "asking_for_help"
+          ]
+        },
+        {
+          "id": "lesson-09",
+          "title": "Handling Problems",
+          "intro": "Learn about Handling Problems.",
+          "type": "learning",
+          "conceptIds": [
+            "handling_problems"
+          ]
+        },
+        {
+          "id": "lesson-10",
+          "title": "Review & Mastery",
+          "intro": "Learn about Review & Mastery.",
+          "type": "checkpoint",
+          "conceptIds": [
+            "review___mastery"
+          ]
+        }
       ]
     }
   ]

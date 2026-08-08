@@ -1,0 +1,125 @@
+{
+  "id": "lesson-04",
+  "unitId": "unit-05",
+  "title": "MAY: Permission & Possibility",
+  "version": 2,
+  "learningObjectives": [
+    "may__permission___possibility"
+  ],
+  "modules": [
+    {
+      "id": "intro",
+      "type": "knowledge_card",
+      "config": {
+        "title": "MAY: Permission & Possibility",
+        "conceptId": "may__permission___possibility",
+        "content": "In this lesson, we will focus on: MAY: Permission & Possibility. Let's learn how to use this in everyday English conversations.",
+        "example": "Pay attention to the structure and vocabulary."
+      }
+    },
+    {
+      "id": "vocab",
+      "type": "vocabulary",
+      "config": {
+        "flow": "teach_all",
+        "words": [
+          {
+            "conceptId": "may__permission___possibility",
+            "emoji": "📘",
+            "nativeWord": "Example 1 for MAY: Permission & Possibility",
+            "englishMeaning": "Translated Example 1",
+            "pronunciation": "example one",
+            "exampleSentence": "This is the first example of MAY: Permission & Possibility.",
+            "exampleTranslation": "This is the first translation.",
+            "difficultyRating": 1,
+            "contextualUsage": {
+              "whenToUse": [
+                "In daily situations"
+              ],
+              "doNotUse": [],
+              "insteadSay": ""
+            }
+          },
+          {
+            "conceptId": "may__permission___possibility",
+            "emoji": "📗",
+            "nativeWord": "Example 2 for MAY: Permission & Possibility",
+            "englishMeaning": "Translated Example 2",
+            "pronunciation": "example two",
+            "exampleSentence": "Here is another example using MAY: Permission & Possibility.",
+            "exampleTranslation": "Here is another translation.",
+            "difficultyRating": 2,
+            "contextualUsage": {
+              "whenToUse": [
+                "When explaining details"
+              ],
+              "doNotUse": [],
+              "insteadSay": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "payload": {
+              "id": "q-1",
+              "type": "mcq",
+              "phaseTitle": "Check Your Understanding",
+              "question": "Which sentence correctly uses MAY: Permission & Possibility?",
+              "answer": "Correct use of MAY: Permission & Possibility.",
+              "options": [
+                "Correct use of MAY: Permission & Possibility.",
+                "Incorrect use of MAY: Permission & Possibility.",
+                "Another incorrect use."
+              ],
+              "conceptId": "may__permission___possibility"
+            }
+          },
+          {
+            "type": "sentence_build",
+            "payload": {
+              "id": "q-2",
+              "type": "sentence_build",
+              "phaseTitle": "Build Sentences",
+              "question": "Arrange the words for: MAY: Permission & Possibility",
+              "tokens": [
+                "This",
+                "is",
+                "a",
+                "good",
+                "example"
+              ],
+              "answer": "This is a good example",
+              "conceptId": "may__permission___possibility"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "speaking-1",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "speaking",
+            "payload": {
+              "id": "s-1",
+              "type": "speaking",
+              "phaseTitle": "Real Life Speaking",
+              "question": "Say out loud: 'This is a good example.'",
+              "answer": "This is a good example",
+              "conceptId": "may__permission___possibility"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

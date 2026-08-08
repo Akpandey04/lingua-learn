@@ -8,87 +8,1067 @@
       "cefrLevel": "A1",
       "estimatedHours": 2,
       "unitObjectives": [
-        "Master Basic English Sentence Structure"
+        "Master Sentence Building"
       ],
       "concepts": [
-        "english_svo",
-        "english_pronouns_1",
-        "english_pronouns_2",
-        "english_positives",
-        "english_negatives",
-        "english_questions",
-        "english_expansion"
+        "build_your_first_english_sentences",
+        "i__you__we__they",
+        "he__she__it",
+        "positive_sentences",
+        "negative_sentences",
+        "ask_simple_questions",
+        "sentence_expansion",
+        "everyday_sentence_patterns",
+        "daily_conversation_challenge",
+        "unit_1_review___mastery_challenge"
       ],
       "lessons": [
         {
           "id": "lesson-01",
           "title": "Build Your First English Sentences",
-          "intro": "Learn the golden rule: Subject + Verb + Object.",
+          "intro": "Learn about Build Your First English Sentences.",
           "type": "learning",
-          "conceptIds": ["english_svo"]
+          "conceptIds": [
+            "build_your_first_english_sentences"
+          ]
         },
         {
           "id": "lesson-02",
           "title": "I, You, We, They",
-          "intro": "Learn how to use basic pronouns to talk about people.",
+          "intro": "Learn about I, You, We, They.",
           "type": "learning",
-          "conceptIds": ["english_pronouns_1"]
+          "conceptIds": [
+            "i__you__we__they"
+          ]
         },
         {
           "id": "lesson-03",
           "title": "He, She, It",
-          "intro": "Learn the special 's' rule for third-person verbs.",
+          "intro": "Learn about He, She, It.",
           "type": "learning",
-          "conceptIds": ["english_pronouns_2"]
+          "conceptIds": [
+            "he__she__it"
+          ]
         },
         {
           "id": "lesson-04",
           "title": "Positive Sentences",
-          "intro": "Practice making positive statements.",
+          "intro": "Learn about Positive Sentences.",
           "type": "learning",
-          "conceptIds": ["english_positives"]
+          "conceptIds": [
+            "positive_sentences"
+          ]
         },
         {
           "id": "lesson-05",
           "title": "Negative Sentences",
-          "intro": "Learn to say 'no' using 'do not' and 'does not'.",
+          "intro": "Learn about Negative Sentences.",
           "type": "learning",
-          "conceptIds": ["english_negatives"]
+          "conceptIds": [
+            "negative_sentences"
+          ]
         },
         {
           "id": "lesson-06",
-          "title": "Ask Questions",
-          "intro": "Learn to ask questions using 'do' and 'does'.",
+          "title": "Ask Simple Questions",
+          "intro": "Learn about Ask Simple Questions.",
           "type": "learning",
-          "conceptIds": ["english_questions"]
+          "conceptIds": [
+            "ask_simple_questions"
+          ]
         },
         {
           "id": "lesson-07",
-          "title": "Build Longer Sentences",
-          "intro": "Add when, where, and why to your sentences.",
+          "title": "Sentence Expansion",
+          "intro": "Learn about Sentence Expansion.",
           "type": "learning",
-          "conceptIds": ["english_expansion"]
+          "conceptIds": [
+            "sentence_expansion"
+          ]
         },
         {
           "id": "lesson-08",
-          "title": "Daily Life Sentence Challenge",
-          "intro": "Apply what you've learned to daily situations.",
+          "title": "Everyday Sentence Patterns",
+          "intro": "Learn about Everyday Sentence Patterns.",
           "type": "learning",
-          "conceptIds": ["english_svo", "english_expansion"]
+          "conceptIds": [
+            "everyday_sentence_patterns"
+          ]
         },
         {
           "id": "lesson-09",
-          "title": "Unit Review",
-          "intro": "Review everything you've learned in Unit 1.",
+          "title": "Daily Conversation Challenge",
+          "intro": "Learn about Daily Conversation Challenge.",
           "type": "learning",
-          "conceptIds": ["english_svo", "english_negatives", "english_questions"]
+          "conceptIds": [
+            "daily_conversation_challenge"
+          ]
         },
         {
           "id": "lesson-10",
-          "title": "Unit Mastery Challenge",
-          "intro": "Test your skills on Sentence Building!",
+          "title": "Unit 1 Review & Mastery Challenge",
+          "intro": "Learn about Unit 1 Review & Mastery Challenge.",
           "type": "checkpoint",
-          "conceptIds": ["english_svo", "english_expansion"]
+          "conceptIds": [
+            "unit_1_review___mastery_challenge"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-02",
+      "title": "Nouns & People",
+      "cefrLevel": "A1",
+      "estimatedHours": 2,
+      "unitObjectives": [
+        "Master Nouns & People"
+      ],
+      "concepts": [
+        "what_nouns_do_in_real_sentences",
+        "people_and_places",
+        "things_around_you",
+        "singular_and_plural",
+        "regular_and_irregular_plurals",
+        "proper_and_common_nouns",
+        "countable_and_uncountable_nouns",
+        "possessive_nouns",
+        "describe_your_world",
+        "unit_review___mastery"
+      ],
+      "lessons": [
+        {
+          "id": "lesson-01",
+          "title": "What Nouns Do in Real Sentences",
+          "intro": "Learn about What Nouns Do in Real Sentences.",
+          "type": "learning",
+          "conceptIds": [
+            "what_nouns_do_in_real_sentences"
+          ]
+        },
+        {
+          "id": "lesson-02",
+          "title": "People and Places",
+          "intro": "Learn about People and Places.",
+          "type": "learning",
+          "conceptIds": [
+            "people_and_places"
+          ]
+        },
+        {
+          "id": "lesson-03",
+          "title": "Things Around You",
+          "intro": "Learn about Things Around You.",
+          "type": "learning",
+          "conceptIds": [
+            "things_around_you"
+          ]
+        },
+        {
+          "id": "lesson-04",
+          "title": "Singular and Plural",
+          "intro": "Learn about Singular and Plural.",
+          "type": "learning",
+          "conceptIds": [
+            "singular_and_plural"
+          ]
+        },
+        {
+          "id": "lesson-05",
+          "title": "Regular and Irregular Plurals",
+          "intro": "Learn about Regular and Irregular Plurals.",
+          "type": "learning",
+          "conceptIds": [
+            "regular_and_irregular_plurals"
+          ]
+        },
+        {
+          "id": "lesson-06",
+          "title": "Proper and Common Nouns",
+          "intro": "Learn about Proper and Common Nouns.",
+          "type": "learning",
+          "conceptIds": [
+            "proper_and_common_nouns"
+          ]
+        },
+        {
+          "id": "lesson-07",
+          "title": "Countable and Uncountable Nouns",
+          "intro": "Learn about Countable and Uncountable Nouns.",
+          "type": "learning",
+          "conceptIds": [
+            "countable_and_uncountable_nouns"
+          ]
+        },
+        {
+          "id": "lesson-08",
+          "title": "Possessive Nouns",
+          "intro": "Learn about Possessive Nouns.",
+          "type": "learning",
+          "conceptIds": [
+            "possessive_nouns"
+          ]
+        },
+        {
+          "id": "lesson-09",
+          "title": "Describe Your World",
+          "intro": "Learn about Describe Your World.",
+          "type": "learning",
+          "conceptIds": [
+            "describe_your_world"
+          ]
+        },
+        {
+          "id": "lesson-10",
+          "title": "Unit Review & Mastery",
+          "intro": "Learn about Unit Review & Mastery.",
+          "type": "checkpoint",
+          "conceptIds": [
+            "unit_review___mastery"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-03",
+      "title": "Pronouns",
+      "cefrLevel": "A1",
+      "estimatedHours": 2,
+      "unitObjectives": [
+        "Master Pronouns"
+      ],
+      "concepts": [
+        "i___you___he___she___it",
+        "we___they",
+        "me___him___her___us___them",
+        "my___your___his___her",
+        "our___their",
+        "mine___yours___his___hers",
+        "this___that___these___those",
+        "myself___yourself___himself___herself",
+        "pronouns_in_conversation",
+        "unit_review___mastery"
+      ],
+      "lessons": [
+        {
+          "id": "lesson-01",
+          "title": "I / You / He / She / It",
+          "intro": "Learn about I / You / He / She / It.",
+          "type": "learning",
+          "conceptIds": [
+            "i___you___he___she___it"
+          ]
+        },
+        {
+          "id": "lesson-02",
+          "title": "We / They",
+          "intro": "Learn about We / They.",
+          "type": "learning",
+          "conceptIds": [
+            "we___they"
+          ]
+        },
+        {
+          "id": "lesson-03",
+          "title": "Me / Him / Her / Us / Them",
+          "intro": "Learn about Me / Him / Her / Us / Them.",
+          "type": "learning",
+          "conceptIds": [
+            "me___him___her___us___them"
+          ]
+        },
+        {
+          "id": "lesson-04",
+          "title": "My / Your / His / Her",
+          "intro": "Learn about My / Your / His / Her.",
+          "type": "learning",
+          "conceptIds": [
+            "my___your___his___her"
+          ]
+        },
+        {
+          "id": "lesson-05",
+          "title": "Our / Their",
+          "intro": "Learn about Our / Their.",
+          "type": "learning",
+          "conceptIds": [
+            "our___their"
+          ]
+        },
+        {
+          "id": "lesson-06",
+          "title": "Mine / Yours / His / Hers",
+          "intro": "Learn about Mine / Yours / His / Hers.",
+          "type": "learning",
+          "conceptIds": [
+            "mine___yours___his___hers"
+          ]
+        },
+        {
+          "id": "lesson-07",
+          "title": "This / That / These / Those",
+          "intro": "Learn about This / That / These / Those.",
+          "type": "learning",
+          "conceptIds": [
+            "this___that___these___those"
+          ]
+        },
+        {
+          "id": "lesson-08",
+          "title": "Myself / Yourself / Himself / Herself",
+          "intro": "Learn about Myself / Yourself / Himself / Herself.",
+          "type": "learning",
+          "conceptIds": [
+            "myself___yourself___himself___herself"
+          ]
+        },
+        {
+          "id": "lesson-09",
+          "title": "Pronouns in Conversation",
+          "intro": "Learn about Pronouns in Conversation.",
+          "type": "learning",
+          "conceptIds": [
+            "pronouns_in_conversation"
+          ]
+        },
+        {
+          "id": "lesson-10",
+          "title": "Unit Review & Mastery",
+          "intro": "Learn about Unit Review & Mastery.",
+          "type": "checkpoint",
+          "conceptIds": [
+            "unit_review___mastery"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-04",
+      "title": "Verbs & Everyday Actions",
+      "cefrLevel": "A1",
+      "estimatedHours": 2,
+      "unitObjectives": [
+        "Master Verbs & Everyday Actions"
+      ],
+      "concepts": [
+        "everyday_action_verbs",
+        "main_verbs",
+        "helping_verbs",
+        "verb_forms",
+        "regular_verbs",
+        "common_irregular_verbs",
+        "verb___object",
+        "common_verb_mistakes",
+        "describe_your_day_using_verbs",
+        "unit_review___mastery"
+      ],
+      "lessons": [
+        {
+          "id": "lesson-01",
+          "title": "Everyday Action Verbs",
+          "intro": "Learn about Everyday Action Verbs.",
+          "type": "learning",
+          "conceptIds": [
+            "everyday_action_verbs"
+          ]
+        },
+        {
+          "id": "lesson-02",
+          "title": "Main Verbs",
+          "intro": "Learn about Main Verbs.",
+          "type": "learning",
+          "conceptIds": [
+            "main_verbs"
+          ]
+        },
+        {
+          "id": "lesson-03",
+          "title": "Helping Verbs",
+          "intro": "Learn about Helping Verbs.",
+          "type": "learning",
+          "conceptIds": [
+            "helping_verbs"
+          ]
+        },
+        {
+          "id": "lesson-04",
+          "title": "Verb Forms",
+          "intro": "Learn about Verb Forms.",
+          "type": "learning",
+          "conceptIds": [
+            "verb_forms"
+          ]
+        },
+        {
+          "id": "lesson-05",
+          "title": "Regular Verbs",
+          "intro": "Learn about Regular Verbs.",
+          "type": "learning",
+          "conceptIds": [
+            "regular_verbs"
+          ]
+        },
+        {
+          "id": "lesson-06",
+          "title": "Common Irregular Verbs",
+          "intro": "Learn about Common Irregular Verbs.",
+          "type": "learning",
+          "conceptIds": [
+            "common_irregular_verbs"
+          ]
+        },
+        {
+          "id": "lesson-07",
+          "title": "Verb + Object",
+          "intro": "Learn about Verb + Object.",
+          "type": "learning",
+          "conceptIds": [
+            "verb___object"
+          ]
+        },
+        {
+          "id": "lesson-08",
+          "title": "Common Verb Mistakes",
+          "intro": "Learn about Common Verb Mistakes.",
+          "type": "learning",
+          "conceptIds": [
+            "common_verb_mistakes"
+          ]
+        },
+        {
+          "id": "lesson-09",
+          "title": "Describe Your Day Using Verbs",
+          "intro": "Learn about Describe Your Day Using Verbs.",
+          "type": "learning",
+          "conceptIds": [
+            "describe_your_day_using_verbs"
+          ]
+        },
+        {
+          "id": "lesson-10",
+          "title": "Unit Review & Mastery",
+          "intro": "Learn about Unit Review & Mastery.",
+          "type": "checkpoint",
+          "conceptIds": [
+            "unit_review___mastery"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-05",
+      "title": "Adjectives",
+      "cefrLevel": "A1",
+      "estimatedHours": 2,
+      "unitObjectives": [
+        "Master Adjectives"
+      ],
+      "concepts": [
+        "describe_people",
+        "describe_objects",
+        "size_and_shape",
+        "colors",
+        "age",
+        "feelings_and_opinions",
+        "adjective_order",
+        "comparing_things",
+        "describe_your_world",
+        "unit_review___mastery"
+      ],
+      "lessons": [
+        {
+          "id": "lesson-01",
+          "title": "Describe People",
+          "intro": "Learn about Describe People.",
+          "type": "learning",
+          "conceptIds": [
+            "describe_people"
+          ]
+        },
+        {
+          "id": "lesson-02",
+          "title": "Describe Objects",
+          "intro": "Learn about Describe Objects.",
+          "type": "learning",
+          "conceptIds": [
+            "describe_objects"
+          ]
+        },
+        {
+          "id": "lesson-03",
+          "title": "Size and Shape",
+          "intro": "Learn about Size and Shape.",
+          "type": "learning",
+          "conceptIds": [
+            "size_and_shape"
+          ]
+        },
+        {
+          "id": "lesson-04",
+          "title": "Colors",
+          "intro": "Learn about Colors.",
+          "type": "learning",
+          "conceptIds": [
+            "colors"
+          ]
+        },
+        {
+          "id": "lesson-05",
+          "title": "Age",
+          "intro": "Learn about Age.",
+          "type": "learning",
+          "conceptIds": [
+            "age"
+          ]
+        },
+        {
+          "id": "lesson-06",
+          "title": "Feelings and Opinions",
+          "intro": "Learn about Feelings and Opinions.",
+          "type": "learning",
+          "conceptIds": [
+            "feelings_and_opinions"
+          ]
+        },
+        {
+          "id": "lesson-07",
+          "title": "Adjective Order",
+          "intro": "Learn about Adjective Order.",
+          "type": "learning",
+          "conceptIds": [
+            "adjective_order"
+          ]
+        },
+        {
+          "id": "lesson-08",
+          "title": "Comparing Things",
+          "intro": "Learn about Comparing Things.",
+          "type": "learning",
+          "conceptIds": [
+            "comparing_things"
+          ]
+        },
+        {
+          "id": "lesson-09",
+          "title": "Describe Your World",
+          "intro": "Learn about Describe Your World.",
+          "type": "learning",
+          "conceptIds": [
+            "describe_your_world"
+          ]
+        },
+        {
+          "id": "lesson-10",
+          "title": "Unit Review & Mastery",
+          "intro": "Learn about Unit Review & Mastery.",
+          "type": "checkpoint",
+          "conceptIds": [
+            "unit_review___mastery"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-06",
+      "title": "Adverbs",
+      "cefrLevel": "A1",
+      "estimatedHours": 2,
+      "unitObjectives": [
+        "Master Adverbs"
+      ],
+      "concepts": [
+        "what_are_adverbs_used_for_",
+        "how____adverbs_of_manner",
+        "when____adverbs_of_time",
+        "how_often____frequency",
+        "where____place",
+        "how_much____degree",
+        "adverbs_in_conversation",
+        "review___mastery"
+      ],
+      "lessons": [
+        {
+          "id": "lesson-01",
+          "title": "What Are Adverbs Used For?",
+          "intro": "Learn about What Are Adverbs Used For?.",
+          "type": "learning",
+          "conceptIds": [
+            "what_are_adverbs_used_for_"
+          ]
+        },
+        {
+          "id": "lesson-02",
+          "title": "How? — Adverbs of Manner",
+          "intro": "Learn about How? — Adverbs of Manner.",
+          "type": "learning",
+          "conceptIds": [
+            "how____adverbs_of_manner"
+          ]
+        },
+        {
+          "id": "lesson-03",
+          "title": "When? — Adverbs of Time",
+          "intro": "Learn about When? — Adverbs of Time.",
+          "type": "learning",
+          "conceptIds": [
+            "when____adverbs_of_time"
+          ]
+        },
+        {
+          "id": "lesson-04",
+          "title": "How Often? — Frequency",
+          "intro": "Learn about How Often? — Frequency.",
+          "type": "learning",
+          "conceptIds": [
+            "how_often____frequency"
+          ]
+        },
+        {
+          "id": "lesson-05",
+          "title": "Where? — Place",
+          "intro": "Learn about Where? — Place.",
+          "type": "learning",
+          "conceptIds": [
+            "where____place"
+          ]
+        },
+        {
+          "id": "lesson-06",
+          "title": "How Much? — Degree",
+          "intro": "Learn about How Much? — Degree.",
+          "type": "learning",
+          "conceptIds": [
+            "how_much____degree"
+          ]
+        },
+        {
+          "id": "lesson-07",
+          "title": "Adverbs in Conversation",
+          "intro": "Learn about Adverbs in Conversation.",
+          "type": "learning",
+          "conceptIds": [
+            "adverbs_in_conversation"
+          ]
+        },
+        {
+          "id": "lesson-08",
+          "title": "Review & Mastery",
+          "intro": "Learn about Review & Mastery.",
+          "type": "checkpoint",
+          "conceptIds": [
+            "review___mastery"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-07",
+      "title": "Articles",
+      "cefrLevel": "A1",
+      "estimatedHours": 2,
+      "unitObjectives": [
+        "Master Articles"
+      ],
+      "concepts": [
+        "a",
+        "an",
+        "a_vs_an",
+        "the",
+        "first_mention_vs_known_thing",
+        "common_article_mistakes",
+        "real_life_article_practice",
+        "review___mastery"
+      ],
+      "lessons": [
+        {
+          "id": "lesson-01",
+          "title": "A",
+          "intro": "Learn about A.",
+          "type": "learning",
+          "conceptIds": [
+            "a"
+          ]
+        },
+        {
+          "id": "lesson-02",
+          "title": "An",
+          "intro": "Learn about An.",
+          "type": "learning",
+          "conceptIds": [
+            "an"
+          ]
+        },
+        {
+          "id": "lesson-03",
+          "title": "A vs An",
+          "intro": "Learn about A vs An.",
+          "type": "learning",
+          "conceptIds": [
+            "a_vs_an"
+          ]
+        },
+        {
+          "id": "lesson-04",
+          "title": "The",
+          "intro": "Learn about The.",
+          "type": "learning",
+          "conceptIds": [
+            "the"
+          ]
+        },
+        {
+          "id": "lesson-05",
+          "title": "First Mention vs Known Thing",
+          "intro": "Learn about First Mention vs Known Thing.",
+          "type": "learning",
+          "conceptIds": [
+            "first_mention_vs_known_thing"
+          ]
+        },
+        {
+          "id": "lesson-06",
+          "title": "Common Article Mistakes",
+          "intro": "Learn about Common Article Mistakes.",
+          "type": "learning",
+          "conceptIds": [
+            "common_article_mistakes"
+          ]
+        },
+        {
+          "id": "lesson-07",
+          "title": "Real-Life Article Practice",
+          "intro": "Learn about Real-Life Article Practice.",
+          "type": "learning",
+          "conceptIds": [
+            "real_life_article_practice"
+          ]
+        },
+        {
+          "id": "lesson-08",
+          "title": "Review & Mastery",
+          "intro": "Learn about Review & Mastery.",
+          "type": "checkpoint",
+          "conceptIds": [
+            "review___mastery"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-08",
+      "title": "Prepositions",
+      "cefrLevel": "A1",
+      "estimatedHours": 2,
+      "unitObjectives": [
+        "Master Prepositions"
+      ],
+      "concepts": [
+        "in",
+        "on",
+        "at",
+        "to___from",
+        "for___with",
+        "under___over___behind___in_front_of",
+        "between___among",
+        "time_prepositions",
+        "place___movement",
+        "review___mastery"
+      ],
+      "lessons": [
+        {
+          "id": "lesson-01",
+          "title": "In",
+          "intro": "Learn about In.",
+          "type": "learning",
+          "conceptIds": [
+            "in"
+          ]
+        },
+        {
+          "id": "lesson-02",
+          "title": "On",
+          "intro": "Learn about On.",
+          "type": "learning",
+          "conceptIds": [
+            "on"
+          ]
+        },
+        {
+          "id": "lesson-03",
+          "title": "At",
+          "intro": "Learn about At.",
+          "type": "learning",
+          "conceptIds": [
+            "at"
+          ]
+        },
+        {
+          "id": "lesson-04",
+          "title": "To / From",
+          "intro": "Learn about To / From.",
+          "type": "learning",
+          "conceptIds": [
+            "to___from"
+          ]
+        },
+        {
+          "id": "lesson-05",
+          "title": "For / With",
+          "intro": "Learn about For / With.",
+          "type": "learning",
+          "conceptIds": [
+            "for___with"
+          ]
+        },
+        {
+          "id": "lesson-06",
+          "title": "Under / Over / Behind / In Front Of",
+          "intro": "Learn about Under / Over / Behind / In Front Of.",
+          "type": "learning",
+          "conceptIds": [
+            "under___over___behind___in_front_of"
+          ]
+        },
+        {
+          "id": "lesson-07",
+          "title": "Between / Among",
+          "intro": "Learn about Between / Among.",
+          "type": "learning",
+          "conceptIds": [
+            "between___among"
+          ]
+        },
+        {
+          "id": "lesson-08",
+          "title": "Time Prepositions",
+          "intro": "Learn about Time Prepositions.",
+          "type": "learning",
+          "conceptIds": [
+            "time_prepositions"
+          ]
+        },
+        {
+          "id": "lesson-09",
+          "title": "Place & Movement",
+          "intro": "Learn about Place & Movement.",
+          "type": "learning",
+          "conceptIds": [
+            "place___movement"
+          ]
+        },
+        {
+          "id": "lesson-10",
+          "title": "Review & Mastery",
+          "intro": "Learn about Review & Mastery.",
+          "type": "checkpoint",
+          "conceptIds": [
+            "review___mastery"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-09",
+      "title": "Conjunctions",
+      "cefrLevel": "A1",
+      "estimatedHours": 2,
+      "unitObjectives": [
+        "Master Conjunctions"
+      ],
+      "concepts": [
+        "and",
+        "but",
+        "or",
+        "because",
+        "so",
+        "combining_sentences",
+        "real_life_conversation",
+        "review___mastery"
+      ],
+      "lessons": [
+        {
+          "id": "lesson-01",
+          "title": "And",
+          "intro": "Learn about And.",
+          "type": "learning",
+          "conceptIds": [
+            "and"
+          ]
+        },
+        {
+          "id": "lesson-02",
+          "title": "But",
+          "intro": "Learn about But.",
+          "type": "learning",
+          "conceptIds": [
+            "but"
+          ]
+        },
+        {
+          "id": "lesson-03",
+          "title": "Or",
+          "intro": "Learn about Or.",
+          "type": "learning",
+          "conceptIds": [
+            "or"
+          ]
+        },
+        {
+          "id": "lesson-04",
+          "title": "Because",
+          "intro": "Learn about Because.",
+          "type": "learning",
+          "conceptIds": [
+            "because"
+          ]
+        },
+        {
+          "id": "lesson-05",
+          "title": "So",
+          "intro": "Learn about So.",
+          "type": "learning",
+          "conceptIds": [
+            "so"
+          ]
+        },
+        {
+          "id": "lesson-06",
+          "title": "Combining Sentences",
+          "intro": "Learn about Combining Sentences.",
+          "type": "learning",
+          "conceptIds": [
+            "combining_sentences"
+          ]
+        },
+        {
+          "id": "lesson-07",
+          "title": "Real-Life Conversation",
+          "intro": "Learn about Real-Life Conversation.",
+          "type": "learning",
+          "conceptIds": [
+            "real_life_conversation"
+          ]
+        },
+        {
+          "id": "lesson-08",
+          "title": "Review & Mastery",
+          "intro": "Learn about Review & Mastery.",
+          "type": "checkpoint",
+          "conceptIds": [
+            "review___mastery"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-10",
+      "title": "Daily Routine & Real-Life English",
+      "cefrLevel": "A1",
+      "estimatedHours": 2,
+      "unitObjectives": [
+        "Master Daily Routine & Real-Life English"
+      ],
+      "concepts": [
+        "morning_routine",
+        "college_work_routine",
+        "talking_about_time",
+        "talking_about_food",
+        "talking_about_family",
+        "talking_about_hobbies",
+        "talking_about_likes___dislikes",
+        "asking_for_information",
+        "complete_daily_conversation",
+        "a1_foundation_mastery"
+      ],
+      "lessons": [
+        {
+          "id": "lesson-01",
+          "title": "Morning Routine",
+          "intro": "Learn about Morning Routine.",
+          "type": "learning",
+          "conceptIds": [
+            "morning_routine"
+          ]
+        },
+        {
+          "id": "lesson-02",
+          "title": "College/Work Routine",
+          "intro": "Learn about College/Work Routine.",
+          "type": "learning",
+          "conceptIds": [
+            "college_work_routine"
+          ]
+        },
+        {
+          "id": "lesson-03",
+          "title": "Talking About Time",
+          "intro": "Learn about Talking About Time.",
+          "type": "learning",
+          "conceptIds": [
+            "talking_about_time"
+          ]
+        },
+        {
+          "id": "lesson-04",
+          "title": "Talking About Food",
+          "intro": "Learn about Talking About Food.",
+          "type": "learning",
+          "conceptIds": [
+            "talking_about_food"
+          ]
+        },
+        {
+          "id": "lesson-05",
+          "title": "Talking About Family",
+          "intro": "Learn about Talking About Family.",
+          "type": "learning",
+          "conceptIds": [
+            "talking_about_family"
+          ]
+        },
+        {
+          "id": "lesson-06",
+          "title": "Talking About Hobbies",
+          "intro": "Learn about Talking About Hobbies.",
+          "type": "learning",
+          "conceptIds": [
+            "talking_about_hobbies"
+          ]
+        },
+        {
+          "id": "lesson-07",
+          "title": "Talking About Likes & Dislikes",
+          "intro": "Learn about Talking About Likes & Dislikes.",
+          "type": "learning",
+          "conceptIds": [
+            "talking_about_likes___dislikes"
+          ]
+        },
+        {
+          "id": "lesson-08",
+          "title": "Asking for Information",
+          "intro": "Learn about Asking for Information.",
+          "type": "learning",
+          "conceptIds": [
+            "asking_for_information"
+          ]
+        },
+        {
+          "id": "lesson-09",
+          "title": "Complete Daily Conversation",
+          "intro": "Learn about Complete Daily Conversation.",
+          "type": "learning",
+          "conceptIds": [
+            "complete_daily_conversation"
+          ]
+        },
+        {
+          "id": "lesson-10",
+          "title": "A1 Foundation Mastery",
+          "intro": "Learn about A1 Foundation Mastery.",
+          "type": "checkpoint",
+          "conceptIds": [
+            "a1_foundation_mastery"
+          ]
         }
       ]
     }

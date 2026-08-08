@@ -1,0 +1,125 @@
+{
+  "id": "lesson-07",
+  "unitId": "unit-07",
+  "title": "Real-Life Article Practice",
+  "version": 2,
+  "learningObjectives": [
+    "real_life_article_practice"
+  ],
+  "modules": [
+    {
+      "id": "intro",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Real-Life Article Practice",
+        "conceptId": "real_life_article_practice",
+        "content": "In this lesson, we will focus on: Real-Life Article Practice. Let's learn how to use this in everyday English conversations.",
+        "example": "Pay attention to the structure and vocabulary."
+      }
+    },
+    {
+      "id": "vocab",
+      "type": "vocabulary",
+      "config": {
+        "flow": "teach_all",
+        "words": [
+          {
+            "conceptId": "real_life_article_practice",
+            "emoji": "📘",
+            "nativeWord": "Example 1 for Real-Life Article Practice",
+            "englishMeaning": "Translated Example 1",
+            "pronunciation": "example one",
+            "exampleSentence": "This is the first example of Real-Life Article Practice.",
+            "exampleTranslation": "This is the first translation.",
+            "difficultyRating": 1,
+            "contextualUsage": {
+              "whenToUse": [
+                "In daily situations"
+              ],
+              "doNotUse": [],
+              "insteadSay": ""
+            }
+          },
+          {
+            "conceptId": "real_life_article_practice",
+            "emoji": "📗",
+            "nativeWord": "Example 2 for Real-Life Article Practice",
+            "englishMeaning": "Translated Example 2",
+            "pronunciation": "example two",
+            "exampleSentence": "Here is another example using Real-Life Article Practice.",
+            "exampleTranslation": "Here is another translation.",
+            "difficultyRating": 2,
+            "contextualUsage": {
+              "whenToUse": [
+                "When explaining details"
+              ],
+              "doNotUse": [],
+              "insteadSay": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "payload": {
+              "id": "q-1",
+              "type": "mcq",
+              "phaseTitle": "Check Your Understanding",
+              "question": "Which sentence correctly uses Real-Life Article Practice?",
+              "answer": "Correct use of Real-Life Article Practice.",
+              "options": [
+                "Correct use of Real-Life Article Practice.",
+                "Incorrect use of Real-Life Article Practice.",
+                "Another incorrect use."
+              ],
+              "conceptId": "real_life_article_practice"
+            }
+          },
+          {
+            "type": "sentence_build",
+            "payload": {
+              "id": "q-2",
+              "type": "sentence_build",
+              "phaseTitle": "Build Sentences",
+              "question": "Arrange the words for: Real-Life Article Practice",
+              "tokens": [
+                "This",
+                "is",
+                "a",
+                "good",
+                "example"
+              ],
+              "answer": "This is a good example",
+              "conceptId": "real_life_article_practice"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "speaking-1",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "speaking",
+            "payload": {
+              "id": "s-1",
+              "type": "speaking",
+              "phaseTitle": "Real Life Speaking",
+              "question": "Say out loud: 'This is a good example.'",
+              "answer": "This is a good example",
+              "conceptId": "real_life_article_practice"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

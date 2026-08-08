@@ -1,0 +1,125 @@
+{
+  "id": "lesson-07",
+  "unitId": "unit-05",
+  "title": "SHOULD: Recommendations & Expectations",
+  "version": 2,
+  "learningObjectives": [
+    "should__recommendations___expectations"
+  ],
+  "modules": [
+    {
+      "id": "intro",
+      "type": "knowledge_card",
+      "config": {
+        "title": "SHOULD: Recommendations & Expectations",
+        "conceptId": "should__recommendations___expectations",
+        "content": "In this lesson, we will focus on: SHOULD: Recommendations & Expectations. Let's learn how to use this in everyday English conversations.",
+        "example": "Pay attention to the structure and vocabulary."
+      }
+    },
+    {
+      "id": "vocab",
+      "type": "vocabulary",
+      "config": {
+        "flow": "teach_all",
+        "words": [
+          {
+            "conceptId": "should__recommendations___expectations",
+            "emoji": "📘",
+            "nativeWord": "Example 1 for SHOULD: Recommendations & Expectations",
+            "englishMeaning": "Translated Example 1",
+            "pronunciation": "example one",
+            "exampleSentence": "This is the first example of SHOULD: Recommendations & Expectations.",
+            "exampleTranslation": "This is the first translation.",
+            "difficultyRating": 1,
+            "contextualUsage": {
+              "whenToUse": [
+                "In daily situations"
+              ],
+              "doNotUse": [],
+              "insteadSay": ""
+            }
+          },
+          {
+            "conceptId": "should__recommendations___expectations",
+            "emoji": "📗",
+            "nativeWord": "Example 2 for SHOULD: Recommendations & Expectations",
+            "englishMeaning": "Translated Example 2",
+            "pronunciation": "example two",
+            "exampleSentence": "Here is another example using SHOULD: Recommendations & Expectations.",
+            "exampleTranslation": "Here is another translation.",
+            "difficultyRating": 2,
+            "contextualUsage": {
+              "whenToUse": [
+                "When explaining details"
+              ],
+              "doNotUse": [],
+              "insteadSay": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "payload": {
+              "id": "q-1",
+              "type": "mcq",
+              "phaseTitle": "Check Your Understanding",
+              "question": "Which sentence correctly uses SHOULD: Recommendations & Expectations?",
+              "answer": "Correct use of SHOULD: Recommendations & Expectations.",
+              "options": [
+                "Correct use of SHOULD: Recommendations & Expectations.",
+                "Incorrect use of SHOULD: Recommendations & Expectations.",
+                "Another incorrect use."
+              ],
+              "conceptId": "should__recommendations___expectations"
+            }
+          },
+          {
+            "type": "sentence_build",
+            "payload": {
+              "id": "q-2",
+              "type": "sentence_build",
+              "phaseTitle": "Build Sentences",
+              "question": "Arrange the words for: SHOULD: Recommendations & Expectations",
+              "tokens": [
+                "This",
+                "is",
+                "a",
+                "good",
+                "example"
+              ],
+              "answer": "This is a good example",
+              "conceptId": "should__recommendations___expectations"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "speaking-1",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "speaking",
+            "payload": {
+              "id": "s-1",
+              "type": "speaking",
+              "phaseTitle": "Real Life Speaking",
+              "question": "Say out loud: 'This is a good example.'",
+              "answer": "This is a good example",
+              "conceptId": "should__recommendations___expectations"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

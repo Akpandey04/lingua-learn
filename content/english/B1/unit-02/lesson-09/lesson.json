@@ -1,0 +1,125 @@
+{
+  "id": "lesson-09",
+  "unitId": "unit-02",
+  "title": "Run Out Of & Scarcity",
+  "version": 2,
+  "learningObjectives": [
+    "run_out_of___scarcity"
+  ],
+  "modules": [
+    {
+      "id": "intro",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Run Out Of & Scarcity",
+        "conceptId": "run_out_of___scarcity",
+        "content": "In this lesson, we will focus on: Run Out Of & Scarcity. Let's learn how to use this in everyday English conversations.",
+        "example": "Pay attention to the structure and vocabulary."
+      }
+    },
+    {
+      "id": "vocab",
+      "type": "vocabulary",
+      "config": {
+        "flow": "teach_all",
+        "words": [
+          {
+            "conceptId": "run_out_of___scarcity",
+            "emoji": "📘",
+            "nativeWord": "Example 1 for Run Out Of & Scarcity",
+            "englishMeaning": "Translated Example 1",
+            "pronunciation": "example one",
+            "exampleSentence": "This is the first example of Run Out Of & Scarcity.",
+            "exampleTranslation": "This is the first translation.",
+            "difficultyRating": 1,
+            "contextualUsage": {
+              "whenToUse": [
+                "In daily situations"
+              ],
+              "doNotUse": [],
+              "insteadSay": ""
+            }
+          },
+          {
+            "conceptId": "run_out_of___scarcity",
+            "emoji": "📗",
+            "nativeWord": "Example 2 for Run Out Of & Scarcity",
+            "englishMeaning": "Translated Example 2",
+            "pronunciation": "example two",
+            "exampleSentence": "Here is another example using Run Out Of & Scarcity.",
+            "exampleTranslation": "Here is another translation.",
+            "difficultyRating": 2,
+            "contextualUsage": {
+              "whenToUse": [
+                "When explaining details"
+              ],
+              "doNotUse": [],
+              "insteadSay": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "payload": {
+              "id": "q-1",
+              "type": "mcq",
+              "phaseTitle": "Check Your Understanding",
+              "question": "Which sentence correctly uses Run Out Of & Scarcity?",
+              "answer": "Correct use of Run Out Of & Scarcity.",
+              "options": [
+                "Correct use of Run Out Of & Scarcity.",
+                "Incorrect use of Run Out Of & Scarcity.",
+                "Another incorrect use."
+              ],
+              "conceptId": "run_out_of___scarcity"
+            }
+          },
+          {
+            "type": "sentence_build",
+            "payload": {
+              "id": "q-2",
+              "type": "sentence_build",
+              "phaseTitle": "Build Sentences",
+              "question": "Arrange the words for: Run Out Of & Scarcity",
+              "tokens": [
+                "This",
+                "is",
+                "a",
+                "good",
+                "example"
+              ],
+              "answer": "This is a good example",
+              "conceptId": "run_out_of___scarcity"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "speaking-1",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "speaking",
+            "payload": {
+              "id": "s-1",
+              "type": "speaking",
+              "phaseTitle": "Real Life Speaking",
+              "question": "Say out loud: 'This is a good example.'",
+              "answer": "This is a good example",
+              "conceptId": "run_out_of___scarcity"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

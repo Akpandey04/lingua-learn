@@ -1,0 +1,531 @@
+{
+  "language": "English",
+  "level": "B1",
+  "units": [
+    {
+      "id": "unit-01",
+      "title": "Intermediate Sentence Building",
+      "cefrLevel": "B1",
+      "estimatedHours": 2,
+      "unitObjectives": [
+        "Master Intermediate Sentence Building"
+      ],
+      "concepts": [
+        "complex_sentences",
+        "relative_clauses",
+        "because___although___however",
+        "conditionals",
+        "first_conditional",
+        "second_conditional",
+        "third_conditional",
+        "mixed_conditional_practice",
+        "expressing_complex_ideas",
+        "review___mastery"
+      ],
+      "lessons": [
+        {
+          "id": "lesson-01",
+          "title": "Complex Sentences",
+          "intro": "Learn about Complex Sentences.",
+          "type": "learning",
+          "conceptIds": [
+            "complex_sentences"
+          ]
+        },
+        {
+          "id": "lesson-02",
+          "title": "Relative Clauses",
+          "intro": "Learn about Relative Clauses.",
+          "type": "learning",
+          "conceptIds": [
+            "relative_clauses"
+          ]
+        },
+        {
+          "id": "lesson-03",
+          "title": "Because / Although / However",
+          "intro": "Learn about Because / Although / However.",
+          "type": "learning",
+          "conceptIds": [
+            "because___although___however"
+          ]
+        },
+        {
+          "id": "lesson-04",
+          "title": "Conditionals",
+          "intro": "Learn about Conditionals.",
+          "type": "learning",
+          "conceptIds": [
+            "conditionals"
+          ]
+        },
+        {
+          "id": "lesson-05",
+          "title": "First Conditional",
+          "intro": "Learn about First Conditional.",
+          "type": "learning",
+          "conceptIds": [
+            "first_conditional"
+          ]
+        },
+        {
+          "id": "lesson-06",
+          "title": "Second Conditional",
+          "intro": "Learn about Second Conditional.",
+          "type": "learning",
+          "conceptIds": [
+            "second_conditional"
+          ]
+        },
+        {
+          "id": "lesson-07",
+          "title": "Third Conditional",
+          "intro": "Learn about Third Conditional.",
+          "type": "learning",
+          "conceptIds": [
+            "third_conditional"
+          ]
+        },
+        {
+          "id": "lesson-08",
+          "title": "Mixed Conditional Practice",
+          "intro": "Learn about Mixed Conditional Practice.",
+          "type": "learning",
+          "conceptIds": [
+            "mixed_conditional_practice"
+          ]
+        },
+        {
+          "id": "lesson-09",
+          "title": "Expressing Complex Ideas",
+          "intro": "Learn about Expressing Complex Ideas.",
+          "type": "learning",
+          "conceptIds": [
+            "expressing_complex_ideas"
+          ]
+        },
+        {
+          "id": "lesson-10",
+          "title": "Review & Mastery",
+          "intro": "Learn about Review & Mastery.",
+          "type": "checkpoint",
+          "conceptIds": [
+            "review___mastery"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-02",
+      "title": "Phrasal Verbs & Natural English",
+      "cefrLevel": "B1",
+      "estimatedHours": 2,
+      "unitObjectives": [
+        "Master Phrasal Verbs & Natural English"
+      ],
+      "concepts": [
+        "wake_up___routine",
+        "find_out___learn",
+        "give_up___try",
+        "look_after___care",
+        "look_for___find",
+        "pick_up___drop_off",
+        "turn_down___reject",
+        "figure_out___solve",
+        "run_out_of___scarcity",
+        "get_along___relationships"
+      ],
+      "lessons": [
+        {
+          "id": "lesson-01",
+          "title": "Wake Up & Routine",
+          "intro": "Learn about Wake Up & Routine.",
+          "type": "learning",
+          "conceptIds": [
+            "wake_up___routine"
+          ]
+        },
+        {
+          "id": "lesson-02",
+          "title": "Find Out & Learn",
+          "intro": "Learn about Find Out & Learn.",
+          "type": "learning",
+          "conceptIds": [
+            "find_out___learn"
+          ]
+        },
+        {
+          "id": "lesson-03",
+          "title": "Give Up & Try",
+          "intro": "Learn about Give Up & Try.",
+          "type": "learning",
+          "conceptIds": [
+            "give_up___try"
+          ]
+        },
+        {
+          "id": "lesson-04",
+          "title": "Look After & Care",
+          "intro": "Learn about Look After & Care.",
+          "type": "learning",
+          "conceptIds": [
+            "look_after___care"
+          ]
+        },
+        {
+          "id": "lesson-05",
+          "title": "Look For & Find",
+          "intro": "Learn about Look For & Find.",
+          "type": "learning",
+          "conceptIds": [
+            "look_for___find"
+          ]
+        },
+        {
+          "id": "lesson-06",
+          "title": "Pick Up & Drop Off",
+          "intro": "Learn about Pick Up & Drop Off.",
+          "type": "learning",
+          "conceptIds": [
+            "pick_up___drop_off"
+          ]
+        },
+        {
+          "id": "lesson-07",
+          "title": "Turn Down & Reject",
+          "intro": "Learn about Turn Down & Reject.",
+          "type": "learning",
+          "conceptIds": [
+            "turn_down___reject"
+          ]
+        },
+        {
+          "id": "lesson-08",
+          "title": "Figure Out & Solve",
+          "intro": "Learn about Figure Out & Solve.",
+          "type": "learning",
+          "conceptIds": [
+            "figure_out___solve"
+          ]
+        },
+        {
+          "id": "lesson-09",
+          "title": "Run Out Of & Scarcity",
+          "intro": "Learn about Run Out Of & Scarcity.",
+          "type": "learning",
+          "conceptIds": [
+            "run_out_of___scarcity"
+          ]
+        },
+        {
+          "id": "lesson-10",
+          "title": "Get Along & Relationships",
+          "intro": "Learn about Get Along & Relationships.",
+          "type": "learning",
+          "conceptIds": [
+            "get_along___relationships"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-03",
+      "title": "Passive Voice",
+      "cefrLevel": "B1",
+      "estimatedHours": 2,
+      "unitObjectives": [
+        "Master Passive Voice"
+      ],
+      "concepts": [
+        "active_vs_passive",
+        "present_passive",
+        "past_passive",
+        "future_passive",
+        "passive_in_news",
+        "passive_in_work",
+        "transformations",
+        "review___mastery"
+      ],
+      "lessons": [
+        {
+          "id": "lesson-01",
+          "title": "Active vs Passive",
+          "intro": "Learn about Active vs Passive.",
+          "type": "learning",
+          "conceptIds": [
+            "active_vs_passive"
+          ]
+        },
+        {
+          "id": "lesson-02",
+          "title": "Present Passive",
+          "intro": "Learn about Present Passive.",
+          "type": "learning",
+          "conceptIds": [
+            "present_passive"
+          ]
+        },
+        {
+          "id": "lesson-03",
+          "title": "Past Passive",
+          "intro": "Learn about Past Passive.",
+          "type": "learning",
+          "conceptIds": [
+            "past_passive"
+          ]
+        },
+        {
+          "id": "lesson-04",
+          "title": "Future Passive",
+          "intro": "Learn about Future Passive.",
+          "type": "learning",
+          "conceptIds": [
+            "future_passive"
+          ]
+        },
+        {
+          "id": "lesson-05",
+          "title": "Passive in News",
+          "intro": "Learn about Passive in News.",
+          "type": "learning",
+          "conceptIds": [
+            "passive_in_news"
+          ]
+        },
+        {
+          "id": "lesson-06",
+          "title": "Passive in Work",
+          "intro": "Learn about Passive in Work.",
+          "type": "learning",
+          "conceptIds": [
+            "passive_in_work"
+          ]
+        },
+        {
+          "id": "lesson-07",
+          "title": "Transformations",
+          "intro": "Learn about Transformations.",
+          "type": "learning",
+          "conceptIds": [
+            "transformations"
+          ]
+        },
+        {
+          "id": "lesson-08",
+          "title": "Review & Mastery",
+          "intro": "Learn about Review & Mastery.",
+          "type": "checkpoint",
+          "conceptIds": [
+            "review___mastery"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-04",
+      "title": "Reported Speech",
+      "cefrLevel": "B1",
+      "estimatedHours": 2,
+      "unitObjectives": [
+        "Master Reported Speech"
+      ],
+      "concepts": [
+        "direct_speech",
+        "reported_statements",
+        "reported_questions",
+        "reported_commands",
+        "pronoun_changes",
+        "tense_changes",
+        "real_conversation",
+        "review___mastery"
+      ],
+      "lessons": [
+        {
+          "id": "lesson-01",
+          "title": "Direct Speech",
+          "intro": "Learn about Direct Speech.",
+          "type": "learning",
+          "conceptIds": [
+            "direct_speech"
+          ]
+        },
+        {
+          "id": "lesson-02",
+          "title": "Reported Statements",
+          "intro": "Learn about Reported Statements.",
+          "type": "learning",
+          "conceptIds": [
+            "reported_statements"
+          ]
+        },
+        {
+          "id": "lesson-03",
+          "title": "Reported Questions",
+          "intro": "Learn about Reported Questions.",
+          "type": "learning",
+          "conceptIds": [
+            "reported_questions"
+          ]
+        },
+        {
+          "id": "lesson-04",
+          "title": "Reported Commands",
+          "intro": "Learn about Reported Commands.",
+          "type": "learning",
+          "conceptIds": [
+            "reported_commands"
+          ]
+        },
+        {
+          "id": "lesson-05",
+          "title": "Pronoun Changes",
+          "intro": "Learn about Pronoun Changes.",
+          "type": "learning",
+          "conceptIds": [
+            "pronoun_changes"
+          ]
+        },
+        {
+          "id": "lesson-06",
+          "title": "Tense Changes",
+          "intro": "Learn about Tense Changes.",
+          "type": "learning",
+          "conceptIds": [
+            "tense_changes"
+          ]
+        },
+        {
+          "id": "lesson-07",
+          "title": "Real Conversation",
+          "intro": "Learn about Real Conversation.",
+          "type": "learning",
+          "conceptIds": [
+            "real_conversation"
+          ]
+        },
+        {
+          "id": "lesson-08",
+          "title": "Review & Mastery",
+          "intro": "Learn about Review & Mastery.",
+          "type": "checkpoint",
+          "conceptIds": [
+            "review___mastery"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-05",
+      "title": "Natural Conversation",
+      "cefrLevel": "B1",
+      "estimatedHours": 2,
+      "unitObjectives": [
+        "Master Natural Conversation"
+      ],
+      "concepts": [
+        "starting_conversations",
+        "keeping_conversations_going",
+        "asking_follow_up_questions",
+        "giving_opinions",
+        "agreeing",
+        "disagreeing_politely",
+        "clarifying",
+        "explaining",
+        "storytelling",
+        "conversation_mastery"
+      ],
+      "lessons": [
+        {
+          "id": "lesson-01",
+          "title": "Starting Conversations",
+          "intro": "Learn about Starting Conversations.",
+          "type": "learning",
+          "conceptIds": [
+            "starting_conversations"
+          ]
+        },
+        {
+          "id": "lesson-02",
+          "title": "Keeping Conversations Going",
+          "intro": "Learn about Keeping Conversations Going.",
+          "type": "learning",
+          "conceptIds": [
+            "keeping_conversations_going"
+          ]
+        },
+        {
+          "id": "lesson-03",
+          "title": "Asking Follow-up Questions",
+          "intro": "Learn about Asking Follow-up Questions.",
+          "type": "learning",
+          "conceptIds": [
+            "asking_follow_up_questions"
+          ]
+        },
+        {
+          "id": "lesson-04",
+          "title": "Giving Opinions",
+          "intro": "Learn about Giving Opinions.",
+          "type": "learning",
+          "conceptIds": [
+            "giving_opinions"
+          ]
+        },
+        {
+          "id": "lesson-05",
+          "title": "Agreeing",
+          "intro": "Learn about Agreeing.",
+          "type": "learning",
+          "conceptIds": [
+            "agreeing"
+          ]
+        },
+        {
+          "id": "lesson-06",
+          "title": "Disagreeing Politely",
+          "intro": "Learn about Disagreeing Politely.",
+          "type": "learning",
+          "conceptIds": [
+            "disagreeing_politely"
+          ]
+        },
+        {
+          "id": "lesson-07",
+          "title": "Clarifying",
+          "intro": "Learn about Clarifying.",
+          "type": "learning",
+          "conceptIds": [
+            "clarifying"
+          ]
+        },
+        {
+          "id": "lesson-08",
+          "title": "Explaining",
+          "intro": "Learn about Explaining.",
+          "type": "learning",
+          "conceptIds": [
+            "explaining"
+          ]
+        },
+        {
+          "id": "lesson-09",
+          "title": "Storytelling",
+          "intro": "Learn about Storytelling.",
+          "type": "learning",
+          "conceptIds": [
+            "storytelling"
+          ]
+        },
+        {
+          "id": "lesson-10",
+          "title": "Conversation Mastery",
+          "intro": "Learn about Conversation Mastery.",
+          "type": "checkpoint",
+          "conceptIds": [
+            "conversation_mastery"
+          ]
+        }
+      ]
+    }
+  ]
+}
