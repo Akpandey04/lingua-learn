@@ -331,7 +331,7 @@
               "id": "rl-1",
               "type": "typing",
               "phaseTitle": "Real Life Use",
-              "question": "Translate into English: Main computer science padhta hu.",
+              "question": "Translate into English: Main computer science padhta hu. (e.g. I study computer science.)",
               "answer": "I study computer science",
               "conceptId": "english_svo"
             }
