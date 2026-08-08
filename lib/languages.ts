@@ -36,7 +36,7 @@ export const LANGUAGES: Record<LanguageCode, Language> = {
   english: {
     code: 'english',
     name: 'English',
-    nativeName: 'English (US)',
+    nativeName: 'English',
     flag: '🇺🇸',
     locale: 'en-US',
     color: '#002868',
