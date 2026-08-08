@@ -217,28 +217,49 @@ export default function QuizModule({ module, onComplete }: ModuleProps<QuizModul
     </div>
   );
 
-  const renderTextInput = () => (
-    <form onSubmit={handleTextSubmit} className="w-full flex flex-col gap-4">
-      <input
-        type="text"
-        value={typedAnswer}
-        onChange={(event) => setTypedAnswer(event.target.value)}
-        disabled={isChecking}
-        placeholder="Type your answer..."
-        className="w-full p-4 rounded-2xl border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 text-xl text-gray-900 dark:text-white focus:outline-none focus:ring-4 focus:ring-blue-300"
-        autoFocus
-      />
-      {!isChecking && (
-        <button
-          type="submit"
-          disabled={!typedAnswer.trim()}
-          className="w-full py-4 bg-blue-500 hover:bg-blue-600 disabled:bg-gray-300 dark:disabled:bg-gray-700 text-white font-bold rounded-2xl text-xl shadow-lg transition-colors"
-        >
-          Check
-        </button>
-      )}
-    </form>
-  );
+  const renderTextInput = () => {
+    // Language is usually from the URL in LinguaLearn
+    let languageId = 'french'; // Fallback
+    if (typeof window !== 'undefined') {
+      const pathParts = window.location.pathname.split('/');
+      if (pathParts.length > 1 && pathParts[1]) {
+        languageId = pathParts[1].toLowerCase();
+      }
+    }
+    const { getKeyboardLayout } = require('@/lib/keyboardLayouts');
+    const VirtualKeyboard = require('../ui/VirtualKeyboard').default;
+    const keyboardLayout = getKeyboardLayout(languageId);
+
+    return (
+      <form onSubmit={handleTextSubmit} className="w-full flex flex-col gap-4">
+        <input
+          type="text"
+          value={typedAnswer}
+          onChange={(event) => setTypedAnswer(event.target.value)}
+          disabled={isChecking}
+          placeholder="Type your answer..."
+          className="w-full p-4 rounded-2xl border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 text-xl text-gray-900 dark:text-white focus:outline-none focus:ring-4 focus:ring-blue-300"
+          autoFocus
+        />
+        {keyboardLayout && !isChecking && (
+          <VirtualKeyboard
+            layout={keyboardLayout}
+            onKeyPress={(char: string) => setTypedAnswer(prev => prev + char)}
+            onBackspace={() => setTypedAnswer(prev => prev.slice(0, -1))}
+          />
+        )}
+        {!isChecking && (
+          <button
+            type="submit"
+            disabled={!typedAnswer.trim()}
+            className="w-full py-4 bg-blue-500 hover:bg-blue-600 disabled:bg-gray-300 dark:disabled:bg-gray-700 text-white font-bold rounded-2xl text-xl shadow-lg transition-colors"
+          >
+            Check
+          </button>
+        )}
+      </form>
+    );
+  };
 
   const renderSentenceBuilder = () => (
     <div className="w-full flex flex-col gap-5">
