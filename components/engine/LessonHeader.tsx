@@ -59,6 +59,7 @@ export default function LessonHeader({ lessonTitle, progressPct, onRestart }: Pr
               <span className={progressPct >= 60 ? 'text-blue-500 font-extrabold' : ''}>💬 Dialogue</span>
               <span className={progressPct >= 75 ? 'text-blue-500 font-extrabold' : ''}>📝 Practice</span>
               <span className={progressPct >= 90 ? 'text-blue-500 font-extrabold' : ''}>🎯 Quiz</span>
+              <span className={progressPct >= 100 ? 'text-blue-500 font-extrabold' : ''}>📄 Notes</span>
             </div>
           </div>
 

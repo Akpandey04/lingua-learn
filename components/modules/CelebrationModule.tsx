@@ -58,16 +58,6 @@ export default function CelebrationModule({
 
       <div className="flex flex-col w-full max-w-md gap-3 mt-4 relative z-10">
         <button 
-          onClick={() => {
-            import('@/lib/pdfGenerator').then(({ generateLessonNotes }) => {
-              generateLessonNotes(lesson);
-            });
-          }}
-          className="w-full py-4 bg-teal-500 hover:bg-teal-600 text-white rounded-2xl font-bold text-lg shadow-lg transition-all flex items-center justify-center gap-2"
-        >
-          📄 Download Lesson Notes
-        </button>
-        <button 
           onClick={() => router.push(`/${language}`)}
           className="w-full py-4 bg-blue-500 hover:bg-blue-600 text-white rounded-2xl font-bold text-lg shadow-lg transition-all"
         >
