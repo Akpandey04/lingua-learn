@@ -12,12 +12,12 @@ export default function MistakesPage() {
   const [filter, setFilter] = useState<'needs_practice' | 'mastered' | 'all'>('needs_practice');
 
   useEffect(() => {
-    setMistakes(intelligenceEngine.getMistakes());
-  }, []);
+    setMistakes(intelligenceEngine.getMistakes(language));
+  }, [language]);
 
   const handleRetry = (id: string, success: boolean) => {
     intelligenceEngine.updateMistakeStatus(id, success);
-    setMistakes([...intelligenceEngine.getMistakes()]);
+    setMistakes([...intelligenceEngine.getMistakes(language)]);
   };
 
   const filteredMistakes = filter === 'all' 

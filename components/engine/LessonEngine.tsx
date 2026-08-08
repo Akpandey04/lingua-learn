@@ -36,6 +36,12 @@ export default function LessonEngine({ lesson, courseContext }: Props) {
 
   // Session Recovery
   useEffect(() => {
+    if (courseContext?.languageName) {
+      import('@/lib/intelligence-engine').then(m => {
+        m.intelligenceEngine.setCurrentLanguage(courseContext.languageName);
+      });
+    }
+
     try {
       const saved = localStorage.getItem(`lingua_session_${lesson.id}`);
       if (saved) {

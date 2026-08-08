@@ -38,9 +38,9 @@ export default function CourseOverview({ language, course }: Props) {
 
   useEffect(() => {
     setMasteryData(intelligenceEngine.getAllMastery());
-    setMistakeCount(intelligenceEngine.getMistakes().filter((m: any) => m.status !== 'mastered').length);
+    setMistakeCount(intelligenceEngine.getMistakes(language.code).filter((m: any) => m.status !== 'mastered').length);
     setMounted(true);
-  }, []);
+  }, [language.code]);
 
   const hour = new Date().getHours();
   const greeting = hour < 12 ? 'Good Morning' : hour < 18 ? 'Good Afternoon' : 'Good Evening';

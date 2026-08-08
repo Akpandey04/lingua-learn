@@ -26,15 +26,21 @@ export interface MistakeLog {
   lastPracticeDate: number;
   reason?: string; // For future AI Tutor analysis
   lessonId?: string;
+  language?: string;
 }
 
 // In MVP, we use memory. In a real app, this is a database.
 class IntelligenceEngine {
   private events: LearningEvent[] = [];
   private mistakes: MistakeLog[] = [];
+  private currentLanguage: string | null = null;
 
   constructor() {
     this.loadFromStorage();
+  }
+
+  public setCurrentLanguage(lang: string) {
+    this.currentLanguage = lang.toLowerCase();
   }
 
   private loadFromStorage() {
@@ -82,7 +88,8 @@ class IntelligenceEngine {
         expected: mistake.expected,
         timestamp: Date.now(),
         attemptCount: existing.attemptCount + 1,
-        status: 'needs_practice'
+        status: 'needs_practice',
+        language: this.currentLanguage || existing.language || 'unknown'
       };
     } else {
       this.mistakes.push({
@@ -93,7 +100,8 @@ class IntelligenceEngine {
         successCount: 0,
         firstAttemptDate: Date.now(),
         lastPracticeDate: Date.now(),
-        status: 'needs_practice'
+        status: 'needs_practice',
+        language: this.currentLanguage || 'unknown'
       });
     }
     this.saveToStorage();
@@ -115,8 +123,13 @@ class IntelligenceEngine {
     }
   }
 
-  public getMistakes() {
-    return this.mistakes.sort((a, b) => b.timestamp - a.timestamp);
+  public getMistakes(language?: string) {
+    let list = this.mistakes;
+    if (language) {
+      const lowerLang = language.toLowerCase();
+      list = list.filter(m => m.language === lowerLang);
+    }
+    return list.sort((a, b) => b.timestamp - a.timestamp);
   }
 
   // Derive Intelligence: Calculate Mastery on the fly
