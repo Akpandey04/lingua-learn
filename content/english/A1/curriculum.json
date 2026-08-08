@@ -23,60 +23,70 @@
         {
           "id": "lesson-01",
           "title": "Build Your First English Sentences",
+          "intro": "Learn the golden rule: Subject + Verb + Object.",
           "type": "learning",
           "conceptIds": ["english_svo"]
         },
         {
           "id": "lesson-02",
           "title": "I, You, We, They",
+          "intro": "Learn how to use basic pronouns to talk about people.",
           "type": "learning",
           "conceptIds": ["english_pronouns_1"]
         },
         {
           "id": "lesson-03",
           "title": "He, She, It",
+          "intro": "Learn the special 's' rule for third-person verbs.",
           "type": "learning",
           "conceptIds": ["english_pronouns_2"]
         },
         {
           "id": "lesson-04",
           "title": "Positive Sentences",
+          "intro": "Practice making positive statements.",
           "type": "learning",
           "conceptIds": ["english_positives"]
         },
         {
           "id": "lesson-05",
           "title": "Negative Sentences",
+          "intro": "Learn to say 'no' using 'do not' and 'does not'.",
           "type": "learning",
           "conceptIds": ["english_negatives"]
         },
         {
           "id": "lesson-06",
           "title": "Ask Questions",
+          "intro": "Learn to ask questions using 'do' and 'does'.",
           "type": "learning",
           "conceptIds": ["english_questions"]
         },
         {
           "id": "lesson-07",
           "title": "Build Longer Sentences",
+          "intro": "Add when, where, and why to your sentences.",
           "type": "learning",
           "conceptIds": ["english_expansion"]
         },
         {
           "id": "lesson-08",
           "title": "Daily Life Sentence Challenge",
+          "intro": "Apply what you've learned to daily situations.",
           "type": "learning",
           "conceptIds": ["english_svo", "english_expansion"]
         },
         {
           "id": "lesson-09",
           "title": "Unit Review",
+          "intro": "Review everything you've learned in Unit 1.",
           "type": "learning",
           "conceptIds": ["english_svo", "english_negatives", "english_questions"]
         },
         {
           "id": "lesson-10",
           "title": "Unit Mastery Challenge",
+          "intro": "Test your skills on Sentence Building!",
           "type": "checkpoint",
           "conceptIds": ["english_svo", "english_expansion"]
         }

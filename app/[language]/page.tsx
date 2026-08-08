@@ -34,31 +34,36 @@ export default async function LanguagePage({ params }: Props) {
   let courseData: Course = { language: language as LanguageCode, units: [] };
 
   try {
-    const curriculumPath = path.join(process.cwd(), 'content', language, 'A1', 'curriculum.json');
-    if (fs.existsSync(curriculumPath)) {
-      const fileContent = fs.readFileSync(curriculumPath, 'utf-8');
-      const curriculum = JSON.parse(fileContent);
-      
-      courseData.units = curriculum.units.map((u: any) => ({
-        id: `A1/${u.id}`,
-        title: u.title,
-        description: u.unitObjectives ? u.unitObjectives[0] : '',
-        icon: '📖',
-        lessons: u.lessons.map((l: any) => ({
-          id: l.id,
-          title: l.title,
-          intro: l.type === 'checkpoint' ? 'Test your skills!' : 'Learn new concepts.',
-          xpReward: l.type === 'checkpoint' ? 50 : 20,
-          estimatedMinutes: 10,
-          vocabulary: [],
-          guidedExercises: [],
-          recallExercises: [],
-          mixedExercises: [],
-          quizExercises: []
-        }))
-      }));
-    } else {
-      console.warn(`No curriculum found at ${curriculumPath}`);
+    const levels = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
+    for (const level of levels) {
+      const curriculumPath = path.join(process.cwd(), 'content', language, level, 'curriculum.json');
+      if (fs.existsSync(curriculumPath)) {
+        const fileContent = fs.readFileSync(curriculumPath, 'utf-8');
+        const curriculum = JSON.parse(fileContent);
+        
+        const mappedUnits = curriculum.units.map((u: any) => ({
+          id: `${level}/${u.id}`,
+          title: u.title,
+          description: u.unitObjectives ? u.unitObjectives[0] : '',
+          icon: '📖',
+          lessons: u.lessons.map((l: any) => ({
+            id: l.id,
+            title: l.title,
+            intro: l.intro ? l.intro : (l.type === 'checkpoint' ? 'Test your skills!' : 'Learn new concepts.'),
+            xpReward: l.type === 'checkpoint' ? 50 : 20,
+            estimatedMinutes: 10,
+            vocabulary: [],
+            guidedExercises: [],
+            recallExercises: [],
+            mixedExercises: [],
+            quizExercises: []
+          }))
+        }));
+        courseData.units.push(...mappedUnits);
+      }
+    }
+    if (courseData.units.length === 0) {
+      console.warn(`No curriculums found for ${language}`);
     }
   } catch (error) {
     console.error('Failed to parse curriculum', error);

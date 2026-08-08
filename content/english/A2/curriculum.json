@@ -30,23 +30,23 @@
         "modal_review"
       ],
       "lessons": [
-        { "id": "lesson-01", "title": "Can: Ability & Permission", "type": "learning", "conceptIds": ["modal_can_ability"] },
-        { "id": "lesson-02", "title": "Can: Requests", "type": "learning", "conceptIds": ["modal_can_requests"] },
-        { "id": "lesson-03", "title": "Could: Past Ability & Requests", "type": "learning", "conceptIds": ["modal_could"] },
-        { "id": "lesson-04", "title": "May & Might: Possibility", "type": "learning", "conceptIds": ["modal_may_might"] },
-        { "id": "lesson-05", "title": "Should: Advice", "type": "learning", "conceptIds": ["modal_should"] },
-        { "id": "lesson-06", "title": "Must: Strong Obligation", "type": "learning", "conceptIds": ["modal_must"] },
-        { "id": "lesson-07", "title": "Mustn't vs Don't Have To", "type": "learning", "conceptIds": ["modal_mustnt_dont_have_to"] },
-        { "id": "lesson-08", "title": "Have To & Need To", "type": "learning", "conceptIds": ["modal_have_to"] },
-        { "id": "lesson-09", "title": "Will: Decisions & Promises", "type": "learning", "conceptIds": ["modal_will"] },
-        { "id": "lesson-10", "title": "Would: Offers & Hypotheticals", "type": "learning", "conceptIds": ["modal_would"] },
-        { "id": "lesson-11", "title": "Shall: Suggestions", "type": "learning", "conceptIds": ["modal_shall"] },
-        { "id": "lesson-12", "title": "Used To", "type": "learning", "conceptIds": ["modal_used_to"] },
-        { "id": "lesson-13", "title": "Be Able To", "type": "learning", "conceptIds": ["modal_be_able_to"] },
-        { "id": "lesson-14", "title": "Modal Comparison", "type": "learning", "conceptIds": ["modal_comparison_1"] },
-        { "id": "lesson-15", "title": "Real-Life Modal Challenge", "type": "learning", "conceptIds": ["modal_real_life"] },
-        { "id": "lesson-16", "title": "Modal Review", "type": "learning", "conceptIds": ["modal_review"] },
-        { "id": "lesson-17", "title": "Modal Mastery Challenge", "type": "checkpoint", "conceptIds": ["modal_review"] }
+        { "id": "lesson-01", "title": "Can: Ability & Permission", "intro": "Learn to talk about abilities and ask for permission.", "type": "learning", "conceptIds": ["modal_can_ability"] },
+        { "id": "lesson-02", "title": "Can: Requests", "intro": "Learn how to ask someone to do something.", "type": "learning", "conceptIds": ["modal_can_requests"] },
+        { "id": "lesson-03", "title": "Could: Past Ability & Requests", "intro": "Learn polite requests and past abilities.", "type": "learning", "conceptIds": ["modal_could"] },
+        { "id": "lesson-04", "title": "May & Might: Possibility", "intro": "Express possibilities and formal permission.", "type": "learning", "conceptIds": ["modal_may_might"] },
+        { "id": "lesson-05", "title": "Should: Advice", "intro": "Give advice and recommendations.", "type": "learning", "conceptIds": ["modal_should"] },
+        { "id": "lesson-06", "title": "Must: Strong Obligation", "intro": "Express strong obligations and rules.", "type": "learning", "conceptIds": ["modal_must"] },
+        { "id": "lesson-07", "title": "Mustn't vs Don't Have To", "intro": "Understand the difference between prohibition and choice.", "type": "learning", "conceptIds": ["modal_mustnt_dont_have_to"] },
+        { "id": "lesson-08", "title": "Have To & Need To", "intro": "Express external obligations and necessities.", "type": "learning", "conceptIds": ["modal_have_to"] },
+        { "id": "lesson-09", "title": "Will: Decisions & Promises", "intro": "Make spontaneous decisions and promises.", "type": "learning", "conceptIds": ["modal_will"] },
+        { "id": "lesson-10", "title": "Would: Offers & Hypotheticals", "intro": "Make polite offers and talk about hypotheticals.", "type": "learning", "conceptIds": ["modal_would"] },
+        { "id": "lesson-11", "title": "Shall: Suggestions", "intro": "Make suggestions and offers.", "type": "learning", "conceptIds": ["modal_shall"] },
+        { "id": "lesson-12", "title": "Used To", "intro": "Talk about past habits and states.", "type": "learning", "conceptIds": ["modal_used_to"] },
+        { "id": "lesson-13", "title": "Be Able To", "intro": "Use 'be able to' as an alternative to 'can'.", "type": "learning", "conceptIds": ["modal_be_able_to"] },
+        { "id": "lesson-14", "title": "Modal Comparison", "intro": "Compare similar modals like can/could and may/might.", "type": "learning", "conceptIds": ["modal_comparison_1"] },
+        { "id": "lesson-15", "title": "Real-Life Modal Challenge", "intro": "Apply modals in real-world situations.", "type": "learning", "conceptIds": ["modal_real_life"] },
+        { "id": "lesson-16", "title": "Modal Review", "intro": "Review all modal verbs covered in this unit.", "type": "learning", "conceptIds": ["modal_review"] },
+        { "id": "lesson-17", "title": "Modal Mastery Challenge", "intro": "Test your skills on Modal Verbs!", "type": "checkpoint", "conceptIds": ["modal_review"] }
       ]
     }
   ]
