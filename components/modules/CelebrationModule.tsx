@@ -154,14 +154,18 @@ export default function CelebrationModule({
                 <thead>
                   <tr style={{ backgroundColor: '#f3f4f6', borderBottom: '2px solid #e5e7eb' }}>
                     <th style={{ padding: '10px', textAlign: 'left' }}>Word / Phrase</th>
+                    <th style={{ padding: '10px', textAlign: 'left' }}>Pronunciation</th>
                     <th style={{ padding: '10px', textAlign: 'left' }}>Meaning</th>
+                    <th style={{ padding: '10px', textAlign: 'left' }}>Example</th>
                   </tr>
                 </thead>
                 <tbody>
                   {vocabularies.map((v, i) => (
                     <tr key={i} style={{ borderBottom: '1px solid #e5e7eb' }}>
                       <td style={{ padding: '10px', fontWeight: 'bold' }}>{v.nativeWord || v.word || v.phrase || v.englishMeaning}</td>
+                      <td style={{ padding: '10px', fontStyle: 'italic', color: '#4b5563' }}>{v.pronunciation || ''}</td>
                       <td style={{ padding: '10px' }}>{v.englishMeaning || v.translation || v.nativeWord}</td>
+                      <td style={{ padding: '10px', fontSize: '13px', color: '#374151' }}>{v.example || v.exampleSentence || ''}</td>
                     </tr>
                   ))}
                 </tbody>
@@ -176,6 +180,7 @@ export default function CelebrationModule({
                 <thead>
                   <tr style={{ backgroundColor: '#f3f4f6', borderBottom: '2px solid #e5e7eb' }}>
                     <th style={{ padding: '10px', textAlign: 'left' }}>Phrase</th>
+                    <th style={{ padding: '10px', textAlign: 'left' }}>Pronunciation</th>
                     <th style={{ padding: '10px', textAlign: 'left' }}>Translation</th>
                   </tr>
                 </thead>
@@ -183,6 +188,7 @@ export default function CelebrationModule({
                   {dialogueLines.map((line, i) => (
                     <tr key={i} style={{ borderBottom: '1px solid #e5e7eb' }}>
                       <td style={{ padding: '10px', fontWeight: 'bold' }}>{line.text}</td>
+                      <td style={{ padding: '10px', fontStyle: 'italic', color: '#4b5563' }}>{line.pronunciation || ''}</td>
                       <td style={{ padding: '10px' }}>{line.translation}</td>
                     </tr>
                   ))}
