@@ -1,6 +1,6 @@
 // ─── Language Types ────────────────────────────────────────────────────────
 
-export type LanguageCode = 'french' | 'german' | 'japanese' | 'spanish';
+export type LanguageCode = 'french' | 'german' | 'japanese' | 'spanish' | 'english';
 
 export interface Language {
   code: LanguageCode;

@@ -183,4 +183,21 @@ export const GRAMMAR_HINTS: Record<LanguageCode, GrammarHint[]> = {
       ],
     },
   ],
+  english: [
+    {
+      title: 'Subject-Verb-Object (SVO)',
+      explanation: 'English uses a strict word order. The Subject (who does the action) comes first, then the Verb (the action), then the Object (who receives the action).',
+      examples: ['I drink coffee.', 'She reads a book.', 'We play football.']
+    },
+    {
+      title: 'Third-Person Singular (He/She/It)',
+      explanation: 'For present tense verbs with He, She, or It, add an "s" or "es" to the verb.',
+      examples: ['He runs fast.', 'She watches TV.', 'It works well.']
+    },
+    {
+      title: 'Modal Verbs (Can, Must, Should)',
+      explanation: 'Modal verbs are followed by the base form of the main verb without "to". They do not take an "s" for He/She/It.',
+      examples: ['He can swim.', 'You must go.', 'She should call.']
+    }
+  ],
 };

@@ -1,0 +1,193 @@
+{
+  "id": "lesson-03",
+  "unitId": "unit-01",
+  "title": "He, She, It",
+  "version": 2,
+  "learningObjectives": [
+    "english_pronouns_2"
+  ],
+  "modules": [
+    {
+      "id": "intro",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Third Person: He, She, It",
+        "conceptId": "intro",
+        "content": "When talking about ONE other person or thing, we use He, She, or It.\n\n- He = Vah / Wo (Male)\n- She = Vah / Wo (Female)\n- It = Yah / Wo (Thing or Animal)\n\nIMPORTANT: When using He, She, or It, we add 's' or 'es' to the verb!\nExample:\nI play -> He plays.",
+        "example": "Let's see the 's' rule in action."
+      }
+    },
+    {
+      "id": "discover",
+      "type": "vocabulary",
+      "config": {
+        "flow": "teach_all",
+        "words": [
+          {
+            "conceptId": "english_pronouns_2",
+            "emoji": "👨",
+            "nativeWord": "He drinks tea.",
+            "englishMeaning": "Wo chai peeta hai.",
+            "pronunciation": "He drinks tea",
+            "exampleSentence": "He drinks tea.",
+            "exampleTranslation": "He drinks tea.",
+            "memoryTip": "He + drink + s = He drinks",
+            "difficultyRating": 2,
+            "contextualUsage": {
+              "whenToUse": ["Talking about a male"],
+              "doNotUse": [],
+              "insteadSay": ""
+            }
+          },
+          {
+            "conceptId": "english_pronouns_2",
+            "emoji": "👩",
+            "nativeWord": "She reads books.",
+            "englishMeaning": "Wo kitaabein padhti hai.",
+            "pronunciation": "She reads books",
+            "exampleSentence": "She reads books.",
+            "exampleTranslation": "She reads books.",
+            "memoryTip": "She + read + s = She reads",
+            "difficultyRating": 2,
+            "contextualUsage": {
+              "whenToUse": ["Talking about a female"],
+              "doNotUse": [],
+              "insteadSay": ""
+            }
+          },
+          {
+            "conceptId": "english_pronouns_2",
+            "emoji": "🐕",
+            "nativeWord": "It sleeps here.",
+            "englishMeaning": "Ye yahan sota hai (e.g. kutta).",
+            "pronunciation": "It sleeps here",
+            "exampleSentence": "It sleeps here.",
+            "exampleTranslation": "It sleeps here.",
+            "memoryTip": "It + sleep + s = It sleeps",
+            "difficultyRating": 2,
+            "contextualUsage": {
+              "whenToUse": ["Talking about an animal or thing"],
+              "doNotUse": [],
+              "insteadSay": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "rule-check",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "payload": {
+              "id": "rc-1",
+              "type": "mcq",
+              "phaseTitle": "Grammar Check",
+              "question": "I play. He ___.",
+              "answer": "plays",
+              "options": ["play", "plays"],
+              "conceptId": "english_pronouns_2",
+              "explanation": "Add 's' for He, She, It."
+            }
+          },
+          {
+            "type": "mcq",
+            "payload": {
+              "id": "rc-2",
+              "type": "mcq",
+              "phaseTitle": "Grammar Check",
+              "question": "We eat. She ___.",
+              "answer": "eats",
+              "options": ["eats", "eat"],
+              "conceptId": "english_pronouns_2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sentence-building",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "sentence_build",
+            "payload": {
+              "id": "sb-1",
+              "type": "sentence_build",
+              "phaseTitle": "Build Sentences",
+              "question": "Arrange: She works at a bank.",
+              "tokens": ["a", "bank", "She", "works", "at"],
+              "answer": "She works at a bank",
+              "conceptId": "english_pronouns_2"
+            }
+          },
+          {
+            "type": "sentence_build",
+            "payload": {
+              "id": "sb-2",
+              "type": "sentence_build",
+              "phaseTitle": "Build Sentences",
+              "question": "Arrange: He plays cricket.",
+              "tokens": ["cricket", "He", "plays"],
+              "answer": "He plays cricket",
+              "conceptId": "english_pronouns_2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "speaking",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "speaking",
+            "payload": {
+              "id": "s-1",
+              "type": "speaking",
+              "phaseTitle": "Speaking Practice",
+              "question": "Say out loud: 'She drinks coffee.'",
+              "answer": "She drinks coffee",
+              "conceptId": "english_pronouns_2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "final-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "payload": {
+              "id": "fq-1",
+              "type": "mcq",
+              "phaseTitle": "Quick Quiz",
+              "question": "Choose the correct sentence:",
+              "answer": "He watches movies.",
+              "options": ["He watch movies.", "He watches movies."],
+              "explanation": "Add 'es' for verbs ending in 'ch'."
+            }
+          },
+          {
+            "type": "mcq",
+            "payload": {
+              "id": "fq-2",
+              "type": "mcq",
+              "phaseTitle": "Quick Quiz",
+              "question": "Which pronoun is for a female?",
+              "answer": "She",
+              "options": ["He", "She", "It"]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "id": "lesson-02",
+  "unitId": "unit-05",
+  "title": "Can: Requests",
+  "version": 2,
+  "learningObjectives": [
+    "modal_can_requests"
+  ],
+  "modules": [
+    {
+      "id": "intro",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Making Requests with CAN",
+        "conceptId": "intro",
+        "content": "You learned that 'Can' is used for Ability and Permission.\n\nNow let's use it for REQUESTS (Asking someone to do something for you).\n\nExample:\n'Can you help me?'",
+        "example": "It's casual and friendly. Let's see some real-life examples."
+      }
+    },
+    {
+      "id": "discover",
+      "type": "vocabulary",
+      "config": {
+        "flow": "teach_all",
+        "words": [
+          {
+            "conceptId": "modal_can_requests",
+            "emoji": "🤝",
+            "nativeWord": "Can you help me?",
+            "englishMeaning": "Kya tum meri madad kar sakte ho?",
+            "pronunciation": "Can you help me",
+            "exampleSentence": "Can you help me?",
+            "exampleTranslation": "Can you help me?",
+            "difficultyRating": 1,
+            "contextualUsage": {
+              "whenToUse": ["Asking a friend or coworker for help"],
+              "doNotUse": ["When asking a very senior boss (use Could)"],
+              "insteadSay": "Could you help me?"
+            }
+          },
+          {
+            "conceptId": "modal_can_requests",
+            "emoji": "🧂",
+            "nativeWord": "Can you pass the salt?",
+            "englishMeaning": "Kya tum namak pass kar sakte ho?",
+            "pronunciation": "Can you pass the salt",
+            "exampleSentence": "Can you pass the salt?",
+            "exampleTranslation": "Can you pass the salt?",
+            "difficultyRating": 1,
+            "contextualUsage": {
+              "whenToUse": ["At the dinner table with family/friends"],
+              "doNotUse": [],
+              "insteadSay": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "situation-check",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "payload": {
+              "id": "sc-1",
+              "type": "mcq",
+              "phaseTitle": "Real Life Situation",
+              "question": "You are at college and didn't hear what the teacher said. You ask your friend:",
+              "answer": "Can you repeat that?",
+              "options": ["You can repeat that?", "Can you repeat that?", "Repeat you can that?"],
+              "conceptId": "modal_can_requests"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sentence-building",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "sentence_build",
+            "payload": {
+              "id": "sb-1",
+              "type": "sentence_build",
+              "phaseTitle": "Build Sentences",
+              "question": "Arrange: Can you open the door?",
+              "tokens": ["door?", "open", "you", "Can", "the"],
+              "answer": "Can you open the door?",
+              "conceptId": "modal_can_requests"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "error-correction",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "payload": {
+              "id": "err-1",
+              "type": "mcq",
+              "phaseTitle": "Find the Error",
+              "question": "Which one is correct for asking someone to call you?",
+              "answer": "Can you call me?",
+              "options": ["Can you calls me?", "Can you call me?", "You can call me?"],
+              "explanation": "Remember, no 's' after a modal verb. And questions start with 'Can'."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "speaking",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "speaking",
+            "payload": {
+              "id": "s-1",
+              "type": "speaking",
+              "phaseTitle": "Speaking Practice",
+              "question": "Ask your friend for their notes.",
+              "answer": "Can you send me your notes",
+              "conceptId": "modal_can_requests"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "final-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "payload": {
+              "id": "fq-1",
+              "type": "mcq",
+              "phaseTitle": "Quick Quiz",
+              "question": "Translate: Kya tum mujhe thoda paani de sakte ho?",
+              "answer": "Can you give me some water?",
+              "options": ["Can you give me some water?", "You can give me water?"]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

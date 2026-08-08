@@ -1,0 +1,246 @@
+{
+  "id": "lesson-02",
+  "unitId": "unit-01",
+  "title": "I, You, We, They",
+  "version": 2,
+  "learningObjectives": [
+    "english_pronouns_1"
+  ],
+  "modules": [
+    {
+      "id": "intro",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Who is doing the action?",
+        "conceptId": "intro",
+        "content": "To talk about who is doing an action, we use pronouns like 'I', 'You', 'We', and 'They'.\n\n- I = Main (myself)\n- You = Tum / Aap (the person I'm talking to)\n- We = Hum (me and others)\n- They = Ve / Wo (other people)",
+        "example": "Let's see them in action."
+      }
+    },
+    {
+      "id": "discover-2",
+      "type": "vocabulary",
+      "config": {
+        "flow": "teach_all",
+        "words": [
+          {
+            "conceptId": "english_pronouns_1",
+            "emoji": "🧑",
+            "nativeWord": "I read books.",
+            "englishMeaning": "Main kitaabein padhta/padhti hoon.",
+            "pronunciation": "I read books",
+            "exampleSentence": "I read books.",
+            "exampleTranslation": "I read books.",
+            "difficultyRating": 1,
+            "contextualUsage": {
+              "whenToUse": ["Talking about yourself"],
+              "doNotUse": [],
+              "insteadSay": ""
+            }
+          },
+          {
+            "conceptId": "english_pronouns_1",
+            "emoji": "👉",
+            "nativeWord": "You play well.",
+            "englishMeaning": "Tum achha khelte ho.",
+            "pronunciation": "You play well",
+            "exampleSentence": "You play well.",
+            "exampleTranslation": "You play well.",
+            "difficultyRating": 1,
+            "contextualUsage": {
+              "whenToUse": ["Talking to someone directly"],
+              "doNotUse": [],
+              "insteadSay": ""
+            }
+          },
+          {
+            "conceptId": "english_pronouns_1",
+            "emoji": "👥",
+            "nativeWord": "We work together.",
+            "englishMeaning": "Hum saath kaam karte hain.",
+            "pronunciation": "We work together",
+            "exampleSentence": "We work together.",
+            "exampleTranslation": "We work together.",
+            "difficultyRating": 1,
+            "contextualUsage": {
+              "whenToUse": ["Including yourself and others"],
+              "doNotUse": [],
+              "insteadSay": ""
+            }
+          },
+          {
+            "conceptId": "english_pronouns_1",
+            "emoji": "🧑‍🤝‍🧑",
+            "nativeWord": "They live in Delhi.",
+            "englishMeaning": "Ve Delhi mein rehte hain.",
+            "pronunciation": "They live in Delhi",
+            "exampleSentence": "They live in Delhi.",
+            "exampleTranslation": "They live in Delhi.",
+            "difficultyRating": 1,
+            "contextualUsage": {
+              "whenToUse": ["Talking about other people"],
+              "doNotUse": [],
+              "insteadSay": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "guided-practice",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "payload": {
+              "id": "gp-1",
+              "type": "mcq",
+              "phaseTitle": "Choose the Correct Pronoun",
+              "question": "If you want to say 'Hum cricket khelte hain', which pronoun do you use?",
+              "answer": "We",
+              "options": ["I", "We", "They"],
+              "conceptId": "english_pronouns_1"
+            }
+          },
+          {
+            "type": "mcq",
+            "payload": {
+              "id": "gp-2",
+              "type": "mcq",
+              "phaseTitle": "Choose the Correct Pronoun",
+              "question": "To say 'Tum achha gaate ho', use:",
+              "answer": "You",
+              "options": ["You", "I", "They"],
+              "conceptId": "english_pronouns_1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "build-sentences",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "sentence_build",
+            "payload": {
+              "id": "b-1",
+              "type": "sentence_build",
+              "phaseTitle": "Build Sentences",
+              "question": "Ve kaam karte hain. (They work.)",
+              "tokens": ["work", "They"],
+              "answer": "They work",
+              "conceptId": "english_pronouns_1"
+            }
+          },
+          {
+            "type": "sentence_build",
+            "payload": {
+              "id": "b-2",
+              "type": "sentence_build",
+              "phaseTitle": "Build Sentences",
+              "question": "Hum music sunte hain. (We listen to music.)",
+              "tokens": ["music", "listen", "We", "to"],
+              "answer": "We listen to music",
+              "conceptId": "english_pronouns_1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "error-correction",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "payload": {
+              "id": "err-1",
+              "type": "mcq",
+              "phaseTitle": "Find the Error",
+              "question": "Which sentence is correct?",
+              "answer": "We go to the park.",
+              "options": ["We goes to the park.", "We go to the park.", "Go we to the park."],
+              "conceptId": "english_pronouns_1",
+              "explanation": "With 'We', we use the base verb 'go', not 'goes'."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "speaking",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "speaking",
+            "payload": {
+              "id": "s-1",
+              "type": "speaking",
+              "phaseTitle": "Speaking Practice",
+              "question": "Say out loud: 'We learn English.'",
+              "answer": "We learn English",
+              "conceptId": "english_pronouns_1"
+            }
+          },
+          {
+            "type": "speaking",
+            "payload": {
+              "id": "s-2",
+              "type": "speaking",
+              "phaseTitle": "Speaking Practice",
+              "question": "Say out loud: 'They play football.'",
+              "answer": "They play football",
+              "conceptId": "english_pronouns_1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "final-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "payload": {
+              "id": "fq-1",
+              "type": "mcq",
+              "phaseTitle": "Quick Quiz",
+              "question": "'Ve market jaate hain.'",
+              "answer": "They go to the market.",
+              "options": ["We go to the market.", "They go to the market.", "You go to the market."]
+            }
+          },
+          {
+            "type": "sentence_build",
+            "payload": {
+              "id": "fq-2",
+              "type": "sentence_build",
+              "phaseTitle": "Quick Quiz",
+              "question": "Build: 'I drink water.'",
+              "tokens": ["drink", "water", "I"],
+              "answer": "I drink water"
+            }
+          },
+          {
+            "type": "mcq",
+            "payload": {
+              "id": "fq-3",
+              "type": "mcq",
+              "phaseTitle": "Quick Quiz",
+              "question": "'Hum padhte hain.'",
+              "answer": "We study.",
+              "options": ["We study.", "They study.", "I study."]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

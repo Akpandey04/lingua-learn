@@ -33,6 +33,14 @@ export const LANGUAGES: Record<LanguageCode, Language> = {
     locale: 'es-ES',
     color: '#c60b1e',
   },
+  english: {
+    code: 'english',
+    name: 'English',
+    nativeName: 'English (US)',
+    flag: '🇺🇸',
+    locale: 'en-US',
+    color: '#002868',
+  },
 };
 
 export const LANGUAGE_LIST = Object.values(LANGUAGES);

@@ -1,0 +1,424 @@
+{
+  "id": "lesson-01",
+  "unitId": "unit-01",
+  "title": "Build Your First English Sentences",
+  "version": 2,
+  "learningObjectives": [
+    "english_svo"
+  ],
+  "modules": [
+    {
+      "id": "intro",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Subject + Verb + Object",
+        "conceptId": "intro",
+        "content": "Today you will learn basic English word order.\n\nLook at this sentence:\n'I eat rice.'",
+        "example": "I (Who?) → eat (Action?) → rice (What?)"
+      }
+    },
+    {
+      "id": "discover-1",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "payload": {
+              "id": "d-1",
+              "type": "mcq",
+              "phaseTitle": "Discover",
+              "question": "Read: 'I drink coffee.' What do I drink?",
+              "answer": "Coffee",
+              "options": ["Coffee", "I", "Drink"],
+              "conceptId": "english_svo"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "explain-svo",
+      "type": "knowledge_card",
+      "config": {
+        "title": "The Rule",
+        "conceptId": "english_svo",
+        "content": "In English, sentences usually follow this order:\n\n1. Subject (Who is doing it?)\n2. Verb (What is the action?)\n3. Object (Who or what receives the action?)\n\nExample:\nI (Subject) + drink (Verb) + coffee (Object).",
+        "example": "Let's see some more examples."
+      }
+    },
+    {
+      "id": "examples-1",
+      "type": "vocabulary",
+      "config": {
+        "flow": "teach_all",
+        "words": [
+          {
+            "conceptId": "english_svo_examples",
+            "emoji": "📱",
+            "nativeWord": "I use my phone.",
+            "englishMeaning": "Main apna phone use karta/karti hoon.",
+            "pronunciation": "I use my phone",
+            "exampleSentence": "I use my phone.",
+            "exampleTranslation": "I use my phone.",
+            "memoryTip": "I (Subject) + use (Verb) + my phone (Object)",
+            "difficultyRating": 1,
+            "contextualUsage": {
+              "whenToUse": ["Everyday actions"],
+              "doNotUse": [],
+              "insteadSay": ""
+            }
+          },
+          {
+            "conceptId": "english_svo_examples",
+            "emoji": "📚",
+            "nativeWord": "I study English.",
+            "englishMeaning": "Main English padhta/padhti hoon.",
+            "pronunciation": "I study English",
+            "exampleSentence": "I study English.",
+            "exampleTranslation": "I study English.",
+            "difficultyRating": 1,
+            "contextualUsage": {
+              "whenToUse": ["Everyday actions"],
+              "doNotUse": [],
+              "insteadSay": ""
+            }
+          },
+          {
+            "conceptId": "english_svo_examples",
+            "emoji": "🏏",
+            "nativeWord": "We play cricket.",
+            "englishMeaning": "Hum cricket khelte hain.",
+            "pronunciation": "We play cricket",
+            "exampleSentence": "We play cricket.",
+            "exampleTranslation": "We play cricket.",
+            "difficultyRating": 1,
+            "contextualUsage": {
+              "whenToUse": ["Everyday actions"],
+              "doNotUse": [],
+              "insteadSay": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "build-sentence",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "sentence_build",
+            "payload": {
+              "id": "b-1",
+              "type": "sentence_build",
+              "phaseTitle": "Build the Sentence",
+              "question": "Arrange the words to say: I drink coffee.",
+              "tokens": ["coffee", "I", "drink"],
+              "answer": "I drink coffee.",
+              "conceptId": "english_svo"
+            }
+          },
+          {
+            "type": "sentence_build",
+            "payload": {
+              "id": "b-2",
+              "type": "sentence_build",
+              "phaseTitle": "Build the Sentence",
+              "question": "Arrange the words to say: I study English.",
+              "tokens": ["English", "I", "study"],
+              "answer": "I study English.",
+              "conceptId": "english_svo"
+            }
+          },
+          {
+            "type": "sentence_build",
+            "payload": {
+              "id": "b-3",
+              "type": "sentence_build",
+              "phaseTitle": "Build the Sentence",
+              "question": "Arrange the words to say: They play football.",
+              "tokens": ["football", "they", "play"],
+              "answer": "They play football.",
+              "conceptId": "english_svo"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "choose-correct",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "payload": {
+              "id": "c-1",
+              "type": "mcq",
+              "phaseTitle": "Choose Correct",
+              "question": "Which sentence is correct?",
+              "answer": "I drink coffee.",
+              "options": ["I coffee drink.", "I drink coffee.", "Drink I coffee."],
+              "conceptId": "english_svo",
+              "explanation": "English follows Subject (I) + Verb (drink) + Object (coffee)."
+            }
+          },
+          {
+            "type": "mcq",
+            "payload": {
+              "id": "c-2",
+              "type": "mcq",
+              "phaseTitle": "Choose Correct",
+              "question": "Which sentence is correct?",
+              "answer": "We eat dinner.",
+              "options": ["We dinner eat.", "Eat we dinner.", "We eat dinner."],
+              "conceptId": "english_svo",
+              "explanation": "Subject (We) + Verb (eat) + Object (dinner)."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "identify-parts",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "payload": {
+              "id": "i-1",
+              "type": "mcq",
+              "phaseTitle": "Identify the Parts",
+              "question": "'My brother plays cricket.'\nWho is doing the action (Subject)?",
+              "answer": "My brother",
+              "options": ["My brother", "plays", "cricket"],
+              "conceptId": "english_svo"
+            }
+          },
+          {
+            "type": "mcq",
+            "payload": {
+              "id": "i-2",
+              "type": "mcq",
+              "phaseTitle": "Identify the Parts",
+              "question": "'My brother plays cricket.'\nWhat is the action (Verb)?",
+              "answer": "plays",
+              "options": ["My brother", "plays", "cricket"],
+              "conceptId": "english_svo"
+            }
+          },
+          {
+            "type": "mcq",
+            "payload": {
+              "id": "i-3",
+              "type": "mcq",
+              "phaseTitle": "Identify the Parts",
+              "question": "'My brother plays cricket.'\nWhat is the object?",
+              "answer": "cricket",
+              "options": ["My brother", "plays", "cricket"],
+              "conceptId": "english_svo"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "translation-thought",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "payload": {
+              "id": "tt-1",
+              "type": "mcq",
+              "phaseTitle": "Hindi Thought → English",
+              "question": "How do you say: 'Main coffee peeta hoon'?",
+              "answer": "I drink coffee.",
+              "options": ["I coffee drink.", "I drink coffee.", "Drink I coffee."],
+              "conceptId": "english_svo"
+            }
+          },
+          {
+            "type": "mcq",
+            "payload": {
+              "id": "tt-2",
+              "type": "mcq",
+              "phaseTitle": "Hindi Thought → English",
+              "question": "How do you say: 'Hum cricket khelte hain'?",
+              "answer": "We play cricket.",
+              "options": ["We play cricket.", "We cricket play.", "Play we cricket."],
+              "conceptId": "english_svo"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "expansion",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "sentence_build",
+            "payload": {
+              "id": "e-1",
+              "type": "sentence_build",
+              "phaseTitle": "Sentence Expansion",
+              "question": "Start with: 'I study.' Add WHAT you study.",
+              "tokens": ["I", "study", "English"],
+              "answer": "I study English",
+              "conceptId": "english_expansion"
+            }
+          },
+          {
+            "type": "sentence_build",
+            "payload": {
+              "id": "e-2",
+              "type": "sentence_build",
+              "phaseTitle": "Sentence Expansion",
+              "question": "Now add WHERE.",
+              "tokens": ["I", "study", "English", "at", "home"],
+              "answer": "I study English at home",
+              "conceptId": "english_expansion"
+            }
+          },
+          {
+            "type": "sentence_build",
+            "payload": {
+              "id": "e-3",
+              "type": "sentence_build",
+              "phaseTitle": "Sentence Expansion",
+              "question": "Now add WHEN.",
+              "tokens": ["I", "study", "English", "at", "home", "every", "evening"],
+              "answer": "I study English at home every evening",
+              "conceptId": "english_expansion"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "error-correction",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "payload": {
+              "id": "err-1",
+              "type": "mcq",
+              "phaseTitle": "Error Correction",
+              "question": "Correct this sentence: 'I college go.'",
+              "answer": "I go to college.",
+              "options": ["I college go.", "Go I to college.", "I go to college."],
+              "conceptId": "english_svo"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "real-life",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "typing",
+            "payload": {
+              "id": "rl-1",
+              "type": "typing",
+              "phaseTitle": "Real Life Use",
+              "question": "Type a sentence about what you study (e.g. I study computer science.)",
+              "answer": "I study computer science",
+              "conceptId": "english_svo"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "speaking",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "speaking",
+            "payload": {
+              "id": "s-1",
+              "type": "speaking",
+              "phaseTitle": "Speak",
+              "question": "Say out loud: 'I drink tea.'",
+              "answer": "I drink tea",
+              "conceptId": "english_svo"
+            }
+          },
+          {
+            "type": "speaking",
+            "payload": {
+              "id": "s-2",
+              "type": "speaking",
+              "phaseTitle": "Speak",
+              "question": "Say out loud: 'I go to college.'",
+              "answer": "I go to college",
+              "conceptId": "english_svo"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "summary",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Lesson Complete!",
+        "conceptId": "english_svo",
+        "content": "You just built your first English sentences!\n\nRemember the golden rule:\nSUBJECT + VERB + OBJECT",
+        "example": "Time for a quick test!"
+      }
+    },
+    {
+      "id": "final-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "sentence_build",
+            "payload": {
+              "id": "fq-1",
+              "type": "sentence_build",
+              "phaseTitle": "Quick Quiz",
+              "question": "Build: 'We watch movies.'",
+              "tokens": ["movies", "watch", "We"],
+              "answer": "We watch movies"
+            }
+          },
+          {
+            "type": "mcq",
+            "payload": {
+              "id": "fq-2",
+              "type": "mcq",
+              "phaseTitle": "Quick Quiz",
+              "question": "Choose the correct sentence:",
+              "answer": "She reads books.",
+              "options": ["She books reads.", "Reads she books.", "She reads books."]
+            }
+          },
+          {
+            "type": "mcq",
+            "payload": {
+              "id": "fq-3",
+              "type": "mcq",
+              "phaseTitle": "Quick Quiz",
+              "question": "In 'I drink coffee', what is the VERB?",
+              "answer": "drink",
+              "options": ["I", "drink", "coffee"]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

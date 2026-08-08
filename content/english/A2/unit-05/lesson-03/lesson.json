@@ -1,0 +1,183 @@
+{
+  "id": "lesson-03",
+  "unitId": "unit-05",
+  "title": "Could: Past Ability & Polite Requests",
+  "version": 2,
+  "learningObjectives": [
+    "modal_could"
+  ],
+  "modules": [
+    {
+      "id": "intro",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Modal Verb: COULD",
+        "conceptId": "intro",
+        "content": "'Could' is like the older, more polite brother of 'Can'.\n\nWe use it for:\n1. PAST ABILITY (What you were able to do in the past)\n   Example: I could swim when I was six.\n2. POLITE REQUESTS (Asking nicely, especially to seniors or strangers)\n   Example: Could you help me, please?",
+        "example": "Let's see the difference!"
+      }
+    },
+    {
+      "id": "discover",
+      "type": "vocabulary",
+      "config": {
+        "flow": "teach_all",
+        "words": [
+          {
+            "conceptId": "modal_could",
+            "emoji": "👶",
+            "nativeWord": "I could run fast when I was young.",
+            "englishMeaning": "Main jab chhota tha, tab tez daud sakta tha.",
+            "pronunciation": "I could run fast",
+            "exampleSentence": "I could run fast when I was young.",
+            "exampleTranslation": "I could run fast when I was young.",
+            "difficultyRating": 2,
+            "contextualUsage": {
+              "whenToUse": ["Talking about past abilities"],
+              "doNotUse": ["For single actions in the past (Use 'was able to')"],
+              "insteadSay": ""
+            }
+          },
+          {
+            "conceptId": "modal_could",
+            "emoji": "👔",
+            "nativeWord": "Could you help me?",
+            "englishMeaning": "Kya aap meri madad kar sakte hain?",
+            "pronunciation": "Could you help me",
+            "exampleSentence": "Could you help me?",
+            "exampleTranslation": "Could you help me?",
+            "memoryTip": "Very polite. Better than 'Can you help me?' at work.",
+            "difficultyRating": 1,
+            "contextualUsage": {
+              "whenToUse": ["Asking politely at work, in shops, or to strangers"],
+              "doNotUse": [],
+              "insteadSay": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "situation-check",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "meaning_match",
+            "payload": {
+              "id": "sc-1",
+              "type": "meaning_match",
+              "phaseTitle": "Context Match",
+              "question": "Match the situation:",
+              "answer": "Polite Request",
+              "options": ["Past Ability", "Polite Request"],
+              "conceptId": "modal_could",
+              "sentence": "'Could you send me the report?'"
+            }
+          },
+          {
+            "type": "mcq",
+            "payload": {
+              "id": "sc-2",
+              "type": "mcq",
+              "phaseTitle": "Politeness Check",
+              "question": "You are talking to your boss. Which is better?",
+              "answer": "Could you help me?",
+              "options": ["Can you help me?", "Could you help me?"],
+              "explanation": "'Could' sounds more professional and polite than 'Can'."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sentence-building",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "sentence_build",
+            "payload": {
+              "id": "sb-1",
+              "type": "sentence_build",
+              "phaseTitle": "Build Sentences",
+              "question": "Arrange: Could you tell me where the station is?",
+              "tokens": ["where", "me", "tell", "Could", "you", "the", "station", "is?"],
+              "answer": "Could you tell me where the station is?",
+              "conceptId": "modal_could"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "error-correction",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "payload": {
+              "id": "err-1",
+              "type": "mcq",
+              "phaseTitle": "Find the Error",
+              "question": "Which is the correct way to talk about the past?",
+              "answer": "I could swim when I was six.",
+              "options": ["I can swim when I was six.", "I could swim when I was six."],
+              "explanation": "'Can' is for present. 'Could' is for the past."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "speaking",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "speaking",
+            "payload": {
+              "id": "s-1",
+              "type": "speaking",
+              "phaseTitle": "Speaking Practice",
+              "question": "Ask a stranger for directions politely.",
+              "answer": "Could you tell me where the station is",
+              "conceptId": "modal_could"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "final-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "payload": {
+              "id": "fq-1",
+              "type": "mcq",
+              "phaseTitle": "Quick Quiz",
+              "question": "At a restaurant to the waiter:",
+              "answer": "Could I have some water?",
+              "options": ["Could I have some water?", "I could have some water?"]
+            }
+          },
+          {
+            "type": "sentence_build",
+            "payload": {
+              "id": "fq-2",
+              "type": "sentence_build",
+              "phaseTitle": "Quick Quiz",
+              "question": "Build: Could you send me the report?",
+              "tokens": ["report", "the", "send", "me", "Could", "you"],
+              "answer": "Could you send me the report"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

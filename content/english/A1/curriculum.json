@@ -1,0 +1,86 @@
+{
+  "language": "English",
+  "level": "A1",
+  "units": [
+    {
+      "id": "unit-01",
+      "title": "Sentence Building",
+      "cefrLevel": "A1",
+      "estimatedHours": 2,
+      "unitObjectives": [
+        "Master Basic English Sentence Structure"
+      ],
+      "concepts": [
+        "english_svo",
+        "english_pronouns_1",
+        "english_pronouns_2",
+        "english_positives",
+        "english_negatives",
+        "english_questions",
+        "english_expansion"
+      ],
+      "lessons": [
+        {
+          "id": "lesson-01",
+          "title": "Build Your First English Sentences",
+          "type": "learning",
+          "conceptIds": ["english_svo"]
+        },
+        {
+          "id": "lesson-02",
+          "title": "I, You, We, They",
+          "type": "learning",
+          "conceptIds": ["english_pronouns_1"]
+        },
+        {
+          "id": "lesson-03",
+          "title": "He, She, It",
+          "type": "learning",
+          "conceptIds": ["english_pronouns_2"]
+        },
+        {
+          "id": "lesson-04",
+          "title": "Positive Sentences",
+          "type": "learning",
+          "conceptIds": ["english_positives"]
+        },
+        {
+          "id": "lesson-05",
+          "title": "Negative Sentences",
+          "type": "learning",
+          "conceptIds": ["english_negatives"]
+        },
+        {
+          "id": "lesson-06",
+          "title": "Ask Questions",
+          "type": "learning",
+          "conceptIds": ["english_questions"]
+        },
+        {
+          "id": "lesson-07",
+          "title": "Build Longer Sentences",
+          "type": "learning",
+          "conceptIds": ["english_expansion"]
+        },
+        {
+          "id": "lesson-08",
+          "title": "Daily Life Sentence Challenge",
+          "type": "learning",
+          "conceptIds": ["english_svo", "english_expansion"]
+        },
+        {
+          "id": "lesson-09",
+          "title": "Unit Review",
+          "type": "learning",
+          "conceptIds": ["english_svo", "english_negatives", "english_questions"]
+        },
+        {
+          "id": "lesson-10",
+          "title": "Unit Mastery Challenge",
+          "type": "checkpoint",
+          "conceptIds": ["english_svo", "english_expansion"]
+        }
+      ]
+    }
+  ]
+}

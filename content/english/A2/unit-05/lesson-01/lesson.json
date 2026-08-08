@@ -1,0 +1,229 @@
+{
+  "id": "lesson-01",
+  "unitId": "unit-05",
+  "title": "Can: Ability & Permission",
+  "version": 2,
+  "learningObjectives": [
+    "modal_can_ability"
+  ],
+  "modules": [
+    {
+      "id": "intro",
+      "type": "knowledge_card",
+      "config": {
+        "title": "Modal Verb: CAN",
+        "conceptId": "intro",
+        "content": "'Can' is one of the most common modal verbs in English.\n\nWe use it to talk about:\n1. ABILITY (What you are able to do)\n   Example: I can swim.\n2. PERMISSION (Asking if it's okay to do something)\n   Example: Can I use your phone?",
+        "example": "Let's learn how to use 'Can'."
+      }
+    },
+    {
+      "id": "discover-1",
+      "type": "vocabulary",
+      "config": {
+        "flow": "teach_all",
+        "words": [
+          {
+            "conceptId": "modal_can_ability",
+            "emoji": "🏊",
+            "nativeWord": "I can swim.",
+            "englishMeaning": "Main tair sakta/sakti hoon.",
+            "pronunciation": "I can swim",
+            "exampleSentence": "I can swim.",
+            "exampleTranslation": "I can swim.",
+            "difficultyRating": 1,
+            "contextualUsage": {
+              "whenToUse": ["Talking about your abilities"],
+              "doNotUse": [],
+              "insteadSay": ""
+            }
+          },
+          {
+            "conceptId": "modal_can_ability",
+            "emoji": "🗣️",
+            "nativeWord": "She can speak French.",
+            "englishMeaning": "Wo French bol sakti hai.",
+            "pronunciation": "She can speak French",
+            "exampleSentence": "She can speak French.",
+            "exampleTranslation": "She can speak French.",
+            "memoryTip": "Notice we don't say 'She can speaks'. After CAN, the verb NEVER takes an 's'.",
+            "difficultyRating": 2,
+            "contextualUsage": {
+              "whenToUse": ["Talking about someone's ability"],
+              "doNotUse": [],
+              "insteadSay": ""
+            }
+          },
+          {
+            "conceptId": "modal_can_ability",
+            "emoji": "🚪",
+            "nativeWord": "Can I come in?",
+            "englishMeaning": "Kya main andar aa sakta/sakti hoon?",
+            "pronunciation": "Can I come in",
+            "exampleSentence": "Can I come in?",
+            "exampleTranslation": "Can I come in?",
+            "difficultyRating": 1,
+            "contextualUsage": {
+              "whenToUse": ["Asking for casual permission"],
+              "doNotUse": ["In highly formal settings (use May I)"],
+              "insteadSay": "May I come in?"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "rule-check",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "payload": {
+              "id": "rc-1",
+              "type": "mcq",
+              "phaseTitle": "Grammar Check",
+              "question": "Which sentence is correct?",
+              "answer": "He can play guitar.",
+              "options": ["He can plays guitar.", "He can to play guitar.", "He can play guitar."],
+              "conceptId": "modal_can_ability",
+              "explanation": "After 'can', always use the base verb. No 's', no 'to'."
+            }
+          },
+          {
+            "type": "mcq",
+            "payload": {
+              "id": "rc-2",
+              "type": "mcq",
+              "phaseTitle": "Grammar Check",
+              "question": "If you want to ask your friend to use their pen, what do you say?",
+              "answer": "Can I use your pen?",
+              "options": ["I can use your pen?", "Can I use your pen?", "Do I can use your pen?"],
+              "conceptId": "modal_can_ability",
+              "explanation": "For questions, swap the subject and 'can'. (I can -> Can I)"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sentence-building",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "sentence_build",
+            "payload": {
+              "id": "sb-1",
+              "type": "sentence_build",
+              "phaseTitle": "Build Sentences",
+              "question": "Arrange: I can run fast.",
+              "tokens": ["run", "I", "fast", "can"],
+              "answer": "I can run fast"
+            }
+          },
+          {
+            "type": "sentence_build",
+            "payload": {
+              "id": "sb-2",
+              "type": "sentence_build",
+              "phaseTitle": "Build Sentences",
+              "question": "Arrange to ask for permission: Can I sit here?",
+              "tokens": ["here", "I", "sit", "Can"],
+              "answer": "Can I sit here"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "real-life",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "meaning_match",
+            "payload": {
+              "id": "rl-1",
+              "type": "meaning_match",
+              "phaseTitle": "Context Match",
+              "question": "Match the meaning of 'Can' in these sentences:",
+              "answer": "Ability",
+              "options": ["Ability", "Permission"],
+              "conceptId": "modal_can_ability",
+              "sentence": "I can run 5 kilometers."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "error-correction",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "payload": {
+              "id": "err-1",
+              "type": "mcq",
+              "phaseTitle": "Error Correction",
+              "question": "Correct this sentence: 'She can speaks English.'",
+              "answer": "She can speak English.",
+              "options": ["She can speak English.", "She cans speak English.", "She speak can English."]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "speaking",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "speaking",
+            "payload": {
+              "id": "s-1",
+              "type": "speaking",
+              "phaseTitle": "Speaking Practice",
+              "question": "Tell me something you are able to do (e.g. I can swim.)",
+              "answer": "I can swim",
+              "conceptId": "modal_can_ability"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "final-quiz",
+      "type": "quiz",
+      "config": {
+        "activities": [
+          {
+            "type": "mcq",
+            "payload": {
+              "id": "fq-1",
+              "type": "mcq",
+              "phaseTitle": "Quick Quiz",
+              "question": "'Kya main aapka phone use kar sakta hoon?'",
+              "answer": "Can I use your phone?",
+              "options": ["I can use your phone.", "Can I use your phone?", "Do I use your phone?"]
+            }
+          },
+          {
+            "type": "sentence_build",
+            "payload": {
+              "id": "fq-2",
+              "type": "sentence_build",
+              "phaseTitle": "Quick Quiz",
+              "question": "Build: They can play football.",
+              "tokens": ["football", "can", "They", "play"],
+              "answer": "They can play football"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

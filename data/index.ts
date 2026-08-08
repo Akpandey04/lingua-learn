@@ -3,12 +3,14 @@ import frenchCourse from './french/course';
 import germanCourse from './german/course';
 import spanishCourse from './spanish/course';
 import japaneseCourse from './japanese/course';
+import englishCourse from './english/course';
 
 export const COURSES: Record<LanguageCode, Course> = {
   french: frenchCourse,
   german: germanCourse,
   spanish: spanishCourse,
   japanese: japaneseCourse,
+  english: englishCourse,
 };
 
 export function getCourse(language: LanguageCode): Course {

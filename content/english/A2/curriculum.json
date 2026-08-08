@@ -1,0 +1,53 @@
+{
+  "language": "English",
+  "level": "A2",
+  "units": [
+    {
+      "id": "unit-05",
+      "title": "Modal Verbs",
+      "cefrLevel": "A2",
+      "estimatedHours": 3,
+      "unitObjectives": [
+        "Master English Modal Verbs in Real Conversations"
+      ],
+      "concepts": [
+        "modal_can_ability",
+        "modal_can_requests",
+        "modal_could",
+        "modal_may_might",
+        "modal_should",
+        "modal_must",
+        "modal_mustnt_dont_have_to",
+        "modal_have_to",
+        "modal_will",
+        "modal_would",
+        "modal_shall",
+        "modal_used_to",
+        "modal_be_able_to",
+        "modal_comparison_1",
+        "modal_comparison_2",
+        "modal_real_life",
+        "modal_review"
+      ],
+      "lessons": [
+        { "id": "lesson-01", "title": "Can: Ability & Permission", "type": "learning", "conceptIds": ["modal_can_ability"] },
+        { "id": "lesson-02", "title": "Can: Requests", "type": "learning", "conceptIds": ["modal_can_requests"] },
+        { "id": "lesson-03", "title": "Could: Past Ability & Requests", "type": "learning", "conceptIds": ["modal_could"] },
+        { "id": "lesson-04", "title": "May & Might: Possibility", "type": "learning", "conceptIds": ["modal_may_might"] },
+        { "id": "lesson-05", "title": "Should: Advice", "type": "learning", "conceptIds": ["modal_should"] },
+        { "id": "lesson-06", "title": "Must: Strong Obligation", "type": "learning", "conceptIds": ["modal_must"] },
+        { "id": "lesson-07", "title": "Mustn't vs Don't Have To", "type": "learning", "conceptIds": ["modal_mustnt_dont_have_to"] },
+        { "id": "lesson-08", "title": "Have To & Need To", "type": "learning", "conceptIds": ["modal_have_to"] },
+        { "id": "lesson-09", "title": "Will: Decisions & Promises", "type": "learning", "conceptIds": ["modal_will"] },
+        { "id": "lesson-10", "title": "Would: Offers & Hypotheticals", "type": "learning", "conceptIds": ["modal_would"] },
+        { "id": "lesson-11", "title": "Shall: Suggestions", "type": "learning", "conceptIds": ["modal_shall"] },
+        { "id": "lesson-12", "title": "Used To", "type": "learning", "conceptIds": ["modal_used_to"] },
+        { "id": "lesson-13", "title": "Be Able To", "type": "learning", "conceptIds": ["modal_be_able_to"] },
+        { "id": "lesson-14", "title": "Modal Comparison", "type": "learning", "conceptIds": ["modal_comparison_1"] },
+        { "id": "lesson-15", "title": "Real-Life Modal Challenge", "type": "learning", "conceptIds": ["modal_real_life"] },
+        { "id": "lesson-16", "title": "Modal Review", "type": "learning", "conceptIds": ["modal_review"] },
+        { "id": "lesson-17", "title": "Modal Mastery Challenge", "type": "checkpoint", "conceptIds": ["modal_review"] }
+      ]
+    }
+  ]
+}
