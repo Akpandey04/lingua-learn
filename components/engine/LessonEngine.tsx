@@ -32,7 +32,7 @@ export default function LessonEngine({ lesson, courseContext }: Props) {
   const [currentModuleIndex, setCurrentModuleIndex] = useState(0);
   const [finished, setFinished] = useState(false);
   const [isRestoring, setIsRestoring] = useState(true);
-  const [showNotesStep, setShowNotesStep] = useState(false);
+
 
   // Session Recovery
   useEffect(() => {
@@ -42,9 +42,7 @@ export default function LessonEngine({ lesson, courseContext }: Props) {
         const parsed = JSON.parse(saved);
         if (parsed.index > 0 && parsed.index < lesson.modules.length) {
           setCurrentModuleIndex(parsed.index);
-        } else if (parsed.showNotesStep) {
-          setShowNotesStep(true);
-        } else if (parsed.finished) {
+        } else if (parsed.showNotesStep || parsed.finished) {
           setFinished(true);
         }
       }
@@ -61,13 +59,12 @@ export default function LessonEngine({ lesson, courseContext }: Props) {
     try {
       localStorage.setItem(`lingua_session_${lesson.id}`, JSON.stringify({
         index: currentModuleIndex,
-        showNotesStep,
         finished
       }));
     } catch (e) {
       // Ignore localStorage errors (e.g. quota exceeded)
     }
-  }, [currentModuleIndex, showNotesStep, finished, lesson.id, isRestoring]);
+  }, [currentModuleIndex, finished, lesson.id, isRestoring]);
 
   useEffect(() => {
     const handleActivity = (payload: any) => { /* handled by sub-modules */ };
@@ -75,16 +72,11 @@ export default function LessonEngine({ lesson, courseContext }: Props) {
     return () => eventBus.off('ActivityCompleted', handleActivity);
   }, []);
 
-  const handleNotesComplete = () => {
-    setShowNotesStep(false);
-    setFinished(true);
-    eventBus.emit('LessonCompleted', { lessonId: lesson.id });
-    eventBus.emit('AudioFeedback', { type: 'complete' });
-  };
-
   const handleModuleComplete = () => {
     if (currentModuleIndex + 1 >= lesson.modules.length) {
-      setShowNotesStep(true);
+      setFinished(true);
+      eventBus.emit('LessonCompleted', { lessonId: lesson.id });
+      eventBus.emit('AudioFeedback', { type: 'complete' });
     } else {
       setCurrentModuleIndex(i => i + 1);
     }
@@ -98,7 +90,6 @@ export default function LessonEngine({ lesson, courseContext }: Props) {
 
   const handleRestartLesson = () => {
     setCurrentModuleIndex(0);
-    setShowNotesStep(false);
     setFinished(false);
   };
 
@@ -120,41 +111,7 @@ export default function LessonEngine({ lesson, courseContext }: Props) {
     );
   }
 
-  if (showNotesStep) {
-    return (
-      <div className="flex flex-col h-[calc(100vh-64px)] -mt-4">
-        <LessonHeader 
-          lessonTitle={lesson.title} 
-          progressPct={100} 
-          onRestart={handleRestartLesson}
-        />
-        <div className="max-w-3xl mx-auto w-full flex-1 flex flex-col pt-8 px-4 justify-center items-center relative text-center">
-          <div className="text-7xl mb-6 motion-safe:animate-bounce">📄</div>
-          <h2 className="text-3xl font-extrabold text-gray-900 dark:text-white mb-4">Download Lesson Notes</h2>
-          <p className="text-gray-500 mb-8 max-w-md">Get a beautiful PDF summary of all the vocabulary and sentences you learned in this lesson!</p>
-          <div className="flex flex-col w-full max-w-sm gap-3">
-             <button 
-               onClick={() => {
-                 import('@/lib/pdfGenerator').then(({ generateLessonNotes }) => {
-                   generateLessonNotes(lesson);
-                   handleNotesComplete();
-                 });
-               }}
-               className="w-full py-4 bg-teal-500 hover:bg-teal-600 text-white rounded-2xl font-bold text-lg shadow-lg transition-all flex items-center justify-center gap-2"
-             >
-               Download PDF
-             </button>
-             <button 
-               onClick={handleNotesComplete}
-               className="w-full py-4 bg-transparent hover:bg-gray-100 dark:hover:bg-gray-800 text-gray-500 dark:text-gray-400 rounded-2xl font-bold text-lg transition-all"
-             >
-               Skip
-             </button>
-          </div>
-        </div>
-      </div>
-    );
-  }
+
 
   const currentModule = lesson.modules[currentModuleIndex];
   
