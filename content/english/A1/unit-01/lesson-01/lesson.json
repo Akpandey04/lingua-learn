@@ -113,7 +113,7 @@
               "id": "b-1",
               "type": "sentence_build",
               "phaseTitle": "Build the Sentence",
-              "question": "Arrange the words to say: I drink coffee.",
+              "question": "Arrange these words into a correct English sentence.",
               "tokens": ["coffee", "I", "drink"],
               "answer": "I drink coffee.",
               "conceptId": "english_svo"
@@ -125,7 +125,7 @@
               "id": "b-2",
               "type": "sentence_build",
               "phaseTitle": "Build the Sentence",
-              "question": "Arrange the words to say: I study English.",
+              "question": "Arrange these words into a correct English sentence.",
               "tokens": ["English", "I", "study"],
               "answer": "I study English.",
               "conceptId": "english_svo"
@@ -137,7 +137,7 @@
               "id": "b-3",
               "type": "sentence_build",
               "phaseTitle": "Build the Sentence",
-              "question": "Arrange the words to say: They play football.",
+              "question": "Arrange these words into a correct English sentence.",
               "tokens": ["football", "they", "play"],
               "answer": "They play football.",
               "conceptId": "english_svo"
@@ -331,7 +331,7 @@
               "id": "rl-1",
               "type": "typing",
               "phaseTitle": "Real Life Use",
-              "question": "Type a sentence about what you study (e.g. I study computer science.)",
+              "question": "Translate into English: Main computer science padhta hu.",
               "answer": "I study computer science",
               "conceptId": "english_svo"
             }
